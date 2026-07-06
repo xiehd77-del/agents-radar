@@ -1,89 +1,125 @@
 # Hugging Face Trending Models Digest 2026-07-06
 
-> Source: [Hugging Face Hub](https://huggingface.co/) | 30 models | Generated: 2026-07-06 02:03 UTC
+> Source: [Hugging Face Hub](https://huggingface.co/) | 30 models | Generated: 2026-07-06 13:25 UTC
 
 ---
 
-Here is your structured **Hugging Face Trending Models Digest** for **2026-07-06**.
+# Hugging Face Trending Models Digest — 2026-07-06
+
+## Today's Highlights
+
+This week's trending models reveal a clear shift toward **massive Mixture-of-Experts (MoE) architectures** and **vision-language integration**, with Qwen 3.5/3.6 derivatives dominating alongside GLM-5.2 and Ornith-1.0 releases. Unsloth's Qwen3.6-27B-MTP-GGUF leads downloads at 2.8M, while nVIDIA pushes two new quantized precision formats (NVFP4) on GLM-5.2 and Qwen3.6-27B. Community fine-tuning activity remains intense, especially around uncensored variants, agentic coding models (Gemma-4 family), and multi-modal GGUF quantizations.
 
 ---
 
-### 1. Today’s Highlights
+## Trending Models
 
-This week’s trending models reveal a clear pivot toward **MoE (Mixture-of-Experts) architecture** and **aggressive local quantization**. **GLM-5.2** from zai-org leads in total likes (3,470) and represents a new frontier in ultra-sparse MoE models (DS-Attention). **Nvidia’s LocateAnything-3B** (2,618 likes) signals growing demand for grounded, task-specific vision-language models. The community is also deeply engaged with **model “abliteration”** (removing safety filters) and **uncensored fine-tunes**, as seen with the *HauhauCS* and *DavidAU* variants. Quantization remains the dominant distribution vector, with **GGUF** models accounting for the vast majority of downloads (e.g., *Qwythos-9B-GGUF* at 1.5M downloads in a single week).
+### 🧠 Language Models (LLMs, chat models, instruction-tuned)
 
-### 2. Trending Models
+- **[zai-org/GLM-5.2](https://huggingface.co/zai-org/GLM-5.2)** — Author: zai-org | Likes: 3,505 | Downloads: 231,218  
+  A 5.2B conversational MoE model from the GLM family, trending due to its strong instruction-following and efficient DSA architecture.
 
-#### 🧠 Language Models (LLMs, chat models, instruction-tuned)
+- **[deepseek-ai/DeepSeek-V4-Pro-DSpark](https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-DSpark)** — Author: deepseek-ai | Likes: 400 | Downloads: 14,276  
+  DeepSeek's latest V4 Pro release with DSpark optimizations, gaining traction for its advanced reasoning and arXiv-published techniques.
 
-- **[zai-org/GLM-5.2](https://huggingface.co/zai-org/GLM-5.2)** — *zai-org* | 3,470 likes | 220k downloads  
-  A high-sparsity MoE base model (DSA attention) that is trending as the new state-of-the-art for efficient conversational agents.
+- **[Qwen/Qwen-AgentWorld-35B-A3B](https://huggingface.co/Qwen/Qwen-AgentWorld-35B-A3B)** — Author: Qwen | Likes: 551 | Downloads: 57,835  
+  A 35B MoE model (3B active) specialized for agentic tasks, reflecting the growing demand for autonomous agent architectures.
 
-- **[deepseek-ai/DeepSeek-V4-Pro-DSpark](https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-DSpark)** — *deepseek-ai* | 390 likes | 12.5k downloads  
-  The latest iteration of DeepSeek’s flagship reasoning series, noted for its novel DSpark inference optimization.
+- **[tencent/Hy3](https://huggingface.co/tencent/Hy3)** — Author: tencent | Likes: 227 | Downloads: 2  
+  Tencent's Hunyuan-based Hy3 text-generation model, newly released and already generating interest despite minimal downloads yet.
 
-- **[nvidia/GLM-5.2-NVFP4](https://huggingface.co/nvidia/GLM-5.2-NVFP4)** — *nvidia* | 240 likes | 280k downloads  
-  Nvidia’s NVFP4 quantized variant of GLM-5.2, demonstrating that FP4 precision is becoming production-ready for MoE models.
+- **[meituan-longcat/LongCat-2.0](https://huggingface.co/meituan-longcat/LongCat-2.0)** — Author: meituan-longcat | Likes: 91 | Downloads: 43  
+  A fresh conversational LLM from Meituan, designed for long-context understanding.
 
-- **[HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive](https://huggingface.co/HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive)** — *HauhauCS* | 2,487 likes | 3M downloads  
-  An aggressive, uncensored fine-tune of Qwen3.6 (35B-A3B MoE), dominating downloads this week due to demand for unrestricted reasoning.
+- **[mistralai/Leanstral-1.5-119B-A6B](https://huggingface.co/mistralai/Leanstral-1.5-119B-A6B)** — Author: mistralai | Likes: 127 | Downloads: 106  
+  Mistral's massive 119B MoE (6B active) model, fine-tuned from Leanstral-2603, targeting efficiency at scale.
 
-- **[DavidAU/Qwen3.5-9B-Claude-4.6-HighIQ-THINKING-HERETIC-UNCENSORED](https://huggingface.co/DavidAU/Qwen3.5-9B-Claude-4.6-HighIQ-THINKING-HERETIC-UNCENSORED)** — *DavidAU* | 153 likes | 54k downloads  
-  A niche fine-tune combining Claude lineage with Qwen3.5, optimized for long-chain reasoning without safety guardrails.
+### 🎨 Multimodal & Generation (image, video, audio, text-to-X)
 
-- **[deepseek-ai/DeepSeek-V4-Flash-DSpark](https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-DSpark)** — *deepseek-ai* | 161 likes | 48.7k downloads  
-  The faster, lighter sibling of DeepSeek-V4-Pro, targeting high-throughput deployment scenarios.
+- **[empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF](https://huggingface.co/empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF)** — Author: empero-ai | Likes: 1,599 | Downloads: 1,617,508  
+  A GGUF-quantized 9B vision-language model based on Qwen 3.5 and Claude-style training, massively popular for local multimodal inference.
 
-#### 🎨 Multimodal & Generation (image, video, audio, text-to-X)
+- **[baidu/Unlimited-OCR](https://huggingface.co/baidu/Unlimited-OCR)** — Author: baidu | Likes: 1,772 | Downloads: 1,070,230  
+  Baidu's universal OCR model that handles unlimited-size images, trending as a production-ready feature extraction tool.
 
-- **[baidu/Unlimited-OCR](https://huggingface.co/baidu/Unlimited-OCR)** — *baidu* | 1,750 likes | 1M downloads  
-  A general-purpose OCR model that handles unlimited input resolution, trending as the go-to open-source OCR solution.
+- **[nvidia/LocateAnything-3B](https://huggingface.co/nvidia/LocateAnything-3B)** — Author: nvidia | Likes: 2,627 | Downloads: 1,340,559  
+  A 3B vision-language model for object localization in images, highly popular for its zero-shot pointing and detection capabilities.
 
-- **[nvidia/LocateAnything-3B](https://huggingface.co/nvidia/LocateAnything-3B)** — *nvidia* | 2,618 likes | 1.2M downloads  
-  A 3B vision-language model that can locate any object in an image via text prompts; trending for robotics and RPA use cases.
+- **[krea/Krea-2-Turbo](https://huggingface.co/krea/Krea-2-Turbo)** — Author: krea | Likes: 522 | Downloads: 109,470  
+  A turbo-charged text-to-image diffusion model, fine-tuned from Krea-2-Raw for faster generation.
 
-- **[krea/Krea-2-Turbo](https://huggingface.co/krea/Krea-2-Turbo)** — *krea* | 515 likes | 99k downloads  
-  A turbo-distilled image generation model (Diffusers) based on the Krea-2 family, optimizing for speed over quality.
+### 🔧 Specialized Models (code, math, medical, embeddings)
 
-- **[Qwen/Qwen-AgentWorld-35B-A3B](https://huggingface.co/Qwen/Qwen-AgentWorld-35B-A3B)** — *Qwen* | 549 likes | 55k downloads  
-  A vision-language MoE model explicitly built for agentic workflows (tool use, web browsing), reflecting the rise of agentic LLMs.
+- **[nvidia/Nemotron-Labs-TwoTower-30B-A3B-Base-BF16](https://huggingface.co/nvidia/Nemotron-Labs-TwoTower-30B-A3B-Base-BF16)** — Author: nvidia | Likes: 124 | Downloads: 10,766  
+  A 30B MoE two-tower architecture for retrieval and embedding tasks, gaining attention for efficient dual-encoder design.
 
-#### 🔧 Specialized Models (code, math, medical, embeddings, security)
+- **[google/tabfm-1.0.0-pytorch](https://huggingface.co/google/tabfm-1.0.0-pytorch)** — Author: google | Likes: 242 | Downloads: 7,036  
+  Google's tabular foundation model (PyTorch), supporting zero-shot classification and regression on structured data.
 
-- **[yuxinlu1/gemma-4-12B-coder-fable5-composer2.5-v1-GGUF](https://huggingface.co/yuxinlu1/gemma-4-12B-coder-fable5-composer2.5-v1-GGUF)** — *yuxinlu1* | 2,610 likes | 652k downloads  
-  A code-specialized fine-tune of Gemma-4 (12B) using the Fable5 Composer technique; the highest-liked GGUF on the list today.
+- **[nationaldesignstudio/rampart](https://huggingface.co/nationaldesignstudio/rampart)** — Author: nationaldesignstudio | Likes: 133 | Downloads: 3,821  
+  A BERT-based token classification model for PII detection, optimized for ONNX and Transformers.js browser deployment.
 
-- **[BugTraceAI/BugTraceAI-CORE-Ultra-27B-Q6](https://huggingface.co/BugTraceAI/BugTraceAI-CORE-Ultra-27B-Q6)** — *BugTraceAI* | 135 likes | 12k downloads  
-  A cybersecurity-specific LLM (Qwen3.5 base) fine-tuned for offensive security and vulnerability analysis.
+- **[BugTraceAI/BugTraceAI-CORE-Ultra-27B-Q6](https://huggingface.co/BugTraceAI/BugTraceAI-CORE-Ultra-27B-Q6)** — Author: BugTraceAI | Likes: 136 | Downloads: 12,438  
+  A 27B GGUF quantized model specialized in cybersecurity, offensive security, and vulnerability analysis.
 
-- **[google/tabfm-1.0.0-pytorch](https://huggingface.co/google/tabfm-1.0.0-pytorch)** — *google* | 226 likes | 2.7k downloads  
-  A foundation model for tabular data (zero-shot classification/regression), signaling a push beyond NLP and vision into structured data.
+### 📦 Fine-tunes & Quantizations (community fine-tunes, GGUF, AWQ)
 
-#### 📦 Fine-tunes & Quantizations (community fine-tunes, GGUF, AWQ)
+- **[HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive](https://huggingface.co/HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive)** — Author: HauhauCS | Likes: 2,512 | Downloads: 2,910,241  
+  An uncensored, aggressive-tuned Qwen 3.6 MoE model in GGUF format, extremely popular among local users seeking unfiltered outputs.
 
-- **[empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF](https://huggingface.co/empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF)** — *empero-ai* | 1,557 likes | 1.5M downloads  
-  A GGUF-quantized merge of a Claude-thinking fine-tune on Qwen3.5-9B; the #1 most downloaded model this week.
+- **[yuxinlu1/gemma-4-12B-coder-fable5-composer2.5-v1-GGUF](https://huggingface.co/yuxinlu1/gemma-4-12B-coder-fable5-composer2.5-v1-GGUF)** — Author: yuxinlu1 | Likes: 2,612 | Downloads: 664,319  
+  A highly popular Gemma-4-based coder GGUF, fine-tuned with Fable 5 and Composer 2.5 for strong reasoning and code generation.
 
-- **[deepreinforce-ai/Ornith-1.0-35B-GGUF](https://huggingface.co/deepreinforce-ai/Ornith-1.0-35B-GGUF)** — *deepreinforce-ai* | 731 likes | 394k downloads  
-  The GGUF variant of the Ornith-1.0 model family (MIT license), trending for its permissive licensing and strong performance at 35B.
+- **[unsloth/Qwen3.6-27B-MTP-GGUF](https://huggingface.co/unsloth/Qwen3.6-27B-MTP-GGUF)** — Author: unsloth | Likes: 971 | Downloads: 2,818,499  
+  Unsloth's optimized GGUF quant of Qwen 3.6 27B, the top-downloaded model this week due to its multi-turn processing efficiency.
 
-- **[huihui-ai/Huihui-GLM-5.2-abliterated-GGUF](https://huggingface.co/huihui-ai/Huihui-GLM-5.2-abliterated-GGUF)** — *huihui-ai* | 169 likes | 5.6k downloads  
-  An “abliterated” (refusal-trained-removed) version of GLM-5.2 in GGUF format, reflecting demand for minimally guided models.
+- **[nvidia/Qwen3.6-27B-NVFP4](https://huggingface.co/nvidia/Qwen3.6-27B-NVFP4)** — Author: nvidia | Likes: 283 | Downloads: 430,676  
+  NVIDIA's 4-bit floating point quantized version of Qwen 3.6 27B using ModelOpt, showing strong hardware-software co-optimization.
 
-- **[unsloth/Qwen3.6-27B-MTP-GGUF](https://huggingface.co/unsloth/Qwen3.6-27B-MTP-GGUF)** — *unsloth* | 964 likes | 2.8M downloads  
-  The most downloaded model overall (2.8M), a GGUF quantization of Qwen3.6-27B using the MTP (Multi-Token Prediction) variant; easily run via llama.cpp.
+- **[nvidia/GLM-5.2-NVFP4](https://huggingface.co/nvidia/GLM-5.2-NVFP4)** — Author: nvidia | Likes: 242 | Downloads: 365,499  
+  The same NVFP4 quantization applied to GLM-5.2, enabling efficient deployment on NVIDIA hardware.
 
-### 3. Ecosystem Signal
+- **[deepreinforce-ai/Ornith-1.0-35B-GGUF](https://huggingface.co/deepreinforce-ai/Ornith-1.0-35B-GGUF)** — Author: deepreinforce-ai | Likes: 747 | Downloads: 436,780  
+  GGUF quant of the 35B Ornith-1.0, a Qwen 3.5-based MoE model gaining traction for MIT-licensed, endpoint-compatible deployment.
 
-The ecosystem is undergoing a **MoE consolidation**. Nearly half of the top 30 trending models are Mixture-of-Experts (e.g., GLM-5.2, Qwen3.6-A3B, Ornith-35B). The community is no longer just experimenting with MoE; it is the default architecture for new flagship releases. On the **quantization front**, GGUF dominates distribution (10M+ total downloads across GGUF entries alone), while **NVFP4** emerges as a credible proprietary alternative from Nvidia. The **open-weight trend** is accelerating: GLM-5.2, DeepSeek-V4, and Qwen-AgentWorld are all fully open under permissive licenses, putting increasing pressure on closed models. Simultaneously, there is a notable **“uncensored” and “abliterated” sub-movement**—users are actively redistributing models with safety filters removed, a trend that raises both community enthusiasm and moderation concerns.
+- **[deepreinforce-ai/Ornith-1.0-9B-GGUF](https://huggingface.co/deepreinforce-ai/Ornith-1.0-9B-GGUF)** — Author: deepreinforce-ai | Likes: 437 | Downloads: 393,142  
+  The smaller sibling (9B) of Ornith, similarly trending for accessible local inference.
 
-### 4. Worth Exploring
+- **[yuxinlu1/gemma-4-12B-agentic-fable5-composer2.5-v2-3.5x-tau2-GGUF](https://huggingface.co/yuxinlu1/gemma-4-12B-agentic-fable5-composer2.5-v2-3.5x-tau2-GGUF)** — Author: yuxinlu1 | Likes: 1,037 | Downloads: 370,884  
+  A follow-up Gemma-4 GGUF fine-tune with agentic capabilities and terminal interaction support.
 
-1. **[nvidia/LocateAnything-3B](https://huggingface.co/nvidia/LocateAnything-3B)** — This is the **model to study** for multimodal grounding. At only 3B parameters, it achieves competitive localization accuracy, making it a prime candidate for on-device robotics and visual QA pipelines. Its architecture may influence future lightweight VLM designs.
+- **[huihui-ai/Huihui-GLM-5.2-abliterated-GGUF](https://huggingface.co/huihui-ai/Huihui-GLM-5.2-abliterated-GGUF)** — Author: huihui-ai | Likes: 173 | Downloads: 6,660  
+  An "abliterated" (safety-removed) GLM-5.2 GGUF fine-tune, appealing to users requiring unrestricted outputs.
 
-2. **[zai-org/GLM-5.2](https://huggingface.co/zai-org/GLM-5.2)** — As the **highest-liked model** of the week, it represents the state of the art in sparse MoE language modeling. It is worth testing for long-context reasoning, and its DSA attention mechanism may provide insights for your own model compression work.
+- **[Jackrong/Qwopus3.6-35B-A3B-Coder-MTP-GGUF](https://huggingface.co/Jackrong/Qwopus3.6-35B-A3B-Coder-MTP-GGUF)** — Author: Jackrong | Likes: 147 | Downloads: 126,831  
+  A coding-focused GGUF version of Qwopus 3.6 35B MoE with multi-turn processing optimization.
 
-3. **[unsloth/Qwen3.6-27B-MTP-GGUF](https://huggingface.co/unsloth/Qwen3.6-27B-MTP-GGUF)** — With **2.8M downloads**, this is the practical winner of the week. If you need a high-quality, locally runnable model for production evaluation or agentic tasks, start here. The Unsloth quantization pipeline it uses is also a reference implementation for efficient GGUF conversion of MoE models.
+- **[DavidAU/Qwen3.5-9B-Claude-4.6-HighIQ-THINKING-HERETIC-UNCENSORED](https://huggingface.co/DavidAU/Qwen3.5-9B-Claude-4.6-HighIQ-THINKING-HERETIC-UNCENSORED)** — Author: DavidAU | Likes: 154 | Downloads: 58,755  
+  A highly fine-tuned uncensored Qwen 3.5 9B model with Claude-style thinking prompts and "heretic" behavior modifications.
 
 ---
-*This digest is auto-generated by [agents-radar](https://github.com/duanyytop/agents-radar).*
+
+## Ecosystem Signal
+
+**Three major trends** define this week's ecosystem:
+
+1. **MoE Dominance is Solidifying** — Of the 30 trending models, 9 explicitly use MoE architectures (GLM-5.2, Qwen-AgentWorld, Ornith-1.0, Leanstral-1.5, Nemotron-TwoTower). The community is embracing sparse activation as the path to scaling without proportional compute costs.
+
+2. **Vision-Language Integration is Now Standard** — Nearly a third of trending models are image-text-to-text pipelines. Even text-generation models like Ornith and Qwythos carry vision tags, indicating that multi-modal capability is becoming a baseline expectation.
+
+3. **Quantization is a First-Class Feature** — GGUF remains the dominant format (13 of 30 models), but NVIDIA's NVFP4 introduces a new frontier: vendor-specific quantized formats optimized for specific hardware. Unsloth's MTP (Multi-Turn Processing) optimizations also signal that quantization is moving beyond raw compression toward task-specific acceleration.
+
+4. **"Uncensored" and "Abliterated" continue as a persistent sub-trend** — Multiple models explicitly position themselves as uncensored, reflecting an ongoing community demand for models without content restrictions, particularly for local deployment.
+
+---
+
+## Worth Exploring
+
+1. **[nvidia/LocateAnything-3B](https://huggingface.co/nvidia/LocateAnything-3B)** — With 2,627 likes and 1.3M downloads, this 3B vision-language model is punching far above its weight. It deserves study as a case study in efficient, task-specific foundation models that outperform larger alternatives on localization benchmarks.
+
+2. **[Qwen/Qwen-AgentWorld-35B-A3B](https://huggingface.co/Qwen/Qwen-AgentWorld-35B-A3B)** — As agentic AI becomes the next wave, this Qwen MoE model purpose-built for agent tasks is worth evaluating. Its 3B active parameters at 35B total represent the sweet spot between capability and inference cost.
+
+3. **[google/tabfm-1.0.0-pytorch](https://huggingface.co/google/tabfm-1.0.0-pytorch)** — With 242 likes and growing, this tabular foundation model from Google could be a quiet game-changer. Tabular data remains the bulk of enterprise ML, and a zero-shot capable foundation model for structured data is worth serious investigation.
+
+---
+*This digest is auto-generated by [agents-radar](https://github.com/xiehd77-del/agents-radar).*
