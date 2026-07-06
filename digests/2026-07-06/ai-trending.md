@@ -1,94 +1,79 @@
 # AI 开源趋势日报 2026-07-06
 
-> 数据来源: GitHub Trending + GitHub Search API | 生成时间: 2026-07-06 13:25 UTC
+> 数据来源: GitHub Trending + GitHub Search API | 生成时间: 2026-07-06 15:02 UTC
 
 ---
 
-好的，作为专注于 AI 开源生态的技术分析师，以下是基于您提供数据的《AI 开源趋势日报》。
+好的，作为专注于AI开源生态的技术分析师，以下是我为您生成的《AI开源趋势日报》。
 
 ---
 
-## AI 开源趋势日报 (2026-07-06)
+## AI开源趋势日报 | 2026-07-06
 
 ### 1. 今日速览
 
-今日 GitHub AI 开源生态呈现出显著的 **“AI 智能体工程化”** 趋势。以 `system_prompts_leaks` 为代表的“提示词与技能”仓库获得了社区病毒式传播，揭示了开发者对理解、优化和复用顶级 AI 模型行为的强烈渴望。同时，**本地化、隐私优先**的 AI 应用（如 `meetily`）和**跨平台 Agent 管理工具**（如 `herdr`, `gastown`）成为新的热点方向。此外，阿里开源的轻量级向量数据库 `zvec` 也表明，基础性能优化仍是 AI 应用规模化的重要基石。
+今日AI开源社区呈现两大趋势：**智能体技能生态**井喷式发展，以及**本地化、隐私优先的AI应用**继续受到追捧。`system_prompts_leaks`项目以1386颗今日Stars登顶，揭示了社区对前沿模型系统提示词（System Prompt）的极大好奇。`agent-skills`系列库的涌现与扩散，标志着AI编码智能体正从“能用”向“有好品味、专业级”演进。此外，基于Rust构建的、支持本地部署的会议助手`Meetily`，以2493颗Stars的增速展现了开发者对隐私保护的刚需。
 
 ### 2. 各维度热门项目
 
 #### 🔧 AI 基础工具（框架、SDK、推理引擎、开发工具、CLI）
 
-- **[firecrawl/firecrawl](https://github.com/firecrawl/firecrawl)** ⭐145,697 (+834 today)
-  - **说明**：一个将网页内容转化为 AI 友好数据的 API。它正成为 AI 智能体获取实时互联网信息的关键基础设施，今日热度持续高涨。
-- **[alibaba/zvec](https://github.com/alibaba/zvec)** ⭐13,197 (+355 today)
-  - **说明**：阿里开源的轻量级、高速进程内向量数据库。它在 Trending 榜单上首次露头，表明在 AI 应用中对于高性能、低延迟的本地向量存储有巨大需求。
-- **[steipete/CodexBar](https://github.com/steipete/CodexBar)** ⭐0 (+598 today)
-  - **说明**：一款 macOS 菜单栏工具，可直观显示 OpenAI Codex 和 Claude Code 的使用统计。直击开发者“控制成本”和“监控用量”的痛点，实用性极高。
-- **[openai/codex-plugin-cc](https://github.com/openai/codex-plugin-cc)** ⭐0 (+910 today)
-  - **说明**：OpenAI 官方发布的 Codex 插件，允许在 Claude Code 中使用 Codex 进行代码审查或任务委派。展示了顶级 AI 公司推动 Agent 之间交叉协作的野心。
-- **[0xPlaygrounds/rig](https://github.com/0xPlaygrounds/rig)** ⭐7,840
-  - **说明**：一个用 Rust 构建模块化、可扩展 LLM 应用的框架。Rust 语言在 AI 基础设施中越来越受青睐，它代表了追求极致性能和可靠性的方向。
+- **[firecrawl/firecrawl](https://github.com/firecrawl/firecrawl)** ⭐145,818 (+834 today) | TS
+  - **AI驱动的网络数据抓取与交互API**。它不仅今日Stars激增，更是一个因多智能体系统对数据需求而持续爆火的顶流工具，让AI能高效获取并理解互联网信息。
+- **[openai/codex-plugin-cc](https://github.com/openai/codex-plugin-cc)** ⭐0 (+910 today) | JS
+  - **跨Agent互操作的插件**。OpenAI官方的Codex插件，允许Claude Code调用Codex进行代码审查或任务委派，标志着不同AI编码Agent可以协同工作。
+- **[steipete/CodexBar](https://github.com/steipete/CodexBar)** ⭐0 (+598 today) | Swift
+  - **macOS菜单栏工具**。无需登录即可在菜单栏显示OpenAI Codex和Claude Code的使用统计数据，满足了开发者对AI工具用量管理的需求。
+- **[ogulcancelik/herdr](https://github.com/ogulcancelik/herdr)** ⭐0 (+783 today) | Rust
+  - **终端内的Agent多路复用器**。可以在终端中同时管理多个AI Agent（如Codex、Claude Code），是一个高效的Agent开发和管理基础设施。
+- **[alibaba/zvec](https://github.com/alibaba/zvec)** ⭐13,234 (+355 today) | C++
+  - **阿里开源的轻量级内存向量数据库**。主打“轻量、高速、进程内”，适合在性能敏感或资源受限的场景下，为AI应用提供高效的向量存储与检索能力。
 
 #### 🤖 AI 智能体/工作流（Agent 框架、自动化、多智能体）
 
-- **[asgeirtj/system_prompts_leaks](https://github.com/asgeirtj/system_prompts_leaks)** ⭐0 (+1386 today)
-  - **说明**：收集了 Anthropic、OpenAI、Google 等公司最新模型的系统提示词（System Prompts）。这是今日最火爆的仓库，它揭示了“提示词即代码”的理念，是理解和逆向工程顶级 AI 行为模式的“圣经”。
-- **[addyosmani/agent-skills](https://github.com/addyosmani/agent-skills)** ⭐0 (+1114 today)
-  - **说明**：一个为 AI 编程 Agent 提供生产级工程技能的仓库。它与 `system_prompts_leaks` 共同指向了 **“Agent 技能包”** 这一新兴生态，即像安装软件一样为 Agent 安装技能。
-- **[alirezarezvani/claude-skills](https://github.com/alirezarezvani/claude-skills)** ⭐0 (+611 today)
-  - **说明**：一个包含 330+ 个技能的 Claude Code 技能包合集，覆盖工程、市场、产品等多领域。它印证了 Agent 技能正在快速模块化和专业化，降低 Agent 使用门槛。
-- **[ogulcancelik/herdr](https://github.com/ogulcancelik/herdr)** ⭐0 (+783 today)
-  - **说明**：一个运行在终端中的 Agent 多路复用器。可视为 AI 时代的 `tmux`，用于管理多个同时运行的 AI Agent，是提升 Agent 工作流效率的工具。
-- **[gastownhall/gastown](https://github.com/gastownhall/gastown)** ⭐0 (+293 today)
-  - **说明**：一个多 Agent 工作区管理器。与 `herdr` 类似，但更侧重于工作区级别的管理和协作，是 Agent 工作流走向复杂化和团队化的标志。
-- **[zhayujie/CowAgent](https://github.com/zhayujie/CowAgent)** ⭐45,823
-  - **说明**：一个开源的全能 AI 助手和 Agent 框架，整合了任务规划、工具调用、记忆和知识。功能全面，社区活跃，是快速构建个性化 Agent 的优选起点。
+- **[addyosmani/agent-skills](https://github.com/addyosmani/agent-skills)** ⭐0 (+1114 today) | Shell
+  - **生产级AI编码Agent技能集合**。由Google Chrome工程经理创建，旨在为AI编码Agent提供专业工程技能的“最佳实践”合集，提升Agent代码质量。
+- **[alirezarezvani/claude-skills](https://github.com/alirezarezvani/claude-skills)** ⭐0 (+611 today) | Python
+  - **超全的Claude Code技能库**。包含337个技能、30+Agent适配，覆盖工程、营销、产品等多个领域，是当前“Agent-skill”生态的集大成者。
+- **[Zackriya-Solutions/meetily](https://github.com/Zackriya-Solutions/meetily)** ⭐0 (+2493 today) | Rust
+  - **隐私优先的AI会议助手**。基于Rust构建，100%本地处理，支持4倍速Whisper转录及Ollama总结。今日Stars增长最高，体现了用户对“不依赖云端，保护隐私”的强需求。
+- **[gastownhall/gastown](https://github.com/gastownhall/gastown)** ⭐0 (+293 today) | Go
+  - **多智能体工作区管理器**。为管理和协调多个AI Agent协同工作而设计，是解决复杂“多Agent编排”问题的实用工具。
+- **[ruvnet/RuView](https://github.com/ruvnet/RuView)** ⭐0 (+471 today) | Rust
+  - **使用WiFi信号进行空间感知**。颠覆性地将WiFi信号转化为实时空间智能，无需摄像头即可感知人员存在和生命体征，是AI感官能力的全新尝试。
 
 #### 📦 AI 应用（具体应用产品、垂直场景解决方案）
 
-- **[Zackriya-Solutions/meetily](https://github.com/Zackriya-Solutions/meetily)** ⭐0 (+2493 today)
-  - **说明**：隐私优先的 AI 会议助手，完全本地运行。今日获得最多新增 Stars，反映了市场对数据隐私的极度关注和对本地化 AI 解决方案的旺盛需求。
-- **[ruvnet/RuView](https://github.com/ruvnet/RuView)** ⭐0 (+471 today)
-  - **说明**：利用 WiFi 信号实现室内空间感知、生命体征监测，无需摄像头。这是一个突破性的 AI 应用方向，将“AI 视觉”从像素拓展到了电磁波，想象力巨大。
-- **[Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill)** ⭐0 (+1453 today)
-  - **说明**：为 AI 生成内容提供“品味”的提示词工具。它直击“AI 味”太重的痛点，通过引导模型生成更具创意和独特性的内容，是 AI 内容生成领域的关键进化。
-- **[mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill)** ⭐0 (+237 today)
-  - **说明**：一个跨平台（Reddit, X, YouTube等）的信息聚合与总结 Agent 技能。迎合了开发者快速获取特定话题近期动态的需求，是“AI 信息管家”的典型应用。
-- **[bradautomates/claude-video](https://github.com/bradautomates/claude-video)** ⭐0 (+368 today)
-  - **说明**：赋予 Claude 观看视频的能力。通过帧提取和字幕转录，将视频内容结构化，让 LLM 理解多媒体信息，是多模态 AI Agent 应用的有益尝试。
-- **[santifer/career-ops](https://github.com/santifer/career-ops)** ⭐58,777
-  - **说明**：基于 Claude Code 的 AI 求职系统。将 Agent 能力与求职流程深度结合，是 AI 在垂直场景高效落地的典范。
-
-#### 🧠 大模型/训练（模型权重、训练框架、微调工具）
-
-- **（本周搜索结果中此类别项目较少，`llm-model` topic 下的项目多为小型实验性或评估工具）**
-- **[Significant-Gravitas/AutoGPT](https://github.com/Significant-Gravitas/AutoGPT)** ⭐185,401
-  - **说明**：虽然热度已久，但作为 Agent 领域的先驱，其持续的 Stars 增长表明社区仍在探索其“自主 AI”的愿景。
-- **[open-compass/opencompass](https://github.com/open-compass/opencompass)** ⭐7,162
-  - **说明**：一个全面的 LLM 评测平台。在“百模大战”的后半场，如何科学评测模型能力成为关键，该类工具的价值日益凸显。
+- **[asgeirtj/system_prompts_leaks](https://github.com/asgeirtj/system_prompts_leaks)** ⭐0 (+1386 today) | JS
+  - **知名AI模型System Prompt提取库**。汇集了Anthropic（Claude 5）、OpenAI（GPT-5.5）、Google（Gemini 3.5）等数十款最前沿模型的系统提示词。是了解大模型背后“指令灵魂”的珍贵资料库。
+- **[Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill)** ⭐0 (+1453 today) | JS
+  - **提升AI输出“品味”的工具**。通过一组技能，让AI编码Agent生成的代码和内容摆脱“模板化”和“枯燥”，注入了“品味”。直击开发者对AI输出风格单调的痛点。
+- **[bradautomates/claude-video](https://github.com/bradautomates/claude-video)** ⭐0 (+368 today) | Python
+  - **让Claude“看懂”视频**。自动下载视频、提取帧、转录音频，然后将所有信息交给Claude进行分析和理解，拓展了多模态理解的应用边界。
+- **[karakeep-app/karakeep](https://github.com/karakeep-app/karakeep)** ⭐0 (+178 today) | TS
+  - **自托管的AI书签管理器**。利用AI自动为链接、笔记和图片打标签并进行全文搜索，是隐私至上的知识管理方案。
 
 #### 🔍 RAG/知识库（向量数据库、检索增强、知识管理）
 
-- **[infiniflow/ragflow](https://github.com/infiniflow/ragflow)** ⭐84,407
-  - **说明**：领先的开源 RAG 引擎，融合了 Agent 能力。它代表了 RAG 从“检索+生成”向“智能代理”高级形态演进的趋势。
-- **[karakeep-app/karakeep](https://github.com/karakeep-app/karakeep)** ⭐0 (+178 today)
-  - **说明**：一个自托管的“书签一切”应用，利用 AI 进行自动标签和全文搜索。它是个人知识管理的 AI 化解决方案，符合“AI 个人助理”的宏大叙事。
+- **[mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill)** ⭐0 (+237 today) | Python
+  - **AI Agent的“近期热点”研究技能**。能跨Reddit、X、YouTube等多个平台搜索热点话题，并整合成总结报告。本质上是一种高效的**时序RAG**工具，让Agent能获取最新信息。
 
 ### 3. 趋势信号分析
 
-今日社区爆发性关注点主要集中在 **“AI 智能体的运营与增强”** 层面。
+今日热榜释放出几个强烈的信号：
 
-1.  **“Agent 技能包”生态爆发**：`system_prompts_leaks`、`agent-skills`、`claude-skills`、`taste-skill` 等项目的同时爆发，标志着 AI 开发进入“积木式”构建阶段。开发者不再满足于使用基础模型，而是希望像安装 `npm`包一样，为 Agent 赋予特定领域的“超能力”和“品味”。这类似于 ChatGPT Plugin 生态的早期爆发，但更底层、更「黑客」。
-2.  **本地化与隐私工具成新贵**：`meetily` 以惊人的速度登顶，预示着用户对云端 AI 服务的疑虑正在转化为对本地化解决方案的渴求。结合 `zvec`（本地向量数据库）的兴起，一个完整的 **“本地 AI 技术栈”** 正在形成，从数据处理、模型推理（Ollama 等）到知识存储（zvec）和应用前端（meetily）。
-3.  **Agent 协作与管理工具出现**：`herdr` 和 `gastown` 的出现，说明单 Agent 能解决的问题已达到天花板，社区开始探索如何高效管理、调度和协调多个 Agent 协同工作。这可能是 **“多智能体系统（MAS）”** 走向实用化的前奏。
+1.  **“Agent-Skill”生态爆发，从“会写代码”到“写好代码”**：`agent-skills`和`claude-skills`等项目的爆火，标志着社区对AI编码Agent的需求已从“有基础能力”转向“具有专业素养和美学品味”。开发者不想再看到千篇一律的“AI味”代码，而希望Agent能写出符合生产环境规范、甚至富有设计感的代码。这是一个从“功能满足”到“体验进阶”的关键跃迁。
+
+2.  **Agent能力边界向多模态与物理世界延伸**：`claude-video`让AI能理解视频内容，`RuView`更是让AI可以不依赖传统摄像头，通过无线电波“感知”物理世界。这表明AI Agent的“感官”正在快速多元化，未来的Agent不仅能处理文本和代码，还将能理解视频、声音乃至空间电磁场。
+
+3.  **隐私与本地化是永恒的核心诉求**：尽管基于云的AI服务强大，但`Meetily`的惊人增速证明了用户对数据隐私和离线可用性的强烈期待。纯本地、高性能、开源的解决方案将持续获得铁杆用户的追捧，尤其在会议记录等敏感场景。
 
 ### 4. 社区关注热点
 
-- **🌟 `system_prompts_leaks` 和 Agent Skills 仓库**：这是当前最核心的热点。立即关注并学习这些提示词和技能，能让你深入理解 Claude、GPT 等模型的内在运行机制。
-- **⚡ `meetily` 和本地化 AI 工具**：隐私优先的 AI 应用是明确的蓝海。关注 `meetily` 及其背后的 Rust 技术栈，探索如何构建高性能、零云依赖的 AI 应用。
-- **🔧 `herdr` 和 `gastown` (Agent 基础设施)**：Agent 工作流管理工具是下一波增长点。如果你是 DevOps 或对 Agent 系统架构感兴趣，这两个项目值得研究。
-- **🎨 `taste-skill` 和 AI 内容生成**：如何让 AI 生成的内容摆脱“AI 味”？`taste-skill` 提供了一种思路。这关乎 AI 产品的核心竞争力——用户体验和差异化。
-- **📚 `Graphify-Labs/graphify` 和知识图谱 RAG**：`graphify` 将代码、文档等转化为查询知识图谱，代表 RAG 向更深度的语义理解和关联探索方向发展，是构建高级 AI 知识库的关键。
+- **🔥 `system_prompts_leaks`：大模型的“源代码”**：这是了解当前顶级AI模型世界观和最佳实践的绝佳窗口。无论你是研究员、提示工程师还是普通用户，研究它们都能极大提升你使用大模型的技巧。值得每位AI从业者收藏学习。
+- **🤖 `agent-skills` / `claude-skills`：成为“Agent驯兽师”**：AI编码Agent的潜力远未被挖掘。关注这两个技能库，学习如何配置和组合这些“技能”，你会发现AI辅助开发的效率和质量可以有多大的飞跃。
+- **🔒 `Meetily`：隐私保护与开源的胜利**：如果你想摆脱对云服务的依赖，或者对会议数据安全有极高要求，`Meetily`是完美的选择。它证明了在AI时代，本地化、高性能的开源方案具有极强的竞争力。
+- **🧠 `alibaba/zvec`：轻量级向量存储的潜力股**：通常RAG系统依赖重量级的向量数据库。`zvec`作为“进程内”数据库，为嵌入式设备、边缘计算或对延迟极度敏感的应用提供了新选择。值得关注其社区反馈和性能表现。
 
 ---
 *本日报由 [agents-radar](https://github.com/xiehd77-del/agents-radar) 自动生成。*

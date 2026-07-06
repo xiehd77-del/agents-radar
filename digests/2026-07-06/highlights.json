@@ -1,118 +1,118 @@
 {
   "zh": {
     "ai-cli": [
-      "Claude Code深陷Bug与信任危机，社区焦灼",
-      "Gemini CLI快速迭代，Nightly版发布",
-      "Qwen Code转向多工作区Daemon架构过渡",
-      "Claude Code内存泄漏和模型幻觉成痛点",
-      "OpenAI Codex模型行为异常与平台兼容问题",
-      "GitHub Copilot CLI v1.0.69-2，聚焦MCP安全"
+      "Claude Code「极高」活跃度，安全话题引爆社区讨论",
+      "Qwen Code 引入 maxSubAgents 限制并行子代理",
+      "Gemini CLI 修复子代理并发控制与状态报告 Bug",
+      "Pi 聚焦工具调用可靠性与模型兼容性问题",
+      "多 Agent 编排与工作流成 CLI 生态核心趋势",
+      "Kimi Code CLI 活跃度低，仅有零星 Bug 反馈"
     ],
     "ai-agents": [
-      "OpenClaw今日500 Issue和500 PR，活跃度爆棚",
-      "PR合并率仅47.2%，维护团队压力山大",
-      "飞书卡片消息回归Bug被修复",
-      "锁释放超时机制防Agent死锁",
-      "安全与权限模型成社区讨论焦点",
-      "多Agent隔离及渠道稳定性问题引热议"
+      "OpenClaw 社区活跃，核心贡献者 steipete 提交 10+ PR",
+      "语音笔记录制与 TTS 朗读回复功能即将上线",
+      "多网关切换与重设计聊天输入栏提升移动端体验",
+      "修复 Discord WebSocket 负载限制，增强稳定性",
+      "半数以上 PR 处于等待审查阶段，管线承压",
+      "增加审计项强化控制平面与插件命令安全审查"
     ],
     "ai-trending": [
-      "system_prompts_leaks爆火，收集顶级模型提示词",
-      "CodexBar直击开发者监控成本痛点",
-      "阿里开源zvec向量数据库，性能优化新方向",
-      "agent-skills像装软件一样安装AI技能",
-      "Codex插件实现Claude与OpenAI交叉协作",
-      "Rust框架rig构建模块化LLM应用"
+      "system_prompts_leaks 以 1386 星登顶今日热搜",
+      "addyosmani/agent-skills 提供专业 Agent 技能集",
+      "Meetily 获 2493 星，隐私优先的本地会议助手",
+      "OpenAI 发布 Codex 插件允许跨 Agent 互操作",
+      "firecrawl 获 834 星，多智能体数据抓取顶流工具",
+      "阿里开源轻量级内存向量数据库 zvec，获 355 星"
     ],
     "ai-hn": [
-      "Peek-CLI让Claude Code看到浏览器内容",
-      "Handoff解决Claude Code会话上下文丢失问题",
-      "三层压缩方案可降低50% LLM Agent成本",
-      "社区出现AI疲劳感，厌烦过度炒作",
-      "警惕BigCo AI Agent泄露研究IP",
-      "Claude Code生态成今日社区绝对热点"
+      "LLM 领域‘向均值回归’引发社区争议与反思",
+      "Peek-CLI 赋予 Claude Code 浏览器可视能力",
+      "Handoff 工具解决 Agent 会话上下文断裂问题",
+      "Compressor V2 实现 50% 的 Agent 成本削减",
+      "LLM 应用安全基准提问，社区暂无解决方案",
+      "Claude 商业化与工具链创新形成‘又爱又恨’"
     ],
     "ai-ph": [
-      "Vida克隆自己，AI预判并执行任务",
-      "Termi Protocol将AI编程过程3D可视化",
-      "ChecklistFox和CentryAI等轻量工具获关注",
-      "Qik Office构建企业级AI代理协作空间",
-      "个人代理化与生产力导向成今日主旋律",
-      "开发者工具出现编程游戏化创新产品"
+      "Vida 获 406 票，主打‘克隆自己’被动式 AI",
+      "Termi Protocol 以 3D 可视化展示 AI 编码过程",
+      "Qik Office 构建企业级 AI 经理与智能协作空间",
+      "ChecklistFox 等轻量级生活 AI 工具获广泛关注",
+      "AI 产品发布呈现‘生产力导向’与‘个人代理化’",
+      "开发者工具领域出现编程游戏化与可视化创新"
     ],
     "ai-hf": [
-      "Qwen家族模型霸榜，衍生版下载量惊人",
-      "NVIDIA推LocateAnything-3B高效视觉定位",
-      "GLM-5.2凭DSA架构获高人气",
-      "DeepSeek-V4-Pro-DSpark推理能力最强",
-      "HauhauCS去审查版Qwen3.6下载超290万",
-      "Mistral推出超大规模MoE Leanstral"
+      "Qwen 家族全面进化，衍生模型霸榜 Hugging Face",
+      "多模态 MoE 架构成为主流，高参数模型受追捧",
+      "NVIDIA LocateAnything-3B 下载量达 134 万次",
+      "GLM-5.2 以 3508 点赞成为最受欢迎文本模型",
+      "社区微调与量化活动活跃，GGUF 格式需求旺盛",
+      "DeepSeek V4 Pro DSpark 发布，带有加速特性"
     ],
     "ai-community": [
-      "AI生成代码半年后技术债务大爆发",
-      "LLM API在生产环境故障处理经验谈",
-      "Loop Engineering成为与Agent协作新范式",
-      "AI写作可识别性引发开发者深度反思",
-      "Top 5 AI UI设计工具横向测评出炉",
-      "LLM API密钥管理成安全新焦点"
+      "Prompt 注入与 API 密钥安全成社区关注焦点",
+      "量化模型在边缘设备工具调用能力引发热议",
+      "36 种模式清单教开发者识别 AI 写作痕迹",
+      "BrowserAct 无需 API 即可将网站转为 AI 工具",
+      "PagedAttention 用 Tetris 游戏解释 VRAM 碎片化",
+      "LLM API 失败策略分享：不能当普通 HTTP 错误"
     ]
   },
   "en": {
     "ai-cli": [
-      "Claude Code hit 120GB memory leak",
-      "Gemini CLI reached MCP SDK v1.0.0",
-      "Memory leaks plague Codex and Copilot CLI",
-      "OpenCode suffers idle CPU burn",
-      "Windows parity remains a systemic weakness",
-      "Seven major tools show distinct specializations"
+      "Claude Code and Codex face reliability regressions",
+      "Gemini CLI and Qwen Code iterate aggressively",
+      "Pi and DeepSeek TUI focus on tool-calling reliability",
+      "OpenCode undergoing major v2 architectural refactor",
+      "Safety filter false positives plague all major tools",
+      "Community demands better performance transparency"
     ],
     "ai-agents": [
-      "OpenClaw: 500 issues and 500 PRs today",
-      "395 issues open, 264 PRs open",
-      "Zero releases; focus on bugs and security",
-      "P1-rated bugs and security requests dominate",
-      "Maintainer bottleneck flagged as key concern",
-      "Last release v2026.6.11 has critical reentrancy bug"
+      "OpenClaw sees 500 issues and 500 PRs in 24h",
+      "Mobile features like TTS and multi-gateway pairing",
+      "Tool output rendering and session state bugs",
+      "Project battling volume of bugs from high adoption",
+      "No new releases published on July 6, 2026",
+      "Stream error handling and race condition fixes"
     ],
     "ai-trending": [
-      "Skill repos for Claude Code gain 3,000 stars",
-      "Rust privacy AI assistant meetily +2,493 stars",
-      "System prompt leak repo sparks community buzz",
-      "Alibaba open-sourced zvec lightweight vector DB",
-      "Codex plugin enables cross-agent delegation",
-      "Agent skill ecosystems dominate today's trends"
+      "Agent skill/plugin ecosystems surge in popularity",
+      "Privacy-first local AI tools gain community interest",
+      "System prompt extraction repo gains traction",
+      "Rust emerges as preferred language for AI edge",
+      "Firecrawl hits 145,818 stars with 834 added today",
+      "Alibaba's zvec offers lightweight in-process vector DB"
     ],
     "ai-hn": [
-      "Hitchhiker's Guide to Agentic AI survey paper",
-      "Open Science as open-source Claude Science alternative",
-      "50% LLM cost cut via three compression layers",
-      "Skepticism grows toward Anthropic and Claude",
-      "Community fatigue with AI hype but not engineering",
-      "Practical cost-conscious tooling gains traction"
+      "Top story criticizes Anthropic for eroding goodwill",
+      "Essay debates the 'quiet death of the new' in LLMs",
+      "Microsoft lays off 4,800 workers fuels debate",
+      "Peek-CLI lets Claude Code see the browser",
+      "Claude Code plugin ecosystem explodes with Show HNs",
+      "Community demands robust LLM security benchmarks"
     ],
     "ai-ph": [
-      "Vida lets users clone themselves as AI agent",
-      "Termi Protocol shows coding agents live in 3D",
-      "Autonomous AI agents replace human workers",
-      "Vida leads with 406 votes and 72 comments",
-      "Termi Protocol gets 186 votes among dev tools",
-      "Agentic tools vastly outpace creative tools today"
+      "Vida lets users clone themselves as AI agents",
+      "Termi Protocol visualizes coding agents in 3D",
+      "Autonomous AI agents dominate today's launches",
+      "ChecklistFox and CentryAI push AI task management",
+      "Agentic tools vastly outpace generative creative tools",
+      "Developer interest high for gamified agent visualization"
     ],
     "ai-hf": [
-      "Qwen3.6-27B-MTP-GGUF leads with 2.8M downloads",
-      "nVIDIA releases NVFP4 precision on two models",
-      "GLM-5.2: efficient 5.2B MoE conversational model",
-      "DeepSeek-V4-Pro-DSpark with DSpark optimizations",
-      "Qwen-AgentWorld-35B-A3B for agentic tasks",
-      "MoE and vision-language models dominate trends"
+      "MoE architectures and GGUF quantizations dominate",
+      "NVIDIA's LocateAnything-3B breaks out as top model",
+      "DeepSeek-V4-Pro-DSpark signals enterprise interest",
+      "Baidu's Unlimited-OCR is surprise breakout hit",
+      "Qwen 3.5/3.6 family leads fine-tune activity",
+      "GLM-5.2 gains massive community following"
     ],
     "ai-community": [
-      "AI tools create code debt bomb after 6 months",
-      "LLM API error handling fails like standard HTTP",
-      "Loop Engineering paradigm gains traction",
-      "Agents ship already-reverted mistakes",
-      "Productionization pains dominate dev chatter",
-      "Sobering analyses question AI security viability"
+      "Developers rebel against 'vibe coding' patterns",
+      "Debate on hidden costs of AI-generated code",
+      "LLM API key security deep-dive goes viral",
+      "36-pattern checklist for catching AI writing flaws",
+      "Structured manual control over agent loops advocated",
+      "Loop engineering explained for developers"
     ]
   }
 }
