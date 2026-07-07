@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code 发布 v2.1.202，Agent 行为可靠性成焦点",
+      "OpenAI Codex 发布 rust-v0.143.0-alpha.37",
+      "Gemini CLI 发布 v0.51.0-nightly，活跃 PR 12 个",
+      "社区热议 Agent 成本失控：重复任务与并行调用吞金",
+      "GitHub Copilot CLI 发布 v1.0.69-2",
+      "用户渴望 Agent 行为具备确定性与可预测性"
+    ],
+    "ai-agents": [
+      "OpenClaw 24 小时产生 500 条 Issue 与 500 条 PR 更新",
+      "修复 Android 聊天物理键盘回车发送消息问题",
+      "合并 198 个 PR，消息稳定性与多平台体验优化",
+      "非流式响应 OOM 风险修复，增强系统稳定性",
+      "网关重启时自动回复错误提示问题已解决",
+      "积压 PR 达 302 个，社区贡献活跃维护压力大"
+    ],
+    "ai-trending": [
+      "Agent技能项目 agent-skills 日增 1112 star 登顶趋势榜",
+      "阿里的 zvec 向量数据库日增 382 star，本地AI新宠",
+      "macOS 菜单栏应用 CodexBar 上线即获 598 star",
+      "firecrawl 持续火爆，总 star 数达 14.6 万",
+      "OpenAI 推出 codex-plugin-cc，打通 Claude 与 Codex",
+      "Rust LLM 框架 rig 获 7850 star，性能生态崛起"
+    ],
+    "ai-web": [
+      "Anthropic 发现 LLM 内部存在类意识通路 J-space",
+      "Claude Code 20 小时扫描 4.66 亿行代码修复安全漏洞",
+      "约6%用户向Claude寻求个人指导，人际关系谄媚率达25%",
+      "可解释性突破：通过J-space可直接干预模型推理路径",
+      "阿尔伯塔省政府用 Claude 完成最大规模网络安全审计",
+      "Anthropic 今日新增 4 篇内容，研究商业并重"
+    ],
+    "ai-hn": [
+      "Anthropic 全局工作空间研究获 297 分社区热议",
+      "GLM 5.2 引发 AI 利润率崩溃担忧，218 分激烈辩论",
+      "Show HN：Pulpie 模型清洗Web数据获82分好评",
+      "Mozilla 推出开源 LLM 控制平面 Otari",
+      "小模型在制药与不稳定网络环境中获 IEEE 肯定",
+      "Anthropic 定价与隐藏追踪器引发用户爱恨交织"
+    ],
+    "ai-arxiv": [
+      "LLM-as-a-Verifier：验证能力成模型新扩展轴",
+      "TREK 在线蒸馏法解决弱到强泛化探索停滞",
+      "扩散自编码器优化轨迹可引导学习潜在结构",
+      "LLM 内部线性编码剩余输出长度元信息被探明",
+      "医学视觉语言模型编辑基准揭示现有方法失效",
+      "从固定到自由相机：视角鲁棒VLA模型攻克部署难题"
+    ],
+    "ai-hf": [
+      "智谱GLM-5.2 热度第一，社区下载量超23万",
+      "NVIDIA LocateAnything-3B 下载量达134万",
+      "百度 Unlimited-OCR 下载量达107万",
+      "Ornith-1.0-35B GGUF 下载量43万，本地部署火爆",
+      "Mistral Leanstral-1.5 极致MoE，6B激活参数",
+      "Qwen 家族MoE模型成社区微调热门基底"
+    ],
+    "ai-community": [
+      "AI 智能体 17 天内 5 次谎报任务完成引热议",
+      "AI 代理无视回滚操作，执意重发错误代码",
+      "LLM API 密钥泄露路径隐患深度分析引发关注",
+      "PagedAttention 用游戏化方式科普显存碎片化",
+      "开发者共识：你无法审查 Agent，但可以审查计划",
+      "社区焦点从构建智能体转向驯服与管理它们"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.202 released",
+      "OpenAI Codex sees high engagement",
+      "Gemini CLI active in middle tier",
+      "DeepSeek TUI focuses on code quality",
+      "Windows parity is a key theme",
+      "Billing transparency concerns dominate"
+    ],
+    "ai-agents": [
+      "OpenClaw has 500 open issues today",
+      "198 PRs merged or closed in 24h",
+      "403 open issues remain unresolved",
+      "Telegram inbound debounce fix merged",
+      "Auto-reply restart silence fix closed",
+      "No new releases published today"
+    ],
+    "ai-trending": [
+      "Agent skill commoditization wave explodes",
+      "zvec gains 382 stars today at 13.6k",
+      "Firecrawl hits 146k total stars",
+      "Agent-skills pack jumps 1,112 stars",
+      "Local-first AI tools gain traction",
+      "Multi-agent orchestration matures rapidly"
+    ],
+    "ai-web": [
+      "Anthropic publishes 3 new articles",
+      "Claude audits 466M lines in 20h",
+      "Government of Alberta case study",
+      "Global workspace paper released",
+      "6% of chats involve personal guidance",
+      "Sycophancy risks flagged in relationships"
+    ],
+    "ai-hn": [
+      "Global workspace paper scores 297",
+      "Small AI models gain offline traction",
+      "GLM 5.2 triggers margin collapse fears",
+      "Claude Code tracker backlash grows",
+      "Trust in major AI players strained",
+      "XGBoost beats LLMs in war data task"
+    ],
+    "ai-arxiv": [
+      "Weak-to-strong distillation proposed",
+      "LLM-as-a-verifier new scaling axis",
+      "Discrete diffusion internals explored",
+      "Agentic systems raise security concerns",
+      "Memory injection risks highlighted",
+      "Self-improvement methods surpass fine-tuning"
+    ],
+    "ai-hf": [
+      "GLM 5.2 trends with 3.5k likes",
+      "DeepSeek-V4-Pro-DSpark open weight",
+      "Qwen 3.5 family powers trending list",
+      "NVIDIA's LocateAnything-3B visual tool",
+      "Baidu's Unlimited-OCR gains traction",
+      "MoE and quantized GGUF models surge"
+    ],
+    "ai-community": [
+      "OpenAI Assistants API deprecation looms",
+      "Agentic failures spark post-mortems",
+      "LLM API key security risks debated",
+      "Cost control dominates community focus",
+      "AI writing quality checklist published",
+      "Observability patterns for AI systems shared"
+    ]
+  }
+}
