@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Qwen Code 今日发布 3 个版本，开发节奏最快",
+      "OpenAI Codex 遭遇 Windows Bug 和 MCP 问题高峰",
+      "Claude Code 新版本 v2.1.204 修复严重 Bug",
+      "OpenCode V2 迁移期稳定性问题引发密集反馈",
+      "DeepSeek TUI 品牌重塑，发布 v0.8.67",
+      "GitHub Copilot CLI v1.0.69 新版本 Bug 集中爆发"
+    ],
+    "ai-agents": [
+      "OpenClaw 24 小时内提交 500 条 Issue 和 500 个 PR",
+      "P1 级死锁 Bug 在嵌入式代理中修复",
+      "Android 版新增技能工坊管理面板",
+      "跨渠道消息操作策略一致性全面修复",
+      "模型切换时卡死 Bug 已被修复",
+      "修复 Gemini 模型无法禁用思考模式问题"
+    ],
+    "ai-trending": [
+      "AI 求职框架 ai-job-search 今日获 2514 星",
+      "系统提示泄露合集仓库单日增长 1691 星",
+      "腾讯云开源 AI Agent 沙箱 CubeSandbox",
+      "OfficeCLI 让 Agent 无头化操作办公套件",
+      "agent-skills 定义 AI 编码 Agent 技能标准",
+      "CodexBar macOS 菜单栏显示 API 用量统计"
+    ],
+    "ai-web": [
+      "Anthropic 发布最具智能体性的 Claude Sonnet 5",
+      "Sonnet 5 成本更低，Agent 能力接近 Opus",
+      "研究揭示 Claude 内部存在全局工作空间",
+      "Sonnet 5 默认成为 Free 和 Pro 计划服务模型",
+      "网络安全任务能力被刻意弱化以保障安全",
+      "J-Space 机制为模型主动性提供科学背书"
+    ],
+    "ai-hn": [
+      "Rowboat 开源本地替代 Claude Desktop 获 103 分",
+      "Anthropic 分享 Claude Code 设计哲学引热议",
+      "Codex 代码 Bug 更少但 Claude 用户基数更大",
+      "J-Space 机制让 Claude 能无声推理引猜测",
+      "1.7B 模型在浏览器中直接运行技术演示",
+      "AI 编程工具对比报告引发社区讨论"
+    ],
+    "ai-arxiv": [
+      "三模语言模型统一自回归与扩散解码",
+      "MemDefrag 解决 LLM 隐式记忆碎片化问题",
+      "首个多元文化多语言 AI 安全基准发布",
+      "SpanUQ 提出跨度级不确定性量化新方法",
+      "提示词鲁棒性因任务类型而异研究",
+      "多智能体协同回答系统提升生物医学问答"
+    ],
+    "ai-hf": [
+      "Qwen3.6 未审查激进版周下载量破 282 万",
+      "NVIDIA LocateAnything-3B 视觉定位模型爆火",
+      "百度 Unlimited-OCR 下载量超 108 万",
+      "DeepSeek V4 Pro 发布附 arXiv 论文",
+      "腾讯 Hy3 混元第三代模型亮相",
+      "Mistral Leanstral 119B 仅激活 6B 参数"
+    ],
+    "ai-community": [
+      "AI 讨论从'能做什么'转向'能否信任'",
+      "50 次完美演示后 AI Agent 真实环境中崩溃",
+      "你用啥 AI 编码工具正成为招聘信号",
+      "RAG 系统在处理表格数据时可能说谎",
+      "AI 写的并发代码因 CPU 缓存行慢 5 倍",
+      "嵌入向量泄露文本是 RAG 忽视的安全风险"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code and Codex dominate CLI tools",
+      "Gemini CLI and Kimi Code show stagnation",
+      "Cost transparency is a cross-cutting concern",
+      "Windows parity and MCP maturity needed",
+      "OpenCode and CodeWhale racing to catch up",
+      "Copilot CLI faces competition from alternatives"
+    ],
+    "ai-agents": [
+      "OpenClaw has 500 issues and 500 PRs today",
+      "124 issues resolved, 144 PRs merged/closed",
+      "No new releases; focus on maintenance phase",
+      "Cron and scheduling fixes in PR #101977",
+      "High community engagement on critical bugs",
+      "Team deep in reliability after 2026.5.x cycle"
+    ],
+    "ai-trending": [
+      "ai-job-search gains 2,500 stars in one day",
+      "Meetily surges with 1,777 stars today",
+      "System prompts leak repo gets 1,691 stars",
+      "Ollama now supports Kimi-K2.6 and GLM-5.1",
+      "Hermes Agent totals 211k stars",
+      "Local-first privacy tools are trending up"
+    ],
+    "ai-web": [
+      "Anthropic releases Claude Sonnet 5",
+      "Sonnet 5 bridges gap to Opus 4.8",
+      "Lower pricing with improved safety features",
+      "J-space discovery reveals reasoning patterns",
+      "OpenAI had no new content today",
+      "Anthropic advances product and transparency"
+    ],
+    "ai-hn": [
+      "Claude Fable 5 extended through July 12",
+      "Rowboat open-source alternative to Desktop",
+      "HNs discuss Claude Cowork launch",
+      "Making of Claude Code technical blog post",
+      "Community skeptical of Anthropic promotion",
+      "Chinese AI models gaining US company traction"
+    ],
+    "ai-arxiv": [
+      "Tri-mode model Nemotron-Labs-Diffusion unveiled",
+      "Uncertainty estimation across 22 languages",
+      "Agent benchmarking in multilingual settings",
+      "Novel memory architectures for long horizons",
+      "Token-efficient retrieval methods emerge",
+      "Native function integration into SQL workflows"
+    ],
+    "ai-hf": [
+      "Qwen 3.6 ecosystem dominates trending models",
+      "GLM-5.2 from Zhipu AI challenges US labs",
+      "NVIDIA LocateAnything-3B for spatial reasoning",
+      "Uncensored reasoning models gain popularity",
+      "Google TabFM-1.0 enters tabular AI space",
+      "Baidu Unlimited-OCR for document intelligence"
+    ],
+    "ai-community": [
+      "Shift from AI capability to reliability",
+      "RAG systems hallucinate on structured data",
+      "Leaked embeddings pose critical security risk",
+      "Engineers audit RAG costs and enforce outputs",
+      "Lobste.rs debates environmental AI cost",
+      "Production failures after clean demos exposed"
+    ]
+  }
+}
