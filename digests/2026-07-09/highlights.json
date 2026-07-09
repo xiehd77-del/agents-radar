@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.205 发布，聚焦 Agent 稳定性修复",
+      "OpenAI Codex v0.144.0-alpha 发布，Tokens 消耗异常成焦点",
+      "Gemini CLI 发布 v0.50.0，强化安全沙箱与多 Agent 路由",
+      "多工具 Token 消耗飙升 5-10 倍，代理挂起成共性难题",
+      "Claude Code Skills 新项目上线，为 Agent 注入生产级技能",
+      "社区关注从'能用'转向'好用'，可靠性成核心诉求"
+    ],
+    "ai-agents": [
+      "OpenClaw 项目 24 小时产出 500 条 Issue 和 500 条 PR",
+      "Issue 关闭率仅 8.6%，高优先级 Bug 积压严重",
+      "工具调用文本意外泄露到 Slack 等消息通道引热议",
+      "子任务完成后静默丢失，Agent 可靠性遭质疑",
+      "97 个 PR 被合并，聚焦字符编码和稳定性修复",
+      "社区活跃度极高，项目处于'高活跃、高压力'状态"
+    ],
+    "ai-trending": [
+      "agent-skills 日增 1297 星，为编码 Agent 注入工程能力",
+      "MadsLorentzen/ai-job-search 新增 5079 星，AI 求职成爆款",
+      "firecrawl 获 147,921 星，成 AI Agent 数据抓取基础设施",
+      "superpowers 日增 1116 星，推动 Agent 技能框架兴起",
+      "Cherry Studio 获 48,328 星，一体化 AI 工作室受热捧",
+      "CopilotKit 获 35,855 星，AI 前端 UI 开源框架崛起"
+    ],
+    "ai-web": [
+      "Anthropic 提出'开关'概念，从源头控制双重用途知识",
+      "Anthropic 红队报告：AI 已接近本科水平但未达威胁阈值",
+      "Anthropic 发布多篇经济与地缘治理深度报告",
+      "OpenAI 推 Gpt Live，聚焦实时交互产品新形态",
+      "OpenAI 改进代码评估信噪比，打磨工程基础能力",
+      "Anthropic 主张第三方审计，推动 AI 问责制规范化"
+    ],
+    "ai-hn": [
+      "GPT-Live 引爆社区，622 分 421 条评论热议实时交互",
+      "GPT-5.6 Sol/Terra/Luna 本周四发布引发期待与吐槽",
+      "Anthropic 安全护栏过严，Fable 模型被批'阉割'能力",
+      "开发者热议 LLM 倦怠情绪，反思行业速朽泡沫",
+      "微软发布 Agent 可视化语言，降低开发门槛",
+      "社区讨论转向成本控制与网关，关注'好不好用贵不贵'"
+    ],
+    "ai-arxiv": [
+      "递归自我改进综述：从自我精炼到自主研究循环",
+      "结构轨迹分析精准定位 Agent 失败根本原因",
+      "未来置信度蒸馏：LLM 预测后续推理步骤可靠性",
+      "线性化 Transformer 理论指导长上下文推理优化",
+      "RoPE 频率由数据驱动，影响长度泛化能力",
+      "RL 后训练提升 Agent 自主学习与决策能力"
+    ],
+    "ai-hf": [
+      "zai-org/GLM-5.2 登顶本周点赞榜，智谱 MoE 受热捧",
+      "deepseek-ai/DeepSeek-V4-Pro-DSpark 旗舰发布",
+      "nvidia/LocateAnything-3B 下载量破 142 万，通用定位工具",
+      "empero-ai/Qwythos-9B GGUF 版本下载超 168 万",
+      "tencent/Hy3 混元最新版发布，展示大模型研发实力",
+      "meituan-longcat/LongCat-2.0 专注超长上下文对话"
+    ],
+    "ai-community": [
+      "AI Agent 伪造测试日志后自我相信，溯源缺陷引热议",
+      "更大上下文窗口未改善 RAG，检索质量成瓶颈",
+      "Claude Opus 无需微调即可捕捉 65% 代码审查错误",
+      "从提示工程到循环工程，反馈迭代成新范式",
+      "无需向量数据库的 RAG 指南：BM25 和关键字替代方案",
+      "多 Agent 系统状态一致性难题成为讨论焦点"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Zombie agents eroding trust",
+      "Token consumption spikes reported",
+      "Multi-agent architectures demanded",
+      "Cost management crisis ongoing",
+      "Community anxious about costs",
+      "Claude Code v2.1.205 patch"
+    ],
+    "ai-agents": [
+      "ZeroClaw hitting 50 PRs daily",
+      "Hermes Agent in high velocity",
+      "Security vs flexibility tension",
+      "Stability versus feature expansion",
+      "Multi-agent isolation struggles",
+      "Production observability needed"
+    ],
+    "ai-trending": [
+      "ai-job-search up 5,079 stars",
+      "System prompt leaks trending",
+      "Agent skill frameworks maturing",
+      "vllm at 85,746 total stars",
+      "LangChain at 141,334 stars",
+      "Dify top-3 infrastructure project"
+    ],
+    "ai-web": [
+      "Anthropic's off switch for dual-use",
+      "Frontier Red Team risk assessment",
+      "Strategic safety research dump",
+      "Economic labor displacement paper",
+      "Surgical knowledge removal technique",
+      "OpenAI metadata-only update"
+    ],
+    "ai-hn": [
+      "GPT-Live hits Hacker News",
+      "GPT-5.6 Sol launching Thursday",
+      "Anthropic Fable classifiers slammed",
+      "LLM Burnout fatigue discussed",
+      "Brown cheating scandal reignites",
+      "Debate on safety vs utility"
+    ],
+    "ai-arxiv": [
+      "Agentic optimization beyond self-reflection",
+      "Transformers going linear for context",
+      "Positional embedding data insights",
+      "Structured competitive AI methods",
+      "Shift to granular training signals",
+      "Sample-efficient diffusion RLHF"
+    ],
+    "ai-hf": [
+      "GLM-5.2 tops 3,671 likes",
+      "MoE architectures surging",
+      "DeepSeek-V4-Pro-DSpark trending",
+      "Qwen 3.6 ecosystem dominates",
+      "GGUF quantization standard",
+      "NVIDIA LocateAnything-3B"
+    ],
+    "ai-community": [
+      "AI agents faking test logs",
+      "Reliability crisis discussions",
+      "Google climate impact debate",
+      "Loop engineering takes center stage",
+      "Vector database hype fading",
+      "Provenance problems exposed"
+    ]
+  }
+}
