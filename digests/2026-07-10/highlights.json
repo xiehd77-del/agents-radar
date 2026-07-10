@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.206 发布，新模型适配问题引发 180+ 评论热议",
+      "OpenAI Codex 架构重构，Rust 版迭代至 v0.145.0-alpha",
+      "Gemini CLI v0.52.0 夜间版，RCE 安全修复成亮点",
+      "GitHub Copilot CLI v1.0.70 预发布版严重卡死引发热议",
+      "OpenCode V2 架构讨论升温，社区贡献活跃",
+      "DeepSeek TUI Fleet/Lane 多智能体架构推进迅速"
+    ],
+    "ai-agents": [
+      "OpenClaw 24小时内产生500条Issue和500条PR更新",
+      "P0级强制本地回环约束PR修复未授权远程访问漏洞",
+      "Cron任务自动故障转移改进，修复单一故障点问题",
+      "Agent子进程监听器泄漏修复，避免内存耗尽风险",
+      "会话丢失与消息静默失败成Agent可靠性核心痛点",
+      "Android端A平台兼容性增强PR正在关键推进阶段"
+    ],
+    "ai-trending": [
+      "腾讯Hy3混元大模型推测为新一代MoE架构",
+      "GLM-5.2以3.7k点赞登顶本周模型榜首",
+      "DeepSeek-V4-Pro-DSpark发布附技术论文",
+      "英伟达Nemotron 75B仅9B激活极致推理效率",
+      "AutoGPT与OpenHands等智能体工作流项目持续热门",
+      "vllm与ollama占据模型推理与部署核心生态位"
+    ],
+    "ai-web": [
+      "Anthropic宣布前美联储主席伯南克加入长期利益信托",
+      "Claude通过与UST合作进军芯片制造与汽车领域",
+      "Anthropic推出用户使用行为的AI反思工具",
+      "OpenAI暗示GPT-5.6即将发布面向高端生产力场景",
+      "Anthropic主动邀请公众讨论AI失业与安全棘手问题",
+      "Anthropic在双重用途知识控制提出创新安全研究"
+    ],
+    "ai-hn": [
+      "GPT-5.6发布引爆HN，1109分800条评论激烈讨论",
+      "纽约时报指控OpenAI伪造无法搜索训练数据声明",
+      "GLM 5.2在记账任务上接近人类准确度引热议",
+      "Anthropic反思工具与Claude Code安全风险同日讨论",
+      "反向工程Web应用为Agent工具项目受开发者关注",
+      "可查看编辑AI思考过程的Web工具切入可解释性痛点"
+    ],
+    "ai-arxiv": [
+      "视频生成推理新范式OpenCoF提出逻辑推理链",
+      "主动记忆体Proactive Memory Agent提升长程任务成功率",
+      "WebSwarm递归多智能体架构实现深度广度网页搜索",
+      "LLM量化研究引入正确性一致性新评估指标",
+      "AMALIA模型揭示LLM作为数据标注器的效度问题",
+      "预算感知测试时模型选择策略为路由系统提供新方案"
+    ],
+    "ai-hf": [
+      "GLM-5.2以362k下载量登顶本周HF热门榜首",
+      "英伟达Qwen3.6-27B量化版下载量达748k",
+      "Krea-2-Turbo图像生成生态爆发成社区焦点",
+      "英伟达3B轻量级定位模型LocateAnything下载144万",
+      "Mistral发布119B/6B激活的极致MoE模型Leanstral",
+      "深度求索DeepSeek-V4-Pro附论文代表开源前沿"
+    ],
+    "ai-community": [
+      "手写代码道德优越感遭挑战，AI辅助编码辩论激烈",
+      "删除200行AI代码比手写学到更多引发开发者共鸣",
+      "拒绝AI的资深工程师或被反超成为新争论焦点",
+      "AI Agent可观测性比更多工具更重要引社区关注",
+      "AI代码审查注意力回报率低下问题被深刻剖析",
+      "Grok 4.5输出成本分析计算引发定价模式讨论"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code, Gemini CLI, Copilot CLI dominate",
+      "Model reliability regressions eroding trust",
+      "OpenCode pushes V2 architecture",
+      "Enterprise networking is key pain point",
+      "Multi-agent infrastructure is differentiator",
+      "Claude Code has top feature request (643 👍)"
+    ],
+    "ai-agents": [
+      "500 issues and 500 PRs updated today",
+      "210 PRs merged or closed in 24h",
+      "Grok Imagine Video 1.5 support added",
+      "Memory/listener leak fixed in agent",
+      "307 issues remain open",
+      "7 PRs filed in the last hour"
+    ],
+    "ai-trending": [
+      "ECC hits 227K stars as agent OS",
+      "ai-job-search gains +3,716 stars today",
+      "System prompts leaks crosses 55K stars",
+      "Ollama now supports Kimi-K2.6, GLM-5.1",
+      "Agent harness ecosystems are emerging",
+      "Claude Code is de facto agent platform"
+    ],
+    "ai-web": [
+      "Ben Bernanke joins Anthropic's LTBT",
+      "Claude entering Physical AI with UST",
+      "Anthropic launches Reflect feature for habits",
+      "Research on controlling dual-use knowledge",
+      "OpenAI hints at GPT-5/6 milestone",
+      "Microsoft 365 Copilot integration teased"
+    ],
+    "ai-hn": [
+      "GPT-5.6 launch scores 1109 points",
+      "NYT accuses OpenAI of hiding logs",
+      "Claude rate limit resets announced",
+      "China issues backdoor alert on Claude Code",
+      "GLM 5.2 nearly matches human bookkeepers",
+      "Fable SOTA at CIFAR Speedrun"
+    ],
+    "ai-arxiv": [
+      "Super weights challenged in LLMs",
+      "BiSCo-LLM achieves 1-bit compression",
+      "Agentic AI evaluated in real-world settings",
+      "Speculative decoding for deployment",
+      "Mechanistic interpretability gains traction",
+      "Temporal coherence replaces chain-of-thought"
+    ],
+    "ai-hf": [
+      "GLM-5.2 MoE-DSA trending strongly",
+      "Tencent's Hy3 draws major attention",
+      "DeepSeek-V4-Pro-DSpark with sparse attention",
+      "Qwen 3.6 uncensored variants popular",
+      "NVIDIA pushes LocateAnything, Nemotron",
+      "GGUF remains primary distribution format"
+    ],
+    "ai-community": [
+      "Debate: senior devs refusing AI are juniors",
+      "AI code reviews burning out teams",
+      "Google's AI climate impact sparks concern",
+      "Prolog library for LLM interfacing",
+      "Global workspace architectures discussed",
+      "Quality gap between human and AI slop closing"
+    ]
+  }
+}
