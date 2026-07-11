@@ -1,0 +1,118 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.207 发布，但触发大量 Bug 反馈",
+      "OpenAI Codex Rust v0.145.0 适配 GPT-5.6 新模型",
+      "OpenCode V2 稳定性提升，社区活跃度极高",
+      "DeepSeek TUI 冲刺 v0.8.68，架构重构与安全审计",
+      "Pi 工具支持 Ultra 思维等级，紧跟最新模型",
+      "Gemini CLI 核心性能与指令遵循问题受关注"
+    ],
+    "ai-agents": [
+      "OpenClaw 单日 433 个 Issues 和 500 个 PR 涌入",
+      "Android 客户端重发漏洞修复，避免消息重复",
+      "Session 工作树被错误回收的关键缺陷已修复",
+      "子代理完成结果可直接返回父会话",
+      "拒绝列表可覆盖允许列表，增强安全控制",
+      "Telegram 流式推理模式下预览消息残留 Bug 已修复"
+    ],
+    "ai-trending": [
+      "addyosmani/agent-skills 日增 1116 星，定义 AI 编码技能标准",
+      "TencentDB-Agent-Memory 解决 Agent 长期记忆痛点",
+      "DesktopCommanderMCP 让 Claude 控制桌面与文件系统",
+      "iOfficeAI/OfficeCLI 让 AI 操控传统办公软件",
+      "mattpocock/skills 日增 1712 星，打包软件工程最佳实践",
+      "obra/superpowers 将 Agent 技能编排成开发流水线"
+    ],
+    "ai-hn": [
+      "苹果正式起诉 OpenAI，指控其窃取商业机密",
+      "GPT-5.6 Sol Ultra 声称证明图论圈双覆盖猜想",
+      "Meta AI 图像功能因负面反馈被紧急撤回",
+      "12 个前沿模型代码编写能力同台竞技",
+      "AI2Web 新协议让网站兼容所有 AI 代理",
+      "AI Agent 记忆策略决策树指南发布"
+    ],
+    "ai-arxiv": [
+      "量化 LLM 导致行为漂移，新统计指标揭示真相",
+      "超级权重概念受挑战，针对性训练以失败告终",
+      "主动式记忆智能体解决长时域任务信息淹没问题",
+      "WebSwarm 递归多智能体编排实现深度网络搜索",
+      "极低比特 LLM 压缩方法平衡压缩率与推理效率",
+      "引用验证基准揭示 Judge LLM 的评估偏见"
+    ],
+    "ai-hf": [
+      "zai-org/GLM-5.2 获 3786 赞，国产旗舰模型",
+      "Ornith-1.0-35B 量化版下载破百万，可商用",
+      "nvidia/LocateAnything-3B 下载 145 万，精细图像定位",
+      "empero-ai/Qwythos-9B 量化版下载达 190 万",
+      "baidu/Unlimited-OCR 下载 131 万，复杂文档识别",
+      "deepseek-ai/DeepSeek-V4-Pro-DSpark 热度不减"
+    ],
+    "ai-community": [
+      "开发者构建 Linter 捕捉 AI 助手的代码安全漏洞",
+      "构建错误模型应对多 AI API 集成故障",
+      "反思：你像玩老虎机一样使用编码代理吗？",
+      "从 LangGraph 到生产部署的多 Agent 管道实践",
+      "将 Prompt 文件升级为可复用的 Agent 技能",
+      "AI API 缓存代理可节省 70% 推理成本"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "GPT-5.6 models cause config friction",
+      "Agent governance critical unsolved problem",
+      "Terminal stability regressions on Windows",
+      "Claude Code, Codex, Gemini CLI affected",
+      "MCP OAuth blocks enterprise adoption",
+      "Ecosystem converging on multi-agent"
+    ],
+    "ai-agents": [
+      "OpenClaw activity high with 433 issues",
+      "No new releases today",
+      "Android auto-send bug fixed",
+      "Telegram reasoning preview bug patched",
+      "Session-state integrity focus",
+      "Memory management improvements underway"
+    ],
+    "ai-trending": [
+      "Agent Skills dominate open-source trends",
+      "DesktopCommanderMCP gains 328 stars",
+      "OfficeCLI surges 1,224 stars today",
+      "vllm hits 85,932 stars",
+      "Memory solutions for context persistence",
+      "Shift to professionalizing agent operations"
+    ],
+    "ai-hn": [
+      "Apple sues OpenAI for trade secrets",
+      "GPT-5.6 proves Cycle Double Cover",
+      "Agent accidentally deletes user files",
+      "Grok 4.5 and Claude compared in coding",
+      "Practical coding benchmark released",
+      "Agent safety concerns rise"
+    ],
+    "ai-arxiv": [
+      "Super Weights not universal across LLMs",
+      "Quantization alters model behavior",
+      "Speculative decoding with tree drafting",
+      "Agent evaluation benchmark introduced",
+      "Limitations of scaling explored",
+      "Long-horizon planning focus"
+    ],
+    "ai-hf": [
+      "Qwen3.6 GGUF variants dominate downloads",
+      "NVIDIA releases LocateAnything-3B",
+      "Top model exceeds 2.6M downloads",
+      "Krea-2-Turbo for identity-preserving gen",
+      "Hunyuan-based Hy3 from Tencent trending",
+      "DeepSeek V4 Pro DSpark released"
+    ],
+    "ai-community": [
+      "Failure modes dominate developer talks",
+      "Hidden costs of AI agents exposed",
+      "Tools returning HTTP 200 silently",
+      "Google climate impact criticized",
+      "Multi-agent systems high interest",
+      "Resilience patterns for API gateways"
+    ]
+  }
+}
