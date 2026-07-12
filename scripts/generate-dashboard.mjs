@@ -20,7 +20,7 @@ function parseReport(md) {
   const projects = [];
   for (const line of md.split("\n")) {
     if (/^#####/.test(line)) category = categoryMap.find(([label]) => line.includes(label))?.[1] ?? "其他";
-    const match = line.match(/^- \*\*\[([^\]]+)\]\((https:\/\/github\.com\/([^\s)]+))\)\*\*\s+⭐([\d,]+)(?:\s+\(\+([\d,]+) today\))?\s+-\s+(.+)$/);
+    const match = line.match(/^- (?:\*\*)?\[([^\]]+)\]\((https:\/\/github\.com\/([^\s)]+))\)(?:\*\*)?\s+⭐([\d,]+)(?:\s+\(\+([\d,]+) today\))?\s+-\s+(.+)$/);
     if (!match) continue;
     const repo = match[3];
     if (projects.some((p) => p.repo.toLowerCase() === repo.toLowerCase())) continue;
