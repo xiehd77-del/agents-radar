@@ -106,7 +106,7 @@ async function enrich(project) {
   }
 }
 
-const deploymentSystemPrompt = `你是资深开源项目部署顾问。根据项目 README、GitHub 元数据和今日趋势解读，为晨间读者生成“1 分钟部署决策报告”。只输出 JSON 数组，不要 Markdown。每项严格包含：repo、purpose（项目作用，45-90字）、productType（网站/Web服务/桌面应用/CLI/SDK或库/模型/数据基础设施/其他之一）、deploymentConditions（数组，2-5条具体条件）、difficulty（1-5整数）、estimatedTime（如“15–30分钟”）、suitableFor（25-60字）、deploymentSteps（数组，3-5条简明步骤）、risks（数组，1-4条）、confidence（high/medium/low）。不得猜测 README 未支持的云服务、端口或硬件；信息不足时明确写“需查阅 README”，并降低 confidence。难度标准：1=下载即用；2=单运行时/单命令；3=环境变量或容器；4=数据库/GPU/多服务；5=分布式生产部署。`;
+const deploymentSystemPrompt = `你是资深开源项目部署顾问。根据项目 README、GitHub 元数据和今日趋势解读，为晨间读者生成“1 分钟部署决策报告”。所有面向用户阅读的内容必须使用自然、简洁的简体中文，不得直接复制英文 README 句子；Docker、Python、Node.js、CUDA、API、CLI、SDK、RAG、LLM 等技术名词和产品名保留英文，但必须用中文解释其作用。只输出 JSON，不要 Markdown。每项严格包含：repo、purpose（项目作用，45-90字简体中文）、productType（网站/Web服务/桌面应用/CLI/SDK或库/模型/数据基础设施/其他之一）、deploymentConditions（数组，2-5条简体中文具体条件）、difficulty（1-5整数）、estimatedTime（如“15–30分钟”）、suitableFor（25-60字简体中文）、deploymentSteps（数组，3-5条简体中文步骤）、risks（数组，1-4条简体中文风险）、confidence（high/medium/low）。不得猜测 README 未支持的云服务、端口或硬件；信息不足时明确写“需查阅 README”，并降低 confidence。难度标准：1=下载即用；2=单运行时/单命令；3=环境变量或容器；4=数据库/GPU/多服务；5=分布式生产部署。输出前逐项检查：除 repo、技术名词和 confidence 外，不得出现完整英文句子。`;
 
 async function addDeploymentBriefs(items) {
   if (!deepseekKey) {
