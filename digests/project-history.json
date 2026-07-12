@@ -2,8 +2,8 @@
   "Nutlope/hallmark": [
     {
       "date": "2026-07-13",
-      "stars": 4206,
-      "growth": 210
+      "stars": 4213,
+      "growth": 7
     }
   ],
   "LancerLab/croqtile": [
@@ -16,8 +16,8 @@
   "davila7/claude-code-templates": [
     {
       "date": "2026-07-13",
-      "stars": 29214,
-      "growth": 274
+      "stars": 29215,
+      "growth": 1
     }
   ],
   "vllm-project/vllm": [
@@ -30,8 +30,8 @@
   "firecrawl/firecrawl": [
     {
       "date": "2026-07-13",
-      "stars": 149856,
-      "growth": 0
+      "stars": 149858,
+      "growth": 2
     }
   ],
   "0xPlaygrounds/rig": [
@@ -44,8 +44,8 @@
   "virattt/ai-hedge-fund": [
     {
       "date": "2026-07-13",
-      "stars": 61363,
-      "growth": 109
+      "stars": 61364,
+      "growth": 1
     }
   ],
   "langgenius/dify": [
@@ -58,29 +58,29 @@
   "ColeMurray/background-agents": [
     {
       "date": "2026-07-13",
-      "stars": 2235,
-      "growth": 9
+      "stars": 2237,
+      "growth": 2
     }
   ],
   "HKUDS/Vibe-Trading": [
     {
       "date": "2026-07-13",
-      "stars": 20476,
-      "growth": 776
+      "stars": 20482,
+      "growth": 6
     }
   ],
   "PrefectHQ/prefect": [
     {
       "date": "2026-07-13",
-      "stars": 23116,
-      "growth": 55
+      "stars": 23119,
+      "growth": 3
     }
   ],
   "affaan-m/ECC": [
     {
       "date": "2026-07-13",
-      "stars": 228925,
-      "growth": 0
+      "stars": 228929,
+      "growth": 4
     }
   ],
   "acon96/home-llm": [
@@ -93,8 +93,8 @@
   "Dicklesworthstone/destructive_command_guard": [
     {
       "date": "2026-07-13",
-      "stars": 2771,
-      "growth": 444
+      "stars": 2787,
+      "growth": 16
     }
   ],
   "huggingface/transformers": [
@@ -149,8 +149,8 @@
   "infiniflow/ragflow": [
     {
       "date": "2026-07-13",
-      "stars": 84878,
-      "growth": 0
+      "stars": 84879,
+      "growth": 1
     }
   ],
   "open-compass/opencompass": [
@@ -170,8 +170,8 @@
   "headroomlabs-ai/headroom": [
     {
       "date": "2026-07-13",
-      "stars": 58732,
-      "growth": 0
+      "stars": 58734,
+      "growth": 2
     }
   ],
   "topoteretes/cognee": [

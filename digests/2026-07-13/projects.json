@@ -1,87 +1,8 @@
 {
-  "generated": "2026-07-12T22:08:05.929Z",
+  "generated": "2026-07-12T22:20:10.072Z",
   "date": "2026-07-13",
   "methodology": "health-v1/potential-v1",
   "projects": [
-    {
-      "name": "Vibe-Trading",
-      "repo": "HKUDS/Vibe-Trading",
-      "url": "https://github.com/HKUDS/Vibe-Trading",
-      "category": "其他",
-      "reportedStars": 0,
-      "reportedDaily": 776,
-      "analysis": "今日趋势项目，详细信息请查阅 README。",
-      "description": "\"Vibe-Trading: Your Personal Trading Agent\"",
-      "stars": 20476,
-      "dailyGrowth": 776,
-      "acceleration": 0,
-      "ageDays": 103,
-      "language": "Python",
-      "homepage": "https://vibetrading.wiki/",
-      "topics": [
-        "ai-agent",
-        "algorithmic-trading",
-        "backtesting",
-        "fintech",
-        "llm",
-        "mcp",
-        "multi-agent",
-        "python",
-        "quantitative-finance",
-        "trading"
-      ],
-      "forks": 3588,
-      "openIssues": 15,
-      "commits30d": 269,
-      "contributors": 71,
-      "closedIssues30d": 28,
-      "releases90d": 7,
-      "license": "MIT",
-      "externalMentions": 0,
-      "health": {
-        "commitFrequency": 92,
-        "contributorStrength": 58,
-        "issueResponse": 100,
-        "releaseCadence": 100,
-        "license": 100
-      },
-      "potential": {
-        "starVelocity": 100,
-        "acceleration": 50,
-        "projectAge": 88,
-        "communityActivity": 83,
-        "externalHeat": 25
-      },
-      "healthScore": 90,
-      "potentialScore": 69,
-      "score": 78,
-      "risks": [],
-      "deploymentBrief": {
-        "repo": "HKUDS/Vibe-Trading",
-        "purpose": "A personal trading agent that provides comprehensive trading capabilities via a single command. It supports algorithmic trading, backtesting, multi-agent collaboration, and integrates with various data sources and LLMs for strategy development and execution.",
-        "productType": "CLI",
-        "deploymentConditions": [
-          "Requires Python 3.11+",
-          "Requires API keys for LLM providers (e.g., OpenAI) and financial data sources",
-          "Optional: Docker for containerized deployment"
-        ],
-        "difficulty": 2,
-        "estimatedTime": "10–20 minutes",
-        "suitableFor": "Individual traders and developers interested in AI-powered trading strategies, backtesting, and multi-agent collaboration.",
-        "deploymentSteps": [
-          "Install via pip: pip install vibe-trading-ai",
-          "Set up API keys in environment variables or .env file",
-          "Run CLI commands for trading or backtesting",
-          "Optional: Start the web UI with FastAPI backend"
-        ],
-        "risks": [
-          "Not intended for real trading; educational purposes only",
-          "Requires reliable API keys and internet connection",
-          "Potential financial loss if used for live trading without proper testing"
-        ],
-        "confidence": "high"
-      }
-    },
     {
       "name": "career-ops",
       "repo": "santifer/career-ops",
@@ -147,26 +68,27 @@
       "risks": [],
       "deploymentBrief": {
         "repo": "santifer/career-ops",
-        "purpose": "An AI-powered job search command center that runs in AI coding CLIs (Claude Code, Codex, etc.). It scans job portals, scores listings A-F, generates tailored CVs, and tracks applications—all locally.",
+        "purpose": "将AI编码CLI（如Claude Code、Gemini、Codex）转变为求职指挥中心：自动扫描招聘门户、对职位进行A-F评分、生成定制化简历、跟踪申请进度，帮助求职者高效筛选和申请工作。",
         "productType": "CLI",
         "deploymentConditions": [
-          "Node.js installed (v18+)",
-          "An AI coding CLI (e.g., Claude Code, Codex) with agent-skill support",
-          "Playwright for browser automation (installed via npm)"
+          "需要Node.js环境（推荐v18+）",
+          "需要安装Playwright用于网页自动化",
+          "需要AI编码CLI（如Claude Code、Codex等）作为运行环境",
+          "需要Git用于版本控制"
         ],
         "difficulty": 3,
-        "estimatedTime": "15–30 minutes",
-        "suitableFor": "Job seekers comfortable with CLI tools who want an AI-assisted pipeline to filter and apply to jobs efficiently.",
+        "estimatedTime": "15–30分钟",
+        "suitableFor": "正在求职的开发者，希望利用AI自动化筛选职位、生成定制简历并跟踪申请流程，减少手动操作。",
         "deploymentSteps": [
-          "Install Node.js and npm",
-          "Install the package: npm install -g @santifer/career-ops",
-          "Configure your AI CLI (e.g., Claude Code) to use career-ops as a skill",
-          "Run career-ops init to set up your profile and preferences"
+          "全局安装npm包：npm install -g @santifer/career-ops",
+          "在项目目录初始化：career-ops init",
+          "配置AI CLI（如Claude Code）并运行career-ops命令开始扫描职位",
+          "根据提示提供简历和偏好，系统自动评估并生成定制简历"
         ],
         "risks": [
-          "Requires API access to an AI coding CLI (may incur costs).",
-          "Automated job applications may violate some platforms' terms; use responsibly.",
-          "First evaluations may be inaccurate until the system learns your preferences."
+          "需要有效的AI CLI API密钥（如Anthropic、OpenAI等），可能产生费用",
+          "Playwright自动化可能被招聘网站反爬机制限制",
+          "首次评估结果可能不准确，需多次迭代优化"
         ],
         "confidence": "medium"
       }
@@ -238,27 +160,27 @@
       ],
       "deploymentBrief": {
         "repo": "vllm-project/vllm",
-        "purpose": "A high-throughput and memory-efficient inference and serving engine for large language models (LLMs), supporting 200+ model architectures with PagedAttention, continuous batching, quantization, and distributed inference.",
+        "purpose": "vLLM 是一个高性能、易用的大语言模型推理和服务库，通过 PagedAttention 等技术实现高吞吐量，支持多种模型架构和硬件，提供 OpenAI 兼容 API。",
         "productType": "SDK或库",
         "deploymentConditions": [
-          "NVIDIA GPU with CUDA 12.0+ (or AMD GPU, CPU, TPU, etc.)",
-          "Python 3.8+ and pip/uv",
-          "Sufficient GPU memory for model size",
-          "Optional: Docker for containerized deployment"
+          "需要 NVIDIA GPU（推荐）或 AMD GPU、Google TPU 等硬件",
+          "需要 CUDA Toolkit 12.0+（GPU 版本）",
+          "推荐使用 uv 或 pip 安装 Python 包",
+          "生产部署需配置模型权重和 API 服务"
         ],
         "difficulty": 4,
         "estimatedTime": "30–60分钟",
-        "suitableFor": "Developers and researchers needing fast LLM inference/serving with production-grade throughput, supporting many model architectures and hardware backends.",
+        "suitableFor": "需要高效部署大语言模型推理服务的团队，适合构建聊天机器人、代码生成等 AI 应用。",
         "deploymentSteps": [
-          "Install vLLM via pip: `pip install vllm`",
-          "Download a Hugging Face model (e.g., `meta-llama/Llama-2-7b-hf`)",
-          "Run the OpenAI-compatible API server: `python -m vllm.entrypoints.openai.api_server --model meta-llama/Llama-2-7b-hf`",
-          "Send requests to the server at `http://localhost:8000/v1/completions`"
+          "使用 uv pip install vllm 安装 Python 包",
+          "下载所需模型权重（如 Hugging Face 模型）",
+          "启动 vLLM API 服务器：python -m vllm.entrypoints.openai.api_server --model <model_name>",
+          "通过 OpenAI 兼容 API 调用模型"
         ],
         "risks": [
-          "GPU memory may be insufficient for large models; use quantization or smaller models.",
-          "CUDA version compatibility issues; ensure CUDA 12.0+.",
-          "Model download may fail due to network or authentication."
+          "GPU 显存不足可能导致模型加载失败",
+          "首次运行需下载模型权重，耗时较长",
+          "部分模型可能需要特定 CUDA 版本或硬件支持"
         ],
         "confidence": "high"
       }
@@ -329,24 +251,27 @@
       ],
       "deploymentBrief": {
         "repo": "huggingface/transformers",
-        "purpose": "The model-definition framework for state-of-the-art ML models in text, vision, audio, and multimodal domains. Provides pretrained models for inference and training, compatible with PyTorch, and integrates with the Hugging Face Hub.",
+        "purpose": "Hugging Face的核心库，提供数千种预训练模型（文本、图像、音频、多模态）的推理和训练框架。作为模型定义标准，兼容主流训练框架和推理引擎，简化AI模型的使用和部署。",
         "productType": "SDK或库",
         "deploymentConditions": [
-          "Python 3.10+ and PyTorch 2.4+",
-          "pip or uv package manager",
-          "Optional: GPU for faster inference/training"
+          "需要Python 3.10+和PyTorch 2.4+",
+          "通过pip或uv安装transformers[torch]",
+          "可选：安装TensorFlow或Flax等其他后端",
+          "推荐使用虚拟环境隔离依赖"
         ],
         "difficulty": 2,
-        "estimatedTime": "5–10 minutes",
-        "suitableFor": "ML engineers and researchers who need a unified API to load and use thousands of pretrained models for NLP, CV, audio, and more.",
+        "estimatedTime": "10–20分钟",
+        "suitableFor": "AI开发者和研究人员，需要快速加载和使用预训练模型进行推理或微调，支持文本、视觉、音频等多种任务。",
         "deploymentSteps": [
-          "Create a virtual environment: python -m venv .my-env && source .my-env/bin/activate",
-          "Install transformers with PyTorch: pip install \"transformers[torch]\"",
-          "Verify installation: python -c \"from transformers import pipeline; print(pipeline('sentiment-analysis')('I love transformers!'))\""
+          "创建并激活Python虚拟环境",
+          "安装transformers库：pip install transformers[torch]",
+          "使用Pipeline API快速加载模型进行推理",
+          "可选：从Hugging Face Hub下载更多模型"
         ],
         "risks": [
-          "Large model downloads may consume significant disk space and bandwidth.",
-          "GPU recommended for large models; CPU inference may be slow."
+          "模型下载可能需要较大磁盘空间和网络带宽",
+          "GPU推理需安装CUDA兼容的PyTorch版本",
+          "部分模型可能需要额外依赖（如sentencepiece）"
         ],
         "confidence": "high"
       }
@@ -416,24 +341,24 @@
       "risks": [],
       "deploymentBrief": {
         "repo": "thedotmack/claude-mem",
-        "purpose": "为Claude Code等AI代理提供跨会话的持久记忆。自动捕获会话中的工具使用观察，用AI压缩并注入相关上下文到未来会话，支持多种代理和IDE。",
-        "productType": "其他",
+        "purpose": "为Claude Code等AI代理提供跨会话持久记忆，自动捕获工具使用记录，用AI压缩并注入相关上下文到未来会话，支持多种代理和IDE。",
+        "productType": "CLI",
         "deploymentConditions": [
-          "Node.js >=20.0.0",
+          "需要Node.js 20+",
           "需要Claude Code或其他支持的AI代理",
           "需要网络连接以安装npm包"
         ],
         "difficulty": 2,
         "estimatedTime": "5–10分钟",
-        "suitableFor": "希望为Claude Code等AI代理添加持久记忆功能的开发者，无需复杂配置。",
+        "suitableFor": "希望AI代理在会话间保持项目上下文记忆的开发者，特别是使用Claude Code的用户。",
         "deploymentSteps": [
           "运行 npx claude-mem install 安装插件",
           "重启Claude Code",
-          "上下文将自动在会话间持久化"
+          "新会话中自动出现之前会话的上下文"
         ],
         "risks": [
-          "需查阅README了解与特定代理的兼容性",
-          "可能影响代理性能，需监控"
+          "需查阅README了解与OpenClaw等代理的集成细节",
+          "npm全局安装仅安装SDK，需使用npx命令注册插件"
         ],
         "confidence": "high"
       }
@@ -504,24 +429,26 @@
       ],
       "deploymentBrief": {
         "repo": "topoteretes/cognee",
-        "purpose": "为AI代理提供持久长期记忆的开源平台。通过自托管知识图谱引擎，支持多格式数据摄入、向量搜索和图形推理，实现跨会话上下文保持。",
-        "productType": "其他",
+        "purpose": "为AI代理提供开源持久记忆平台，通过自托管知识图谱引擎，让代理跨会话保持长期记忆。支持多种数据格式输入，结合向量和图推理。",
+        "productType": "SDK或库",
         "deploymentConditions": [
-          "Python 3.10-3.14",
+          "需要Python 3.10-3.14",
           "需要LLM API密钥（如OpenAI）",
-          "可选：向量数据库或图数据库"
+          "可选：需要数据库（如Neo4j）用于知识图谱存储"
         ],
         "difficulty": 3,
-        "estimatedTime": "15–30分钟",
-        "suitableFor": "需要为AI代理构建持久记忆和知识图谱的开发者，适合复杂知识管理场景。",
+        "estimatedTime": "20–40分钟",
+        "suitableFor": "需要为AI代理构建持久记忆和知识图谱的开发者，特别是希望实现跨会话上下文共享的场景。",
         "deploymentSteps": [
           "安装：uv pip install cognee",
           "配置LLM API密钥（环境变量或.env文件）",
-          "运行Python代码：await cognee.remember() 和 cognee.recall()"
+          "运行Python代码：await cognee.remember() 存储数据，await cognee.recall() 查询",
+          "可选：配置数据库和向量存储"
         ],
         "risks": [
-          "需查阅README了解数据库配置细节",
-          "依赖外部LLM服务，可能产生费用"
+          "需要查阅README了解完整的数据库和向量存储配置",
+          "依赖外部LLM服务，可能产生费用",
+          "知识图谱构建可能需要较多计算资源"
         ],
         "confidence": "medium"
       }
@@ -581,25 +508,26 @@
       "risks": [],
       "deploymentBrief": {
         "repo": "0xPlaygrounds/rig",
-        "purpose": "A Rust library for building modular and scalable LLM applications, supporting 20+ model providers and 10+ vector stores under a unified interface. Features agentic workflows, streaming, and WASM compatibility.",
+        "purpose": "Rig 是一个 Rust 库，用于构建模块化、可扩展的 LLM 应用，提供统一的接口支持 20+ 模型提供商和 10+ 向量存储，适合构建 AI 代理和 RAG 系统。",
         "productType": "SDK或库",
         "deploymentConditions": [
-          "Rust toolchain (rustc 1.70+)",
-          "Cargo package manager",
-          "API keys for desired LLM providers (e.g., OpenAI, Anthropic)"
+          "需要 Rust 工具链（rustc、cargo）",
+          "需要 API 密钥（如 OpenAI）",
+          "可选：向量数据库（如 PostgreSQL + pgvector）"
         ],
         "difficulty": 3,
         "estimatedTime": "15–30分钟",
-        "suitableFor": "Rust developers building LLM-powered applications (agents, chatbots, RAG) who need a unified API across multiple providers and vector stores.",
+        "suitableFor": "Rust 开发者希望构建高性能、可扩展的 LLM 应用，如聊天机器人、AI 代理和检索增强生成系统。",
         "deploymentSteps": [
-          "Add rig to Cargo.toml: `cargo add rig`",
-          "Set environment variables for provider API keys (e.g., `OPENAI_API_KEY`)",
-          "Write code using the provider client and agent builder",
-          "Run with `cargo run`"
+          "安装 Rust 工具链",
+          "在项目中添加 rig 依赖：cargo add rig",
+          "配置模型提供商 API 密钥（如环境变量）",
+          "编写代码创建代理并调用 LLM"
         ],
         "risks": [
-          "Breaking changes expected as project evolves.",
-          "Some provider integrations may have incomplete features."
+          "Rust 学习曲线较陡",
+          "API 可能因提供商变更而调整",
+          "需查阅 README 了解完整集成列表"
         ],
         "confidence": "high"
       }
@@ -659,26 +587,27 @@
       "risks": [],
       "deploymentBrief": {
         "repo": "hugohe3/ppt-master",
-        "purpose": "An AI workflow that runs inside AI IDEs (Claude Code, Cursor, VS Code) to generate fully editable PowerPoint presentations from documents (PDF, DOCX, web pages). Produces native .pptx with shapes, charts, animations, and speaker notes.",
+        "purpose": "在AI IDE（如Claude Code、Cursor）中运行的工作流，从PDF、DOCX或网页生成原生可编辑的PowerPoint文件。支持原生形状、动画、可编辑图表、演讲者笔记及音频旁白，数据完全本地化。",
         "productType": "CLI",
         "deploymentConditions": [
-          "An AI IDE or CLI (e.g., Claude Code, Cursor, VS Code with Copilot)",
-          "Python 3.10+ installed",
-          "API key for an LLM (e.g., OpenAI, Anthropic) to power generation"
+          "需要Python 3.10+环境",
+          "需要安装python-pptx等依赖库",
+          "需要AI IDE（如Claude Code、Cursor）或支持MCP的客户端",
+          "需要LLM API密钥（如OpenAI、Claude等）用于内容生成"
         ],
         "difficulty": 3,
-        "estimatedTime": "15–30 minutes",
-        "suitableFor": "Professionals who need to create polished PowerPoint decks from source material using AI; requires comfort with AI coding tools.",
+        "estimatedTime": "15–30分钟",
+        "suitableFor": "需要频繁制作演示文稿的专业人士，希望利用AI从文档自动生成可编辑的PPT，节省排版时间，同时保留完全编辑能力。",
         "deploymentSteps": [
-          "Clone the repository: git clone https://github.com/hugohe3/ppt-master.git",
-          "Install Python dependencies: pip install -r requirements.txt",
-          "Set up your LLM API key in environment variables (e.g., OPENAI_API_KEY)",
-          "Run the workflow inside your AI IDE: provide a document and let the AI generate the PPTX"
+          "克隆仓库并安装Python依赖：pip install -r requirements.txt",
+          "配置LLM API密钥（如设置环境变量OPENAI_API_KEY）",
+          "在AI IDE中打开项目，将源文档（PDF/DOCX）放入输入目录",
+          "运行AI指令生成PPT，输出为可编辑的.pptx文件"
         ],
         "risks": [
-          "Requires an LLM API key; generation costs may apply.",
-          "Output quality depends on the LLM and input document clarity.",
-          "May not perfectly replicate complex templates; review and edit output."
+          "依赖LLM API，可能产生费用且生成质量受模型能力影响",
+          "复杂布局或图表可能需要手动调整",
+          "需查阅README了解支持的文档格式和限制"
         ],
         "confidence": "medium"
       }
@@ -744,178 +673,180 @@
       ],
       "deploymentBrief": {
         "repo": "mem0ai/mem0",
-        "purpose": "Universal memory layer for AI agents, enabling personalized interactions by remembering user preferences and session context. Supports multi-level memory (user, session, agent) with hybrid search and temporal reasoning.",
+        "purpose": "为AI助手和智能体提供通用记忆层，实现个性化交互，支持多层级记忆（用户、会话、智能体）和长期学习。",
         "productType": "SDK或库",
         "deploymentConditions": [
-          "Python 3.8+ or Node.js environment",
-          "API key for cloud platform or Docker for self-hosted server",
-          "Optional: spaCy model for NLP features"
+          "需要Python或Node.js环境",
+          "可选：自托管服务器需要Docker",
+          "可选：使用云平台需注册账号"
         ],
         "difficulty": 2,
         "estimatedTime": "15–30分钟",
-        "suitableFor": "Developers building AI assistants or agents that need persistent memory; quick integration via pip/npm or Docker.",
+        "suitableFor": "开发需要长期记忆功能的AI应用（如聊天机器人、客服系统），快速集成记忆管理能力。",
         "deploymentSteps": [
-          "Install library: pip install mem0ai or npm install mem0ai",
-          "For self-hosted: cd server && docker compose up -d",
-          "Initialize with API key or use library directly in code"
+          "安装Python库：pip install mem0ai",
+          "（可选）安装NLP支持：pip install mem0ai[nlp]",
+          "使用API：调用mem0.add()和mem0.search()等方法"
         ],
         "risks": [
-          "Cloud platform requires sign-up and may have usage limits",
-          "Self-hosted setup requires Docker and configuration"
+          "自托管版本需要维护数据库和服务器",
+          "云平台版本可能有使用限制和费用"
         ],
         "confidence": "high"
       }
     },
     {
-      "name": "ai-hedge-fund",
-      "repo": "virattt/ai-hedge-fund",
-      "url": "https://github.com/virattt/ai-hedge-fund",
+      "name": "Vibe-Trading",
+      "repo": "HKUDS/Vibe-Trading",
+      "url": "https://github.com/HKUDS/Vibe-Trading",
       "category": "其他",
       "reportedStars": 0,
-      "reportedDaily": 109,
+      "reportedDaily": 776,
       "analysis": "今日趋势项目，详细信息请查阅 README。",
-      "description": "An AI Hedge Fund Team",
-      "stars": 61363,
-      "dailyGrowth": 109,
-      "acceleration": 0,
-      "ageDays": 590,
+      "description": "\"Vibe-Trading: Your Personal Trading Agent\"",
+      "stars": 20482,
+      "dailyGrowth": 6,
+      "acceleration": -770,
+      "ageDays": 103,
       "language": "Python",
-      "homepage": null,
-      "topics": [],
-      "forks": 10855,
-      "openIssues": 150,
-      "commits30d": 23,
-      "contributors": 47,
-      "closedIssues30d": 20,
-      "releases90d": 6,
+      "homepage": "https://vibetrading.wiki/",
+      "topics": [
+        "ai-agent",
+        "algorithmic-trading",
+        "backtesting",
+        "fintech",
+        "llm",
+        "mcp",
+        "multi-agent",
+        "python",
+        "quantitative-finance",
+        "trading"
+      ],
+      "forks": 3589,
+      "openIssues": 15,
+      "commits30d": 269,
+      "contributors": 71,
+      "closedIssues30d": 28,
+      "releases90d": 7,
       "license": "MIT",
       "externalMentions": 0,
       "health": {
-        "commitFrequency": 52,
-        "contributorStrength": 52,
-        "issueResponse": 89,
+        "commitFrequency": 92,
+        "contributorStrength": 58,
+        "issueResponse": 100,
         "releaseCadence": 100,
         "license": 100
       },
       "potential": {
-        "starVelocity": 83,
-        "acceleration": 50,
-        "projectAge": 72,
-        "communityActivity": 64,
+        "starVelocity": 52,
+        "acceleration": 0,
+        "projectAge": 88,
+        "communityActivity": 83,
         "externalHeat": 25
       },
-      "healthScore": 79,
+      "healthScore": 90,
+      "potentialScore": 50,
+      "score": 67,
+      "risks": [],
+      "deploymentBrief": {
+        "repo": "HKUDS/Vibe-Trading",
+        "purpose": "一个个人交易代理系统，通过一条命令赋予代理全面的交易能力，支持策略开发、回测、多数据源集成和实时交易信号生成。",
+        "productType": "CLI",
+        "deploymentConditions": [
+          "需要 Python 3.11+ 环境",
+          "需要配置 API 密钥（如 OpenAI、金融数据源）",
+          "可选：Docker 容器化部署"
+        ],
+        "difficulty": 2,
+        "estimatedTime": "10–20分钟",
+        "suitableFor": "对算法交易感兴趣的开发者，希望快速搭建个人交易代理进行回测和策略研究。",
+        "deploymentSteps": [
+          "使用 pip 安装 vibe-trading-ai 包",
+          "创建 .env 文件并填入 API 密钥",
+          "运行命令行工具进行回测或实时交易"
+        ],
+        "risks": [
+          "仅用于教育和研究，不适用于真实交易",
+          "依赖外部 API 的可用性和费用",
+          "策略表现不代表未来结果"
+        ],
+        "confidence": "high"
+      }
+    },
+    {
+      "name": "ECC",
+      "repo": "affaan-m/ECC",
+      "url": "https://github.com/affaan-m/ECC",
+      "category": "其他",
+      "reportedStars": 228914,
+      "reportedDaily": 0,
+      "analysis": "今日趋势项目，详细信息请查阅 README。",
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "stars": 228929,
+      "dailyGrowth": 4,
+      "acceleration": 4,
+      "ageDays": 176,
+      "language": "JavaScript",
+      "homepage": "https://ecc.tools",
+      "topics": [
+        "ai-agents",
+        "anthropic",
+        "claude",
+        "claude-code",
+        "developer-tools",
+        "llm",
+        "mcp",
+        "productivity"
+      ],
+      "forks": 35094,
+      "openIssues": 98,
+      "commits30d": 139,
+      "contributors": 289,
+      "closedIssues30d": 15,
+      "releases90d": 2,
+      "license": "MIT",
+      "externalMentions": 0,
+      "health": {
+        "commitFrequency": 82,
+        "contributorStrength": 76,
+        "issueResponse": 71,
+        "releaseCadence": 62,
+        "license": 100
+      },
+      "potential": {
+        "starVelocity": 48,
+        "acceleration": 58,
+        "projectAge": 88,
+        "communityActivity": 76,
+        "externalHeat": 25
+      },
+      "healthScore": 78,
       "potentialScore": 59,
       "score": 67,
       "risks": [],
       "deploymentBrief": {
-        "repo": "virattt/ai-hedge-fund",
-        "purpose": "A proof-of-concept AI-powered hedge fund that uses multiple AI agents (e.g., Warren Buffett, Cathie Wood) to analyze stocks and make trading decisions. It includes a backtester and web application for educational exploration of AI in finance.",
+        "repo": "affaan-m/ECC",
+        "purpose": "一个代理工具集系统，为 Claude Code、Codex 等 AI 编码代理提供技能、直觉、记忆优化和安全扫描，提升多代理工作流效率。",
         "productType": "CLI",
         "deploymentConditions": [
-          "Requires Python 3.10+ and Poetry for dependency management",
-          "Requires at least one LLM API key (OpenAI, Groq, Anthropic, or DeepSeek)",
-          "Requires Financial Datasets API key for financial data"
+          "需要 Node.js 和 npm",
+          "需要安装对应的 AI 代理工具（如 Claude Code）",
+          "可选：GitHub App 安装用于私有仓库"
         ],
         "difficulty": 2,
-        "estimatedTime": "15–30 minutes",
-        "suitableFor": "Developers and finance enthusiasts interested in exploring AI-driven trading strategies and multi-agent systems for educational purposes.",
+        "estimatedTime": "15–30分钟",
+        "suitableFor": "使用 AI 编码代理的开发者，希望增强代理能力、优化工作流并提高安全性。",
         "deploymentSteps": [
-          "Clone the repository and install dependencies with Poetry",
-          "Create .env file with API keys",
-          "Run CLI: poetry run python src/main.py --ticker AAPL,MSFT,NVDA",
-          "Optional: Run the web application (see app/ directory)"
+          "通过 npm 安装 ecc-universal 或 ecc-agentshield",
+          "根据文档配置代理工具集成",
+          "运行 ECC 命令激活技能和规则"
         ],
         "risks": [
-          "For educational purposes only; not for real trading",
-          "Requires paid API keys for LLM and financial data",
-          "No guarantee of trading performance"
+          "仅从官方渠道安装，避免恶意软件",
+          "部分功能需要付费订阅（ECC Pro）",
+          "依赖特定代理工具的版本兼容性"
         ],
-        "confidence": "high"
-      }
-    },
-    {
-      "name": "prefect",
-      "repo": "PrefectHQ/prefect",
-      "url": "https://github.com/PrefectHQ/prefect",
-      "category": "其他",
-      "reportedStars": 0,
-      "reportedDaily": 55,
-      "analysis": "今日趋势项目，详细信息请查阅 README。",
-      "description": "Prefect is a workflow orchestration framework for building resilient data pipelines in Python.",
-      "stars": 23116,
-      "dailyGrowth": 55,
-      "acceleration": 0,
-      "ageDays": 2935,
-      "language": "Python",
-      "homepage": "https://prefect.io",
-      "topics": [
-        "automation",
-        "data",
-        "data-engineering",
-        "data-ops",
-        "data-science",
-        "infrastructure",
-        "ml-ops",
-        "observability",
-        "orchestration",
-        "pipeline",
-        "prefect",
-        "python",
-        "workflow",
-        "workflow-engine"
-      ],
-      "forks": 2387,
-      "openIssues": 803,
-      "commits30d": 139,
-      "contributors": 450,
-      "closedIssues30d": 13,
-      "releases90d": 10,
-      "license": "Apache-2.0",
-      "externalMentions": 0,
-      "health": {
-        "commitFrequency": 82,
-        "contributorStrength": 82,
-        "issueResponse": 52,
-        "releaseCadence": 100,
-        "license": 100
-      },
-      "potential": {
-        "starVelocity": 75,
-        "acceleration": 50,
-        "projectAge": 58,
-        "communityActivity": 72,
-        "externalHeat": 25
-      },
-      "healthScore": 83,
-      "potentialScore": 56,
-      "score": 67,
-      "risks": [
-        "Issue 积压较多"
-      ],
-      "deploymentBrief": {
-        "repo": "PrefectHQ/prefect",
-        "purpose": "A workflow orchestration framework for building resilient data pipelines in Python. It simplifies scheduling, caching, retries, and event-based automations, with a self-hosted server or managed cloud dashboard for monitoring.",
-        "productType": "SDK或库",
-        "deploymentConditions": [
-          "Requires Python 3.10+",
-          "Optional: Docker for self-hosted Prefect server",
-          "Requires database (SQLite by default, PostgreSQL for production)"
-        ],
-        "difficulty": 2,
-        "estimatedTime": "10–20 minutes",
-        "suitableFor": "Data engineers and scientists who need to orchestrate Python workflows with retries, scheduling, and monitoring.",
-        "deploymentSteps": [
-          "Install Prefect: pip install -U prefect",
-          "Write flows and tasks using decorators",
-          "Start Prefect server: prefect server start",
-          "Deploy flows with scheduling: flow.serve(cron='* * * * *')"
-        ],
-        "risks": [
-          "Requires understanding of workflow concepts",
-          "Self-hosted server needs maintenance for production use"
-        ],
-        "confidence": "high"
+        "confidence": "medium"
       }
     },
     {
@@ -927,9 +858,9 @@
       "reportedDaily": 0,
       "analysis": "今日趋势项目，详细信息请查阅 README。",
       "description": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 60-95% fewer tokens, same answers. Library, proxy, MCP server.",
-      "stars": 58732,
-      "dailyGrowth": 0,
-      "acceleration": 0,
+      "stars": 58734,
+      "dailyGrowth": 2,
+      "acceleration": 2,
       "ageDays": 186,
       "language": "Python",
       "homepage": "https://headroom-docs.vercel.app/docs",
@@ -957,7 +888,7 @@
       ],
       "forks": 4341,
       "openIssues": 520,
-      "commits30d": 497,
+      "commits30d": 491,
       "contributors": 179,
       "closedIssues30d": 11,
       "releases90d": 10,
@@ -971,187 +902,119 @@
         "license": 100
       },
       "potential": {
-        "starVelocity": 30,
-        "acceleration": 50,
+        "starVelocity": 42,
+        "acceleration": 54,
         "projectAge": 88,
         "communityActivity": 72,
         "externalHeat": 25
       },
       "healthScore": 83,
-      "potentialScore": 53,
-      "score": 66,
+      "potentialScore": 56,
+      "score": 67,
       "risks": [
         "Issue 积压较多"
       ],
       "deploymentBrief": {
         "repo": "headroomlabs-ai/headroom",
-        "purpose": "压缩AI代理读取的工具输出、日志、文件等，减少60-95%的token消耗，同时保持答案质量。提供库、代理和MCP服务器三种使用模式。",
+        "purpose": "在AI代理读取工具输出、日志、文件等之前压缩内容，减少60-95%的token消耗，同时保持答案质量。提供库、代理和MCP服务器三种使用方式。",
         "productType": "SDK或库",
         "deploymentConditions": [
-          "Python 3.10+ 或 Node.js",
-          "需要安装 headroom-ai 包",
-          "代理模式需要支持的AI代理（如Claude Code）"
+          "需要Python 3.10+或Node.js",
+          "需要安装uv或pip（Python）或npm（TypeScript）",
+          "可选：需要Hugging Face模型下载（用于文本压缩）"
         ],
-        "difficulty": 2,
-        "estimatedTime": "5–10分钟",
-        "suitableFor": "希望减少AI代理token消耗、降低成本的开发者，支持多种集成方式。",
+        "difficulty": 3,
+        "estimatedTime": "15–30分钟",
+        "suitableFor": "希望降低AI代理token消耗、节省成本的开发者，特别是使用Claude Code、Cursor等编码代理的用户。",
         "deploymentSteps": [
           "安装：uv tool install \"headroom-ai[all]\" 或 pip install \"headroom-ai[all]\"",
-          "选择模式：headroom wrap claude 或 headroom proxy --port 8787",
-          "验证：headroom doctor"
+          "选择模式：headroom wrap claude 包装代理，或 headroom proxy --port 8787 启动代理",
+          "运行 headroom doctor 验证设置",
+          "启动代理会话，自动使用压缩"
         ],
         "risks": [
-          "压缩可能影响某些场景的答案质量，需测试",
-          "代理模式需确保与代理版本兼容"
+          "TypeScript SDK不包含CLI，仅作为库使用",
+          "可选向量后端需要C++工具链",
+          "需查阅README了解与特定代理的兼容性"
         ],
         "confidence": "high"
       }
     },
     {
-      "name": "ECC",
-      "repo": "affaan-m/ECC",
-      "url": "https://github.com/affaan-m/ECC",
+      "name": "ragflow",
+      "repo": "infiniflow/ragflow",
+      "url": "https://github.com/infiniflow/ragflow",
       "category": "其他",
-      "reportedStars": 228914,
+      "reportedStars": 84878,
       "reportedDaily": 0,
       "analysis": "今日趋势项目，详细信息请查阅 README。",
-      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
-      "stars": 228925,
-      "dailyGrowth": 0,
-      "acceleration": 0,
-      "ageDays": 176,
-      "language": "JavaScript",
-      "homepage": "https://ecc.tools",
+      "description": "RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG with Agent capabilities to create a superior context layer for LLMs",
+      "stars": 84879,
+      "dailyGrowth": 1,
+      "acceleration": 1,
+      "ageDays": 944,
+      "language": "Go",
+      "homepage": "https://ragflow.io",
       "topics": [
+        "agentic-ai",
+        "agentic-retrieval",
+        "agentic-search",
+        "ai",
         "ai-agents",
-        "anthropic",
-        "claude",
-        "claude-code",
-        "developer-tools",
-        "llm",
-        "mcp",
-        "productivity"
+        "context-engine",
+        "context-management",
+        "llm-apps",
+        "rag",
+        "retrieval-augmented-generation"
       ],
-      "forks": 35093,
-      "openIssues": 98,
-      "commits30d": 139,
-      "contributors": 289,
-      "closedIssues30d": 15,
-      "releases90d": 2,
-      "license": "MIT",
+      "forks": 9906,
+      "openIssues": 2309,
+      "commits30d": 569,
+      "contributors": 670,
+      "closedIssues30d": 5,
+      "releases90d": 9,
+      "license": "Apache-2.0",
       "externalMentions": 0,
       "health": {
-        "commitFrequency": 82,
-        "contributorStrength": 76,
-        "issueResponse": 71,
-        "releaseCadence": 62,
+        "commitFrequency": 100,
+        "contributorStrength": 88,
+        "issueResponse": 15,
+        "releaseCadence": 100,
         "license": 100
       },
       "potential": {
-        "starVelocity": 30,
-        "acceleration": 50,
-        "projectAge": 88,
-        "communityActivity": 76,
+        "starVelocity": 38,
+        "acceleration": 52,
+        "projectAge": 72,
+        "communityActivity": 68,
         "externalHeat": 25
       },
-      "healthScore": 78,
-      "potentialScore": 54,
+      "healthScore": 81,
+      "potentialScore": 51,
       "score": 64,
-      "risks": [],
-      "deploymentBrief": {
-        "repo": "affaan-m/ECC",
-        "purpose": "A harness-native operator system for agentic work, providing skills, instincts, memory optimization, security scanning, and research-first development for AI coding agents like Claude Code, Codex, Cursor, and more.",
-        "productType": "CLI",
-        "deploymentConditions": [
-          "Requires Node.js and npm for CLI installation",
-          "Optional: GitHub App for private repo support",
-          "Works across multiple AI agent harnesses (Claude Code, Codex, etc.)"
-        ],
-        "difficulty": 2,
-        "estimatedTime": "10–20 minutes",
-        "suitableFor": "Developers using AI coding agents who want to enhance their workflows with skills, memory, and security features.",
-        "deploymentSteps": [
-          "Install via npm: npm install -g ecc-universal",
-          "Configure for your agent harness (e.g., Claude Code)",
-          "Run ECC commands to set up skills and instincts",
-          "Optional: Install GitHub App for PR audits"
-        ],
-        "risks": [
-          "Requires familiarity with AI coding agents",
-          "Some features may require paid subscription (ECC Pro)"
-        ],
-        "confidence": "high"
-      }
-    },
-    {
-      "name": "destructive_command_guard",
-      "repo": "Dicklesworthstone/destructive_command_guard",
-      "url": "https://github.com/Dicklesworthstone/destructive_command_guard",
-      "category": "其他",
-      "reportedStars": 0,
-      "reportedDaily": 444,
-      "analysis": "今日趋势项目，详细信息请查阅 README。",
-      "description": "The Destructive Command Guard (dcg) is for blocking dangerous git and shell commands from being executed by agents.",
-      "stars": 2771,
-      "dailyGrowth": 444,
-      "acceleration": 0,
-      "ageDays": 186,
-      "language": "Rust",
-      "homepage": null,
-      "topics": [
-        "ai-agents",
-        "cli",
-        "developer-tools",
-        "git",
-        "rust",
-        "safety"
+      "risks": [
+        "Issue 积压较多"
       ],
-      "forks": 105,
-      "openIssues": 7,
-      "commits30d": 40,
-      "contributors": 3,
-      "closedIssues30d": 30,
-      "releases90d": 10,
-      "license": "NOASSERTION",
-      "externalMentions": 0,
-      "health": {
-        "commitFrequency": 61,
-        "contributorStrength": 19,
-        "issueResponse": 100,
-        "releaseCadence": 100,
-        "license": 25
-      },
-      "potential": {
-        "starVelocity": 99,
-        "acceleration": 50,
-        "projectAge": 88,
-        "communityActivity": 60,
-        "externalHeat": 25
-      },
-      "healthScore": 61,
-      "potentialScore": 64,
-      "score": 63,
-      "risks": [],
       "deploymentBrief": {
-        "repo": "Dicklesworthstone/destructive_command_guard",
-        "purpose": "A high-performance hook for AI coding agents that blocks destructive commands (e.g., git reset --hard, rm -rf) before execution, protecting work from accidental deletion. Supports multiple agents like Claude Code, Codex CLI, Gemini CLI, and more.",
-        "productType": "CLI",
+        "repo": "infiniflow/ragflow",
+        "purpose": "领先的开源检索增强生成引擎，融合RAG与智能体能力，提供高质量上下文层，支持深度文档理解和模板化分块。",
+        "productType": "网站/Web服务",
         "deploymentConditions": [
-          "Linux, macOS, or Windows via WSL (native Windows via PowerShell)",
-          "curl or PowerShell available for installer",
-          "No external dependencies required"
+          "需要Docker环境",
+          "需要至少4GB内存",
+          "推荐GPU加速（可选）"
         ],
-        "difficulty": 1,
-        "estimatedTime": "1–5 minutes",
-        "suitableFor": "Developers using AI coding agents who want to prevent accidental destructive commands; easy install via one-liner.",
+        "difficulty": 3,
+        "estimatedTime": "30–60分钟",
+        "suitableFor": "企业级RAG应用开发，需要处理复杂文档格式并生成可追溯的引用答案。",
         "deploymentSteps": [
-          "Run the curl install command: curl -fsSL \"https://raw.githubusercontent.com/Dicklesworthstone/destructive_command_guard/main/install.sh?$(date +%s)\" | bash -s -- --easy-mode",
-          "Or for Windows PowerShell: run the provided PowerShell installer with -EasyMode -Verify",
-          "Verify installation by running dcg --help"
+          "使用Docker部署：docker run -d -p 9380:9380 infiniflow/ragflow",
+          "访问Web界面：http://localhost:9380",
+          "配置LLM和知识库：通过界面添加模型和上传文档"
         ],
         "risks": [
-          "May block legitimate commands if not configured properly; review allowlist settings.",
-          "Fail-open design ensures no workflow blocking due to errors."
+          "Docker镜像较大，下载需较长时间",
+          "生产部署需配置数据库和存储，建议查阅官方文档"
         ],
         "confidence": "high"
       }
@@ -1213,103 +1076,114 @@
       ],
       "deploymentBrief": {
         "repo": "CherryHQ/cherry-studio",
-        "purpose": "A desktop client supporting multiple LLM providers (OpenAI, Gemini, Anthropic, Ollama, etc.) with 300+ pre-configured AI assistants, document processing, MCP server, and cross-platform support (Windows, Mac, Linux).",
+        "purpose": "跨平台AI生产力桌面客户端，支持多种LLM提供商（OpenAI、Gemini、Anthropic等），内置300+预配置AI助手，提供智能聊天、文档处理、MCP服务器等功能，无需环境配置即可使用。",
         "productType": "桌面应用",
         "deploymentConditions": [
-          "Windows, macOS, or Linux desktop",
-          "Download installer from releases page",
-          "No environment setup required"
+          "支持Windows、macOS和Linux",
+          "从GitHub Releases下载对应平台的安装包或便携版",
+          "无需安装Python或Node.js运行时"
         ],
         "difficulty": 1,
-        "estimatedTime": "2–5 minutes",
-        "suitableFor": "Users who want a unified desktop interface for multiple LLMs with built-in assistants and document handling; no technical setup needed.",
+        "estimatedTime": "2–5分钟",
+        "suitableFor": "需要统一管理多个LLM服务、使用AI助手进行聊天和文档处理的用户，尤其是希望桌面端离线或跨平台使用的场景。",
         "deploymentSteps": [
-          "Download the latest release for your OS from GitHub Releases",
-          "Install the application (e.g., .dmg for macOS, .exe for Windows, .AppImage for Linux)",
-          "Launch Cherry Studio and configure your LLM API keys in settings"
+          "访问GitHub Releases页面下载最新版本安装包",
+          "根据操作系统运行安装程序或解压便携版",
+          "启动应用，配置LLM API密钥（如OpenAI、Gemini等）即可使用"
         ],
         "risks": [
-          "Requires API keys for cloud LLMs; local models need Ollama/LM Studio setup.",
-          "Third-party API usage may incur costs."
+          "需自行获取各LLM提供商的API密钥",
+          "部分高级功能（如MCP服务器）可能需要额外配置"
         ],
         "confidence": "high"
       }
     },
     {
-      "name": "ragflow",
-      "repo": "infiniflow/ragflow",
-      "url": "https://github.com/infiniflow/ragflow",
+      "name": "firecrawl",
+      "repo": "firecrawl/firecrawl",
+      "url": "https://github.com/firecrawl/firecrawl",
       "category": "其他",
-      "reportedStars": 84878,
+      "reportedStars": 149850,
       "reportedDaily": 0,
       "analysis": "今日趋势项目，详细信息请查阅 README。",
-      "description": "RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG with Agent capabilities to create a superior context layer for LLMs",
-      "stars": 84878,
-      "dailyGrowth": 0,
-      "acceleration": 0,
-      "ageDays": 944,
-      "language": "Go",
-      "homepage": "https://ragflow.io",
+      "description": "The API to search, scrape, and interact with the web at scale. 🔥",
+      "stars": 149858,
+      "dailyGrowth": 2,
+      "acceleration": 2,
+      "ageDays": 818,
+      "language": "TypeScript",
+      "homepage": "https://firecrawl.dev",
       "topics": [
-        "agentic-ai",
-        "agentic-retrieval",
-        "agentic-search",
         "ai",
         "ai-agents",
-        "context-engine",
-        "context-management",
-        "llm-apps",
-        "rag",
-        "retrieval-augmented-generation"
+        "ai-crawler",
+        "ai-scraping",
+        "ai-search",
+        "crawler",
+        "data-extraction",
+        "html-to-markdown",
+        "llm",
+        "markdown",
+        "scraper",
+        "scraping",
+        "web-crawler",
+        "web-data",
+        "web-data-extraction",
+        "web-scraper",
+        "web-scraping",
+        "web-search",
+        "webscraping"
       ],
-      "forks": 9906,
-      "openIssues": 2309,
-      "commits30d": 569,
-      "contributors": 670,
+      "forks": 8572,
+      "openIssues": 402,
+      "commits30d": 234,
+      "contributors": 162,
       "closedIssues30d": 5,
-      "releases90d": 9,
-      "license": "Apache-2.0",
+      "releases90d": 2,
+      "license": "AGPL-3.0",
       "externalMentions": 0,
       "health": {
-        "commitFrequency": 100,
-        "contributorStrength": 88,
-        "issueResponse": 15,
-        "releaseCadence": 100,
+        "commitFrequency": 90,
+        "contributorStrength": 69,
+        "issueResponse": 24,
+        "releaseCadence": 62,
         "license": 100
       },
       "potential": {
-        "starVelocity": 30,
-        "acceleration": 50,
+        "starVelocity": 42,
+        "acceleration": 54,
         "projectAge": 72,
-        "communityActivity": 68,
+        "communityActivity": 61,
         "externalHeat": 25
       },
-      "healthScore": 81,
-      "potentialScore": 49,
-      "score": 62,
+      "healthScore": 69,
+      "potentialScore": 51,
+      "score": 59,
       "risks": [
         "Issue 积压较多"
       ],
       "deploymentBrief": {
-        "repo": "infiniflow/ragflow",
-        "purpose": "Open-source RAG engine combining retrieval-augmented generation with agent capabilities. Provides deep document understanding, template-based chunking, grounded citations, and supports heterogeneous data sources for enterprise AI applications.",
-        "productType": "Web服务",
+        "repo": "firecrawl/firecrawl",
+        "purpose": "Firecrawl 是一个用于大规模网页搜索、抓取和交互的 API，能将网页内容转换为干净的 Markdown 或结构化数据，适合 AI 代理和 LLM 应用。",
+        "productType": "网站/Web服务",
         "deploymentConditions": [
-          "Docker and Docker Compose installed",
-          "At least 4 CPU cores and 8GB RAM recommended",
-          "LLM API key (e.g., OpenAI) or local model"
+          "需要注册获取 API 密钥（托管服务）",
+          "自托管需 Docker 和 Node.js 环境",
+          "需配置数据库（如 PostgreSQL）和 Redis"
         ],
         "difficulty": 3,
-        "estimatedTime": "30–60分钟",
-        "suitableFor": "Enterprises and developers needing a production-ready RAG system with advanced document parsing and agentic workflows.",
+        "estimatedTime": "15–30分钟",
+        "suitableFor": "需要从网页提取结构化数据用于 AI 训练或分析的开发者，适合构建搜索、爬虫和数据管道。",
         "deploymentSteps": [
-          "Clone repo: git clone https://github.com/infiniflow/ragflow.git",
-          "Run: cd ragflow && docker compose up -d",
-          "Access web UI at http://localhost:9380 and configure LLM settings"
+          "注册 firecrawl.dev 获取 API 密钥",
+          "使用 pip 或 npm 安装客户端 SDK",
+          "调用搜索、抓取或爬取端点获取数据",
+          "自托管可参考 README 使用 Docker Compose 部署"
         ],
         "risks": [
-          "Requires significant system resources for document parsing",
-          "Docker images may be large (~10GB)"
+          "托管服务有请求频率限制",
+          "自托管需自行管理基础设施",
+          "部分网站可能禁止爬取"
         ],
         "confidence": "high"
       }
@@ -1369,25 +1243,107 @@
       ],
       "deploymentBrief": {
         "repo": "open-compass/opencompass",
-        "purpose": "OpenCompass is an LLM evaluation platform supporting 100+ datasets and models (Llama, GPT-4, Qwen, etc.). It provides a unified interface for benchmarking, with configurable evaluation pipelines and result summarization.",
-        "productType": "Web服务",
+        "purpose": "大规模语言模型评估平台，支持100+数据集和多种模型（如Llama、GPT-4、Qwen等），提供标准化评测流程和排行榜。",
+        "productType": "CLI",
         "deploymentConditions": [
-          "Python 3.8+ environment",
-          "GPU recommended for large model evaluation",
-          "Access to model weights (e.g., Hugging Face) or API keys"
+          "需要Python 3.8+环境",
+          "需要安装opencompass包",
+          "需要配置模型API或本地模型路径"
         ],
         "difficulty": 3,
         "estimatedTime": "30–60分钟",
-        "suitableFor": "Researchers and engineers needing to evaluate LLMs across multiple benchmarks; requires familiarity with Python and model APIs.",
+        "suitableFor": "需要系统评估LLM性能的研究人员或开发者，支持自定义数据集和模型，生成可复现的评测报告。",
         "deploymentSteps": [
-          "Clone repo: git clone https://github.com/open-compass/opencompass.git",
-          "Install: pip install -e .",
-          "Configure evaluation by editing config files (e.g., datasets, models)",
-          "Run evaluation: python run.py --config configs/eval_demo.py"
+          "安装：pip install opencompass",
+          "配置模型和数据集：编辑配置文件指定模型路径和评测数据集",
+          "运行评测：使用命令行工具如opencompass --config config.py"
         ],
         "risks": [
-          "Large disk space for datasets and model weights",
-          "Evaluation may take hours depending on model size and dataset count"
+          "评测大型模型可能消耗大量时间和计算资源",
+          "部分数据集需要额外下载，网络不稳定可能失败"
+        ],
+        "confidence": "high"
+      }
+    },
+    {
+      "name": "prefect",
+      "repo": "PrefectHQ/prefect",
+      "url": "https://github.com/PrefectHQ/prefect",
+      "category": "其他",
+      "reportedStars": 0,
+      "reportedDaily": 55,
+      "analysis": "今日趋势项目，详细信息请查阅 README。",
+      "description": "Prefect is a workflow orchestration framework for building resilient data pipelines in Python.",
+      "stars": 23119,
+      "dailyGrowth": 3,
+      "acceleration": -52,
+      "ageDays": 2935,
+      "language": "Python",
+      "homepage": "https://prefect.io",
+      "topics": [
+        "automation",
+        "data",
+        "data-engineering",
+        "data-ops",
+        "data-science",
+        "infrastructure",
+        "ml-ops",
+        "observability",
+        "orchestration",
+        "pipeline",
+        "prefect",
+        "python",
+        "workflow",
+        "workflow-engine"
+      ],
+      "forks": 2387,
+      "openIssues": 803,
+      "commits30d": 139,
+      "contributors": 450,
+      "closedIssues30d": 13,
+      "releases90d": 10,
+      "license": "Apache-2.0",
+      "externalMentions": 0,
+      "health": {
+        "commitFrequency": 82,
+        "contributorStrength": 82,
+        "issueResponse": 52,
+        "releaseCadence": 100,
+        "license": 100
+      },
+      "potential": {
+        "starVelocity": 46,
+        "acceleration": 0,
+        "projectAge": 58,
+        "communityActivity": 72,
+        "externalHeat": 25
+      },
+      "healthScore": 83,
+      "potentialScore": 40,
+      "score": 58,
+      "risks": [
+        "Issue 积压较多"
+      ],
+      "deploymentBrief": {
+        "repo": "PrefectHQ/prefect",
+        "purpose": "一个 Python 工作流编排框架，用于构建弹性数据管道，支持调度、缓存、重试和事件驱动自动化，并提供自托管或云监控仪表盘。",
+        "productType": "SDK或库",
+        "deploymentConditions": [
+          "需要 Python 3.10+",
+          "可选：Docker 用于自托管 Prefect 服务器",
+          "可选：云账户用于 Prefect Cloud"
+        ],
+        "difficulty": 2,
+        "estimatedTime": "10–20分钟",
+        "suitableFor": "数据工程师和科学家，需要将 Python 脚本提升为生产级工作流，并监控其运行状态。",
+        "deploymentSteps": [
+          "使用 pip 或 uv 安装 prefect",
+          "编写带有 @flow 和 @task 装饰器的 Python 脚本",
+          "运行脚本或启动 Prefect 服务器查看 UI"
+        ],
+        "risks": [
+          "自托管服务器需要维护",
+          "云服务有使用限制和费用"
         ],
         "confidence": "high"
       }
@@ -1459,260 +1415,168 @@
       ],
       "deploymentBrief": {
         "repo": "langgenius/dify",
-        "purpose": "An open-source LLM app development platform with an intuitive interface for building AI workflows, RAG pipelines, agent capabilities, and model management. Supports rapid prototyping to production with observability features.",
-        "productType": "Web服务",
+        "purpose": "一个开源的 LLM 应用开发平台，提供可视化工作流、RAG 管道、代理能力和模型管理，支持从原型到生产的快速部署。",
+        "productType": "网站/Web服务",
         "deploymentConditions": [
-          "Requires Docker and Docker Compose",
-          "Minimum system requirements: CPU >= 2 Core, RAM >= 4 GiB",
-          "Requires configuration of .env file for secrets"
+          "需要 Docker 和 Docker Compose",
+          "最低 2 核 CPU 和 4 GiB 内存",
+          "需要配置 LLM API 密钥"
         ],
         "difficulty": 3,
-        "estimatedTime": "30–60 minutes",
-        "suitableFor": "Developers and teams building LLM-powered applications with visual workflow design, RAG, and agent capabilities.",
+        "estimatedTime": "30–60分钟",
+        "suitableFor": "希望快速构建和部署 AI 应用（如聊天机器人、RAG 系统）的开发者和团队。",
         "deploymentSteps": [
-          "Clone the repository and navigate to docker/",
-          "Copy .env.example to .env and configure",
-          "Run docker compose up -d",
-          "Access dashboard at http://localhost/install"
+          "克隆仓库并进入 docker 目录",
+          "复制 .env.example 为 .env 并配置",
+          "运行 docker compose up -d 启动服务",
+          "访问 http://localhost/install 完成初始化"
         ],
         "risks": [
-          "Requires Docker knowledge",
-          "Production deployment may need additional configuration (e.g., HTTPS, scaling)"
+          "需要 Docker 环境",
+          "依赖外部 LLM API 的可用性和费用",
+          "生产部署需考虑扩展性"
         ],
         "confidence": "high"
       }
     },
     {
-      "name": "claude-code-templates",
-      "repo": "davila7/claude-code-templates",
-      "url": "https://github.com/davila7/claude-code-templates",
+      "name": "ai-hedge-fund",
+      "repo": "virattt/ai-hedge-fund",
+      "url": "https://github.com/virattt/ai-hedge-fund",
       "category": "其他",
       "reportedStars": 0,
-      "reportedDaily": 274,
+      "reportedDaily": 109,
       "analysis": "今日趋势项目，详细信息请查阅 README。",
-      "description": "CLI tool for configuring and monitoring Claude Code",
-      "stars": 29214,
-      "dailyGrowth": 274,
-      "acceleration": 0,
-      "ageDays": 374,
+      "description": "An AI Hedge Fund Team",
+      "stars": 61364,
+      "dailyGrowth": 1,
+      "acceleration": -108,
+      "ageDays": 590,
       "language": "Python",
-      "homepage": "https://aitmpl.com",
-      "topics": [
-        "anthropic",
-        "anthropic-claude",
-        "claude",
-        "claude-code"
-      ],
-      "forks": 3202,
-      "openIssues": 201,
-      "commits30d": 109,
-      "contributors": 96,
-      "closedIssues30d": 2,
-      "releases90d": 0,
+      "homepage": null,
+      "topics": [],
+      "forks": 10855,
+      "openIssues": 150,
+      "commits30d": 23,
+      "contributors": 47,
+      "closedIssues30d": 20,
+      "releases90d": 6,
       "license": "MIT",
       "externalMentions": 0,
       "health": {
-        "commitFrequency": 78,
-        "contributorStrength": 62,
-        "issueResponse": 15,
-        "releaseCadence": 18,
+        "commitFrequency": 52,
+        "contributorStrength": 52,
+        "issueResponse": 89,
+        "releaseCadence": 100,
         "license": 100
       },
       "potential": {
-        "starVelocity": 93,
-        "acceleration": 50,
+        "starVelocity": 38,
+        "acceleration": 0,
         "projectAge": 72,
-        "communityActivity": 52,
+        "communityActivity": 64,
         "externalHeat": 25
       },
-      "healthScore": 55,
-      "potentialScore": 58,
-      "score": 57,
-      "risks": [
-        "Issue 积压较多"
-      ],
+      "healthScore": 79,
+      "potentialScore": 40,
+      "score": 56,
+      "risks": [],
       "deploymentBrief": {
-        "repo": "davila7/claude-code-templates",
-        "purpose": "A CLI tool and template catalog for configuring Claude Code with AI agents, custom commands, settings, hooks, and MCP integrations. Includes analytics, conversation monitoring, and health checks.",
+        "repo": "virattt/ai-hedge-fund",
+        "purpose": "一个 AI 驱动的对冲基金概念验证系统，模拟多位知名投资者的决策逻辑，通过多代理协作生成交易信号，仅供教育用途。",
         "productType": "CLI",
         "deploymentConditions": [
-          "Node.js 18+ and npm",
-          "Claude Code CLI installed (Anthropic account)",
-          "Internet access for template downloads"
+          "需要 Python 3.10+ 和 Poetry",
+          "需要至少一个 LLM API 密钥（如 OpenAI）",
+          "需要金融数据集 API 密钥"
         ],
         "difficulty": 2,
-        "estimatedTime": "5–10分钟",
-        "suitableFor": "Developers using Claude Code who want to quickly add pre-built agents, commands, and integrations to enhance their AI-assisted development workflow.",
+        "estimatedTime": "15–30分钟",
+        "suitableFor": "对 AI 交易策略和代理协作感兴趣的开发者，用于学习和实验。",
         "deploymentSteps": [
-          "Run `npx claude-code-templates@latest` to launch interactive installer",
-          "Select desired components (agents, commands, MCPs, etc.)",
-          "Follow prompts to install into Claude Code configuration",
-          "Optionally use flags for non-interactive installation"
+          "克隆仓库并安装 Poetry 依赖",
+          "复制 .env.example 为 .env 并填入 API 密钥",
+          "运行命令行回测或实时模拟"
         ],
         "risks": [
-          "Breaking changes in future updates; check changelog.",
-          "Some templates may require specific Claude Code version."
+          "仅用于教育，不适用于真实交易",
+          "依赖外部 API 的可用性和费用",
+          "代理决策逻辑可能不准确"
         ],
         "confidence": "high"
       }
     },
     {
-      "name": "firecrawl",
-      "repo": "firecrawl/firecrawl",
-      "url": "https://github.com/firecrawl/firecrawl",
-      "category": "其他",
-      "reportedStars": 149850,
-      "reportedDaily": 0,
-      "analysis": "今日趋势项目，详细信息请查阅 README。",
-      "description": "The API to search, scrape, and interact with the web at scale. 🔥",
-      "stars": 149856,
-      "dailyGrowth": 0,
-      "acceleration": 0,
-      "ageDays": 818,
-      "language": "TypeScript",
-      "homepage": "https://firecrawl.dev",
-      "topics": [
-        "ai",
-        "ai-agents",
-        "ai-crawler",
-        "ai-scraping",
-        "ai-search",
-        "crawler",
-        "data-extraction",
-        "html-to-markdown",
-        "llm",
-        "markdown",
-        "scraper",
-        "scraping",
-        "web-crawler",
-        "web-data",
-        "web-data-extraction",
-        "web-scraper",
-        "web-scraping",
-        "web-search",
-        "webscraping"
-      ],
-      "forks": 8572,
-      "openIssues": 402,
-      "commits30d": 234,
-      "contributors": 162,
-      "closedIssues30d": 5,
-      "releases90d": 2,
-      "license": "AGPL-3.0",
-      "externalMentions": 0,
-      "health": {
-        "commitFrequency": 90,
-        "contributorStrength": 69,
-        "issueResponse": 24,
-        "releaseCadence": 62,
-        "license": 100
-      },
-      "potential": {
-        "starVelocity": 30,
-        "acceleration": 50,
-        "projectAge": 72,
-        "communityActivity": 61,
-        "externalHeat": 25
-      },
-      "healthScore": 69,
-      "potentialScore": 48,
-      "score": 57,
-      "risks": [
-        "Issue 积压较多"
-      ],
-      "deploymentBrief": {
-        "repo": "firecrawl/firecrawl",
-        "purpose": "An API for web scraping, searching, and data extraction at scale, converting web content into clean Markdown or structured JSON for LLM applications. Supports crawling, batch scraping, and interactive page actions.",
-        "productType": "Web服务",
-        "deploymentConditions": [
-          "Node.js 18+ or Python 3.8+",
-          "API key from firecrawl.dev (hosted) or self-hosted deployment",
-          "For self-hosted: Docker and Redis (optional)"
-        ],
-        "difficulty": 2,
-        "estimatedTime": "5–15分钟",
-        "suitableFor": "Developers needing reliable web scraping and data extraction for AI agents, LLM context, or data pipelines, with minimal setup.",
-        "deploymentSteps": [
-          "Sign up at firecrawl.dev to get an API key",
-          "Install the SDK: `npm install firecrawl` or `pip install firecrawl-py`",
-          "Initialize client with API key and call `scrape()` or `search()`",
-          "For self-hosted, follow Docker instructions in README"
-        ],
-        "risks": [
-          "API rate limits on hosted plan; self-hosting requires infrastructure.",
-          "Some websites may block scraping; use proxy settings if needed."
-        ],
-        "confidence": "high"
-      }
-    },
-    {
-      "name": "background-agents",
-      "repo": "ColeMurray/background-agents",
-      "url": "https://github.com/ColeMurray/background-agents",
+      "name": "destructive_command_guard",
+      "repo": "Dicklesworthstone/destructive_command_guard",
+      "url": "https://github.com/Dicklesworthstone/destructive_command_guard",
       "category": "其他",
       "reportedStars": 0,
-      "reportedDaily": 9,
+      "reportedDaily": 444,
       "analysis": "今日趋势项目，详细信息请查阅 README。",
-      "description": "An open-source background agents coding system",
-      "stars": 2235,
-      "dailyGrowth": 9,
-      "acceleration": 0,
-      "ageDays": 168,
-      "language": "TypeScript",
-      "homepage": "https://backgroundagents.dev",
-      "topics": [],
-      "forks": 341,
-      "openIssues": 54,
-      "commits30d": 190,
-      "contributors": 42,
-      "closedIssues30d": 2,
-      "releases90d": 0,
-      "license": "MIT",
+      "description": "The Destructive Command Guard (dcg) is for blocking dangerous git and shell commands from being executed by agents.",
+      "stars": 2787,
+      "dailyGrowth": 16,
+      "acceleration": -428,
+      "ageDays": 186,
+      "language": "Rust",
+      "homepage": null,
+      "topics": [
+        "ai-agents",
+        "cli",
+        "developer-tools",
+        "git",
+        "rust",
+        "safety"
+      ],
+      "forks": 105,
+      "openIssues": 7,
+      "commits30d": 40,
+      "contributors": 3,
+      "closedIssues30d": 30,
+      "releases90d": 10,
+      "license": "NOASSERTION",
       "externalMentions": 0,
       "health": {
-        "commitFrequency": 87,
-        "contributorStrength": 51,
-        "issueResponse": 22,
-        "releaseCadence": 0,
-        "license": 100
+        "commitFrequency": 61,
+        "contributorStrength": 19,
+        "issueResponse": 100,
+        "releaseCadence": 100,
+        "license": 25
       },
       "potential": {
-        "starVelocity": 56,
-        "acceleration": 50,
+        "starVelocity": 62,
+        "acceleration": 0,
         "projectAge": 88,
-        "communityActivity": 53,
+        "communityActivity": 60,
         "externalHeat": 25
       },
-      "healthScore": 52,
-      "potentialScore": 54,
+      "healthScore": 61,
+      "potentialScore": 47,
       "score": 53,
       "risks": [],
       "deploymentBrief": {
-        "repo": "ColeMurray/background-agents",
-        "purpose": "An open-source background agents coding system inspired by Ramp's Inspect, enabling hosted background coding agents that can work on tasks, access full dev environments, connect via web UI/Slack/GitHub PRs/Linear/webhooks, support multiplayer sessions, create PRs with proper attribution, run on schedules, and spawn parallel sub-tasks.",
-        "productType": "Web服务",
+        "repo": "Dicklesworthstone/destructive_command_guard",
+        "purpose": "为AI编程代理提供高性能钩子，在执行前拦截并阻止危险的git和shell命令，防止意外删除代码。支持Claude Code、Codex CLI、Gemini CLI等多种代理，零配置即可保护工作成果。",
+        "productType": "CLI",
         "deploymentConditions": [
-          "Requires Cloudflare Workers and Durable Objects for control plane",
-          "Requires sandbox infrastructure (Modal, Daytona, or OpenComputer)",
-          "Requires GitHub App installation on organization repositories",
-          "Must be deployed behind SSO/VPN for single-tenant security"
+          "支持Linux、macOS和Windows（WSL或原生PowerShell）",
+          "需要curl或PowerShell以运行安装脚本",
+          "无需额外运行时，自动下载预编译二进制文件"
         ],
-        "difficulty": 5,
-        "estimatedTime": "2–4 hours",
-        "suitableFor": "Organizations needing a secure, single-tenant background coding agent system with multi-channel access and sandboxed execution.",
+        "difficulty": 1,
+        "estimatedTime": "1–5分钟",
+        "suitableFor": "使用AI编码代理（如Claude Code、Codex等）的开发者，希望防止代理误执行破坏性命令，保护代码仓库安全。",
         "deploymentSteps": [
-          "Set up Cloudflare Workers with Durable Objects and D1 database",
-          "Configure sandbox infrastructure (Modal, Daytona, or OpenComputer)",
-          "Install GitHub App on organization repositories and configure OAuth",
-          "Deploy web client (Next.js) and Slack bot",
-          "Configure environment variables and authentication"
+          "在终端运行一键安装命令：curl -fsSL ... | bash -s -- --easy-mode",
+          "安装脚本自动检测平台并配置支持的代理钩子",
+          "验证安装：运行dcg --help查看可用命令"
         ],
         "risks": [
-          "Single-tenant only; not suitable for multi-tenant deployments without significant modifications",
-          "All users share GitHub App credentials, requiring trust within the organization",
-          "Complex infrastructure with multiple components (Cloudflare, sandbox providers)"
+          "安装脚本需要网络下载二进制文件，可能受网络限制",
+          "Windows原生安装需使用PowerShell，且需管理员权限添加PATH"
         ],
-        "confidence": "medium"
+        "confidence": "high"
       }
     },
     {
@@ -1774,24 +1638,168 @@
       "risks": [],
       "deploymentBrief": {
         "repo": "galilai-group/stable-pretraining",
-        "purpose": "A PyTorch Lightning-based library for pretraining foundation and world models. Provides modular components (data, module, callbacks) and 30+ built-in methods (SimCLR, DINO, MAE, CLIP) with SLURM support and run registry.",
+        "purpose": "可靠、最小化且可扩展的预训练库，用于训练基础模型和世界模型，支持多种自监督学习方法和分布式训练。",
         "productType": "SDK或库",
         "deploymentConditions": [
-          "Python 3.8+ environment",
-          "PyTorch and Lightning installed",
-          "GPU recommended for training"
+          "需要Python和PyTorch环境",
+          "需要GPU支持（推荐）",
+          "可选：SLURM集群支持"
         ],
-        "difficulty": 3,
+        "difficulty": 4,
         "estimatedTime": "30–60分钟",
-        "suitableFor": "Researchers and engineers working on self-supervised learning or multimodal pretraining; requires familiarity with PyTorch Lightning.",
+        "suitableFor": "从事基础模型预训练研究的研究人员，需要灵活的实验框架和分布式训练支持。",
         "deploymentSteps": [
-          "Clone repo: git clone https://github.com/galilai-group/stable-pretraining.git",
-          "Install: pip install -e .",
-          "Run a built-in recipe: python scripts/run.py --config configs/simclr_cifar10.yaml"
+          "克隆仓库：git clone https://github.com/galilai-group/stable-pretraining.git",
+          "安装：cd stable-pretraining && pip install -e .",
+          "运行示例：参考examples目录的教程Notebook"
         ],
         "risks": [
-          "Training large models requires significant GPU resources",
-          "JAX backend is experimental and may have limited support"
+          "依赖PyTorch Lightning和HuggingFace等库，版本冲突可能发生",
+          "分布式训练配置复杂，需熟悉SLURM或类似调度系统"
+        ],
+        "confidence": "medium"
+      }
+    },
+    {
+      "name": "background-agents",
+      "repo": "ColeMurray/background-agents",
+      "url": "https://github.com/ColeMurray/background-agents",
+      "category": "其他",
+      "reportedStars": 0,
+      "reportedDaily": 9,
+      "analysis": "今日趋势项目，详细信息请查阅 README。",
+      "description": "An open-source background agents coding system",
+      "stars": 2237,
+      "dailyGrowth": 2,
+      "acceleration": -7,
+      "ageDays": 168,
+      "language": "TypeScript",
+      "homepage": "https://backgroundagents.dev",
+      "topics": [],
+      "forks": 341,
+      "openIssues": 54,
+      "commits30d": 190,
+      "contributors": 42,
+      "closedIssues30d": 2,
+      "releases90d": 0,
+      "license": "MIT",
+      "externalMentions": 0,
+      "health": {
+        "commitFrequency": 87,
+        "contributorStrength": 51,
+        "issueResponse": 22,
+        "releaseCadence": 0,
+        "license": 100
+      },
+      "potential": {
+        "starVelocity": 42,
+        "acceleration": 36,
+        "projectAge": 88,
+        "communityActivity": 53,
+        "externalHeat": 25
+      },
+      "healthScore": 52,
+      "potentialScore": 49,
+      "score": 50,
+      "risks": [],
+      "deploymentBrief": {
+        "repo": "ColeMurray/background-agents",
+        "purpose": "一个开源的后台编码代理系统，允许你在后台运行编码任务，支持多用户协作、定时任务和并行子任务，并集成 Slack、GitHub PR 等工具。",
+        "productType": "Web服务",
+        "deploymentConditions": [
+          "需要 Cloudflare Workers 和 Durable Objects 环境",
+          "需要 GitHub App 安装到组织仓库",
+          "需要配置 OAuth 和 API 密钥",
+          "建议部署在组织 SSO/VPN 之后"
+        ],
+        "difficulty": 4,
+        "estimatedTime": "1–2小时",
+        "suitableFor": "需要后台自动化编码任务、多用户协作和定时执行的开发团队，适合单租户内部使用。",
+        "deploymentSteps": [
+          "克隆仓库并安装依赖",
+          "配置 Cloudflare Workers 和 Durable Objects",
+          "创建并安装 GitHub App，设置权限和 Webhook",
+          "配置环境变量（API 密钥、OAuth 等）",
+          "部署控制平面和数据平面服务"
+        ],
+        "risks": [
+          "仅支持单租户，所有用户共享 GitHub App 凭据",
+          "需要 Cloudflare 账户和付费计划",
+          "安全模型要求组织内所有用户受信任"
+        ],
+        "confidence": "medium"
+      }
+    },
+    {
+      "name": "claude-code-templates",
+      "repo": "davila7/claude-code-templates",
+      "url": "https://github.com/davila7/claude-code-templates",
+      "category": "其他",
+      "reportedStars": 0,
+      "reportedDaily": 274,
+      "analysis": "今日趋势项目，详细信息请查阅 README。",
+      "description": "CLI tool for configuring and monitoring Claude Code",
+      "stars": 29215,
+      "dailyGrowth": 1,
+      "acceleration": -273,
+      "ageDays": 374,
+      "language": "Python",
+      "homepage": "https://aitmpl.com",
+      "topics": [
+        "anthropic",
+        "anthropic-claude",
+        "claude",
+        "claude-code"
+      ],
+      "forks": 3202,
+      "openIssues": 201,
+      "commits30d": 109,
+      "contributors": 96,
+      "closedIssues30d": 2,
+      "releases90d": 0,
+      "license": "MIT",
+      "externalMentions": 0,
+      "health": {
+        "commitFrequency": 78,
+        "contributorStrength": 62,
+        "issueResponse": 15,
+        "releaseCadence": 18,
+        "license": 100
+      },
+      "potential": {
+        "starVelocity": 38,
+        "acceleration": 0,
+        "projectAge": 72,
+        "communityActivity": 52,
+        "externalHeat": 25
+      },
+      "healthScore": 55,
+      "potentialScore": 37,
+      "score": 45,
+      "risks": [
+        "Issue 积压较多"
+      ],
+      "deploymentBrief": {
+        "repo": "davila7/claude-code-templates",
+        "purpose": "Claude Code Templates 是一个 CLI 工具，提供预配置的 AI 代理、命令、设置、钩子和 MCP 集成，用于增强 Claude Code 开发工作流。",
+        "productType": "CLI",
+        "deploymentConditions": [
+          "需要 Node.js 环境",
+          "需要 Anthropic Claude Code 工具",
+          "可选：Cloudflare Tunnel 用于远程访问"
+        ],
+        "difficulty": 2,
+        "estimatedTime": "5–10分钟",
+        "suitableFor": "使用 Claude Code 的开发者，希望快速添加 AI 代理、自定义命令和外部服务集成。",
+        "deploymentSteps": [
+          "确保已安装 Node.js 和 npx",
+          "运行 npx claude-code-templates@latest 启动交互式安装",
+          "选择需要的组件（代理、命令、MCP 等）并安装",
+          "可选：运行 --analytics 或 --chats 启动监控工具"
+        ],
+        "risks": [
+          "需确保 Claude Code 已正确配置",
+          "部分组件可能依赖特定 Claude Code 版本"
         ],
         "confidence": "high"
       }
@@ -1845,95 +1853,29 @@
       ],
       "deploymentBrief": {
         "repo": "acon96/home-llm",
-        "purpose": "A Home Assistant custom component that connects local LLMs to control smart home devices via voice or chat. Supports multiple backends (Llama.cpp, Ollama, OpenAI API) and runs on low-power devices like Raspberry Pi.",
+        "purpose": "为Home Assistant提供完全本地化的大语言模型集成，支持通过语音或聊天控制智能家居设备。包含自定义组件和微调模型，可在树莓派等低功耗设备上运行，无需GPU，数据不离开本地。",
         "productType": "其他",
         "deploymentConditions": [
-          "Home Assistant 2026.5.0 or newer installed",
-          "HACS (Home Assistant Community Store) installed",
-          "Local LLM backend (e.g., Ollama, Llama.cpp) or external API key"
+          "需要Home Assistant 2026.5.0或更新版本",
+          "通过HACS（Home Assistant Community Store）安装自定义组件",
+          "可选：安装Ollama或llama.cpp等后端运行本地模型",
+          "推荐至少4GB内存的树莓派或类似设备"
         ],
         "difficulty": 3,
-        "estimatedTime": "20–40 minutes",
-        "suitableFor": "Home Assistant users who want privacy-focused AI control of their smart home using local LLMs; requires some technical setup.",
+        "estimatedTime": "30–60分钟",
+        "suitableFor": "Home Assistant用户，希望在不依赖云服务的情况下，通过自然语言控制智能家居，注重隐私和本地化运行。",
         "deploymentSteps": [
-          "Install HACS in Home Assistant if not already present",
-          "Add the Home LLM repository via HACS: click the badge in README or add custom repository URL",
-          "Install the integration and restart Home Assistant",
-          "Configure the integration: choose a backend (e.g., Ollama) and set up the model",
-          "Add the conversation agent to your voice pipeline or chat interface"
+          "通过HACS添加自定义仓库并安装home-llm集成",
+          "重启Home Assistant并在集成页面配置home-llm",
+          "选择后端（内置llama.cpp或外部Ollama等）并下载模型",
+          "在对话代理或自动化中启用home-llm作为AI任务处理器"
         ],
         "risks": [
-          "Local LLM inference may require significant CPU/GPU resources; check hardware compatibility.",
-          "External API backends send data over the internet; review privacy implications.",
-          "Requires Home Assistant version 2026.5.0+ which may not be stable yet."
+          "本地模型需要一定计算资源，低端设备可能响应较慢",
+          "外部API后端会传输设备状态数据，需注意隐私",
+          "模型对中文支持可能有限，需测试"
         ],
         "confidence": "medium"
-      }
-    },
-    {
-      "name": "hallmark",
-      "repo": "Nutlope/hallmark",
-      "url": "https://github.com/Nutlope/hallmark",
-      "category": "其他",
-      "reportedStars": 0,
-      "reportedDaily": 210,
-      "analysis": "今日趋势项目，详细信息请查阅 README。",
-      "description": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
-      "stars": 4206,
-      "dailyGrowth": 210,
-      "acceleration": 0,
-      "ageDays": 76,
-      "language": "CSS",
-      "homepage": "https://www.usehallmark.com/",
-      "topics": [],
-      "forks": 251,
-      "openIssues": 5,
-      "commits30d": 0,
-      "contributors": 4,
-      "closedIssues30d": 0,
-      "releases90d": 0,
-      "license": "MIT",
-      "externalMentions": 0,
-      "health": {
-        "commitFrequency": 0,
-        "contributorStrength": 22,
-        "issueResponse": 26,
-        "releaseCadence": 0,
-        "license": 100
-      },
-      "potential": {
-        "starVelocity": 90,
-        "acceleration": 50,
-        "projectAge": 88,
-        "communityActivity": 16,
-        "externalHeat": 25
-      },
-      "healthScore": 30,
-      "potentialScore": 54,
-      "score": 44,
-      "risks": [],
-      "deploymentBrief": {
-        "repo": "Nutlope/hallmark",
-        "purpose": "A design skill for Claude Code, Cursor, and Codex that generates UI with anti-AI-slop principles: 20 themes, 57 slop-test gates, and pre-emit self-critique to avoid generic AI-generated designs.",
-        "productType": "其他",
-        "deploymentConditions": [
-          "Claude Code, Cursor, or Codex installed",
-          "Node.js and npx for installation",
-          "Internet access to fetch skill files"
-        ],
-        "difficulty": 1,
-        "estimatedTime": "2–5分钟",
-        "suitableFor": "Developers using AI coding assistants who want to generate unique, non-generic UI designs with a focus on avoiding AI-slop aesthetics.",
-        "deploymentSteps": [
-          "Run `npx skills add nutlope/hallmark` in terminal",
-          "Or manually copy SKILL.md and references/ to the appropriate skill directory",
-          "Use the skill by invoking `hallmark` verb in Claude Code/Cursor/Codex"
-        ],
-        "risks": [
-          "Requires specific AI coding tool (Claude Code, Cursor, or Codex).",
-          "Skill may need updates to stay compatible with tool versions."
-        ],
-        "confidence": "high"
       }
     },
     {
@@ -1984,27 +1926,27 @@
       "risks": [],
       "deploymentBrief": {
         "repo": "LancerLab/croqtile",
-        "purpose": "An AI-native GPU kernel programming language designed for maximum productivity, with compact syntax (~500 tokens per kernel), compile-time safety (353 checks), and high agent accuracy (85.7% pass@1).",
-        "productType": "SDK或库",
+        "purpose": "Croqtile 是一种 AI 原生的 GPU 内核编程语言，专为 AI 代理设计，能以更少 token 编写高性能 GPU 内核，并提供丰富的编译时安全检查。",
+        "productType": "其他",
         "deploymentConditions": [
-          "C++17 compiler (GCC 9+ or Clang 5+)",
-          "CMake 3.18+ and Ninja",
-          "Flex and Bison (parser generation)",
-          "CUDA Toolkit 12.0+ and NVIDIA GPU with SM 9.0+ (Hopper) for full features"
+          "需要 C++17 编译器（GCC 9+ 或 Clang 5+）",
+          "需要 CMake 3.18+ 和 Ninja",
+          "需要 Flex 和 Bison 用于解析器生成",
+          "需要 CUDA Toolkit 12.0+ 和 NVIDIA Hopper GPU（完整功能）"
         ],
         "difficulty": 4,
         "estimatedTime": "30–60分钟",
-        "suitableFor": "GPU kernel developers and AI researchers who want to write high-performance CUDA kernels with fewer tokens and compile-time safety, especially for LLM inference.",
+        "suitableFor": "需要编写高性能 GPU 内核的 AI 研究人员和工程师，适合优化大模型推理和训练。",
         "deploymentSteps": [
-          "Clone the repository and run `make` to build the compiler",
-          "Verify build with `make test`",
-          "Write a kernel in Croqtile syntax (e.g., GEMM example in README)",
-          "Compile with `./choreo` and run on supported GPU"
+          "安装依赖：C++17 编译器、CMake、Ninja、Flex、Bison",
+          "克隆仓库并运行 make 构建编译器",
+          "运行 make test 验证安装",
+          "编写 .cq 文件并使用 ./choreo 编译"
         ],
         "risks": [
-          "Requires Hopper GPU (SM 9.0+) for full feature set; older GPUs limited.",
-          "Build dependencies (Flex, Bison) may not be pre-installed.",
-          "Early-stage project; API may change."
+          "需要特定硬件（NVIDIA Hopper GPU）才能使用全部功能",
+          "项目处于早期阶段，可能不稳定",
+          "需查阅 README 了解完整构建选项"
         ],
         "confidence": "medium"
       }
@@ -2069,28 +2011,27 @@
       "risks": [],
       "deploymentBrief": {
         "repo": "starpig1129/DATAGEN",
-        "purpose": "AI-driven multi-agent research assistant for automated data analysis, hypothesis generation, and report writing. Uses LangGraph and multiple specialized agents (hypothesis, code, visualization) to process data and produce graphical reports.",
+        "purpose": "AI驱动的多智能体研究助手，自动完成假设生成、数据分析和报告撰写，集成LangChain和LangGraph实现复杂工作流。",
         "productType": "CLI",
         "deploymentConditions": [
-          "Python 3.10+ environment",
-          "API keys for LLM providers (OpenAI, Anthropic, etc.)",
-          "ChromeDriver for web scraping (optional)"
+          "需要Python 3.10+环境",
+          "需要配置OpenAI或其他LLM API密钥",
+          "需要安装ChromeDriver（用于网页抓取）"
         ],
         "difficulty": 3,
         "estimatedTime": "30–60分钟",
-        "suitableFor": "Data scientists and analysts who want an automated pipeline for data analysis and report generation; requires API keys and basic Python setup.",
+        "suitableFor": "需要自动化数据分析流程的数据科学家或研究人员，通过多智能体协作提升效率。",
         "deploymentSteps": [
-          "Clone repo: git clone https://github.com/starpig1129/DATAGEN.git",
-          "Create conda env: conda create -n datagen python=3.10 && conda activate datagen",
-          "Install: pip install -r requirements.txt",
-          "Configure .env file with API keys and paths",
-          "Run: python main.py with user_input specifying data file"
+          "克隆仓库并创建conda环境：conda create -n datagen python=3.10",
+          "安装依赖：pip install -r requirements.txt",
+          "配置环境变量：复制.env Example为.env并填写API密钥等",
+          "运行：python main.py，修改user_input指定数据文件"
         ],
         "risks": [
-          "Requires paid API keys for LLM providers",
-          "ChromeDriver setup may be needed for web search features"
+          "依赖多个外部API（OpenAI、Anthropic等），密钥管理需谨慎",
+          "ChromeDriver版本需与本地Chrome匹配，否则网页抓取失败"
         ],
-        "confidence": "high"
+        "confidence": "medium"
       }
     },
     {
@@ -2157,24 +2098,90 @@
       "risks": [],
       "deploymentBrief": {
         "repo": "rasbt/LLMs-from-scratch",
-        "purpose": "Educational code repository for the book 'Build a Large Language Model (From Scratch)'. Provides step-by-step Jupyter notebooks to implement a GPT-like LLM in PyTorch, covering pretraining, finetuning, and attention mechanisms.",
-        "productType": "其他",
+        "purpose": "从零开始用PyTorch逐步构建一个类似ChatGPT的大语言模型，涵盖预训练、微调等完整流程，配套书籍代码，适合教学和自学。",
+        "productType": "SDK或库",
         "deploymentConditions": [
-          "Python 3.x environment",
-          "PyTorch installed",
-          "Jupyter Notebook or compatible IDE"
+          "需要Python环境",
+          "需要PyTorch库",
+          "建议使用GPU加速训练"
         ],
-        "difficulty": 2,
+        "difficulty": 3,
         "estimatedTime": "15–30分钟",
-        "suitableFor": "Developers and researchers learning LLM internals by coding from scratch; requires basic Python and PyTorch knowledge.",
+        "suitableFor": "希望深入理解LLM内部原理的开发者、研究人员或学生，通过动手编码学习Transformer和GPT架构。",
         "deploymentSteps": [
-          "Clone the repository: git clone --depth 1 https://github.com/rasbt/LLMs-from-scratch.git",
-          "Install dependencies: pip install -r requirements.txt (if provided) or follow setup instructions in setup/README.md",
-          "Open Jupyter notebooks (e.g., ch02.ipynb) and run cells sequentially"
+          "克隆仓库：git clone --depth 1 https://github.com/rasbt/LLMs-from-scratch.git",
+          "安装依赖：根据setup目录的README配置Python和PyTorch环境",
+          "运行Jupyter Notebook：按章节顺序执行代码，如ch02.ipynb"
         ],
         "risks": [
-          "Requires understanding of PyTorch and transformer architectures",
-          "Training from scratch may be time-consuming without GPU"
+          "训练大型模型需要大量GPU资源，可能超出个人设备能力",
+          "代码依赖特定PyTorch版本，需注意兼容性"
+        ],
+        "confidence": "high"
+      }
+    },
+    {
+      "name": "hallmark",
+      "repo": "Nutlope/hallmark",
+      "url": "https://github.com/Nutlope/hallmark",
+      "category": "其他",
+      "reportedStars": 0,
+      "reportedDaily": 210,
+      "analysis": "今日趋势项目，详细信息请查阅 README。",
+      "description": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
+      "stars": 4213,
+      "dailyGrowth": 7,
+      "acceleration": -203,
+      "ageDays": 76,
+      "language": "CSS",
+      "homepage": "https://www.usehallmark.com/",
+      "topics": [],
+      "forks": 251,
+      "openIssues": 5,
+      "commits30d": 0,
+      "contributors": 4,
+      "closedIssues30d": 0,
+      "releases90d": 0,
+      "license": "MIT",
+      "externalMentions": 0,
+      "health": {
+        "commitFrequency": 0,
+        "contributorStrength": 22,
+        "issueResponse": 26,
+        "releaseCadence": 0,
+        "license": 100
+      },
+      "potential": {
+        "starVelocity": 53,
+        "acceleration": 0,
+        "projectAge": 88,
+        "communityActivity": 16,
+        "externalHeat": 25
+      },
+      "healthScore": 30,
+      "potentialScore": 36,
+      "score": 33,
+      "risks": [],
+      "deploymentBrief": {
+        "repo": "Nutlope/hallmark",
+        "purpose": "Hallmark 是一个设计技能，用于 Claude Code、Cursor 和 Codex，通过 57 项反 AI 生成测试和自批评机制，生成不显 AI 痕迹的 UI 设计。",
+        "productType": "其他",
+        "deploymentConditions": [
+          "需要 Claude Code、Cursor 或 Codex 工具",
+          "需要 npx 或手动复制技能文件"
+        ],
+        "difficulty": 1,
+        "estimatedTime": "2–5分钟",
+        "suitableFor": "使用 AI 编程助手的前端开发者，希望生成独特、非模板化的 UI 设计。",
+        "deploymentSteps": [
+          "在终端运行 npx skills add nutlope/hallmark",
+          "或在 Claude Code 中手动复制 SKILL.md 和 references/ 到 ~/.claude/skills/hallmark/",
+          "在 Cursor 中复制到 .cursor/rules/hallmark.mdc",
+          "在 Codex 中复制到 ~/.codex/skills/hallmark/"
+        ],
+        "risks": [
+          "需确保 AI 工具版本兼容",
+          "设计质量依赖 AI 模型能力"
         ],
         "confidence": "high"
       }
