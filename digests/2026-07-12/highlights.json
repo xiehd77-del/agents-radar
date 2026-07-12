@@ -1,0 +1,102 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.204 引发用户对 Agent 行为可控性质疑",
+      "OpenAI Codex 0.142.0 修复日志写入问题",
+      "Gemini CLI 合并多项安全相关 PR 加固系统",
+      "Kimi Code CLI 聚焦 MCP 连接与 ACP 能力对齐",
+      "OpenCode 与 Pi 快速适配 GPT-5.6 Sol 系列新 API",
+      "Qwen Code 推进 Daemon 多工作区与扩展管理 V2"
+    ],
+    "ai-agents": [
+      "OpenClaw 发布 v2026.7.1-beta.5 引入AI对话引导",
+      "P0 阻断性 Bug：工具结果返回占位符字面量",
+      "PR #104886 重构会话状态与模型API归属",
+      "社区热议 Agent 规则衰减与指令持久化难题",
+      "Hermes Agent 以 213k Stars 领跑社区关注",
+      "多个 PR 修复 Amazon Bedrock 等提供商插件"
+    ],
+    "ai-trending": [
+      "obra/superpowers 日增 740 Stars 引领 Agent 技能框架",
+      "DesktopCommanderMCP 日增 909 Stars 为Claude赋能终端",
+      "Google Labs 的 stitch-skills 推广 Agent 开放标准",
+      "NousResearch/hermes-agent 总量 213k Stars 受热捧",
+      "davila7/claude-code-templates 简化 Claude 配置管理",
+      "langchain 以 141k Stars 稳居 Agent 工程平台地位"
+    ],
+    "ai-hn": [
+      "分布式 AI 框架 Mesh LLM 引热议，实现细节存疑",
+      "Sqlsure 工具为 AI 生成 SQL 提供确定性语义检查",
+      "Confessor 可审计 Claude Code 本地隐私信息访问",
+      "微软与 Anthropic 陷难以关闭的追踪器隐私风波",
+      "OpenAI 安全负责人离职，再遭苹果 IP 盗窃诉讼",
+      "欧洲主权 LLM Soofi 两月完成训练，战略意义重"
+    ],
+    "ai-hf": [
+      "腾讯 Hy3 MoE 模型发布，混元家族新成员引关注",
+      "智谱 GLM-5.2 以 42 万下载量成本周顶流",
+      "百度 Unlimited-OCR 通用识别下载量飙至 138 万",
+      "NVIDIA Audex 30B MoE 专攻高效实验室辅助任务",
+      "Qwythos-9B 量化版下载近 200 万，融合 Claude 风格",
+      "OpenMOSS 推出集转录与说话人分离的语音大模型"
+    ],
+    "ai-community": [
+      "Transformer 论文 8 位作者全部离职 Google 引热议",
+      "开发者分享将 Slack 变为可开 PR 的 AI 队友经验",
+      "教程教你诊断并编写抗衰减的持久 Agent 指令",
+      "SigNoz 开源工具实现复杂 LLM Agent 决策链路追踪",
+      "Claude Code Token 开支削减 77% 的实战优化案例",
+      "Grok 4.5 以 600 亿美元数据集打破架构神话引辩论"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "GPT-5.6 rollout causes compatibility issues",
+      "Windows parity remains a systemic weakness",
+      "Community demands transparent cost controls",
+      "Silent failures erode user trust",
+      "Claude Code reports high-severity Windows bugs",
+      "Model fallbacks are a growing concern"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.7.1-beta.5 released",
+      "New conversational onboarding 'Crestodian' system",
+      "456 issues updated in 24 hours",
+      "AI-guided provider configuration added",
+      "Critical stability regressions under investigation",
+      "Near 1:1 open-to-closed issue ratio"
+    ],
+    "ai-trending": [
+      "obra/superpowers gains 740 stars today",
+      "DesktopCommanderMCP surges 909 stars",
+      "Agent memory projects like claude-mem trending",
+      "Stitch-skills drives agent interoperability",
+      "MCP server ecosystem sees massive growth",
+      "Community shifts from single agents to fleets"
+    ],
+    "ai-hn": [
+      "Mesh LLM distributed computing scores 121",
+      "Top post: 'Stop Telling Me to Ask an LLM'",
+      "OpenAI safety head departure discussed",
+      "Soofi European LLM trained in 2 months",
+      "Anthropic secret tracking story gains traction",
+      "Massive billing error reported by users"
+    ],
+    "ai-hf": [
+      "Tencent's Hy3 MoE model trending",
+      "GLM-5.2 reaches 421k downloads",
+      "NVIDIA LocateAnything-3B exceeds 1M downloads",
+      "Krea-2-Turbo signals high-speed image generation",
+      "GGUF quantization of Qwen models dominates",
+      "Unlimited-OCR by Baidu surpasses 1M downloads"
+    ],
+    "ai-community": [
+      "Slack AI teammate opens PRs automatically",
+      "LLM fighting game visualizes model stats",
+      "Grok 4.5 dataset cost debate erupts",
+      "Dev.to debates agent hygiene and prompting",
+      "Lobste.rs warns of AI surveillance risks",
+      "Google AI compute environmental impact flagged"
+    ]
+  }
+}
