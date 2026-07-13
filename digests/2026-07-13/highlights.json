@@ -1,0 +1,102 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Gemini CLI 发布 v0.52.0-nightly，修复安全漏洞",
+      "多工具遭遇 GPT-5.6 兼容性问题，稳定性成焦点",
+      "Claude Code 高并发数据竞争问题引发社区热议",
+      "GitHub Copilot CLI 会话恢复崩溃，影响用户体验",
+      "OpenAI Codex 企业级安装包需求高涨",
+      "Pi 工具 Agent 生命周期 Bug 受关注"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.7.1-beta.6 发布，默认启用 GPT-5.6",
+      "OpenClaw 24小时内产生 500 条 Issue 和 PR",
+      "xAI 视频请求策略漏洞被修复",
+      "插件权限检查漏洞修复，防止会话篡改",
+      "新增技能预览功能，提升修改透明度",
+      "内存泄漏等 P0/P1 Bug 仍在活跃讨论中"
+    ],
+    "ai-trending": [
+      "Vibe-Trading 以 +768 星成今日最热 AI 项目",
+      "destructive_command_guard 保护 Agent 执行安全",
+      "DesktopCommanderMCP 扩展 Claude 终端能力",
+      "claude-code-templates 简化工具配置与监控",
+      "hallmark 提供反AI味设计模板，提升代码审美",
+      "transformers 持续领跑，星标达 162,552"
+    ],
+    "ai-hn": [
+      "Claude Code vs OpenCode token开销对比成今日最热帖",
+      "Apple 起诉 OpenAI 窃取商业机密引热议",
+      "Geohot 批评 AI 过度炒作获社区大量共鸣",
+      "Claude 内部发现隐藏思考空间引关注",
+      "Grok 4.5 在代码安全审查中超越 Anthropic 模型",
+      "AI 生成内容治理与设立标志问题受讨论"
+    ],
+    "ai-hf": [
+      "百度 Unlimited-OCR 下载量突破 143 万",
+      "英伟达 LocateAnything-3B 精准定位引关注",
+      "zai-org/GLM-5.2 以 3,859 点赞领跑点赞榜",
+      "Qwen3.6 无审查版下载量达 259 万",
+      "GGUF 量化版模型成社区最活跃方向",
+      "Supra-Router-51M 轻量路由器代表 Agent 新趋势"
+    ],
+    "ai-community": [
+      "Ollama on Jetson Nano 实测性能数据公开",
+      "7条LLM API成本控制经验分享引热议",
+      "外部记忆系统让廉价模型媲美顶级模型",
+      "RAG系统分块陷阱：文档不应是碎块",
+      "AI门控设计：如何滤误报但不掩真漏洞",
+      "混合本地+云端LLM方案受开发者追捧"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "GPT-5.6 breaking changes cascade across tools",
+      "Claude Code critical MCP race condition fixed",
+      "OpenAI Codex SQLite log churn fix merged",
+      "Gemini CLI had 1 release in last 24 hours",
+      "Session corruption is a shared ecosystem pain point",
+      "Zero major releases across all tools in 24h"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.7.1-beta.6 released today",
+      "Critical memory leak: 350MB to 15.5GB RSS",
+      "Blocker bug returns literal \"see attached image\"",
+      "GPT-5.6 made default model in new release",
+      "500 issues and 500 PRs updated in 24h",
+      "Steipete active on macOS/iOS/Web UI refactoring"
+    ],
+    "ai-trending": [
+      "Agent safety tooling surge from Claude Code adoption",
+      "Anti-AI-slop design tool Hallmark emerging",
+      "Agent-based trading systems continue major draw",
+      "vllm leads AI infra with 86k stars",
+      "Offline AI survival kits gaining traction",
+      "Prefect orchestration used for AI pipelines"
+    ],
+    "ai-hn": [
+      "Apple sues OpenAI for trade secret theft",
+      "George Hotz slammed LLM marketing hype",
+      "Claude Code vs OpenCode token overhead debate",
+      "Mechanistic interpretability study on LLM causality",
+      "Anthropic found hidden space in Claude's reasoning",
+      "Community shows engaged skepticism about hype"
+    ],
+    "ai-hf": [
+      "Qwen3.6 uncensored drops see millions downloads",
+      "NVIDIA LocateAnything-3B leads multimodal frontier",
+      "Tencent Hy3 signals MoE investment by Tencent",
+      "Baidu Unlimited-OCR pushes production document AI",
+      "GGUF quantization remains dominant adoption vehicle",
+      "Krea-2 identity editing LoRA system expanding"
+    ],
+    "ai-community": [
+      "Developers shift from build agents to stop breakage",
+      "Deep dive on hallucinated citations and memory limits",
+      "AI used to filter false positives in CI/CD pipelines",
+      "Google's climate impact contrasted with AI gold rush",
+      "Prolog library for LLMs surfaced on Lobste.rs",
+      "Checkpoint-skip gate caused task success with no run"
+    ]
+  }
+}
