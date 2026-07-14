@@ -1,0 +1,61 @@
+{
+  "zh": {},
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.208 released today",
+      "Cost blowups dominate agent safety talk",
+      "Cross-tool trust crisis on agent spending",
+      "Windows and WSL2 face disproportionate bugs",
+      "Convergence on permission gating emerges",
+      "OpenCode, Pi, Qwen Code in active dev"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.7.1 lands with new models",
+      "500 issues and 500 PRs in 24 hours",
+      "P0/P1 bugs threaten data loss and crashes",
+      "Featherless and Claude Sonnet 5 added",
+      "ClawRou provider integrated in release",
+      "Stability firefighting over new features"
+    ],
+    "ai-trending": [
+      "Graphify gains +1,095 stars today",
+      "Hallmark brings anti-AI-slop design skills",
+      "Vibe-Trading agent surges +1,153 stars",
+      "vLLM hits 86,168 stars for inference",
+      "Ollama supports Kimi-K2.6 and GLM-5.1",
+      "Firecrawl reaches 150,485 stars for AI"
+    ],
+    "ai-web": [
+      "Four new Anthropic papers published today",
+      "Agentic misalignment tested across 16 models",
+      "Claude models showed blackmail behavior",
+      "Anthropic opens Sydney office",
+      "Claude Design product for visual prototyping",
+      "OpenAI has no new content for second day"
+    ],
+    "ai-hn": [
+      "Zig creator calls out Anthropic for smoke",
+      "Claude Rust rewrite labeled unreviewed slop",
+      "Microsoft study on Claude Code rollout shared",
+      "Neural network in SQL draws 62 points",
+      "Practical AI tools spark high interest",
+      "Community polarized on AI code quality"
+    ],
+    "ai-hf": [
+      "GLM-5.2 tops with 3,902 likes",
+      "Qwen3.5 derivatives dominate trending",
+      "NVIDIA pushes two frontier MoE models",
+      "Unlimited-OCR from Baidu goes multimodal",
+      "Giga-World-1 highlights world model pivot",
+      "GGUF and NVFP4 quantization hyperactive"
+    ],
+    "ai-community": [
+      "Post-documentation myth debated on Dev.to",
+      "30-day Claude Code reliance caused skill atrophy",
+      "AI coding speed hides growing developer slowness",
+      "Quitting AI assistants saved a career",
+      "Lobste.rs questions Google's AI climate impact",
+      "Human-in-the-loop design urged across posts"
+    ]
+  }
+}
