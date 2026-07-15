@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code 连续发布 v2.1.209 和 v2.1.210 两个版本",
+      "OpenAI Codex 今日社区活跃度极高，无新版本发布",
+      "Qwen Code 发布 v0.19.10，社区关注度极高",
+      "GitHub Copilot CLI 发布 v1.0.71-2，无 PR 合并",
+      "OpenCode 发布 v1.18.0 和 v1.18.1 双版本",
+      "Pi 发布 v0.80.7，社区共建热情高涨"
+    ],
+    "ai-agents": [
+      "OpenClaw 致命启动迁移故障导致用户网关崩溃",
+      "修复 Memory Core 嵌入缓存冲突解决启动挂起",
+      "Signal daemon 竞态条件导致端口冲突已修复",
+      "启动遗留状态迁移无法收敛的问题已被解决",
+      "核心功能 CJK 兼容性支持正在推进中",
+      "社区 24 小时产生 500 条 Issue 和 500 条 PR"
+    ],
+    "ai-trending": [
+      "ollama/ollama 持续集成 Kimi-K2.6 等最新模型",
+      "Shubhamsaboo/awesome-llm-apps 获 120,920 星",
+      "NousResearch/hermes-agent 关注度飙升至 214,927 星",
+      "Graphify-Labs/graphify 一日获 1851 星",
+      "Nutlope/hallmark 为 AI 编码输出注入设计品味",
+      "Dicklesworthstone/destructive_command_guard 守护 Agent 安全"
+    ],
+    "ai-web": [
+      "Anthropic 发布 Claude for Teachers 教育产品",
+      "Anthropic 向加拿大 AI 研究投资 1000 万美元",
+      "加拿大成为 Anthropic 全球化扩张样板",
+      "OpenAI 官网当日无任何新增内容",
+      "Claude for Teachers 连接全美 50 州学术标准",
+      "Anthropic 押注 K-12 教育垂直领域"
+    ],
+    "ai-hn": [
+      "Codex 开始加密子 Agent 提示词引发激烈辩论",
+      "OpenAI 广告收入预测大幅偏离引争议",
+      "LeMario 用超级马里奥训练世界模型获好评",
+      "Agnost AI 从 Agent 对话中提取用户反馈",
+      "Oodle.ai 推出每百万追踪记录 10 美元低价",
+      "Agent 可观测性工具开始出现价格战"
+    ],
+    "ai-arxiv": [
+      "MemOps 基准评估 LLM 长期对话记忆生命周期",
+      "LLM 裁判在无参考答案时会系统性地给高分",
+      "Knowledgeless 模型抑制参数知识依赖证据",
+      "44 个模型在无偏好时表现出高度一致性",
+      "Tracing Agentic Failure 高效归因智能体故障",
+      "可提取记忆化的理论基石性研究工作"
+    ],
+    "ai-hf": [
+      "zai-org/GLM-5.2 获 3949 点赞冲上热门",
+      "empero-ai/Qwythos 视觉模型下载超 200 万",
+      "baidu/Unlimited-OCR 通用 OCR 下载超 171 万",
+      "unsloth/Qwen3.6 用 NVFP4 精度优化性能",
+      "deepreinforce-ai/Ornith 量化版下载超 153 万",
+      "HauhauCS 推出 Qwen3.6 无审查激进微调版"
+    ],
+    "ai-community": [
+      "开发者超越 AI 建议实现 Rust 热路径 27 倍优化",
+      "Hallint 项目可检测 AI 编码助手的安全漏洞",
+      "反事实验证遭遇 75% 的准确率瓶颈无法突破",
+      "AI Agent 成本每天漂移 0.35% 难以察觉",
+      "测试 300+ 模型后发现基准测试已失效",
+      "Claude Code 虚构功能后又主动承认欺骗"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code ships 2 patches today",
+      "Codex encrypts sub-agent prompts",
+      "Pi optimizes for terminal workflows",
+      "DeepSeek TUI gains traction",
+      "Claude Code Skills launches",
+      "Copilot CLI deepens IDE integration"
+    ],
+    "ai-agents": [
+      "OpenClaw 2026.7.1 causes crash-loop",
+      "500+ P0 bugs filed today",
+      "Gateway memory plugin conflict",
+      "No hotfix released yet",
+      "Community demands urgent stability",
+      "PRs focus on regression fixes"
+    ],
+    "ai-trending": [
+      "Graphify up 1,851 stars today",
+      "Skills exports engineer configs as code",
+      "Destructive Command Guard blocks rogue commands",
+      "Ollama hits 176K stars",
+      "Vibe Trading agents go viral",
+      "Awesome-LLM-apps templates explode"
+    ],
+    "ai-web": [
+      "Claude for Teachers launches free tier",
+      "Anthropic invests $10M in Canadian AI",
+      "Canada has second-highest Claude adoption",
+      "OpenAI publishes no new content",
+      "Anthropic targets K-12 education",
+      "Learning Commons partnership announced"
+    ],
+    "ai-hn": [
+      "Codex encrypts sub-agent prompts",
+      "OpenAI ad revenue misses by 90%",
+      "LeMario trains JEPA on Super Mario",
+      "New agent observability startups emerge",
+      "Skepticism over OpenAI robot plans",
+      "Agent security debate heats up"
+    ],
+    "ai-arxiv": [
+      "LLM judges too generous without answers",
+      "Knowledgeless models suppress factual recall",
+      "Agent debugging and failure attribution",
+      "Efficient diffusion LLM inference advances",
+      "Mechanistic interpretability of attention heads",
+      "Safe RL exploration in federated settings"
+    ],
+    "ai-hf": [
+      "GLM-5.2 hits 3,949 likes",
+      "Hy3 MoE model from Tencent trends",
+      "Ornith-1.0-35B nears 2M downloads",
+      "Unlimited-OCR powers document processing",
+      "Qwen 3.5/3.6 derivatives dominate",
+      "Nemotron MoE from NVIDIA gains steam"
+    ],
+    "ai-community": [
+      "Claude Code faked work then confessed",
+      "10% magic, 90% production breakage",
+      "Claude Code burns 5x more tokens",
+      "GPT-5.6 multi-size launch announced",
+      "vLLM debuts native-speed backend",
+      "OWASP Agentic Top 10 published"
+    ]
+  }
+}
