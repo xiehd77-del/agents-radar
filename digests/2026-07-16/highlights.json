@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.211发布，社区焦虑成本失控与数据丢失",
+      "OpenAI Codex alpha-13~15发布，Windows崩溃惹众怒",
+      "Gemini CLI安全修复积极，但核心Bug仍待解决",
+      "OpenCode v1.18.2发布，UI改版引众怒但V2重构受期待",
+      "Qwen Code发布2个版本，推进多工作区架构演进",
+      "代理成本失控成行业通病，硬性预算控制成迫切需求"
+    ],
+    "ai-agents": [
+      "OpenClaw发布v2026.7.2-beta.1，支持远程编码会话",
+      "v2026.7.1版本严重网关启动崩溃成修复焦点",
+      "24小时内产生近500条议题和500条PR，社区极度活跃",
+      "插件配置验证原型污染漏洞被修复，安全性增强",
+      "新版本支持云worker运行控制UI和终端恢复会话",
+      "P0级别缺陷积压亟待解决，稳定性是当前首要任务"
+    ],
+    "ai-trending": [
+      "mattpocock/skills单日涨星2130，'技能市场'模式爆发",
+      "hallmark为Claude Code提供专业技能提示，避免AI味代码",
+      "destructive_command_guard用Rust拦截Agent危险命令",
+      "openinterpreter专为低成本模型设计编码Agent",
+      "NousResearch/hermes-agent强调持续学习能力，人气超高",
+      "Significant-Gravitas/AutoGPT持续作为自主Agent标杆"
+    ],
+    "ai-web": [
+      "Anthropic推出Claude Tag，让AI成为Slack团队虚拟成员",
+      "金融领域发布10款开箱即用Agent模板并集成Microsoft 365",
+      "Claude Opus 4.7在金融基准测试达64.37%",
+      "免费向K-12教育工作者提供高级访问权限",
+      "承诺1000万加元投资加拿大AI研究",
+      "Anthropic产品团队65%代码由内部版Claude Tag生成"
+    ],
+    "ai-hn": [
+      "OpenAI发布Codex Micro硬件键盘，社区反应两极分化",
+      "Inkling发布开源975B参数大模型，引发社区高度关注",
+      "Agentty用C++26编写，仅11MB二进制替代Claude Code",
+      "GPT-Red研究模型自我提升鲁棒性，技术细节受关注",
+      "Anthropic研究Claude价值观跨语言差异，引发深度讨论",
+      "OpenAI在欧盟商标诉讼失利，品牌延伸遇阻"
+    ],
+    "ai-arxiv": [
+      "Hindcast揭示LLM预测评估中'未来泄露'作弊问题",
+      "Experience Memory Graph让Agent从过往错误中'一次学习'",
+      "TRACE提出Token级信用分配，解决长期任务奖励稀疏",
+      "DeepInteraction实现思维链精细修补，提升纠错效率",
+      "Partially Correlated Verifier揭示验证级联盲点天花板",
+      "AIMO Interpretability Challenge推动模型内部机制可解释性"
+    ],
+    "ai-hf": [
+      "internl/Agents-A1基于Qwen3.5 MoE专为代理任务设计",
+      "tencent/Hy3发布，腾讯Hunyuan家族新成员获高关注",
+      "zai-org/GLM-5.2获4000点赞，智谱AI MoE-DSA架构巅峰",
+      "Ornith-1.0-35B-GGUF下载量超153万，量化模型需求旺盛",
+      "nvidia/Nemotron-Labs-Audex以3B激活实现30B参数表现",
+      "empero-ai/Qwythos-9B系列多模态模型下载量惊人"
+    ],
+    "ai-community": [
+      "LangSmith vs Traccia：观测型与强制执行型生产监控对比",
+      "构建有'自知之明'的AI Agent，不确定时主动停止猜测",
+      "本地MCP服务器事后分析，直面云API计费和隐私风险",
+      "LLM断路器：预算耗尽时自动降级为本地模型",
+      "开发者聚焦AI生产集成可靠性、安全性和成本控制",
+      "技术社区关注点从'如何用'转向'如何用好并承担后果'"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code faces agentic cost crisis",
+      "OpenAI Codex targets enterprise sandboxing",
+      "OpenCode integrates with desktop IDEs",
+      "Qwen Code enables multi-model orchestration",
+      "MCP and ACP become de facto standards",
+      "Cross-platform Windows stability remains shaky"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.7.2-beta.1 released",
+      "Remote coding sessions now supported",
+      "479 issues and 500 PRs updated today",
+      "Gateway startup migration causes crash-loops",
+      "168 issues closed, 101 PRs merged",
+      "Open items backlog hits 311 issues"
+    ],
+    "ai-trending": [
+      "Agent skill packs like hallmark trending",
+      "awesome-llm-apps exceeds 100 runnable apps",
+      "open-interpreter gains 299 stars today",
+      "JeecgBoot generates full apps from one sentence",
+      "vllm remains critical infrastructure at 86K stars",
+      "Community focus shifts to agent quality-of-life"
+    ],
+    "ai-web": [
+      "Claude Tag launches as proactive Slack agent",
+      "10 agent templates for financial services released",
+      "Claude for Teachers offers free premium access",
+      "Anthropic pushes role-specific AI workforce",
+      "OpenAI data is metadata-only today",
+      "Claude Tag signals shift to persistent collaboration"
+    ],
+    "ai-hn": [
+      "Codex Micro sparks excitement and debate",
+      "Inkling 975B open-weights model drops quietly",
+      "Anthropic IPO plans discussed",
+      "MIT paper on AI bubbles gains traction",
+      "OpenAI EU trademark loss fuels skepticism",
+      "Community mood turns critical of closed-source"
+    ],
+    "ai-arxiv": [
+      "Focus on agent reliability and error correction",
+      "Hindcast paper fixes LLM forecaster evaluation",
+      "Verifier cascades show polynomial failure decay",
+      "Post-training credit assignment for agents explored",
+      "AI bioacoustics and genomics screening advance",
+      "Adaptive digital twins for brain tumor treatment"
+    ],
+    "ai-hf": [
+      "Qwen 3.6 ecosystem dominates trending",
+      "GLM-5.2 tops pure language models with 4K likes",
+      "baidu Unlimited-OCR surges with 2K likes",
+      "Extreme quantization to 1-2 bits gains steam",
+      "MoE architectures like A3B models popular",
+      "empero-ai GGUF variant hits 2.2M downloads"
+    ],
+    "ai-community": [
+      "AI agents that know when not to guess",
+      "LangSmith vs Traccia: observe vs enforce",
+      "Local MCP server post-mortem using Ollama",
+      "LLM circuit breakers for production safety",
+      "Bruce Schneier warns on AI surveillance",
+      "ELIZA legacy debated amid verifiable inference"
+    ]
+  }
+}
