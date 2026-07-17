@@ -1,0 +1,61 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.212 发布，聚焦安全与插件修复",
+      "OpenAI Codex 发布 rust-v0.144.5 及三个 alpha 版本",
+      "Gemini CLI v0.52.0-preview 发布，安全与Agent成核心",
+      "GitHub Copilot CLI v1.0.72 发布，但会话可靠性问题突出",
+      "Kimi Code CLI v1.49.0 发布，重点修复Token计算",
+      "OpenCode v1.18.3 发布，从单工具向平台化转型"
+    ],
+    "ai-agents": [
+      "OpenClaw 无新版本，集中修复2026.7.1回归Bug",
+      "PR #109427 将日志从JSONL迁移到SQLite",
+      "PR #109541 修复子代理完成后的输出丢失问题",
+      "PR #96230 解决会话重试耗尽后死循环重启",
+      "PR #109497 引入实时语音会话框架",
+      "Linux/Windows Clawdbot Apps 最热议题，114条评论"
+    ],
+    "ai-trending": [
+      "Apache OSSIE 语义元数据交换标准项目登榜",
+      "GitHub Copilot SDK 发布，支持Agent开发",
+      "Firecrawl AI驱动的网页抓取API受关注",
+      "Browser-use 让AI Agent操作浏览器工具",
+      "Rig Rust语言的LLM应用构建库上榜",
+      "Dify Agentic工作流开发平台持续热门"
+    ],
+    "ai-web": [
+      "Anthropic 今日静默，无任何新内容发布",
+      "OpenAI 仅发一篇新文：青少年应获得安全AI",
+      "OpenAI 将AI可及性下沉至青少年用户",
+      "Anthropic 沉默或预示重大产品迭代前奏",
+      "OpenAI 抢占社会议题舆论高地",
+      "双方发布节奏严重不对称，竞争策略分化"
+    ],
+    "ai-hn": [
+      "100美元AI音乐视频：Claude vs GPT创意比拼引热议",
+      "经典ML检测LLM文本方法挑战AI检测AI认知",
+      "LM Studio Bionic发布，本地开源Agent新工具",
+      "1Password for Claude 安全凭证访问方案上线",
+      "Anthropic 欧盟监管听证会态度引发社区讨论",
+      "AI人才流动 YC系与巨头关联成热门话题"
+    ],
+    "ai-arxiv": [
+      "VEXMLM方法解决非拉丁文字低资源语言分词问题",
+      "Mask-Aware Policy Gradients为扩散模型引入推理",
+      "LLM跨语言评估存在系统性偏见，可靠性受挑战",
+      "微调看似无害数据可能导致模型意识形态偏移",
+      "LLM智能体模拟政治联盟形成过程可审计",
+      "Energy Society模拟环境研究Agent社会合作经济"
+    ],
+    "ai-hf": [
+      "GLM-5.2 MoE架构以4030点赞登顶本周热门",
+      "Ornith-1.0-35B-GGUF下载量超178万，推理友好",
+      "Qwen3.6无审查视觉模型量化版下载量232万",
+      "Qwythos-9B结合Claude数据蒸馏下载量204万",
+      "MinicPM5系列端侧推理模型获社区关注",
+      "InternScience推Agent专用模型Agents-A1"
+    ]
+  },
+  "en": {}
+}
