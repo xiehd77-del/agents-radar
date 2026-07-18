@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code 支持按 Agent 粒度配置不同模型",
+      "OpenAI Codex 发布 3 个版本，Linux 桌面问题受关注",
+      "Gemini CLI 聚焦 Agent 挂起可靠性问题",
+      "Copilot CLI 发布新版本，解决多根工作区问题",
+      "OpenCode v2 稳定性成焦点，模型自动发现受关注",
+      "Pi TUI 性能与新模型支持成社区热点"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.7.2-beta.2 支持远程编码会话",
+      "迁移 Bug 导致 Gateway 无法启动，标记为 P0",
+      "418 条 Issue 与 500 条 PR，社区高度活跃",
+      "Agent 权限控制增强以防止提示词注入",
+      "会话状态丢失与模型兼容性成严峻挑战",
+      "远程恢复 OpenCode 和 Pi 会话功能上线"
+    ],
+    "ai-trending": [
+      "deer-flow 开源长时超级 Agent 框架",
+      "github/copilot-sdk 今日获 233 星",
+      "openinterpreter 用 Rust 重写代码 Agent",
+      "hallmark 反 AI 味工具迅速蹿红",
+      "milvus 与 qdrant 等向量数据库持续稳固",
+      "vllm 继续作为 LLM 推理引擎事实标准"
+    ],
+    "ai-web": [
+      "OpenAI 发布《A Scorecard For The Ai Age》",
+      "Anthropic 无新内容，进入静默蓄力期",
+      "OpenAI 从技术推动者转向规则定义者",
+      "文章标题暗示 AI 发展评估框架发布",
+      "Anthropic 安全优先策略导致少发声",
+      "OpenAI 旨在抢占行业话语权制高点"
+    ],
+    "ai-hn": [
+      "Claude Code 被深度批判为设计缺陷产品",
+      "Apple 向多名 OpenAI 员工发法律函件",
+      "China erased America's AI lead 引尖锐讨论",
+      "Claude Code 拒绝用户放慢指令引安全担忧",
+      "Kimi K3 能力被称超越 Anthropic Opus",
+      "Fable 模型免费转付费引开发者信任危机"
+    ],
+    "ai-arxiv": [
+      "RoboTTT 将机器人视觉上下文扩展至 8000 步",
+      "BadWAM 揭示世界模型想对但做错的隐患",
+      "SearchOS-V1 展示多智能体复杂检索协作",
+      "AutoSynthesis 实现全自动元分析加速科学",
+      "预训练数据投毒研究揭示新污染风险",
+      "Symbal 检测多模态模型系统化描述错误"
+    ],
+    "ai-hf": [
+      "GLM-5.2 今日获 4073 赞，下载超 53 万",
+      "HauhauCS/Qwen3.6 无审查版下载量 229 万",
+      "InternScience/Agents-A1 专为智能体任务优化",
+      "腾讯 Hy3 大模型入局开源生态",
+      "baidu/Unlimited-OCR 获 2020 赞",
+      "prism-ml 超低比特量化模型下载量惊人"
+    ],
+    "ai-community": [
+      "Codex 删除真实文件引社区安全警钟",
+      "Kimi K3 百万 token 窗口开源模型详细解读",
+      "RAG 系统自我回忆问题引发深度讨论",
+      "AI Agent 自主级别框架为权限控制提供参考",
+      "AWS 教程剖析 RAG 错误答案根源",
+      "AI 生成千篇一律网站引开发者反思"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Security hardening across permission systems",
+      "Claude Code v2.1.214 patch released",
+      "Developers experimenting with multiple tools",
+      "No tool has achieved dominant market position",
+      "Platform expanding to Windows and ARM64 native",
+      "Demand for interoperability and portable config"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.7.2-beta.2 released today",
+      "418 issues and 500 PRs updated",
+      "New remote coding sessions feature",
+      "Cloud worker support introduced",
+      "248 open issues signal community demand",
+      "304 open PRs in maintenance pipeline"
+    ],
+    "ai-trending": [
+      "hallmark gains +1,485 stars today",
+      "deeptutor +531 for personalized AI tutoring",
+      "OpenInterpreter rewritten in Rust for speed",
+      "Anthropic’s cwc-workshops trending",
+      "GitHub copilot-sdk gains +233 stars",
+      "turbovec brings Rust-on-Python vector index"
+    ],
+    "ai-web": [
+      "OpenAI publishes 'Scorecard For The AI Age'",
+      "Anthropic produced zero new articles",
+      "OpenAI investing in narrative control and standards",
+      "Piece may define industry metrics",
+      "Anthropic quiet period may signal major release",
+      "Asymmetric update between the two labs"
+    ],
+    "ai-hn": [
+      "Triple crisis at Anthropic dominates discussion",
+      "Apple launches massive legal attack on Anthropic",
+      "Claude Code Fable model paywalled sparks revolt",
+      "Kaiser nurses thread reframes AI in healthcare",
+      "China's Kimi K3 leapfrogs US frontier models",
+      "Community critiques corporate overreach"
+    ],
+    "ai-arxiv": [
+      "RoboTTT extends robot context to 8K timesteps",
+      "BadWAM finds action models dream but act wrong",
+      "AutoSynthesis automates meta-analysis research",
+      "Pretraining data can be poisoned via propaganda",
+      "DriftWorld tackles fast world modeling",
+      "Safety alignment beyond text level explored"
+    ],
+    "ai-hf": [
+      "Qwen 3.5/3.6 ecosystem dominates trending",
+      "GLM-5.2 leads with 4,073 likes",
+      "Prism-ml pushes 1-bit and 2-bit quantization",
+      "Inkling multimodal LLM trending at 962 likes",
+      "Tencent Hy3 Hunyuan v3 gains early adoption",
+      "Unlimited-OCR surging for multimodal OCR"
+    ],
+    "ai-community": [
+      "Kimi K3 2.8-trillion-parameter model detailed",
+      "AI agent autonomy lessons dominate Dev.to",
+      "Skill locks taste before AI writes code",
+      "Bruce Schneier essays on AI wealth concentration",
+      "Gemma-4 deployment on AWS Inferentia2 discussed",
+      "Community moves beyond hype to operational wisdom"
+    ]
+  }
+}
