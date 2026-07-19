@@ -1,0 +1,95 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code 等工具进入精细化运营与安全加固阶段",
+      "Gemini CLI 修复 Shell 注入漏洞和虚假成功报告",
+      "OpenAI Codex 面临 Windows 平台性能崩溃问题",
+      "GitHub Copilot CLI 支持 1M 上下文和模型精细配置",
+      "Qwen Code 子 Agent 模型泄露 P1 级漏洞待修复",
+      "DeepSeek TUI 完成 xAI Grok 集成与 Work Graph 模型"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.7.2-beta.3 上线远程编码会话",
+      "P0 级 Bug 频现：beta.2 数据库迁移与网关启动失败",
+      "项目正从本地工具向分布式远程工作流平台演进"
+    ],
+    "ai-trending": [
+      "tirth8205/code-review-graph 今日暴涨 355 星",
+      "lyogavin/airllm 仅需 4GB 显存运行 70B 大模型",
+      "NousResearch/hermes-agent 获 21.7 万星，引领自适应 Agent",
+      "ollama/ollama 以 17.6 万星稳居本地模型运行首选",
+      "MoonshotAI/kimi-cli 上线，头部厂商深挖 CLI Agent",
+      "mem0ai/mem0 聚焦 Agent 记忆技术获社区热捧"
+    ],
+    "ai-hn": [
+      "GPT-5.6 用 Prompt 攻克凸优化 30 年难题引热议",
+      "教程：用 Claude 控制闲置 Mac 获 185 分热评",
+      "LLM 推理监控工具 llm-inspector 获开发者关注",
+      "社区热议 AI 泡沫与全球决策力衰退反思"
+    ],
+    "ai-hf": [
+      "google/gemma-4-31B-it 下载量 1260 万登顶本周",
+      "zai-org/GLM-5.2 获 4129 赞，MoE 架构受热捧",
+      "HauhauCS/Qwen3.6 未审查版下载达 219 万",
+      "baidu/Unlimited-OCR 获 2025 赞，全能 OCR 标杆",
+      "thinkingmachines/Inkling 多模态 MoE 新星崛起",
+      "1-bit/2-bit 极限量化模型正将本地部署推向新边界"
+    ],
+    "ai-community": [
+      "Kimi K3 2.8 万亿参数模型冲击移动端推理",
+      "GPT-5.6 Sol 破数学难题，但被指有严重规避行为",
+      "指南：PDF 处理如何吞噬 LLM Token 成本",
+      "探讨 Agent 化流水线数据缓存与上下文非记忆"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code data is unavailable",
+      "OpenAI Codex hotfixed rust-v0.144.6",
+      "Windows stability is a crisis",
+      "Kimi Code closes critical bugs fast",
+      "DeepSeek TUI shows high velocity",
+      "Session lifecycle management emerges"
+    ],
+    "ai-agents": [
+      "OpenClaw released v2026.7.2-beta.3",
+      "Remote coding sessions now supported",
+      "230 PRs merged, 270 still open",
+      "P0 crash-loop bug remains unfixed",
+      "Gateway startup has critical issues",
+      "Community active on Telegram features"
+    ],
+    "ai-trending": [
+      "wigolo +203 stars for zero-cost tools",
+      "code-review-graph +355 stars",
+      "lingbot-map +831 stars for 3D",
+      "PostHog +338 stars for observability",
+      "build-your-own-x +1,126 stars",
+      "Kimi CLI signals CLI tooling competition"
+    ],
+    "ai-hn": [
+      "GPT-5.6 closes 30-year math gap",
+      "AI Mania fears dominate discussions",
+      "Claude shows subtle Anthropic biases",
+      "Dot Com crash comparisons surface",
+      "Regulation targets AI real estate ads",
+      "Model sycophancy debate sparks"
+    ],
+    "ai-hf": [
+      "Bonsai GGUF downloads exceed 1.5M",
+      "GLM-5.2 hits 4,129 likes",
+      "Gemma-4 31B reaches 12.6M downloads",
+      "Unlimited-OCR crosses 2M downloads",
+      "Qwythos-9B GGUF surpasses 2M",
+      "InternScience Agents-A1 is trending"
+    ],
+    "ai-community": [
+      "PDFs are eating LLM tokens alive",
+      "Kimi K3 is 2.8 trillion parameters",
+      "GPT-5.6 Sol yields 30-year proof",
+      "Mobile inference hits 120B",
+      "Context window vs memory debated",
+      "Adversarial AI workflows are rising"
+    ]
+  }
+}
