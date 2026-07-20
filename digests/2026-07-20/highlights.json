@@ -1,0 +1,102 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code 子代理静默挂起，社区呼吁可靠性回归",
+      "OpenAI Codex 被曝性能崩溃与资源泄漏",
+      "Gemini CLI v0.52.0-nightly 修复子代理 Bug",
+      "Copilot CLI Plan 模式模型回归引发不满",
+      "Qwen Code 发布 v0.20.1-preview，优化冷启动",
+      "DeepSeek TUI 报告子代理效率低下与安全误报"
+    ],
+    "ai-agents": [
+      "OpenClaw 社区收到 345 条 Issues 和 500 条 PRs",
+      "PR #111569 修复 Gateway 设置重置问题",
+      "PR #111260 提升 Windows cron 稳定性",
+      "LLM 请求因 payload 被拒引发广泛讨论",
+      "会话状态管理与安全成今日关注焦点",
+      "钻石龙虾评级问题显示深层次技术挑战"
+    ],
+    "ai-trending": [
+      "ktransformers 登顶，聚焦高效推理引擎",
+      "AutoGPT 与 OpenHands 带动 Agent 框架热潮",
+      "ollama 持续热门，本地模型部署成主流",
+      "Firecrawl 与 supervision 引爆数据采集工具",
+      "TradingAgents 开源量化交易智能体",
+      "直播 AI 工具 Voicebox 与编辑器 Cherry Studio 上榜"
+    ],
+    "ai-hn": [
+      "Claude Code 用 Rust 版 Bun 运行获 400+ 分热评",
+      "OpenAI 缩减 Codex 上下文窗口引发开发者不满",
+      "GPT-5.6 被指可能意外删除文件，安全风险受质疑",
+      "Shikigami 并行 AI 编码代理引发工程创新讨论",
+      "AI 对创意产业造成压制，社区反思加深",
+      "ChatGPT 抗议活动凸显社会争议升级"
+    ],
+    "ai-hf": [
+      "GLM-5.2 MoE 模型发布，立即获得 53 万下载",
+      "谷歌 Gemma 4 下载量突破 1200 万",
+      "超低比特量化模型 1-bit/2-bit 浪潮席卷 27B 模型",
+      "百度 Unlimited-OCR 多模态模型下载量超 210 万",
+      "Qwen3.6 无审查视觉模型热度飙升",
+      "Wan-Dancer-14B 专注 AI 舞蹈视频生成"
+    ],
+    "ai-community": [
+      "LLM 管道毫秒级分析：LLM 并非性能瓶颈",
+      "OneNote MCP Server 用 TypeScript 重写教程",
+      "AI Agent 费用上限失效即安全缺口引热议",
+      "从主观感觉走向指标评估 LLM 生产管线",
+      "ELIZA 发明史重回社区视野引讨论",
+      "可验证推理成 Lobste.rs 高赞话题"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Subagent reliability bugs across all tools",
+      "Claude Code has 15 PRs from one contributor",
+      "Universal pain points in session state",
+      "Kimi Code shows targeted innovation",
+      "Model regression reports dominate Claude Code",
+      "Granular security controls in demand"
+    ],
+    "ai-agents": [
+      "500 pull requests in 24 hours",
+      "345 issues updated in last day",
+      "Major sprint or incident response ongoing",
+      "Core maintainers driving critical fixes",
+      "Regression bugs from 2026.7.1 release",
+      "Focus on hardening security and secrets"
+    ],
+    "ai-trending": [
+      "Agent-centric infrastructure dominating trends",
+      "kimi-cli gains 410 stars in one day",
+      "ktransformers enables mixed GPU/CPU inference",
+      "airllm runs 70B models on 4GB GPU",
+      "Voice cloning tool voicebox trending",
+      "AI Agent Book surges thousands of stars"
+    ],
+    "ai-hn": [
+      "Claude Code now uses Bun written in Rust",
+      "OpenAI silently cut Codex context from 372k to 272k",
+      "GPT-5.6 may accidentally delete files",
+      "Apple sues OpenAI over talent poaching",
+      "Anti-AI protest at OpenAI HQ",
+      "Community furious over stealth downgrading"
+    ],
+    "ai-hf": [
+      "zai-org/GLM-5.2 leads with 4,172 likes",
+      "google/gemma-4-31B-it dominates downloads at 12.3M",
+      "Ternary quantization gaining serious traction",
+      "Multimodal models now majority on list",
+      "Qwen ecosystem with explosive growth",
+      "Extreme quantization and MoE architectures rise"
+    ],
+    "ai-community": [
+      "AI agent reliability failures highlighted",
+      "Infinite math loop exposed timeout gaps",
+      "LLM was fastest part of AI pipeline",
+      "Building social media agents with Hono.js",
+      "Historical deep dive on ELIZA draws discussion",
+      "Tension between shipping AI and control"
+    ]
+  }
+}
