@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code 发布 v2.1.216 补丁版本",
+      "OpenAI Codex 发布 v0.145.0-alpha.27/25",
+      "社区聚焦 Agent 系统的安全与可靠性",
+      "Token 消耗与成本优化成为用户核心痛点",
+      "Bug反馈激增，用户从尝鲜转向深度开发",
+      "GitHub Copilot CLI 发布 v1.0.73 版本"
+    ],
+    "ai-agents": [
+      "OpenClaw 社区日处理超350条 Issue",
+      "修复了 doctor 命令的严重安全漏洞",
+      "SSRF 攻击防护通过 isIP 严格校验",
+      "Codex 后端回归问题成讨论热点",
+      "会话状态管理与消息丢失备受关注",
+      "Telegram 渠道流式传输失败获修复"
+    ],
+    "ai-trending": [
+      "bojieli/ai-agent-book 今日增长 4434星",
+      "OmniRoute: 统一268家服务商的AI网关",
+      "ktransformers: 异构硬件LLM推理优化",
+      "MoonshotAI/kimi-cli 获410星快速崛起",
+      "PrefectHQ/fastmcp: 快速构建MCP服务器",
+      "Rig: Rust 构建 LLM 应用模块化框架"
+    ],
+    "ai-web": [
+      "Anthropic 启动罕见病研究资助项目",
+      "最高5万美元 Claude API 额度支持",
+      "OpenAI 发布长视界模型安全对齐研究",
+      "Anthropic 科研战略从广泛赋能转向垂直深耕",
+      "解决 Agent 长期任务安全对齐难题",
+      "精准覆盖基础科研与早期生物技术公司"
+    ],
+    "ai-hn": [
+      "前沿实验室经济学分析获302分热评",
+      "Kimi K3与Qwen 3.8竞争压力引热议",
+      "OpenAI 发布长周期模型安全对齐研究",
+      "Anthropic 模型或破解雅可比猜想数学难题",
+      "社区热议 AI 烧钱竞赛何时终结",
+      "AI 视频生成教育应用获积极探索"
+    ],
+    "ai-arxiv": [
+      "研究揭示LLM对用户语言形式高度敏感",
+      "激活引导技术可打破模型思维死循环",
+      "SWE-Pruner Pro 利用智能体内省裁剪上下文",
+      "FlashRT 框架自动部署实时多模态应用",
+      "FinSAgent: 多智能体金融分析框架",
+      "三体散射物理模拟引入生成模型新方法"
+    ],
+    "ai-hf": [
+      "Google Gemma-4-31B-it 下载量达1198万",
+      "百度 Unlimited-OCR 下载量突破212万",
+      "Qwen 3.6 系列社区微调与量化活跃",
+      "GLM-5.2 MoE架构获点赞数最高",
+      "HauhauCS 去审查版下载量超200万",
+      "1-bit/2-bit极致量化成社区主流"
+    ],
+    "ai-community": [
+      "AI 生成代码归属性引发法律伦理辩论",
+      "ReflectionCLI 2.0: 本地优先思考型CLI",
+      "smolagents 隐藏Bug导致代码重复执行",
+      "本地部署不解决智能体安全问题",
+      "不信任自身策略构建安全AI框架",
+      "AI编码智能体对初级开发者影响探讨"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.216 fixes quadratic slowdown",
+      "Kimi Code & DeepSeek TUI fastest fix cycles",
+      "Copilot CLI & Claude Code lead in maturity",
+      "Pi & OpenCode offer BYOK flexibility",
+      "Codex CLI has 10 hot issues active",
+      "Seven open-source projects ship rapid updates"
+    ],
+    "ai-agents": [
+      "OpenClaw: 353 issues, 500 PRs in 24h",
+      "Only 37% issue closure rate shows bottleneck",
+      "Telegram streaming reliability fix merged",
+      "OpenClaw last tagged 2026.7.1",
+      "Session stability remains top concern",
+      "Maintainer review needed for many PRs"
+    ],
+    "ai-trending": [
+      "bojieli/ai-agent-book +4,434 stars today",
+      "OmniRoute +1,107 stars for AI gateways",
+      "code-review-graph +1,833 stars for MCP",
+      "ktransformers +458 for inference optimization",
+      "moonshine +282 for low-latency voice interfaces",
+      "Kimi CLI official agent hits 410 stars"
+    ],
+    "ai-web": [
+      "Anthropic offers $50K grants for rare diseases",
+      "OpenAI posts 'Safety Alignment Long Horizon Models'",
+      "Anthropic scales AI for Science into philanthropy",
+      "OpenAI addresses agent alignment bottleneck",
+      "Dichotomy: grants vs core research today",
+      "No extractable text in OpenAI metadata article"
+    ],
+    "ai-hn": [
+      "Kimi K3 vs Qwen analysis sparks debate",
+      "Claude Fable 5 refutes Jacobian Conjecture",
+      "$1.5B Anthropic copyright settlement approved",
+      "OpenAI revenue shortfall discussed",
+      "Americans may vote out politicians over AI",
+      "Safety alignment for long-horizon models"
+    ],
+    "ai-arxiv": [
+      "Papers push efficiency and reasoning control",
+      "Activation steering breaks LLM self-loops",
+      "Sycophancy persists in latent representations",
+      "Agentic systems mature for real-time deployment",
+      "Causal discovery advances for richer models",
+      "LLM fragility probed via presuppositions"
+    ],
+    "ai-hf": [
+      "Bonsai 1-bit models get 1.6M+ downloads",
+      "Gemma-4-31B-it dominates with 12M downloads",
+      "Qwen3.6 ecosystem explodes with variants",
+      "GLM-5.2 MoE-DSA trending at 4,228 likes",
+      "MiniCPM-RobotManip signals robotics frontier",
+      "Ternary quantization is now production-ready"
+    ],
+    "ai-community": [
+      "Who owns AI-generated code? Legal debate",
+      "Local AI doesn't solve prompt injection",
+      "CrewAI bug caused silent agent failures",
+      "Alibaba releases 2.4T parameter model",
+      "Models answer 'Neutral' to everything",
+      "ELIZA retrospective on Lobste.rs sparks discussion"
+    ]
+  }
+}
