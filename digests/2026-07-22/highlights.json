@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "OpenAI Codex v0.145.0 修复 Windows 进程风暴",
+      "Gemini CLI v0.52.0 曝 A2A 服务器 RCE 漏洞",
+      "Claude Code v2.1.217 遭订阅验证异常",
+      "GitHub Copilot CLI 引入 5MB CAPI 上限",
+      "Kimi Code CLI 遭遇 k2.5 模型 Tool Calling 失效",
+      "OpenCode Go 订阅服务大面积故障"
+    ],
+    "ai-agents": [
+      "OpenClaw 会话压缩命令永久删除聊天记录",
+      "社区热议 llama.cpp 模型兼容性",
+      "500 Issue 关闭率 20.6%，PR 合并率 33%",
+      "TUI 状态摘要本地化提案提交",
+      "配置重构 PR 减少安全边界复杂度",
+      "大量 PR 修复会话管理与数据完整性"
+    ],
+    "ai-trending": [
+      "AstrBot 智能体框架登顶趋势榜",
+      "koala73/worldmonitor 成 AI 基础工具新星",
+      "CherryStudio 多模态应用下载量激增",
+      "RAGFlow 知识库项目获大量关注",
+      "tiny-llm 轻量级大模型训练项目上榜",
+      "browser-use 浏览器 Agent 框架热度攀升"
+    ],
+    "ai-web": [
+      "Anthropic 发布 Claude Opus 4.8 旗舰模型",
+      "Claude Sonnet 5 下放代理能力价格更低",
+      "Anthropic 推出教师与中小企业垂直方案",
+      "Opus 4.7 聚焦硬核代码与安全降级实验",
+      "OpenAI 仅有一条董事会变动元数据",
+      "Anthropic 一日内输出12篇内容抢占议程"
+    ],
+    "ai-hn": [
+      "OpenAI 模型评估中越狱攻击 Hugging Face",
+      "CodeAlmanac 自动生成 Karpathy 风格维基",
+      "Orate 推出 Mac 端设备神经 TTS 队列",
+      "Anthropic 因盗版训练支付 15.5 亿和解金",
+      "OpenAI 正式上线 ChatGPT 广告业务",
+      "社区热议 AI 系统不可预测性与责任归属"
+    ],
+    "ai-arxiv": [
+      "证据感知 RL 缓解长上下文重复复制问题",
+      "ISO 优化栈提升可验证奖励 RL 推理能力",
+      "Off-Context GRPO 解决难题零信号问题",
+      "RLVR 在神经机器翻译中成本质量权衡",
+      "选择性状态空间适配器替代静态 LoRA",
+      "扩散 Transformer 多模态区域控制突破"
+    ],
+    "ai-hf": [
+      "百度 Unlimited-OCR 周点赞数登顶榜首",
+      "Google Gemma-4-31B-it 周下载量破1200万",
+      "zai-org/GLM-5.2 国产 MoE 模型走红",
+      "Kimi K2.7-Code 代码模型下载量突破72万",
+      "Qwen3.6 社区无审查版获高人气",
+      "1-bit/2-bit 量化推至27B 参数级别"
+    ],
+    "ai-community": [
+      "AI 编码代理引发新型供应链攻击讨论",
+      "Kubernetes MCP 服务器比 kubectl 效率高76%",
+      "hallint 工具实时拦截 AI 写安全漏洞",
+      "少样本提示比思维链更适合复杂任务",
+      "smolagents 沙箱破坏Python 解包语法",
+      "Kimi K3 在网络安全审计中胜出"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code fixes fd leak kernel panics",
+      "Codex taskkill.exe storms freeze Windows",
+      "Gemini CLI unbounded output burns tokens",
+      "Kimi Code and Pi push local LLM integration",
+      "Qwen Code and DeepSeek TUI stabilize",
+      "MCP integration crisis dominates ecosystem"
+    ],
+    "ai-agents": [
+      "OpenClaw has 500 open issues and PRs",
+      "Security patches for secret/credential flaws",
+      "MCP tool injection risks in subagents",
+      "Database corruption and latency issues persist",
+      "PR #103895 adds Slack Agent View",
+      "Growing backlog strains maintainer bandwidth"
+    ],
+    "ai-trending": [
+      "bojieli/ai-agent-book +4,624 stars today",
+      "OmniRoute MIT gateway hits +2,034 stars",
+      "outlines library for structured LLM outputs",
+      "llmfit tests hundreds of models locally",
+      "wigolo MCP-based tool integration trending",
+      "Agent infrastructure dominates open source"
+    ],
+    "ai-web": [
+      "Claude Opus 4.8 launches with effort controls",
+      "Anthropic introduces Agent Skills framework",
+      "12 new articles from Anthropic today",
+      "OpenAI only posts board appointment news",
+      "Effort controls allow dynamic compute scaling",
+      "Heavy asymmetry in Anthropic vs OpenAI comms"
+    ],
+    "ai-hn": [
+      "OpenAI agents breached Hugging Face evaluation",
+      "Anthropic settles $1.5B copyright lawsuit",
+      "White House redirects billions to AI research",
+      "Claude Is Not a Compiler sparks debate",
+      "Advertise in ChatGPT raises commercialization concerns",
+      "Agent safety and containment hotly discussed"
+    ],
+    "ai-arxiv": [
+      "RLVR dominates post-training language model research",
+      "Copy Less, Ground More tackles long-context flaws",
+      "Selective state-space adaptation challenges LoRA",
+      "Agentic systems transition to deployment phase",
+      "Repetitive reasoning in LLMs gains attention",
+      "Code-specific agent recovery strategies emerge"
+    ],
+    "ai-hf": [
+      "Gemma-4-31B-it leads with 12M+ downloads",
+      "Bonsai family pushes extreme 1-bit quantization",
+      "ThinkingCap-Qwen3.6-27B reasoning model rises",
+      "Baidu Unlimited-OCR hits 2.2M downloads",
+      "GLM-5.2 MoE-DSA tops likes at 4,285",
+      "Needle JAX model optimized for agentic tools"
+    ],
+    "ai-community": [
+      "AI agents invent packages attackers claim",
+      "Hugging Face breach by autonomous agent",
+      "Kimi K3 wins cyber audits over US models",
+      "Google drops Gemini 3.6 Flash models",
+      "Over-engineering LLM apps cautionary post",
+      "Unbounded memory risks in local assistants"
+    ]
+  }
+}
