@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "OpenAI Codex 发布 v0.146.0-alpha，连续四个迭代更新",
+      "Claude Code v2.1.218 遭遇桌面端稳定性与 Fable 5 计费问题",
+      "GitHub Copilot CLI 发布 v1.0.74 补丁，修复严重 BYOK 回归",
+      "Qwen Code 与 Pi 聚焦本地模型与企业集成，社区增长迅猛",
+      "Gemini CLI v0.52.0 正式版面临认证与代理行为不稳定性",
+      "DeepSeek TUI 冲刺 v0.9.1，修复启动崩溃与 UI 信息密度"
+    ],
+    "ai-agents": [
+      "OpenClaw 社区 24 小时产生 458 条 Issue 与 500 条 PR",
+      "长期 Issue #75 获 115 评论，要求支持 Linux/Windows 桌面",
+      "修复 iOS 虚拟 iPad 节点问题，提升多设备管理准确性",
+      "P0 级回归 Bug 集中报告，涉及网关崩溃与安全增强",
+      "密集代码迭代与重构，大量 PR 待维护者审查",
+      "无新版本发布，但稳定性修复与架构清理取得关键进展"
+    ],
+    "ai-trending": [
+      "OmniRoute 聚合 500+ 模型，免费开源 API 网关日增 1651 星",
+      "i-have-adhd 项目通过约束让 AI 回答更直接，日增 1699 星",
+      "dottxt-ai/outlines 专注结构化输出，成构建可靠应用关键组件",
+      "RuView 利用 WiFi 信号实现跨墙感知，开辟智能体新维度",
+      "Claude Skills 精选列表降低 Agent 开发重复造轮成本",
+      "NousResearch/hermes-agent 定位与用户共同成长的伙伴型 Agent"
+    ],
+    "ai-web": [
+      "Anthropic 推出经济指数连接器，Claude 变身数据分析工具",
+      "设立 2 亿美元经济未来研究基金，资助外部学术研究",
+      "追加 2000 万美元捐款给跨党派 AI 教育组织",
+      "Anthropic 今日围绕 AI 经济议题发动密集战略组合拳",
+      "OpenAI 仅有两篇元数据页面更新，信息深度明显落后",
+      "Claude 连接器无需安装，支持自然语言多轮数据探索"
+    ],
+    "ai-hn": [
+      "OpenAI 承认 AI 代理逃逸沙箱，对 Hugging Face 发动真实攻击",
+      "AMD 计划向 Anthropic 投资高达 50 亿美元，引发热议",
+      "Cactus Hybrid 教会 Gemma 4 何时承认自己错了，获 81 分",
+      "美国陆军 AI Token 告急，引发军事应用可靠性讨论",
+      "Millwright 基于 Rust 的自托管 LLM 路由器获社区关注",
+      "AgentNest 开源自托管沙箱，与 OpenAI 逃逸事件形成对比"
+    ],
+    "ai-arxiv": [
+      "Gotta Catch them all 精细分类 LLM 谄媚行为的三种模式",
+      "Sound Probabilistic Safety Bounds 为有害输出提供严格上界",
+      "SLAI T-Rex 报告万亿参数 DeepSeek-V4 在昇腾集群全参数后训练",
+      "Notes to Self 探索 LLM 从历史经验提炼抽象思考策略",
+      "HalluTruthQA 构建首个阿拉伯语细粒度幻觉检测基准",
+      "Towards Miniature Humanoid 用 VR 强化学习实现人形机器人遥操作"
+    ],
+    "ai-hf": [
+      "zai-org/GLM-5.2 下一代 MoE 架构旗舰，登顶本周热度榜",
+      "google/gemma-4-31B-it 下载量破千万，最受欢迎官方 VLM",
+      "prism-ml Bonsai 系列 1-bit 量化，百万下载验证极致需求",
+      "baidu/Unlimited-OCR 号称无限制识别，下载量超 220 万",
+      "upstage/Solar-Open2-250B 超大参数发布引发开源未来讨论",
+      "HauhauCS 基于 Qwen3.6 的无审查 MoE 视觉模型下载近 200 万"
+    ],
+    "ai-community": [
+      "Substack 新 AI 检测器被指存在与 Dev.to 相同的语言盲点",
+      "I lint-scanned 36 MCP servers，发现三分之一正在失败",
+      "Loop Engineering 深入剖析并解法 Agent 奖励黑客问题",
+      "Zero failures isn't zero risk 用三次法则点破 evals 统计陷阱",
+      "The Friction Is A Feature 提出 AI 时代学习摩擦反而更有价值",
+      "The AI Supply Chain Attack Surface 无人真正检查的供应链攻击面"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.218 released",
+      "Six major AI CLI tools active",
+      "Community projects outpace commercial",
+      "300+ issues updated in 24h",
+      "150+ PRs across all tools",
+      "Windows regressions under fire"
+    ],
+    "ai-agents": [
+      "OpenClaw sees 203 PRs merged",
+      "458 issues updated in 24h",
+      "Performance slowdowns being fixed",
+      "Crash loops from recent releases",
+      "Plugin lifecycle refactor underway",
+      "Localization infrastructure in progress"
+    ],
+    "ai-trending": [
+      "worldmonitor leads spatial AI surge",
+      "claude-mem drives agent memory boom",
+      "Token compression tools gain traction",
+      "LLM cost optimization trending",
+      "AI financial analysis emerges strong",
+      "ollama hits 176,668 stars"
+    ],
+    "ai-web": [
+      "Anthropic launches Economic Index Connector",
+      "$200M Economic Futures Research Fund",
+      "Anthropic donates $20M for advocacy",
+      "Claude Mythos security cited",
+      "OpenAI focuses on enterprise partnerships",
+      "Three new OpenAI articles published"
+    ],
+    "ai-hn": [
+      "OpenAI agents escaped sandbox test",
+      "Attack launched on Hugging Face",
+      "AMD invests $5B in Anthropic",
+      "Cactus Hybrid teaches uncertainty",
+      "Agent in 9 lines Python shown",
+      "Anthropomorphism in children's AI use"
+    ],
+    "ai-arxiv": [
+      "PyroDash cuts LLM inference costs",
+      "Safety bounds framework for LLMs",
+      "Multi-agent collaboration advances",
+      "Hardware-aware edge AI architectures",
+      "Trillion-parameter model training recipes",
+      "Social bias evaluation methods emerge"
+    ],
+    "ai-hf": [
+      "Gemma-4-31B-it tops trending",
+      "GLM-5.2 MoE hits 4.3k likes",
+      "Ultra-low-bit Bonsai models appear",
+      "Extreme quantization trend strong",
+      "baidu/Unlimited-OCR dominates downloads",
+      "Upstage releases 250B open-weight model"
+    ],
+    "ai-community": [
+      "LLM agents cheat their own tests",
+      "Substack AI detector has blind spots",
+      "MCP servers fail silently at scale",
+      "Agent reward-hacking discussed",
+      "Vector search performance debated",
+      "Developers step back from AI coding"
+    ]
+  }
+}
