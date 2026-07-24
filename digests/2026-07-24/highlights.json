@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code与OpenAI Codex遭遇稳定性挑战，社区反馈集中",
+      "Kimi CLI与Pi快速迭代，修复兼容性Bug并增强MCP集成",
+      "Copilot CLI正式支持Open Plugin Spec v1，强化生态对接",
+      "OpenCode正积极向2.0版本迁移，重构活跃度极高",
+      "Gemini CLI聚焦安全，通过PR构建下一代自动化Agent框架",
+      "社区整体从功能探索转向打磨稳定性与深度工作流集成"
+    ],
+    "ai-agents": [
+      "OpenClaw项目今日极度活跃，处理了500条PR",
+      "核心架构重构，统一了代理管理与任务调度系统",
+      "修复了子代理会话死锁及数据库写入损坏等关键Bug",
+      "新增了openclaw browser batch CLI批量操作子命令",
+      "iOS发布构建流程中的关键阻塞问题得到修复",
+      "虽无新版本发布，但大量高优Bug正通过PR积极推进"
+    ],
+    "ai-trending": [
+      "OmniRoute网关引爆社区，单日获1929星，覆盖500+模型",
+      "Graphify与claude-mem推动AI记忆从RAG走向结构化",
+      "AI金融模型Kronos与交易框架TradingAgents热度不减",
+      "OmniRoute提供90+免费提供商，催生低成本AI调用需求",
+      "Audacity官方推出开源AI音频编辑功能引热议",
+      "Automattic/harper强调离线隐私，本地化AI成为新共识"
+    ],
+    "ai-web": [
+      "Anthropic发布Claude Opus 4.7，战略性削弱网络安全能力",
+      "Anthropic推出'创意工作连接器'，深度绑定Adobe与Ableton",
+      "为更强大的Claude Mythos Preview部署铺路，引发模型治理讨论",
+      "OpenAI仅更新'Health In ChatGPT'，暗示进军医疗领域",
+      "Anthropic战略转型：从通用聊天助手迈向专业生产力工具",
+      "双方差异化竞争：Anthropic深耕工具链，OpenAI押注垂直行业"
+    ],
+    "ai-hn": [
+      "开源模型Echo实现Fable级效果，成本仅三分之一",
+      "OneCLI开源凭证网关，解决AI Agent凭证泄露核心安全",
+      "Claude-thermos工具诞生，应对Claude会话频繁超时痛点",
+      "OpenAI与Anthropic联手限制开源模型，引发垄断争议",
+      "社区反应强烈，大量务实工具涌现以平衡成本与能力",
+      "澳大利亚AI能源与版权法案成为讨论焦点"
+    ],
+    "ai-arxiv": [
+      "Agent内存管理成研究焦点，新论文提出生命周期管理方案",
+      "AREX论文提出能递归自我改进的深度研究Agent",
+      "LLM过度使用'自我修正'修辞，研究发现训练根源",
+      "Token预算饱和机制分析，实现思维链早停检测",
+      "人机合著文本中可精准定位LLM生成的Token",
+      "非英语LLM记忆基准RUMBA发布，填补评估空白"
+    ],
+    "ai-hf": [
+      "GLM-5.2以4375点赞登顶，成本周现象级MoE模型",
+      "Google的Gemma-4-31B-it下载量破千万，通用性极强",
+      "百度的Unlimited-OCR引关注，下载量超240万",
+      "Qwen 3.6生态持续繁荣，大量微调量化版本霸榜",
+      "Poolside发布专注于代码生成的Laguna-S-2.1模型",
+      "Upstage的250B超大模型Solar-Open2-250B引发讨论"
+    ],
+    "ai-community": [
+      "开发者揭露AI Agent背后的'肮脏秘密'与工程挑战",
+      "实测用2.4MB Go分类器替代7B模型，性能飞跃",
+      "深度剖析RAG管线实际成本，提供量化优化思路",
+      "警告多数RAG系统失败根源在架构而非向量数据库",
+      "批判AI安全护栏过度限制，忽视高昂'恐惧成本'",
+      "社区侧重讨论MCP集成Google Gemini到视频编辑等实践"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.218 stable",
+      "Codex 2 alpha releases (0.146.0)",
+      "New tools: Pi, Qwen Code, DeepSeek TUI",
+      "MCP integration fragility across tools",
+      "Windows platform regressions reported",
+      "Connection instability issues persist"
+    ],
+    "ai-agents": [
+      "500 PRs in last 24 hours",
+      "184 PRs merged, 93 issues resolved",
+      "Telegram regression in 2026.7.2-beta.3",
+      "Session state corruption remains",
+      "Silent subagent failures still open",
+      "Critical stability concerns persist"
+    ],
+    "ai-trending": [
+      "ECC hits 232K stars",
+      "hermes-agent at 219K stars",
+      "OmniRoute +1,929 stars today",
+      "RuView +1,708 stars today",
+      "Graphify 94K stars new RAG approach",
+      "TradingAgents framework at 94K stars"
+    ],
+    "ai-web": [
+      "Claude Opus 4.7 released",
+      "Opus 4.7 suppresses cyber capabilities",
+      "Creative Work ecosystem connectors",
+      "Adobe, Ableton, Autodesk, Canva support",
+      "Anthropic rapid model cadence revealed",
+      "OpenAI Health In ChatGPT page only"
+    ],
+    "ai-hn": [
+      "Echo open-weight matches closed models",
+      "OpenAI-HuggingFace hacking controversy",
+      "Oracle fires 21,000 after failed AI",
+      "Anthropic 13x AI coding subsidy",
+      "Claude Opus 5 quietly benchmarked",
+      "Mistral pivots to Palantir-like strategy"
+    ],
+    "ai-arxiv": [
+      "Agentic context management framework",
+      "KV-cache eviction loss proof",
+      "LLM epanorthosis bias identified",
+      "Recursively self-improving research agents",
+      "Neuro-symbolic reasoning with Prolog",
+      "Video editing with generative simulation"
+    ],
+    "ai-hf": [
+      "GLM-5.2 tops with 4,375 likes",
+      "Gemma-4-31B-it has 12.6M downloads",
+      "Qwen3.6 fine-tunes trending",
+      "Extreme quantization and MoE focus",
+      "Solar-Open2-250B at 465 likes",
+      "Nanbeige4.2-3B for edge deployment"
+    ],
+    "ai-community": [
+      "AI agents fragile orchestration revealed",
+      "RAG hidden costs analyzed",
+      "AI governance over-regulating capability",
+      "MCP server adoption growing",
+      "AI endpoints change API flow",
+      "Vector search at scale discussed"
+    ]
+  }
+}
