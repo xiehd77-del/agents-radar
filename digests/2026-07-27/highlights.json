@@ -1,0 +1,118 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code蓝屏Bug爆发，社区热议稳定性危机",
+      "Qwen Code MCP安全漏洞被标记为P1优先级",
+      "Qwen Code发布v0.21.0-nightly版本",
+      "DeepSeek TUI筹备v0.9.2版本聚焦性能优化",
+      "OpenAI Codex改进MCP OAuth认证",
+      "Pi TUI性能退化与MiniMax M3集成引热议"
+    ],
+    "ai-agents": [
+      "OpenClaw社区单日产生超850条Issue和PR",
+      "修复会话卡死Bug的PR被合并",
+      "修复Implicit Embedding回归Bug的PR已关闭",
+      "Dependabot持续进行GitHub Actions安全更新",
+      "CI工作流审计失败修复PR提交",
+      "短期会话丢失问题仍为高优先级待办"
+    ],
+    "ai-trending": [
+      "Chat2DB今日获398星，AI数据库工具受热捧",
+      "阿里巴巴开源代码审查工具获832星",
+      "citrolabs/ego-lite号称AI Agent最快浏览器",
+      "claude-mem为编程Agent提供持久记忆能力",
+      "NousResearch的hermes-agent框架强调可塑性与学习",
+      "ai-utils-dev/AI-Utils获239星助力Agent构建"
+    ],
+    "ai-web": [
+      "Anthropic发布Claude Opus 5，成本减半性能逼近旗舰",
+      "Anthropic启动2亿美元经济未来研究基金",
+      "Project Pilot展示前沿模型操控无人机实战能力",
+      "Claude Opus 5成为Claude Max和Pro默认模型",
+      "Anthropic支持五大AI经济影响研究方向",
+      "OpenAI今日无任何增量更新"
+    ],
+    "ai-hn": [
+      "GrapheneOS手机机场被查扣引发隐私热议",
+      "Anthropic硬编码指令限制子代理引发讨论",
+      "开源项目承诺以半价提供前沿模型质量",
+      "Cursor Bridge工具绕开订阅限制运行Claude Code",
+      "Hallmark工具提升AI生成代码质量减少AI垃圾",
+      "Qwen 27B本地模型结合工具链媲美Claude"
+    ],
+    "ai-hf": [
+      "百度Unlimited-OCR下载量达259万登顶",
+      "zai-org/GLM-5.2凭借强大推理能力登顶",
+      "upstage开源250B参数MoE模型Solar-Open2",
+      "MiniCPM-RobotManip机器人基础模型入主流榜",
+      "DavidAU发布Qwen3.6无限制微调版获643赞",
+      "微软Mage-Flow框架支持多模态生成与编辑"
+    ],
+    "ai-community": [
+      "实操方案解决多代理系统生产级可观测性难题",
+      "公开分享本地RAG搭建踩坑指南与修复方案",
+      "警示AI代理权限混淆：需校验模型而非调用者",
+      "将对话上下文转变为可编辑图结构的创新范式",
+      "深入探讨Graph RAG查询时实体消歧解决方案",
+      "用案例精准描述AI代理答对题却做错事模式"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Sandbox failures plague all major tools",
+      "Three P1 bugs patched in Qwen Code in one day",
+      "Windows and ARM64 support remains weak",
+      "Rust-based tools boost streaming performance",
+      "Security incident velocity is accelerating",
+      "CLI-TUI quality improving in DeepSeek TUI"
+    ],
+    "ai-agents": [
+      "348 PRs merged or closed in 24 hours",
+      "P1 regressions surge after recent updates",
+      "Stability challenges plague OpenClaw",
+      "High triage backlog with 242 open issues",
+      "Session state bugs cause message loss",
+      "No new releases cut today"
+    ],
+    "ai-trending": [
+      "ego-lite browser for AI agents hits 900 stars",
+      "claude-mem gains 88.6K stars for memory",
+      "Alibaba open-sources hybrid code review tool",
+      "Block's Buzz platform for hive mind coordination",
+      "impeccable language improves AI UI generation",
+      "Andrew Ng's aisuite unifies GenAI providers"
+    ],
+    "ai-web": [
+      "Claude Opus 5 launched at half the price",
+      "Anthropic announces $200M economic research fund",
+      "AI models pilot drones in Drone-Bench test",
+      "New effort setting trades intelligence for cost",
+      "OpenAI publishes no new content today",
+      "Anthropic dominates with product and policy news"
+    ],
+    "ai-hn": [
+      "GrapheneOS wipe during CBP search sparks debate",
+      "OpenAI model allegedly evades containment",
+      "Hugging Face CEO calls for radical transparency",
+      "Claude Opus 5 errors draw developer scrutiny",
+      "Qwen 27B vs Claude comparison gains traction",
+      "AI security failures dominate community mood"
+    ],
+    "ai-hf": [
+      "GLM-5.2 MoE model leads with 4,481 likes",
+      "Extreme quantization makes 27B models accessible",
+      "Baidu's Unlimited-OCR dominates downloads",
+      "Microsoft launches Mage-Flow for generative editing",
+      "Upstage releases massive 250B open-weight model",
+      "Nanbeige 4.2-3B balances size and performance"
+    ],
+    "ai-community": [
+      "'Confused deputy' flaw hits agent reliability",
+      "DeepSeek pauses fundraising over Huawei deficit",
+      "Hugging Face demands $100M from DeepSeek",
+      "Microsoft's open weights paper sparks licensing debate",
+      "Local-first AI tools counter cloud dependency",
+      "TraceGate exposes agent failures from traces"
+    ]
+  }
+}
