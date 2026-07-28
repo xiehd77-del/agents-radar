@@ -1,0 +1,69 @@
+{
+  "zh": {},
+  "en": {
+    "ai-cli": [
+      "Claude Code & OpenAI Codex top community buzz",
+      "Gemini CLI & Qwen Code lead bug fixes",
+      "Windows stability is a cross-tool pain point",
+      "Billing transparency issues across multiple tools",
+      "Pi and OpenCode focus on plugin ecosystems",
+      "2 alpha releases for OpenAI Codex today"
+    ],
+    "ai-agents": [
+      "OpenClaw has 500 issues and 500 PRs",
+      "P0 memory leak reported in issue #91588",
+      "Beta.2 state migration blocker in #109867",
+      "286 open PRs await review in queue",
+      "No new releases from OpenClaw today",
+      "Most discussed issue has 115 comments"
+    ],
+    "ai-trending": [
+      "DeepSeek-Reasonix hits 27,907 stars",
+      "Headroom compresses tokens 20-95%",
+      "CopilotKit reaches 36,320 stars",
+      "AI agent infrastructure surges today",
+      "Self-hosted companions drive star growth",
+      "Token compression tools gain traction"
+    ],
+    "ai-web": [
+      "Anthropic CEO rebutts open-weights ban claims",
+      "Cognizant partnership expands into platform",
+      "OpenAI pushes enterprise guides with GPT-5",
+      "8 new articles from Anthropic and OpenAI",
+      "Anthropic shifts debate to dangerous capabilities",
+      "OpenAI educates firms on building agents"
+    ],
+    "ai-hn": [
+      "Anthropic open-weights stance sparks debate",
+      "Claude shared chats indexed by Google",
+      "Claude Opus 5 suffers widespread outages",
+      "All major LLMs skew politically left",
+      "Political bias debate rages on Hacker News",
+      "Nvidia CEO Jensen Huang intervenes publicly"
+    ],
+    "ai-arxiv": [
+      "Papers pivot to long-horizon multi-step agency",
+      "KV-cache as memory gains research focus",
+      "Formal verification of AI outputs emerging",
+      "Zing framework adds social intelligence to LLMs",
+      "Language shapes instruction hierarchy compliance",
+      "EmoTrace models emotion for psychological support"
+    ],
+    "ai-hf": [
+      "Kimi-K3 feature model gets 6,400 likes",
+      "Qwen3.6-35B-A3B dominates fine-tuning",
+      "GLM-5.2 and Unlimited-OCR see huge downloads",
+      "MoE architectures and low-bit quantization trend",
+      "Laguna-S-2.1 optimized for low latency",
+      "Solar-Open2-250B gains attention for reasoning"
+    ],
+    "ai-community": [
+      "AI agents break junior developer pipeline",
+      "Agent skills pose supply chain security risks",
+      "Unlimited context called technical debt",
+      "Coding agents leak credentials commonly",
+      "Phishing attacks forge AI insiders via ChatGPT",
+      "MCP ecosystem needs vulnerability scanners"
+    ]
+  }
+}
