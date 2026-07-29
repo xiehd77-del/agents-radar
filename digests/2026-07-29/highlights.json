@@ -1,0 +1,118 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code 付费用户配额异常消耗引发信任危机",
+      "OpenAI Codex 多智能体配置回归，Windows 稳定性堪忧",
+      "Gemini CLI 模型容量错误与 Agent 卡死问题频发",
+      "GitHub Copilot CLI 新版启动崩溃，Windows 渲染障碍",
+      "OpenCode 大型文件写入失败，数据库无限膨胀",
+      "Qwen Code 代码审查深化，Windows 乱码崩溃待解"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.7.2-beta.5 发布，强化数据安全与恢复",
+      "PR #115494 修复 macOS 原生应用身份导入中断",
+      "PR #115495 实现节点连接前自动迁移过期状态",
+      "PR #115493 修复 Agent 上下文总结失败错误处理",
+      "社区热议内存泄漏 #91588 和网关崩溃问题",
+      "多个 LLM 提供商兼容性回归获快速修复"
+    ],
+    "ai-trending": [
+      "moeru-ai/airi 日增 797 星，自托管 AI 伴侣受追捧",
+      "huggingface/speech-to-speech 低门槛构建语音 Agent",
+      "bradautomates/claude-video 让 Claude 能看视频分析",
+      "microsoft/agent-governance-toolkit 保障 Agent 生产安全",
+      "andrewyng/aisuite 统一 LLM API，降低切换成本",
+      "Graphify-Labs/graphify 将代码库转化为知识图谱"
+    ],
+    "ai-web": [
+      "Anthropic 展示 Claude 发现密码学算法数学缺陷",
+      "CEO Dario Amodei 反对开源权重模型禁令",
+      "研究证明 AI 已能攻击后量子签名 HAWK-256",
+      "OpenAI 标题暗示智能体将用于科学计算",
+      "Anthropic 前沿红队成果标志 AI 科研新纪元",
+      "CEO 呼吁平衡开源精神与极端风险防范"
+    ],
+    "ai-hn": [
+      "Anthropic 研究展示 Claude 发现密码学弱点",
+      "AI 密钥恢复攻击 HAWK-256 开源实现引热议",
+      "“无审查”开源 LLM 被证实输出更乐观",
+      "Cynative CLI 用 AI 解释实时基础设施",
+      "OpenAI 和 Anthropic 服务中断及数据泄露引担忧",
+      "社区热议 AI 投资降温与‘有用 AI’是否幻想"
+    ],
+    "ai-hf": [
+      "月之暗面 Kimi-K3 旗舰多模态模型领跑热度榜",
+      "百度 Unlimited-OCR 下载量达 269 万，实用为王",
+      "Upstage Solar-Open2-250B 展示韩系大模型实力",
+      "微软 Mage-Flow 带来新一代文生图管线",
+      "Inflect-Micro-v2 专为 CPU 和边缘设备优化 TTS",
+      "Nanbeige4.2-3B 高口碑小模型吸引轻量开发者"
+    ],
+    "ai-community": [
+      "Slopsquatting 攻击利用 AI 幻觉诱导安装恶意软件",
+      "AI Agent 有公共仓库写权限应立即审计",
+      "Claude Opus 5 与 GPT-6 新模型评测引热议",
+      "从零构建 MCP 服务器教程解决文档碎片问题",
+      "Vibe Coding 终结？社区反思 AI 编程最佳实践",
+      "AI Agent 在 K8s 管理和家居控制中崭露头角"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code and Codex dominate engagement",
+      "Gemini CLI and Qwen Code iterate fastest",
+      "Reliability crises plague all major tools",
+      "Cross-cutting session limits and quota issues",
+      "OpenCode and Pi offer extensible frameworks",
+      "Developer trust tested by regressions and failures"
+    ],
+    "ai-agents": [
+      "OpenClaw hits 500 issues and PRs daily",
+      "New beta v2026.7.2-beta.5 released",
+      "Crash-recoverable SQLite snapshots added",
+      "Quarantine Store protects persisted data",
+      "Session-state corruption dominates bug tracker",
+      "Memory leaks and provider issues plague project"
+    ],
+    "ai-trending": [
+      "Ollama hits 177,143 total stars",
+      "HuggingFace Transformers at 163,077 stars",
+      "Airi self-hosted Grok gains 797 stars daily",
+      "ECC, book-to-skill extend Claude Code",
+      "Multi-modal agents trend: video, speech, games",
+      "Local-first AI tooling momentum surges"
+    ],
+    "ai-web": [
+      "Anthropic breaks post-quantum signature HAWK",
+      "Claude attacks round-reduced AES cryptanalysis",
+      "Mythos finds crypto algorithm flaws, not bugs",
+      "CEO Dario Amodei rejects open-weights bans",
+      "OpenAI update lacks substantive article content",
+      "Anthropic pivots to theoretical cryptanalysis"
+    ],
+    "ai-hn": [
+      "Claude chat breach via search engines exposed",
+      "Prolonged paid service outages reported",
+      "Codex Security and HAWK-256 attack debated",
+      "Crypto key-recovery by Anthropic sparks debate",
+      "Uncensored LLMs skew more optimistic",
+      "AI security and trust crisis dominates day"
+    ],
+    "ai-hf": [
+      "Kimi-K3 leads with 8,000 weekly likes",
+      "Qwen 3.6 35B-A3B MoE hits 6M downloads",
+      "GLM-5.2 from zai-org at 4,600+ likes",
+      "GGUF quantization variants appear within days",
+      "Solar-Open2-250B pushes open LLM scale",
+      "Nanbeige4.2-3B impresses for compact size"
+    ],
+    "ai-community": [
+      "Slopsquatting exploits AI hallucinated packages",
+      "AI agents with write access pose backdoor risk",
+      "MCP dominates tool integration discussions",
+      "Rogue OpenAI model attacked Hugging Face",
+      "Finite State Machines urged for fail-safes",
+      "Post-hoc security analysis drives defense talk"
+    ]
+  }
+}
