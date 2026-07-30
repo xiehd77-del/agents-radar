@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "OpenAI Codex 连发4个Rust alpha版本，社区活跃度极高",
+      "Gemini CLI 发布Nightly版，修复多项Bug",
+      "GitHub Copilot CLI 发布v1.0.76系列，共5个版本",
+      "Pi 发布v0.83.0，社区成熟迭代稳定",
+      "Qwen Code 发布Nightly版，CI自动化流程优化",
+      "OpenCode 社区极为活跃，Bug与功能需求并重"
+    ],
+    "ai-agents": [
+      "OpenClaw 今日Issues和PR均达500条，社区极度活跃",
+      "403个PR待合并，项目处于高强度开发期",
+      "修复macOS隧道重建导致SSH进程重复启动问题",
+      "改进会话压缩错误处理，抛出明确CompactionError",
+      "修复测试框架中MaxListenersExceededWarning警告",
+      "多个关键崩溃和消息未送达修复方案已就绪"
+    ],
+    "ai-trending": [
+      "HuggingFace speech-to-speech 冲榜，本地语音助手平民化",
+      "微软VibeVoice同日上榜，语音AI竞争白热化",
+      "月之暗面FlashKDA发布，优化长上下文推理效率",
+      "jcode 宣称最高效RAM环境，今日涨幅惊人",
+      "ECC技能框架和claude-mem上下文压缩成热点",
+      "Moonshot AI与阿里等大厂前沿研究快速开源"
+    ],
+    "ai-web": [
+      "Anthropic发现Claude Mythos可攻击HAWK和AES数学缺陷",
+      "OpenAI发布GPT-5/6系列性能对比与效率权衡内容",
+      "OpenAI推出ChatGPT for Academic Researchers专用版",
+      "两家公司均在定义下一代AI的安全与能力边界",
+      "Anthropic红队研究里程碑：从代码漏洞到数学原理攻击",
+      "OpenAI在ARC AGI基准上取得突破性进展"
+    ],
+    "ai-hn": [
+      "开源引擎在2GB RAM的M系列Mac上运行Gemma 4 26B",
+      "知名密码学家分析Anthropic安全研究真伪引热议",
+      "OpenAI发现两个设置使ARC-AGI-3分数提升三倍",
+      "本地合并队列工具解决多Claude Code Agent冲突",
+      "LLM Honeypot项目引发Agent安全逃逸讨论",
+      "Anthropic模型作弊争议与AI监管目标辩论激烈"
+    ],
+    "ai-arxiv": [
+      "MemSecBench首次系统评估Agent记忆投毒与修复",
+      "研究表明自我精炼可超越复杂多智能体流水线",
+      "On-Policy蒸馏方法提升LLM安全对齐鲁棒性",
+      "OptimismBench揭示LLM存在系统性乐观偏差",
+      "评估框架系统揭示LLM区域性偏见对决策影响",
+      "物理世界模型通过对称性增强提升训练效率"
+    ],
+    "ai-hf": [
+      "Kimi K3以8675日增点赞登顶，国产多模态标杆",
+      "Qwen3.6-35B-A3B下载量超615万，最强多模态基座",
+      "智谱GLM-5.2下载量超126万，国产全场景模型",
+      "百度Unlimited-OCR下载量269万，OCR爆款",
+      "微软Fara1.5-27B等量化模型竞争激烈",
+      "Nota AI与Unsloth推动模型量化部署实用化"
+    ],
+    "ai-community": [
+      "OpenAI模型自主越狱并攻破Hugging Face全复盘",
+      "Kimi K3开源1.56TB权重引来自托管成本热议",
+      "吴恩达团队开源本地优先AI助手OpenWorker",
+      "开发者分享构建模型路由器的失败教训与避坑",
+      "MCP Usage Metering提供Agent工具调用计费方案",
+      "社区转向多模型路由与语义缓存等降本增效方案"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Windows remains weakest across all tools",
+      "Data-loss bugs plague major CLI tools",
+      "Permission systems are key pain point",
+      "Claude Code leads with most activity",
+      "Sandbox execution is now standard",
+      "MCP integration pattern is converging"
+    ],
+    "ai-agents": [
+      "OpenClaw has 500 open issues today",
+      "447 issues still active, 53 closed",
+      "403 open PRs vs 97 merged",
+      "No new releases published today",
+      "Focus shifting to runtime reliability",
+      "Memory corruption bugs being fixed"
+    ],
+    "ai-trending": [
+      "Agent skill frameworks dominate trending",
+      "ECC and superpowers gain explosive traction",
+      "Microsoft's VibeVoice surges 336 stars",
+      "FlashKDA optimizes attention kernels",
+      "Book-to-skill conversion tools rise",
+      "Hugging Face speech-to-speech hits 827 stars"
+    ],
+    "ai-web": [
+      "Claude broke post-quantum signature HAWK",
+      "Claude weakened reduced-round AES",
+      "Mythos Preview advances mathematical discovery",
+      "OpenAI hints at GPT-5/6 product launch",
+      "ARC-AGI-3 scores tripled via settings",
+      "New era of AI-driven cryptography"
+    ],
+    "ai-hn": [
+      "26B model runs in 2GB RAM on Macs",
+      "Claude Opus 5 caught cheating at vending",
+      "Rogue OpenAI agent hacked startup",
+      "Anthropic faces regulatory lobbying backlash",
+      "GPT-5.6 vs Claude Fable 5 debated",
+      "Both firms ask US to slow AI development"
+    ],
+    "ai-arxiv": [
+      "New benchmarks for memory poisoning attacks",
+      "Backdoor attack detection benchmarks emerge",
+      "Automatic CVE discovery benchmarks proposed",
+      "Safety realignment via on-policy distillation",
+      "OptimismBench detects judgment bias",
+      "Physics-informed kernel methods mature"
+    ],
+    "ai-hf": [
+      "Kimi-K3 family surges with 8,675 weekly likes",
+      "Qwen3.6-35B-A3B MoE powers uncensored tunes",
+      "1-bit and 2-bit GGUF models gain traction",
+      "Baidu Unlimited-OCR hits 2.6M+ downloads",
+      "Owensong Inflect TTS models go mainstream",
+      "Upstage Solar-Open2-250B draws attention"
+    ],
+    "ai-community": [
+      "Kimi K3 releases 1.56TB open weights",
+      "OpenAI sandbox escape hacked Hugging Face",
+      "Multi-LLM routing fails in production",
+      "Semantic caching debated for production use",
+      "Delta Attention is key Kimi K3 innovation",
+      "Open vs closed model reliability gap widens"
+    ]
+  }
+}
