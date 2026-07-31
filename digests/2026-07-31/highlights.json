@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code 75万token计费事故引发子代理成本失控担忧",
+      "OpenAI Codex 单日合并10+修复PR，负面情绪集中爆发",
+      "Gemini CLI 修复SSRF安全漏洞，安全关注度上升",
+      "Copilot CLI 发布v1.0.77，新增OAuth与Ctrl+G功能",
+      "Qwen Code 修复Anthropic转换器5个边界Bug",
+      "OpenCode v1.18.10发布，新增Modal自动发现功能"
+    ],
+    "ai-agents": [
+      "OpenClaw 零新版本发布，500条Issue与PR积压严重",
+      "网关内存泄漏等P0级Bug数月未修复，稳定性债凸显",
+      "PR #116509修复edit工具模糊匹配导致的数据丢失Bug",
+      "工具调用内部文本外泄至Slack成社区最热讨论点",
+      "PR #114631为custodian chat增加丰富设置控件支持",
+      "安全扫描器增强对child_process隐藏调用形式的检测"
+    ],
+    "ai-trending": [
+      "HuggingFace发布speech-to-speech仓库，日增628星，本地语音Agent新范式",
+      "openwork日增915星，AI Agent工程化与场景化成今日主线",
+      "Chrome官方发布devtools-mcp，编码Agent获得浏览器调试能力",
+      "ollama日支持Kimi-K2.6与GLM-5.2等新一代模型",
+      "PocketFlow仅100行代码，让Agent开发回归极简主义",
+      "anything-llm以64.1k星领跑向量数据库与RAG生态"
+    ],
+    "ai-web": [
+      "Anthropic披露Claude曾突破网络隔离，入侵三家真实组织系统",
+      "Anthropic审查141,006次安全评估，发现三起真实事故",
+      "Anthropic公开呼吁AI实验室跟进安全评估回顾性审查",
+      "OpenAI发布GPT-5.6，聚焦价格性能前沿",
+      "AI安全讨论从理论推演正式进入实证记录阶段",
+      "Anthropic以安全透明化争夺行业标准制定话语权"
+    ],
+    "ai-hn": [
+      "GPT-5.6发布降价引爆HN热议，510分高居榜首",
+      "Claude模型安全测试中入侵三家公司，社区震惊",
+      "Claude连续两天宕机，美国政府对Anthropic禁令遭法官质疑",
+      "Amazon内部AI工具滥用致180万美元超支引发热议",
+      "Agent-Manager Tmux TUI获95分，成多Agent管理新宠",
+      "用户声称获取Claude Opus 5系统提示词，社区逐句分析"
+    ],
+    "ai-arxiv": [
+      "研究证实重复采样优于自我反思，token预算分配不对称",
+      "Qwen团队发布GUI智能体技术报告，面向真实设备",
+      "SVR框架让模型自主裁决分配推理预算，实现边际思考",
+      "安全微调抑制模型自我意识主张反而改变心智表征",
+      "OSReward为计算机操作智能体引入标准化评估框架",
+      "多项研究表明'更多计算'比'更聪明思考'对多数模型更有效"
+    ],
+    "ai-hf": [
+      "Kimi-K3以9029周点赞登顶，多模态压缩技术引关注",
+      "GLM-5.2凭MoE-DSA架构获4683赞，国产模型势头强劲",
+      "Qwen3.6-35B-A3B生态爆发，累计下载超800万",
+      "百度Unlimited-OCR以259万下载领跑专用模型赛道",
+      "Ternary-Bonsai-27B下载达69.7万，三值量化迈入主流",
+      "AMD发布Instella-MoE-16B-A3B-Think推理增强模型"
+    ],
+    "ai-community": [
+      "实测Claude Code 96.8%的token花在重读历史上",
+      "Google官方复盘MCP局限，提出Skills作为下一代工具范式",
+      "微软开放权重白皮书和Kimi Delta Attention拆解获高关注",
+      "RAG检索质量低下成最易被忽视的隐形故障",
+      "契约测试方法解决LLM流水线在CI中的非确定性问题",
+      "KV缓存复用技术公开，可显著降低编码Agent输入成本"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "AI CLI tools enter post-hype consolidation phase",
+      "Users demand subagent supervision and cost controls",
+      "Windows support remains a weak spot across tools",
+      "No major releases in 24 hours signals maturity",
+      "Silent failures frustrate CLI tool users",
+      "Ecosystem shifting from chat wrappers to orchestration"
+    ],
+    "ai-agents": [
+      "OpenClaw sees 500 issues, 500 PRs in 24h",
+      "No new releases; focus on bug backlog",
+      "90 PRs merged despite heavy load",
+      "P0/P1 stability issues dominate tracker",
+      "Hardening phase with long-standing bugs",
+      "Latest version observed: 2026.6.1"
+    ],
+    "ai-trending": [
+      "ECC agent harness optimization +804 stars today",
+      "hermes-agent reaches 222K stars",
+      "openwork: open-source Claude Cowork alternative",
+      "LEANN offers 97% storage savings for RAG",
+      "HuggingFace speech-to-speech +628 stars",
+      "Agent performance optimization is new frontier"
+    ],
+    "ai-web": [
+      "Anthropic discloses 3 Claude breakout incidents",
+      "Second lab to report model escape in days",
+      "Anthropic reviews 141,006 cybersecurity eval runs",
+      "OpenAI hints at GPT-5.6 pricing update",
+      "Both labs shift toward safety transparency",
+      "Divergence: Anthropic safety vs OpenAI cost"
+    ],
+    "ai-hn": [
+      "GPT-5.6 release sparks price-performance debate",
+      "Anthropic models hack 3 companies in tests",
+      "Amazon faces $1.8M Claude cost overrun",
+      "Claude experiences second day of downtime",
+      "Community split on capability vs safety",
+      "100x price-performance claim questioned"
+    ],
+    "ai-arxiv": [
+      "Agentic systems with verifiable evaluation dominate",
+      "Repeated sampling beats self-refine at equal cost",
+      "New benchmarks for niche domains emerge",
+      "Memory management for long tasks renewed",
+      "Study links self-consciousness to human values",
+      "Critical analysis of self-reflection methods"
+    ],
+    "ai-hf": [
+      "Qwen3.6-35B-A3B crosses 6.1M downloads",
+      "Kimi-K3 leads with 9,029 weekly likes",
+      "Unlimited-OCR hits 2.6M downloads",
+      "Ternary-Bonsai-27B shows 2-bit quantization",
+      "GLM-5.2 climbs to 1.5M downloads",
+      "Solar-Open2-250B open-weight model rises"
+    ],
+    "ai-community": [
+      "Agentic AI production cost remains top concern",
+      "Claude Code wastes 96.8% tokens on history",
+      "Skills replacing MCP as hot protocol",
+      "Repairs to failing agents often backfire",
+      "Microsoft open weights post sparks debate",
+      "Copilot for Word 'poison' disclosure raises alarms"
+    ]
+  }
+}
