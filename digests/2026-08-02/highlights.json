@@ -1,0 +1,118 @@
+{
+  "zh": {
+    "ai-cli": [
+      "会话损坏与存储膨胀至110GiB成CLI工具最大稳定性隐患",
+      "Copilot CLI发布v1.0.78-2补丁，官方背书GA产品",
+      "OpenCode发布v1.18.11，社区活跃迭代中",
+      "Qwen Code发布v0.21.3正式版，高频迭代中",
+      "MCP协议与插件生态成为各工具事实连接标准",
+      "模型静默降级与双向收费成为社区情绪引爆点"
+    ],
+    "ai-agents": [
+      "OpenClaw发布v2026.7.2-beta.6，强化数据安全与崩溃恢复",
+      "OpenClaw今日Issue和PR均达500条上限，活跃度极高",
+      "核心贡献者vincentkoc推进大规模架构重构（会话存储/ACP）",
+      "隔离存储区（Quarantine Store）保护持久化数据免遭损坏",
+      "新版本提供崩溃可恢复的SQLite快照能力",
+      "大量P0/P1稳定性问题待维护者响应，响应滞后引担忧"
+    ],
+    "ai-trending": [
+      "微软AI教育系列霸榜，当日新增破千星，全民学AI浪潮加速",
+      "HuggingFace语音智能体日增442星，开源语音Agent走向主流",
+      "腾讯云Agent Memory日增227星，有记忆Agent工程化落地",
+      "字节跳动deer-flow日增209星，押注长周期SuperAgent方向",
+      "GitHub Copilot SDK发布，Agent能力组件化分发信号",
+      "GitHub Copilot SDK日增142星，开启Agent集成新方式"
+    ],
+    "ai-web": [
+      "Anthropic今日零新增，延续重质轻量发布节奏",
+      "OpenAI发布新条目'Ten Advances In Mathematics'（仅元数据）",
+      "OpenAI新条目暗示系统盘点模型数学推理能力跃迁",
+      "Anthropic近期主推Claude 4系列，最高1M token上下文",
+      "Building effective agents工程博客被开发者社区广泛引用",
+      "MCP协议渐成业界事实标准，Anthropic持续巩固生态"
+    ],
+    "ai-hn": [
+      "OpenAI数学TCS十大进展登顶HN，获416分引282条争论",
+      "社区质疑OpenAI数学成果真实性，呼吁独立复现验证",
+      "菲尔兹奖得主Jacob Tsimerman加入OpenAI从事AI安全",
+      "YC创始人要求求职者纹身，折射AI时代就业焦虑",
+      "Show HN：8GB GPU实现LLM后训练（SFT/DPO/GRPO）",
+      "OpenAI数学成果被指与已有算法结果高度重叠"
+    ],
+    "ai-hf": [
+      "Kimi-K3以9494赞断层登顶，多模态理解成社区热点",
+      "DeepSeek-V4-Flash周下载量达281万，成部署首选",
+      "GLM-5.2斩获4737赞，成国产开源模型有力竞争者",
+      "微软连发三款模型，加速端侧ASR与Agent场景布局",
+      "Qwen3.6系列成社区微调最活跃基座，多个变体霸榜",
+      "DeepSeek-V4-Flash-0731以1442赞登榜，附论文支持"
+    ],
+    "ai-community": [
+      "AI辅助开发效率提升但判断力弱化，引发开发者反思",
+      "OpenAI升级Auto-review至GPT-5.6 Luna，推动低成本工作流",
+      "Rust替代sklearn使Docker镜像缩小400倍，实战案例走红",
+      "开发者分享AI代理自主构建Java服务实操经验",
+      "语音助手可被社会工程攻击，安全讨论引发关注",
+      "Kimi Delta Attention技术解析成Lobste.rs最高关注"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code faces silent model downgrade complaints",
+      "OpenAI Codex reports unrecoverable session failures",
+      "Copilot CLI suffers transcript corruption issues",
+      "Ecosystem splitting enterprise vs power-user tools",
+      "Cross-tool skill format convergence emerging",
+      "CLI tools shift focus to stability and trust"
+    ],
+    "ai-agents": [
+      "OpenClaw sees 500 issues and PRs in 24h",
+      "v2026.7.2-beta.6 adds quarantine store",
+      "Critical bugs spike after latest beta release",
+      "Team merging or closing 100 PRs today",
+      "Mass refactoring effort targets session crashes",
+      "High P0/P1 issue volume indicates instability"
+    ],
+    "ai-trending": [
+      "reverse-skill surges +1,320 stars today",
+      "Hugging Face speech-to-speech gains 442 stars",
+      "Microsoft AI-For-Beginners up 949 stars",
+      "ByteDance deer-flow adds 209 stars",
+      "GitHub Copilot SDK launches for third-party apps",
+      "TencentDB-Agent-Memory up 227 stars"
+    ],
+    "ai-web": [
+      "OpenAI publishes article on 10 math advances",
+      "Anthropic remains silent with zero new posts",
+      "Light update cycle across major AI labs",
+      "OpenAI pushes academic credibility with math piece",
+      "Possibly pre-release quiet period for labs",
+      "No new content from Anthropic this cycle"
+    ],
+    "ai-hn": [
+      "OpenAI claims 10 math breakthroughs, top post",
+      "Fields Medal winner joins OpenAI amid AI fears",
+      "Amazon spent $1.8M on Claude for menial task",
+      "MIT finds AI impact is lower wages, not job loss",
+      "Community debates verifiability of OpenAI math claims",
+      "Anthropic models take unauthorized access per post"
+    ],
+    "ai-hf": [
+      "Kimi-K3 tops with 9,494 likes, 559K downloads",
+      "DeepSeek-V4-Flash-0731 launches in GGUF formats",
+      "GLM-5.2 amasses 1.68M downloads",
+      "Chinese labs dominate Hugging Face trends",
+      "Qwen3.5/3.6 ecosystem sees multiple fine-tunes",
+      "Tensor-Tyro-2.1B leads 2-bit quantization trend"
+    ],
+    "ai-community": [
+      "AI coding erodes engineering instincts, warns dev",
+      "Workflow quality beats complex requirements",
+      "Sub-agent role mix distorts metrics more than models",
+      "Agents fail from integration misconfigurations",
+      "Developers question when to stop reviewing AI code",
+      "Lobste.rs discusses Kimi's Delta Attention theory"
+    ]
+  }
+}
