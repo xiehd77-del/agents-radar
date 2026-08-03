@@ -1,0 +1,102 @@
+{
+  "zh": {
+    "ai-cli": [
+      "AI CLI 竞争焦点转向工程化成熟度，稳定性与成本控制成痛点",
+      "DeepSeek TUI 单日 8 个 AI 生成 PR，发布列车 v0.9.4 待合并",
+      "Copilot CLI 1.0.72 出现 view 工具回归，高频发布带来风险",
+      "OpenCode 功能提案活跃，语音功能获 170 点赞高赞",
+      "Gemini CLI 子代理可靠性问题集中爆发，受社区关注",
+      "Claude Code 老牌霸主，Issue 讨论深度和广度最高"
+    ],
+    "ai-agents": [
+      "OpenClaw 发布 v2026.7.2-beta.7，引入隔离存储机制增强恢复",
+      "P0 级 Issue #115421 持续开放：schema 降级可能清空状态库",
+      "OpenClaw 24 小时 500 条 Issue 更新，社区活跃度极高",
+      "隔离存储可防止主数据库损坏时持久化数据丢失",
+      "schema 升级新增数据丢失拒绝逻辑，保护用户数据",
+      "升级前需备份 state/ 目录，注意 schema 迁移日志"
+    ],
+    "ai-trending": [
+      "Agent Skill 生态爆发：逆向工程、信息聚合等垂直技能包涌现",
+      "AirLLM 宣称单张 4GB 显卡即可运行 70B 模型",
+      "AI-For-Beginners 单日 +2629 stars，学习需求旺盛",
+      "'AI Agent 记忆层'新赛道成形：TencentDB-Agent-Memory 等登榜",
+      "antirez 发布 DeepSeek 4 本地推理引擎，支持 Metal/CUDA/ROCm",
+      "reverse-skill 单日 +1141 stars，面向安全研究领域"
+    ],
+    "ai-hn": [
+      "OpenAI Astra 宣称解决 10 个重大数学难题，社区要求先验证",
+      "Claude 被曝自主执行任务时越界攻击真实企业网络",
+      "Anthropic Claude 越界事件引发 AI Agent 安全边界激烈讨论",
+      "MicroCodex 用 C++ 重写 codex，二进制小于 1MB 引关注",
+      "Draco 推出 Rust 自托管 Firecrawl 替代品，社区热情高",
+      "数学界 '怪事' 引发 AI 与菲尔兹奖碰撞的深度讨论"
+    ],
+    "ai-hf": [
+      "月之暗面 Kimi-K3 以 9652 周点赞断层领跑，多模态旗舰",
+      "DeepSeek-V4-Flash 下载量逼近 280 万，成最活跃模型之一",
+      "智谱 GLM-5.2 下载量超 205 万，国产开源影响力攀升",
+      "多模态 image-text-to-text 已成绝对主流，占比过半",
+      "Qwen3.6 社区微调生态繁荣，涌现大量量化衍生版本",
+      "AMD 发布 Instella-MoE-16B-A3B-Think，基于 DeepSeek-V3 架构"
+    ],
+    "ai-community": [
+      "文章探讨上下文窗口膨胀成智能体管线静默失败模式",
+      "'AI 如何可靠地做'成开发者核心关切，替代'能否做'",
+      "GPT-5.6 Luna 上线 Auto-review 与 Codex CLI，降本增效",
+      "开发者分享绕开 Stripe 用 PayPal+UPI 构建跨境收款经验",
+      "125M 小模型击败 14B LLM，本地化推理引关注",
+      "真实 Agent 评估框架验证：理想方法与生产现实存在巨大差距"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code CRLF bug open over 1 year",
+      "Token/cost efficiency dominates CLI chatter",
+      "Multi-agent observability a key theme",
+      "Windows BSOD issues reported by users",
+      "No major releases in past 24 hours",
+      "~180 issues and PRs updated across tools"
+    ],
+    "ai-agents": [
+      "OpenClaw P0 data-loss issue active",
+      "OpenClaw v2026.7.2-beta.7 released",
+      "Clawsweeper bot driving small fixes",
+      "48 issues closed, 139 PRs merged",
+      "Steipete refactoring test fixtures",
+      "500 issues and PRs updated today"
+    ],
+    "ai-trending": [
+      "Microsoft AI education repos surge +2,629 stars",
+      "airllm runs 70B models on 4GB GPU",
+      "Agent memory systems dominate trends",
+      "Local inference continues to democratize",
+      "DeepSeek-Reasonix among trending projects",
+      "Agent-Reach and reverse-skill gaining traction"
+    ],
+    "ai-hn": [
+      "OpenAI math proof widely challenged",
+      "Rogue AI agents attacking companies debated",
+      "AI poster wins Ohio State Fair, sparks debate",
+      "OpenAI Astra solved 10 open math problems",
+      "Qwen3.8-Max release draws enthusiasm",
+      "Community skeptical of OpenAI research claims"
+    ],
+    "ai-hf": [
+      "Kimi-K3 tops leaderboard with 9,652 likes",
+      "DeepSeek-V4-Flash-0731 debuts with 1,757 likes",
+      "Qwen3.6 abliterated GGUFs surge in downloads",
+      "40% of trending models are GGUF quantizations",
+      "Inflect-Micro-v2 pushes edge TTS forward",
+      "Baidu Unlimited-OCR hits 2.5M downloads"
+    ],
+    "ai-community": [
+      "Context window bloat kills agent workflows",
+      "Developers building verification loops for AI",
+      "MCP solidifies as integration layer of choice",
+      "GPT-5.6 Luna pricing draws steady discussion",
+      "New models degrade older agent workflows",
+      "Eval harnesses reveal real agent failures"
+    ]
+  }
+}
