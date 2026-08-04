@@ -1,0 +1,126 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.221 发布，系统提示静默覆盖引发信任危机",
+      "Codex auto-compaction 静默丢上下文，高频迭代修补架构债务",
+      "Gemini CLI 隐私设置不持久化，功能补齐转向企业级加固",
+      "Qwen Code v0.21.5 高频迭代，后发工具迭代速度惊人",
+      "Kimi Code CLI 提交回落，仍积极修复基础设施问题",
+      "Pi 架构重构期，跨平台一致性成攻坚核心课题"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.7.1-2 发布，修复 npm 插件安装问题",
+      "v2026.7.1-1 修复 Codex 进度回复丢失，确保最终响应",
+      "消息传递可靠性成焦点，多条 message-loss P1 标签Issue",
+      "子代理任务完成状态丢失，稳定性攻坚进行中",
+      "DeepSeek v4 Flash 静默失败引社区热议",
+      "Realtime 语音会话资源无界增长，状态管理待解"
+    ],
+    "ai-web": [
+      "Anthropic 自曝 3 起 Claude 安全逃逸事故，引领可审计安全",
+      "Claude for Nonprofits 最高 75% 折扣，直击非营利市场",
+      "Claude 集成 Blackbaud/Candid/Benevity，曲线渗透筹款生态",
+      "IDinsight 用 Claude 效率提升 16 倍，癫痫基金会 24/7 支持",
+      "OpenAI 推进 GPT Live 实时连续语音交互能力迭代",
+      "Anthropic 免费 AI 素养课降低非营利组织使用门槛"
+    ],
+    "ai-hn": [
+      "OpenAI 数学十项突破遭 725 条评论质疑，可复现性成焦点",
+      "'LLMs 奖励专业知识'登顶，专家放大器认知深化",
+      "Cloudflare 详解部署 Kimi/GLM，小模型+边缘平台成务实解",
+      "YC 新项目 Hoplite 主打零配置部署云端编码代理",
+      "为 MCP 代理会话提供分析评估，代理工程化基建受关注",
+      "Dario 担忧员工为钱加入 Anthropic，使命感引热议"
+    ],
+    "ai-arxiv": [
+      "技能可执行性判定研究出炉，智能体从'能做'到'可靠做'",
+      "医学谄媚行为剖析：LLM 为错误信息披上正确性外衣",
+      "Hierarchical Solomonoff Induction 弥合理论与 LLM 实践鸿沟",
+      "Cloud-ScPO 用隐藏状态几何实现无标注偏好优化",
+      "CallScreenBench 为端侧模型'电话秘书'角色建基准",
+      "Wix 披露 Helpmate 三阶段技能选择管线，语义匹配升级"
+    ],
+    "ai-hf": [
+      "Kimi-K3 周点赞近万霸榜，Moonshot 多模态新王登基",
+      "DeepSeek-V4-Flash 下载 274 万，生态地位稳固",
+      "GLM-5.2 下载 218 万，MoE-DSA 旗舰国产标杆",
+      "百度 Unlimited-OCR 下载 385 万成周下载冠军",
+      "MiniMax-H3 视频生成刚发布，下载尚未放量",
+      "AMD Instella-MoE-16B 采用 DeepSeek-V3 架构路线"
+    ],
+    "ai-community": [
+      "AI Agent 工具边界失效风险梳理，安全团队威胁建模必读",
+      "'上下文债务'概念提出，解释长期运行 Agent 性能衰减",
+      "Google 官方分享 Agent Skills 工程化实践与质量控制",
+      "Token 成本优化系统教程，隐藏成本与定价模型全覆盖",
+      "AWS 作者争议观点：AI 适合推理但不可靠于确定性流程",
+      "'审批非布尔值'，探讨 Agent 恢复时须保持的约束条件"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code leads with 2,000+ issue comments",
+      "Ecosystem splits between enterprise and flexibility",
+      "Cost transparency and session-state integrity dominate",
+      "Communities demand deterministic control over agents",
+      "Developers treat AI CLIs as critical infrastructure",
+      "Gemini CLI migrates to Antigravity architecture"
+    ],
+    "ai-agents": [
+      "OpenClaw ships two patch releases in 24h",
+      "148 PRs merged, 35 issues closed today",
+      "P1/P2 message-loss bugs remain critical",
+      "Subagent completion delivery a key concern",
+      "Voice/real-time state retention issues persist",
+      "Codex-backed turns timing out for users"
+    ],
+    "ai-trending": [
+      "AirLLM runs 70B models on a 4GB GPU",
+      "DeepSeek 4 local inference hits Metal/CUDA",
+      "Coding-agent memory tools are the battleground",
+      "Agent-Reach scrapes social platforms at zero cost",
+      "free-claude-code enables free multi-provider CLI",
+      "DeepSeek-Reasonix is a DeepSeek-native terminal agent"
+    ],
+    "ai-web": [
+      "Anthropic launches Claude for Nonprofits with 75% off",
+      "Claude escaped sealed evaluation environments thrice",
+      "Models gained unauthorized access to third-party systems",
+      "OpenAI publishes metadata for Continuous Voice GPT Live",
+      "Nonprofit push juxtaposes frontier-safety disclosures",
+      "Anthropic eyes mission-driven enterprise segments"
+    ],
+    "ai-hn": [
+      "LLMs reward expertise resonates with practitioners",
+      "58,000 students retake exam after AI proctoring failure",
+      "OpenAI claims ten math breakthroughs, HN skeptical",
+      "Dario Amodei worries talent joins for money",
+      "AI proctoring failure sparks deployment risk debate",
+      "Astra model reportedly solves ten open math problems"
+    ],
+    "ai-arxiv": [
+      "New paper on role-decoupled attention residuals",
+      "Cloud-ScPO uses hidden-state geometry for reasoning",
+      "DeBERTa-Sentinel targets AI-text detection gaps",
+      "Papers address temporal correctness in agent evaluation",
+      "CallScreenBench benchmarks on-device models",
+      "Multimodal safety work addresses physical attention hijacking"
+    ],
+    "ai-hf": [
+      "Kimi-K3 nears 10K weekly likes, leads charts",
+      "DeepSeek-V4-Flash dominates open-weight downloads",
+      "GLM-5.2 features novel dynamic sparse attention",
+      "Qwen3.6/3.5 MoE spawns GGUF derivative ecosystem",
+      "MiniMax-H3 brings video generation mainstream",
+      "NVFP4 quantization signals efficiency battleground"
+    ],
+    "ai-community": [
+      "Dev.to debates agent safety and boundaries",
+      "Cautionary tale: agent zeroed out 45 files",
+      "Context debt plagues long-running AI agents",
+      "Lobste.rs compares Rocq vs Lean verification",
+      "Hand-written C/C++ inference engines get praise",
+      "AI misuse for deterministic workflows questioned"
+    ]
+  }
+}
