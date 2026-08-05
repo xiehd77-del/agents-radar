@@ -1,0 +1,69 @@
+{
+  "zh": {},
+  "en": {
+    "ai-cli": [
+      "Claude Code, Codex, Gemini CLI lead ecosystem",
+      "Windows/WSL2 stability remains weakest frontier",
+      "Sandbox bypass and SSRF fixes across tools",
+      "Node.js performance complaints hit Gemini CLI",
+      "DeepSeek TUI struggles with compile times",
+      "Multi-provider flexibility is key differentiator"
+    ],
+    "ai-agents": [
+      "OpenClaw shows extreme activity with 500 issues",
+      "OpenClaw in heavy maintenance and bug-fixing",
+      "No new OpenClaw releases in last 24 hours",
+      "Subagent orchestration and session state issues",
+      "449 open issues suggest maintainers are backlogged",
+      "Refactoring PRs consolidating production code"
+    ],
+    "ai-trending": [
+      "DeepSeek-Reasonix gains 922 stars today",
+      "AirLLM runs 70B models on 4GB GPU",
+      "Memory persistence is central agent battleground",
+      "Browser-use/video-use enables video editing agents",
+      "Uber launches production-grade ADR security platform",
+      "claude-mem hits 89.6K stars for memory"
+    ],
+    "ai-web": [
+      "Anthropic hires first Chief Global Affairs Officer",
+      "OpenAI criticizes Apple in new article",
+      "OpenAI launches Economic Research Exchange",
+      "OpenAI post hints at Learn Teach ChatGPT WorkCodex",
+      "Tino Cuéllar joins from Carnegie Endowment",
+      "Anthropic signals policy infrastructure escalation"
+    ],
+    "ai-hn": [
+      "Apple-OpenAI data theft dispute dominates front page",
+      "OpenAI formally rebuts Apple allegations",
+      "Michael Burry bets against chip stocks",
+      "New tool brings team standards to Claude Code",
+      "Hedge fund losses highlight AI market correction",
+      "Credit-default-swap anxiety grows among investors"
+    ],
+    "ai-arxiv": [
+      "Attention is case-sensitive, modulates LLM attention",
+      "MDLMPE: new positional encoding for masked diffusion",
+      "Benchmark gaming found in clinical multi-agent systems",
+      "Counterfactual data flywheels advance causal reasoning",
+      "First-wrong-step distillation improves diagnosis",
+      "GUI grounding attacks pose new security risks"
+    ],
+    "ai-hf": [
+      "Kimi-K3 tops with 10K likes, 1.1M downloads",
+      "DeepSeek-V4-Flash family exceeds 3.1M downloads",
+      "MiniMax-H3 releases with native ComfyUI support",
+      "Qwen3.6/3.5 uncensored variants see huge adoption",
+      "Baidu Unlimited-OCR hits 2.7M downloads",
+      "GLM-5.2 gains 4.8K likes, 2.2M downloads"
+    ],
+    "ai-community": [
+      "Developers push back on frontier model arms race",
+      "Anthropic sandbox breach report drives security talk",
+      "MITRE ATLAS reveals new agentic attack techniques",
+      "MCP friction: context limits, slow tools, bad JSON",
+      "EU AI Act applies to chatbots starting now",
+      "Smaller models better for PII redaction tasks"
+    ]
+  }
+}
