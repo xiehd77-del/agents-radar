@@ -1,0 +1,118 @@
+{
+  "zh": {
+    "ai-cli": [
+      "OpenAI Codex Multi-Agent V2亮相，CLI进化为Agent运行时",
+      "Claude Code v2.1.223发布，hook fail-closed安全修复",
+      "Qwen Code桌面版首秀v0.1.0，但曝只读Shell绕过漏洞",
+      "Kimi Code CLI文件损坏Bug引发关注",
+      "OpenCode V2的Workspace架构成平台化标杆",
+      "DeepSeek TUI v0.9.4整合Runtime API系列端点"
+    ],
+    "ai-agents": [
+      "OpenClaw 24小时内500条Issue与PR，社区极度活跃",
+      "实时语音会话资源失控#116201获58条评论成热点",
+      "PR #119737修复Slack线程回执，消息丢失问题受关注",
+      "PR #117304对voice-call供应商错误信息脱敏防泄露",
+      "PR #119816为doctor命令新增OTel/Prometheus健康报告",
+      "P0级问题Agent DB迁移失败#119263被迅速关闭"
+    ],
+    "ai-trending": [
+      "cloudflare/computer单日暴涨891星，给Agent一台电脑",
+      "firecrawl/pdf-inspector纯Rust，今日新增1582星",
+      "lyogavin/airllm单卡4GB跑70B模型，新增833星",
+      "ollama以177K星稳居本地推理事实标准",
+      "DeepSeek 70B单卡推理方案成硬核刚需",
+      "Agent技能(Skills)生态正在形成标准开发方法论"
+    ],
+    "ai-hn": [
+      "《Born Against》引151条评论，辩论编程社区为何排斥LLM",
+      "OpenAI新闻霸屏：离职创业、歧视诉讼、3.2M罚款",
+      "Prime Intellect发布自改进RLM Agent获111高分",
+      "Anthropic自我造芯与Meta入局编程Agent引热议",
+      "Show HN:HUD开源终端UI统一接管三大编程Agent",
+      "ExANS无损KV缓存压缩622GB/s，性能福音引关注"
+    ],
+    "ai-arxiv": [
+      "AI安全审计成今日最大主题，CoT监控可靠性受质疑",
+      "推理后端会影响LLM行为，基准测试或不可复现",
+      "~1M参数微型Transformer验证原型推理有效性",
+      "A/B Agent自进化智能体自动化工业测试全流程",
+      "ProverbIT基准揭示LLM文化语境判别能力短板",
+      "RAG投毒防御与推理后端影响研究密集涌现"
+    ],
+    "ai-hf": [
+      "Kimi-K3点赞下载双冠，压缩张量技术受青睐",
+      "GLM-5.2新MoE架构，推理效率大幅提升",
+      "DeepSeek-V4-Flash下载量突破270万成推理主力",
+      "MiniMax-H3视频生成模型发布即获高赞",
+      "Qwen3.6家族衍生大量社区微调与GGUF量化版",
+      "Unlimited-OCR爆火，文档智能处理需求持续"
+    ],
+    "ai-community": [
+      "81%开发者被AI代码审查淹没，引发行业反思",
+      "OpenAI解决1999年难题却不会自己提问引热议",
+      "AWS开源Kiro Crew，Agent编排走向工程化",
+      "vLLM KV Cache管理实战拆解成入门最佳材料",
+      "AGENTS.md编写规范首获系统性实战指南",
+      "MCP检索成本比grep贵4倍引发工程实践讨论"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.223 shipped",
+      "OpenAI Codex rust-v0.146.1 released",
+      "Gemini CLI v0.54.0 stable, preview next",
+      "MCP standardization a top community pain",
+      "Silent data corruption bugs top priority",
+      "Kimi Code and DeepSeek TUI growing"
+    ],
+    "ai-agents": [
+      "OpenClaw in heavy triage, 500 issues",
+      "No new releases, hardening phase",
+      "Session-state integrity top focus",
+      "Message delivery reliability being fixed",
+      "Provider/auth stability prioritized",
+      "Upcoming release likely after backlog"
+    ],
+    "ai-trending": [
+      "TencentDB-Agent-Memory +1,892 stars today",
+      "Cloudflare's computer +891 stars for agents",
+      "superpowers agent skills +931 stars",
+      "DeepSeek-Reasonix terminal agent +747",
+      "Uber's ADR enterprise security +354",
+      "Agent memory/persistence converging"
+    ],
+    "ai-hn": [
+      "Backlash against LLM in hobby coding",
+      "Models 'going rogue' in UK safety tests",
+      "Anthropic alleged fake-profile impersonation",
+      "OpenAI settles worker discrimination claim",
+      "Anthropic in-house chips, $10B deal",
+      "Prime Agent self-improving RLM discussion"
+    ],
+    "ai-arxiv": [
+      "Inference backend skews LLM benchmarks",
+      "Protoreasoning works in 1M-param models",
+      "SciCode defects underestimated coding ability",
+      "Causal audits of multi-agent KV-cache",
+      "Reward-coordinated token compression cuts cost",
+      "Poisoning resistance in RAG systems"
+    ],
+    "ai-hf": [
+      "Qwen3.5/3.6 ecosystem tops 4M downloads",
+      "Kimi-K3 most-liked, 1.12M downloads",
+      "DeepSeek-V4-Flash family hits 3.1M",
+      "MiniMax-H3 Comfy-Org image-to-video",
+      "LGAI-EXAONE 750B MoE K-EXAONE-2.0",
+      "GLM-5.2 top-3 with 2.23M downloads"
+    ],
+    "ai-community": [
+      "81% buried in AI code review tax",
+      "OpenAI solved 1999 problem, can't ask own",
+      "Kiro Crew AWS open-source orchestrator",
+      "Devs push back on blind AI code trust",
+      "Token waste and KV cache pragmatism",
+      "Internet Archive plea to protect good bots"
+    ]
+  }
+}
