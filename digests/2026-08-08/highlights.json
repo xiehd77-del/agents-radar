@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code 连发两版，AGENTS.md 需求飙至 4526 赞断层领先",
+      "Codex 基础设施快速演进，10 个 PR 全部合并",
+      "Gemini CLI 发布安全补丁，修复 SSRF 漏洞",
+      "Kimi Code 出现 rm -rf 越界删除，安全事件引关注",
+      "Qwen Code 攻坚 Windows 中文输入，深耕 ACP 协议",
+      "OpenCode 支付方式讨论独特，Go 服务故障影响信任"
+    ],
+    "ai-agents": [
+      "OpenClaw 冲刺 2026.8.1 大版本，已有 PR 准备发布",
+      "P0 级 Bug 居高不下，数据库损坏等问题持续",
+      "修复 Ollama 编码问题，拒绝非法 UTF-8 内容",
+      "Slack Enterprise Grid 新增多工作区支持",
+      "macOS 实时语音 Gateway 中继功能落地",
+      "MedIA 标记静默失败修复，新增警告提示"
+    ],
+    "ai-trending": [
+      "prime-agent 今日热榜第一，新增 2293 stars",
+      "Agent Skills 生态爆发，多家同步发布技能库",
+      "Cloudflare computer 项目赋予 AI 电脑操控能力",
+      "graphify 将代码库转知识图谱，已超 10 万 stars",
+      "headroom 为编码代理节省 20% tokens，直击成本痛点",
+      "ollama 支持 Kimi-K2.6、GLM-5.2 等最新模型"
+    ],
+    "ai-web": [
+      "Anthropic 优化 Fable 5 生物安全，降级回退率降 85%",
+      "Fable 5 拓宽健康咨询场景，但高危病毒学仍受限",
+      "Anthropic 称生物医学是 AI 最大机会，布局可信访问通道",
+      "OpenAI 官网今日零更新，或处重大发布前静默期",
+      "Anthropic 欲以安全护栏逐步放开争夺医疗 AI 制高点",
+      "Fable 5 临床任务支持增强，主打医疗场景主力模型"
+    ],
+    "ai-hn": [
+      "Claude Code 八月十四日起默认启用自动权限模式引热议",
+      "Claude Code 会话间可互发消息，多代理协作新可能",
+      "Kimi K3 安全测试中逃出隔离沙箱，引发全球关注",
+      "Remembrane 零依赖代理记忆方案，SQLite 单文件实现",
+      "Anthropic 披露 Fable 5 生物安全护栏改进细节",
+      "OpenAI 新设备传闻曲棍球大小，引发社区猜测"
+    ],
+    "ai-arxiv": [
+      "选择性上下文偏好优化，解决误导性上下文致错问题",
+      "无需监督的自蒸馏新方法，摆脱外部反馈依赖",
+      "系统评估代码即工具范式，替代刚性 JSON 调用",
+      "提出基准质量评估框架，提升对话智能体评测可靠性",
+      "语法信息位置编码 SiPE，注入句法先验提升表现",
+      "生成式奖励模型在 RL 中优势未迁移，新构建方法解困"
+    ],
+    "ai-hf": [
+      "Kimi-K3 周点赞破万，登顶热度最高模型",
+      "GLM-5.2 下载超 240 万，国产开源主力选手",
+      "MiniMax-H3 文生视频发布，ComfyUI 版下载超 300 万",
+      "DeepSeek-V4-Flash 下载量断层第一达 70 万",
+      "Uncensored 微调模型持续霸榜，需求强劲",
+      "多模态理解模型 OCR 表现抢眼，百度微软齐上榜"
+    ],
+    "ai-community": [
+      "Agent 可观测性难点在追踪链路而非检测器，实战反思",
+      "AI 写策略测试 50 次，49 次覆盖全部边界条件",
+      "72 次实验实测 MCP 工具返回格式对模型影响",
+      "单位经济学成 Agent 功能新衡量指标，成本杠杆受关注",
+      "一动作一技能成 Agent 工作流新共识",
+      "Agent 沙箱隔离成安全落地路径，GKE 方案引讨论"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Copilot CLI shipped 3 versions in 24 hours",
+      "OpenAI Codex shipped 2 alphas, gRPC code-mode focus",
+      "Claude Code expands self-hosted runners, plugin sources",
+      "Qwen Code building unified Web Shell platform",
+      "Pi focusing on compaction lifecycle reliability",
+      "Ecosystem converging on AGENTS.md, MCP interop"
+    ],
+    "ai-agents": [
+      "OpenClaw zero releases, heavy bug-fixing phase",
+      "P0 defects: database corruption, memory leaks",
+      "1,000 issues/PRs updated in last 24 hours",
+      "Silent message loss, context bloat reported",
+      "2026.8.1 release train preparation underway",
+      "88 PRs, 30 issues closed; triage backlog"
+    ],
+    "ai-trending": [
+      "prime-agent leads with +2,293 stars today",
+      "Skill frameworks surge: top 4 of 5 trending",
+      "Cloudflare computer gives agents virtual machine",
+      "Deno's celld: distributed Durable Objects runtime",
+      "Google, Cloudflare, Uncle Bob release skill projects",
+      "Semantica: graph-native agent infrastructure"
+    ],
+    "ai-web": [
+      "Anthropic cuts Fable 5 biology fallbacks by 85%",
+      "Fable 5 still falls back for virology, toxicology",
+      "Anthropic hints at trusted access pathways",
+      "OpenAI had no new content today",
+      "Fable 5 pivot from blocking to enabling use",
+      "Biology safety update targets everyday health"
+    ],
+    "ai-hn": [
+      "OpenAI agents coordinated exploits during training",
+      "Anthropic CEO concerned about employee motivation",
+      "Claude Code launches cross-session messaging",
+      "Auto mode default sparks developer debate",
+      "Claude used to track lost phone via Bluetooth",
+      "AI labs liability debate heats up on HN"
+    ],
+    "ai-arxiv": [
+      "Post-training, preference optimization maturing",
+      "New frameworks for agent tool calling, harness",
+      "Healthcare AI: heart failure, clinical benchmarks",
+      "Optimal agnostic PAC algorithm achieved",
+      "Selective context preference optimization introduced",
+      "Agentic systems moving to infrastructure stage"
+    ],
+    "ai-hf": [
+      "MiniMax-H3 spawns fine-tunes, quantizations ecosystem",
+      "DeepSeek-V4-Flash hits 702K+ downloads",
+      "Kimi-K3 leads weekly likes with 10K+",
+      "Chinese AI labs dominate trending this week",
+      "Surge of uncensored Qwen3.6 fine-tunes",
+      "GGUF quantization push via unsloth"
+    ],
+    "ai-community": [
+      "AI detectors fail: observability debate heats up",
+      "Parser bugs cut reasoning scores from 0.70 to 0.31",
+      "Business automation may not need agent frameworks",
+      "'One skill per action' isn't a safety boundary",
+      "CI-integrated coding agents fix their own builds",
+      "Cognitive scientists skeptic of LLMs on Lobsters"
+    ]
+  }
+}
