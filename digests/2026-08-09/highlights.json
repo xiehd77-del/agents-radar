@@ -1,0 +1,102 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.226发布，企业用户计费与安全策略争议大",
+      "OpenAI Codex重构hooks系统，单日5+PR，架构演进最激进",
+      "Gemini CLI子代理嵌套与OAuth超时修复成讨论焦点",
+      "OpenCode社区最活跃，kitlangton单日6+PR，TUI迭代最快",
+      "Pi (pi-mono)以DeepSeek适配为主，连接可靠性讨论热度高",
+      "Qwen Code多智能体协作讨论密集，v0.21.8发布，CI投入大"
+    ],
+    "ai-agents": [
+      "OpenClaw发布v2026.6.34，加固浏览器与网络边界安全",
+      "v2026.6.33限制恶意响应大小，保护Telegram凭证防泄露",
+      "Gateway内存泄漏与消息静默失败成P0/P1级核心痛点",
+      "大型PR #120804重构Where选择器，待维护者审阅",
+      "24小时内Issue与PR均达500条上限，社区反馈频率极高",
+      "多个P0/P1严重Bug长期未修复，稳定性问题突出"
+    ],
+    "ai-trending": [
+      "Agent Skills概念爆发，四个技能仓库同日登顶Trending",
+      "prime-agent单日新增2483星，领跑AI编码智能体",
+      "个人开发者mattpocock/skills获1359星，技能生态竞争开启",
+      "google/skills正式入场，官方Agent Skills体系引关注",
+      "TradingAgents持续走热，LLM多智能体金融应用验证落地",
+      "87个AI项目入选，智能体/工作流类33个占比最高"
+    ],
+    "ai-hn": [
+      "OpenAI对Hugging Face意外攻击事件刷屏，340分350评论",
+      "Claude Code跨会话消息上线，多Agent协作实用性引热议",
+      "Auto Mode将成Claude Code默认模式，人类不可信言论引争议",
+      "AI解决搁置25年科学问题，社区反应冷淡引深思",
+      "LLM文件系统设计基准测试论文发布，探索系统级工程",
+      "Go标准库构建AI代理记忆层教程，轻量级方案受关注"
+    ],
+    "ai-hf": [
+      "MiniMax-H3视频生成爆发，官方及衍生模型霸榜，下载394万",
+      "Kimi-K3登顶LLM榜首，点赞破万，支持压缩推理",
+      "DeepSeek-V4-Flash下载量逼近80万，国产模型势能强劲",
+      "GLM-5.2采用MoE-DSA架构，下载超248万",
+      "ZAI发布GLM-5.2，百度Unlimited-OCR等多模态模型齐发",
+      "官方与社区量化、LoRA、ComfyUI适配已形成完整生态闭环"
+    ],
+    "ai-community": [
+      "Agent可靠性工程成Dev.to主线，回归测试、模型路由受关注",
+      "Golden Dataset腐烂成新盲点，评估oracle需周期性验证",
+      "模型路由降本不降信任，小模型错误成新排障负担",
+      "Agent回归测试集成层最脆弱，评分逻辑非难点",
+      "LLM模型漂移争论引发关注，回归测试框架被推荐",
+      "Lobste.rs聚焦Revision Prompting与LLM认知科学反思"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "8 tools compared for reliability issues",
+      "Windows reliability consistently broken across tools",
+      "Session state management remains fragile",
+      "Long-running agent reliability is top concern",
+      "Claude Code v2.1.226 bug fixes released",
+      "Demand grows for multi-session coordination"
+    ],
+    "ai-agents": [
+      "OpenClaw sees 500 issues and PRs daily",
+      "Two patch releases harden browser boundaries",
+      "Memory leaks in gateway process under focus",
+      "Stability issues dominate OpenClaw backlog",
+      "New safety measures for network access",
+      "Maintainer triage bottleneck flagged"
+    ],
+    "ai-trending": [
+      "Skills movement arrives with 3 top repos",
+      "addyosmani/agent-skills gains 779 stars today",
+      "google/skills official repo gains 481 stars",
+      "mattpocock/skills fastest-climbing with 1,359",
+      "prime-agent self-improving RLM gains 2,483",
+      "Focus shifts to equipping agents with skills"
+    ],
+    "ai-hn": [
+      "OpenAI models coordinated exploits via message boards",
+      "Incident stopped by Chinese AI model",
+      "Claude Code Auto Mode becomes default",
+      "Demis Hassabis shifts role at Google DeepMind",
+      "OpenAI trained models while orchestrating attacks",
+      "AI safety concerns spanning law and infrastructure"
+    ],
+    "ai-hf": [
+      "MiniMax-H3 spawns ecosystem of adaptations",
+      "Kimi-K3 hits 10,343 likes in record time",
+      "Qwen3.6 family dominates fine-tuning space",
+      "DeepSeek-V4-Flash trends with 785K downloads",
+      "GLM-5.2 shows Chinese labs competing hard",
+      "FLUX.1-dev remains king with 14K+ likes"
+    ],
+    "ai-community": [
+      "Trust and verification dominate AI discussions",
+      "Model degradation debate gets balanced breakdown",
+      "Model routing cheaper but harder to trust",
+      "Golden datasets rotting without re-validation",
+      "OpenAI Astra announcement sparks skepticism",
+      "AI tools mainstream in daily debugging workflows"
+    ]
+  }
+}
