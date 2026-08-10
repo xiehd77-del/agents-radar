@@ -1,0 +1,102 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code 安全过滤器误报成焦点，单日超10起报告",
+      "Codex 在 Windows 平台故障集中，8个PR已合并",
+      "Gemini CLI 发布 v0.56.0-nightly 版本，含4项功能更新",
+      "Copilot CLI 25个Issue爆发，但暂无PR响应",
+      "Qwen Code 发布v0.21.8，聚焦多会话协调与企业记忆",
+      "DeepSeek TUI 重构 Compaction 机制，筹备 v0.9.6 版本"
+    ],
+    "ai-agents": [
+      "OpenClaw 高活跃但无新版本，热门问题复发引发关注",
+      "用户升级 5.28→6.1 遭遇 cron 配置静默迁移陷阱",
+      "macOS 上升级 6.11→7.1 出现 gateway 无限重启循环",
+      "P0 级文档问题：Live Docs 配置在稳定版中不存在",
+      "PR #121333 修复 Android 端 Talk 配置解析器契约漂移",
+      "社区焦虑稳定版升级路径，呼吁尽快发布补丁修复"
+    ],
+    "ai-trending": [
+      "Prime Agent 今日新增2356星，登顶 Trending 榜首",
+      "Agent Skills 与 Code Graph RAG 成为社区探索新前沿",
+      "Hermes Agent 达22.8万星，Nous Research 重注开源智能体",
+      "AutoGPT 持续迭代，目标仍是人人可用的 AI 自动化",
+      "Agent-Reach 达6.9万星，一个 CLI 读取全网信息",
+      "Firecrawl 16.4万星，成 RAG 数据管道核心基础设施"
+    ],
+    "ai-hn": [
+      "426分热帖：如何用 LLM 学习复杂主题，方法论激烈碰撞",
+      "社区关注 AI 失控风险，多篇帖子讨论安全边界",
+      "Muse Code 默认向 Meta 回传指令，引发隐私恐慌",
+      "Lumabri 概念新颖：让 LLM 像 Napster 一样 P2P 工作",
+      "帖子指出 benchmark 分数无法预测实际成本与产出",
+      "字节跳动训练10T参数模型，但 HN 社区反应冷淡"
+    ],
+    "ai-hf": [
+      "MiniMax-H3 系列9个衍生版本霸榜，下载破500万",
+      "Kimi-K3 获10.4K赞，压缩张量技术引爆社区",
+      "GLM-5.2 下载249万，推理成本显著优化",
+      "DeepSeek-V4-Flash 闪电版发布，支持最新 transformers",
+      "LiquidAI LFM2.5-2.6B 超小参数实现高性价比推理",
+      "Mistral 发布 Shieldstral 安全对齐模型，vLLM 兼容"
+    ],
+    "ai-community": [
+      "实战帖：长期运行 AI Agent 的缓存、路由与记忆经验",
+      "RAG 成本优化：更少更精准的 chunk 优于更大的模型",
+      "警示故事：Agent 自测全通过，但代码从未运行过",
+      "LLM 调用花费上限在并行负载下失效 4.2 倍",
+      "AI 贷款顾问差异化设计：问你还活得起吗",
+      "开发者开始反思 AI 原生开发者的调试能力短板"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code, Codex, Gemini CLI all fighting false positives",
+      "Multi-agent orchestration is the next frontier for CLI tools",
+      "Qwen Code leader-worker RFC signals multi-agent future",
+      "Gemini CLI explores agents calling agents pattern",
+      "OpenCode faces Windows-specific regressions, community frustrated",
+      "Observability and escape hatches top community demands"
+    ],
+    "ai-agents": [
+      "OpenClaw at 500 issues, 500 PRs updated today",
+      "429 of 500 OpenClaw issues remain open, big backlog",
+      "No new OpenClaw release today amid high dev velocity",
+      "Steipete cluster of fixes targets message delivery",
+      "Clawsweeper bot actively labeling OpenClaw issues",
+      "Session state management a core OpenClaw focus"
+    ],
+    "ai-trending": [
+      "PrimeIntellect prime-agent gains 2,356 stars today",
+      "Google's skills repo standardizes agent packaging",
+      "Knowledge-graph RAG rising for monorepo code understanding",
+      "witr traces process origins, first for agent infra",
+      "Vertical AI: legal, stock, weather apps going mainstream",
+      "Agent Skills pattern exploding across Google and Addy Osmani"
+    ],
+    "ai-hn": [
+      "70% of AI revenue flows to just OpenAI and Anthropic",
+      "Qwen 3.8 and Claude Opus 5 benchmarks don't predict cost",
+      "Australia reports first known autonomous AI cyber attack",
+      "OpenAI strategist wants labs to rival government power",
+      "Community skews skeptical on AI economic sustainability",
+      "Systemic collapse of AI industry thread draws attention"
+    ],
+    "ai-hf": [
+      "MiniMax-H3 dominates with 10+ video generation entries",
+      "Kimi-K3 hits 10.4K likes, compressed transformer win",
+      "DeepSeek-V4-Flash-0731 reaches 868K downloads",
+      "GLM-5.2 from Zhipu AI at 4.9K likes",
+      "Unsloth releases official GGUF for DeepSeek V4 Flash",
+      "Video generation gold rush sweeps Hugging Face"
+    ],
+    "ai-community": [
+      "OpenAI accidental Hugging Face attack timeline revealed",
+      "Devs warn AI-native juniors can't debug without help",
+      "Cheaper models and better chunking beat frontier LLMs",
+      "Cognitive scientists hate LLMs, sparking Lobste.rs debate",
+      "Long-lived AI agent lessons: caching, routing, memory",
+      "RAG costs: fewer chunks beat bigger models"
+    ]
+  }
+}
