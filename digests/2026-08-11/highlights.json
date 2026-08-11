@@ -1,0 +1,118 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.227 发布，CVP 误拦截问题引热议",
+      "OpenAI Codex 新 alpha 发布，Windows 卡顿成最大槽点",
+      "Gemini CLI v0.56.0-nightly 发布，子代理可靠性成焦点",
+      "OpenCode /goal 功能获 128 赞，项目选择器 bug 集中爆发",
+      "Pi 修复速度惊人，当天上报的 WSL 登录问题当天合入",
+      "Qwen Code v0.21.9 发布，Fleet 多 Agent 架构路线图明确"
+    ],
+    "ai-agents": [
+      "OpenClaw 社区活跃，500 Issue 更新聚焦稳定性修复",
+      "消息重复发送是 OpenClaw 最大痛点，多通道齐中招",
+      "OAuth 认证刷新问题持续，Codex/OpenAI/Claude 均受影响",
+      "steipete 主导大型重构，多代理所有权模型显式化",
+      "安全修复：provider 诊断信息脱敏，防敏感数据泄露",
+      "模型注册表崩溃已修复，openclaw models 命令恢复"
+    ],
+    "ai-trending": [
+      "prime-agent 日增 2642 星，自我进化型 Agent 成爆款",
+      "firecrawl 日增 835 星，上下文获取层成 AI 刚需",
+      "code-graph-rag 强势登榜，RAG 迎来后向量化拐点",
+      "paperclip 聚焦企业 Agent 编排，治理需求走向主流",
+      "semantica 主打上下文责任化，Agent 审计受关注",
+      "ollama 178k 星，支持 Kimi-K2.6/GLM-5.2 本地运行"
+    ],
+    "ai-web": [
+      "Anthropic 发布 Claude 黎曼猜想研究，突破性进展引热议",
+      "Claude Sonnet 5 发布，Opus 级能力下放至平价",
+      "OpenAI 发布 GPT-5.6-Cyber，聚焦网络安全特化",
+      "Anthropic 三篇深度内容组合拳，研究深度发力明显",
+      "OpenAI 内容全为元数据模式，分发策略可能生变",
+      "未发布研究版 Claude 将黎曼猜想的零点比例推进至 67.2%"
+    ],
+    "ai-hn": [
+      "Claude 黎曼猜想研究引 115 条高质辩论，质疑与实测并存",
+      "14MB 端侧 Agent LLM 发布，社区热议参数压缩可行性",
+      "FPGA 上 21,000 tok/s 推理，$250 硬件展现极致性能",
+      "GPT-5.6-Cyber 发布引争议，攻防价值与伦理风险并存",
+      "AI Slop 反噬论调出现，Wired 指其影响商业利益",
+      "Claude/GPT 知识截止点逆向推测，透明度成焦点"
+    ],
+    "ai-hf": [
+      "MiniMax-H3 发布即霸榜，衍生生态模型迅速成型",
+      "Kimi-K3 以 10472 点赞登顶周榜，压缩张量技术受关注",
+      "DeepSeek-V4-Flash 下载量达 954k，性价比对话成首选",
+      "Comfy-Org 版 MiniMax-H3 下载量达 600 万",
+      "百度 Unlimited-OCR 下载量 290 万，文档识别领先",
+      "meta-models 推 30B 多模态模型，图像+文本理解"
+    ],
+    "ai-community": [
+      "蒸馏 Kimi 到 Qwen 不会得到 Kimi，机制迁移是关键",
+      "AI Agent 通过 2283 测试却在生产挂掉，协议设计存缺陷",
+      "'你并没有 AI 问题，你有的是思考问题'成今日高赞",
+      "使用 AI 而不失技能，警惕能力静默退化风险",
+      "MCP 攻击类别参考手册发布，安全工程师必备清单",
+      "好的 HITL 不是找人盯着，而是让危险操作一键可逆"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.227 patch released",
+      "Codex alpha: Windows freezes top issue at 93 comments",
+      "Gemini CLI invests heavily in eval infrastructure",
+      "OpenCode v2 architectural rewrite underway",
+      "Multi-agent orchestration is next battleground",
+      "Communities demand auditability and observability"
+    ],
+    "ai-agents": [
+      "OpenClaw: 500 issues, 500 PRs in 24h",
+      "No new releases; focus on reliability bugs",
+      "P1 bugs: duplicate messages, session corruption",
+      "Maintainer review backlog bottleneck grows",
+      "Stability under load is biggest challenge",
+      "Feature-rich but real-world reliability suffers"
+    ],
+    "ai-trending": [
+      "prime-agent gains 2,642 stars today",
+      "Graph-native RAG emerging as new pattern",
+      "agent-skills by Addy Osmani trending",
+      "TradingAgents applies LLMs to quant finance",
+      "RuView uses WiFi-sensing for AI",
+      "DeepMind WeatherNext advances AI forecasting"
+    ],
+    "ai-web": [
+      "Claude improves Riemann bound to 67.2%",
+      "Anthropic flags Claude Managed Agents direction",
+      "OpenAI pushes ChatGPT Business premium seats",
+      "OpenAI expands Daybreak cyber defense initiative",
+      "Frontier cyber models in 'more trusted hands'",
+      "Anthropic surfaces 'Building Effective Agents' post"
+    ],
+    "ai-hn": [
+      "Claude's Riemann progress sparks HN debate",
+      "'Anthropic just proved AI isn't getting better'",
+      "Needle2: 14MB agentic LLM for edge devices",
+      "OpenAI GPT-5.6-Cyber release discussed",
+      "$500B Nvidia financing deal draws attention",
+      "Skepticism grows over AI slop and hype"
+    ],
+    "ai-hf": [
+      "MiniMax-H3 dominates with massive ecosystem",
+      "Kimi-K3: 10.4K likes, 1.5M downloads",
+      "DeepSeek-V4-Flash-0731 near 1M downloads",
+      "Meta Muse-Glimmer-30B multimodal buzz",
+      "'Uncensored' fine-tune trend remains strong",
+      "baidu/Unlimited-OCR for document understanding"
+    ],
+    "ai-community": [
+      "Rerankers can sabotage RAG recall",
+      "2,283 tests pass, agent still fails production",
+      "MCP servers pass tests but fail in wild",
+      "OpenAI Hugging Face attack timeline analyzed",
+      "Opus 5: cost of instruction conflicts",
+      "Chinese devs articulate AI anxiety differently"
+    ]
+  }
+}
