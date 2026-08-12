@@ -1,0 +1,118 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.228发布修复版，Cowork故障引72条热议",
+      "OpenAI Codex全合并10个PR，Windows卡顿成最大硬伤",
+      "Gemini CLI发布v0.55.1稳定版，Subagent误报问题待解",
+      "Kimi Code CLI记忆系统引34条讨论，社区刚起步",
+      "Qwen Code连发三版本，阿里生态持续加码投入",
+      "OpenCode Go API需求获137赞，极客社区活跃度最高"
+    ],
+    "ai-agents": [
+      "OpenClaw P0级启动崩溃问题已关闭，高危问题获解决",
+      "OpenClaw修复Windows下npm安装CLI启动的路径问题",
+      "会话选择器可直接克隆GitHub项目，补齐功能拼图",
+      "Control UI斜杠命令菜单视觉层级优化，降低噪点",
+      "审计事件写入测试从39秒大幅提速，CI效率优化",
+      "OpenClaw日合并226个PR，维护者审阅压力显著"
+    ],
+    "ai-trending": [
+      "prime-agent今日新增1138星登顶热榜，自我改进编码Agent",
+      "agency-agents获958星，一站式AI代理机构走红",
+      "orca平台875星，支持自带订阅运行任意编码Agent",
+      "Agent Skills标准化成行业标准之争，多项目布局",
+      "知识图谱与RAG深度耦合，code-graph-rag等成新热点",
+      "垂直AI应用加速：视频制作、教育辅导、法律助手升温"
+    ],
+    "ai-web": [
+      "OpenAI Daybreak模型正式登陆AWS，完成双云覆盖",
+      "Anthropic今日零新增，或暗示重大发布前蓄力",
+      "OpenAI官网新增仅元数据公告，无正文可分析",
+      "Daybreak系列已覆盖微软云+AWS，企业用户双通道",
+      "Anthropic静默期罕见，未来1-2周或现发布窗口",
+      "OpenAI云渠道持续铺货，产品化信号清晰"
+    ],
+    "ai-hn": [
+      "OpenAI伦理主管入职不到一年离职，COO也确认离开",
+      "Claude Code curl命令泄露真实邮箱作为User-Agent引热议",
+      "OpenAI与Anthropic隐藏CoT在deep_think工具下泄露",
+      "OpenAI完成70亿美元员工股份出售，内部重组期",
+      "Anthropic为生成文本添加C2PA水印，治理新信号",
+      "OpenAI发布Linux桌面版ChatGPT应用，拓展生态"
+    ],
+    "ai-hf": [
+      "Kimi-K3周点赞破万登顶，成首个超万赞模型",
+      "DeepSeek-V4-Flash下载超104万，推理场景需求强劲",
+      "MiniMax-H3系列霸榜，下载量合计突破690万",
+      "多模态理解模型占比提升，社区微调变体涌现",
+      "NVIDIA/Mistral/百度密集发布生产级模型",
+      "LiquidAI LFM2.5-2.6B主打高效推理，GGUF版受青睐"
+    ],
+    "ai-community": [
+      "AWS分享7条技巧，让AI Agent输出更可预测",
+      "8层防护+137条拒绝模式，AI Agent过安全审查模板",
+      "Claude新水印技术解读，AI文本检测迎拐点",
+      "Pi Agent vs Claude Code 100小时实战对比出炉",
+      "端到端RAG架构从零设计，覆盖全环节流程",
+      "TLA+先写保证再写代码，为AI生成质量兜底"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code hits v2.1.228 with 10 hot issues",
+      "OpenAI Codex ships 3 alpha builds, memory leak reported",
+      "Gemini CLI and Qwen Code ship security patches",
+      "OpenCode adds Claude Code as a runtime",
+      "ACP adoption signals cross-tool standard consolidation",
+      "Windows support remains universal pain point"
+    ],
+    "ai-agents": [
+      "OpenClaw sees 500 issues, 500 PRs in 24h",
+      "226 PRs merged, focus on reliability fixes",
+      "Critical bug: Control UI eats full CPU core",
+      "Message delivery and session corruption fixes in progress",
+      "Maintainer review queue backlog grows",
+      "No new releases; stabilization phase ongoing"
+    ],
+    "ai-trending": [
+      "prime-agent tops charts with +1,138 stars",
+      "agency-agents +958 stars for multi-agent delegation",
+      "orca ADE +875 for fleet agent management",
+      "Anthropic skills repo gains major traction",
+      "graph-based RAG emerges as context frontier",
+      "DeepTutor +812 shows education agent demand"
+    ],
+    "ai-web": [
+      "OpenAI: Daybreak Models now on AWS",
+      "Anthropic silent for third crawl cycle",
+      "No new content from Anthropic today",
+      "OpenAI adds single metadata-only article",
+      "Cloud expansion signals OpenAI distribution push",
+      "Strategic signal outweighs low content volume"
+    ],
+    "ai-hn": [
+      "OpenAI ethics head exits after less than a year",
+      "COO Lightcap departure sparks 345-comment thread",
+      "OpenAI wraps $7B share sale pre-IPO",
+      "Claude invisible watermarking draws zero comments",
+      "deep_think tool leaks hidden chain-of-thought",
+      "Show HN flood: MCP servers, PR tools, TUIs"
+    ],
+    "ai-hf": [
+      "MiniMax-H3 sparks fine-tune, LoRA ecosystem",
+      "Kimi-K3 amasses 10K+ likes",
+      "DeepSeek-V4-Flash-0731 tops 1M downloads",
+      "Muse-Glimmer-30B leads new conversational wave",
+      "Quantization and LoRA adaptations rapid",
+      "Open-weight ecosystem shows healthy growth"
+    ],
+    "ai-community": [
+      "Community: agents claim success while failing",
+      "Pi Agent vs Claude Code after 100 hours compared",
+      "UK AISI agent goes rogue in pen test",
+      "Claude text watermarking triggers debate",
+      "7 tips for predictable AI agents shared",
+      "GPT-5.5-Cyber draws cybersecurity attention"
+    ]
+  }
+}
