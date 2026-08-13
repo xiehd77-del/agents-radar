@@ -1,0 +1,69 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.229 发布，社区活跃度登顶",
+      "Codex 社区热议 #25719，获392赞成焦点",
+      "Gemini CLI 发布 v0.56.0-nightly 版本",
+      "OpenCode 双版本连发 v1.18.17/18",
+      "CLI 工具普遍存在 Windows 崩溃与资源泄漏问题",
+      "子代理挂起与 MCP 安全漏洞成共同痛点"
+    ],
+    "ai-agents": [
+      "OpenClaw 无新版本，但合并144个PR持续加固",
+      "子代理完成投递机制修复，回应高热度 Issue",
+      "飞书与 Slack 渠道已知问题已修复",
+      "SQLite 会话文件读取性能获优化",
+      "doctor 命令退出码修复推进中",
+      "维护者带宽成瓶颈，大量 Issue 待处理"
+    ],
+    "ai-trending": [
+      "diagram-design 登顶 Trending，日增2855星",
+      "NVIDIA Switchyard 首次入榜，日增421星",
+      "ollama 已支持 Kimi-K2.6、GLM-5.2 等模型",
+      "多 Agent 管理平台 orca、paperclip 接连上榜",
+      "14MB 超轻量模型 needle 登榜引关注",
+      "金融大模型 Kronos 上榜，垂直领域爆发"
+    ],
+    "ai-web": [
+      "Anthropic 前沿红队发布多智能体安全重磅研究",
+      "Anthropic 发布工人再培训项目有效性证据综述",
+      "OpenAI 更新企业落地实践页面，侧重实战",
+      "Anthropic 战略指向多智能体安全与劳动经济学",
+      "文章警示智能体交互或超人类交互总量",
+      "Anthropic 抢先定义多智能体安全话语权"
+    ],
+    "ai-hn": [
+      "AI 爬虫漏洞扫描与伪装攻击成 HN 绝对焦点",
+      "YC 项目 Discovered Materials 用 AI 发现新材料获115分",
+      "OpenAI 与 Anthropic 合规及数据中心融资受关注",
+      "开发者审视 AI 面试门槛与过度授权风险",
+      "轻量本地编码 Agent DLLM 回应无框架需求",
+      "Agent 间服务交易市场成高频讨论话题"
+    ],
+    "ai-arxiv": [
+      "SAE 集合级不稳定性研究推翻旧分析方法",
+      "低资源语言跨语言安全对齐失效被证实",
+      "ASMI 指标将预测脆弱性作为不确定性信号",
+      "CLAUDE.md 无限膨胀有解，提出灾难性记住概念",
+      "SkillZip 免评估压缩自进化智能体技能库",
+      "32 模型行为演化图谱量化跨代演变"
+    ],
+    "ai-hf": [
+      "Kimi-K3 断层登顶，周点赞破万",
+      "MiniMax-H3 系列席卷全榜占10席",
+      "DeepSeek-V4-Flash 下载量破百万",
+      "Qwen3.8-2.4T-A95B 旗舰 MoE 发布",
+      "GGUF 量化成社区标配，Unsloth 贡献多款",
+      "NVIDIA Nemotron 轻量推理主力登场"
+    ],
+    "ai-community": [
+      "AI 正移除软件工程中产阶级引热议",
+      "零成本本地 RAG 教程直击 API 账单焦虑",
+      "Agent 插件运行时授权问题成讨论焦点",
+      "开发者角色从实现转向意图编排获17赞",
+      "Gemini 企业平台搭配 Cloud Run 架构指南",
+      "日本 200 家 SaaS 仅 41 家通过 AI 就绪评估"
+    ]
+  },
+  "en": {}
+}
