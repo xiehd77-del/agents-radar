@@ -1,0 +1,118 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code 跨会话消息回归，社区质疑可靠性",
+      "Copilot CLI 停止丢数据，修复稳定性问题",
+      "Kimi ACP 流式挂死，生成失控引热议",
+      "多工具同期报告成功但实际失败，工程化承压",
+      "MCP 生态 OAuth、重试等基础能力缺口集中暴露",
+      "Qwen Code 发多 Agent RFC，探索舰队协作模式"
+    ],
+    "ai-agents": [
+      "OpenClaw 子代理完成消息静默丢失成焦点",
+      "PR #123421 修复多用户网关目录权限漏洞",
+      "PR #123420 升级 macOS Peekaboo 桥接至 4.1",
+      "PR #123418 修复模型配置后网关误报排空",
+      "PR #123237 修复 cron 投递失败静默丢失",
+      "长期 P1 Bug 未修复，稳定性仍是最大痛点"
+    ],
+    "ai-trending": [
+      "Anthropic skills 仓库发布，智能体能力标准化",
+      "diagram-design 单日增星 4475，29 种图表范式",
+      "semantica 图谱基础设施，剑指 AI 黑盒问题",
+      "NVIDIA Switchyard 路由层，灵活切换 LLM 供应商",
+      "14MB 端侧模型 needle 引爆轻量化浪潮",
+      "manim 数学动画引擎成 AI 教育内容基座"
+    ],
+    "ai-web": [
+      "Claude 研究版将黎曼零点下界从 41.6% 提升至 67.2%",
+      "Claude 生成形式化可验证证明，获外部专家认可",
+      "OpenAI 或推 'Ultrafast' 新品，主打推理加速",
+      "OpenAI 任命 Dali Rajic 为首席营收官",
+      "Anthropic 研究先行，挑战世纪难题获关联突破",
+      "证明经机器自动检查，AI 数学研究新标杆"
+    ],
+    "ai-hn": [
+      "Codex 登陆 Linux 桌面预览，引爆开发者热情",
+      "GPT-5.6 Sol Ultrafast 14 倍加速引质量争议",
+      "Anthropic 传 2 万亿美元 IPO 计划与收购 Decart",
+      "AI 文本水印技术遭遇用户强烈反弹",
+      "Google 研究：前沿模型知识存储与检索瓶颈",
+      "Cerebras 硬件实测，加速与质量权衡成焦点"
+    ],
+    "ai-hf": [
+      "Kimi-K3 周点赞 10623 登顶，压缩张量技术亮眼",
+      "MiniMax-H3 霸榜，视频生成生态强势渗透",
+      "DeepSeek-V4-Flash 下载 143 万，成部署主流",
+      "Qwen3.8 MoE 巨兽发布，95B 激活参数",
+      "NVIDIA Nemotron 3.5 Lightning 双精度齐发",
+      "Meta Muse-Glimmer-30B 多格式分发扩影响"
+    ],
+    "ai-community": [
+      "AI 生成代码全过测试却藏隐患，引热议",
+      "开发者自建 Gatekeeper 管控 AI Agent 工具权限",
+      "AI 记忆系统评测框架缺失，社区呼吁标准",
+      "Vector Database 不足以支撑持久化记忆",
+      "AI 编程效能追踪器被指全是自我报告",
+      "开发者攻击 npm 包，揭露提案者自批漏洞"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code ships subagent forking",
+      "Qwen Code adds /coordinate multi-agent",
+      "Windows instability plagues 5+ CLI tools",
+      "Codex rolls 4 daily alpha releases",
+      "MCP reliability issues persist",
+      "Cross-session memory most requested feature"
+    ],
+    "ai-agents": [
+      "OpenClaw stable but high activity",
+      "Message delivery failures dominant issue",
+      "Subagent orchestration instability persists",
+      "Session-state bugs in most-commented items",
+      "P1 issues open months without fix",
+      "No new releases shipped today"
+    ],
+    "ai-trending": [
+      "Needle: 14MB edge AI model gains 769 stars",
+      "NVIDIA Switchyard routes LLM traffic across providers",
+      "Unsloth UI trains LLMs on consumer hardware",
+      "Anthropic skills repo tops trending",
+      "LTX-2 audio-video generation released",
+      "Context engineering beats raw model performance"
+    ],
+    "ai-web": [
+      "Claude improves Riemann bound to 67.2%",
+      "Anthropic validates AI mathematical proof",
+      "Two experts peer-reviewed Claude's finding",
+      "OpenAI teases 'Ultrafast' product codename",
+      "OpenAI names Dali Rajic as CRO",
+      "Frontier AI proves novel math result"
+    ],
+    "ai-hn": [
+      "GPT-5.6 Sol Ultrafast hits 14x speed",
+      "Anthropic text watermarking sparks backlash",
+      "Anthropic plans $2T IPO, $6B Decart buy",
+      "Claude Code outage highly publicized",
+      "Cerebras claims major acceleration partnership",
+      "AI 3D models flooding markets with no demand"
+    ],
+    "ai-hf": [
+      "Kimi-K3 tops with 10,623 weekly likes",
+      "DeepSeek-V4-Flash passes 1.4M downloads",
+      "Qwen3.8: 2.4T parameters, 95B active",
+      "MiniMax-H3 dominates video generation",
+      "Meta Muse-Glimmer-30B gets GGUF release",
+      "NVIDIA Nemotron-Lightning-30B NVFP4 debuts"
+    ],
+    "ai-community": [
+      "Green CI doesn't mean correct code",
+      "Agent Gatekeeper adds approval layer",
+      "Argument-space verification tested",
+      "OpenAI–Hugging Face incident discussed",
+      "AI firms destroying rare books criticized",
+      "Gemma 4 runs on Graviton2 in practice"
+    ]
+  }
+}
