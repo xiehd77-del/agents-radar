@@ -1,0 +1,69 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.233 日更，63 评论 Bug 为全市场最高",
+      "OpenAI Codex 24 小时发布 5 个 alpha，20+ PR 合入",
+      "Gemini CLI v0.56.0-nightly，P1 问题修复积极",
+      "Kimi Code CLI 今日状态低迷，记忆系统呼声高",
+      "OpenCode v1.18.x 紧急修复 ID 时间戳回绕事故",
+      "Qwen Code v0.21.12 发布，自动化审阅体系投入显著"
+    ],
+    "ai-agents": [
+      "OpenClaw 今日无新版本，500 Issue 500 PR 高活跃",
+      "静默回复失败 #121058 94 评论，用户不满关闭未修复",
+      "内存泄漏 #91588 连续多日无有效修复推进",
+      "PR #116489 为安装策略增加 warn 模式，加固供应链安全",
+      "memory 信任标签 #7707 引 51 评论，防记忆投毒",
+      "多个新 PR #123901 直指性能与稳定性优化"
+    ],
+    "ai-trending": [
+      "semantica 首登榜，+1,181★ 瞄准图原生 AI 基础设施",
+      "spec-kit +1,160★ 首秀，聚焦规范驱动开发范式",
+      "holaOS +769★，All-in-One AI Agent 工作台 100+ 工具集成",
+      "needle +662★，14MB 端侧模型推动 AI 普及手机",
+      "macro +436★，共享 AI 记忆 @-链接团队工作空间",
+      "RAGFlow 持续霸榜，RAG 技术栈热度持久"
+    ],
+    "ai-web": [
+      "Anthropic 发布文本水印技术原理，为 EU AI Act 合规铺路",
+      "水印零成本零质量影响，不回溯对话，多家厂商共签准则",
+      "Anthropic 再培训报告：就业率+2-3%，年收入+$1,000",
+      "56 项 RCT 荟萃分析，政府每投 $13,000 可回收过半",
+      "Claude 水印经词汇选择模式嵌入，非后处理添加",
+      "OpenAI 今日无新增内容，数据受限不做推测"
+    ],
+    "ai-hn": [
+      "官方 Claude Code 优化指南获 130 分，89 条技巧讨论",
+      "Anthropic 风险报告 8 月版公开，52 分 49 评论",
+      "Graft hooks 减少 42% 上下文 token，获 38 分 40 评论",
+      "Mole 终端深度研究 Agent 登 Show HN，46 分",
+      "OpenAI IPO 前人才流失被指巨大红旗，15 分",
+      "Claude Code 生态火爆，Graft、Hexis 等新工具涌现"
+    ],
+    "ai-arxiv": [
+      "OmniScientist 实现全模态全学科科研自动化与证据访问绑定",
+      "Falck 等首次训练 AI 复现已有研究成果",
+      "Synthetic Persona Pretraining 从 token 0 开始对齐",
+      "QuoteBench 揭示命令执行分数掩盖生成与接口错误",
+      "1B 参数 Mimir v1 仅用合规数据达前沿性能",
+      "Takahashi 建立安全设计规则 vs 品格缩放律框架"
+    ],
+    "ai-hf": [
+      "MiniMax-H3 视频生成霸榜，生态衍生占三分之一席位",
+      "Kimi-K3 10,673 周赞登顶人气榜首，下载 197 万",
+      "Qwen3.8-2.4T-A95B MoE 登榜，官方 FP8 同步发",
+      "DeepSeek-V4-Flash 下载 160 万，轻量快速版热度高",
+      "Meta Muse-Glimmer-30B 视觉语言模型亮眼，289 万下载",
+      "NVIDIA Nemotron-3.5 30B MoE 激活仅 3B，NVFP4 量化"
+    ],
+    "ai-community": [
+      "向量数据库不够用？记忆架构深水区讨论引 14 赞",
+      "OpenAI 发票无人审计？LLM 成本失控引 5 条评论",
+      "非程序员土木工程师把作品集变 MCP 服务器",
+      "LangGraph+RAG+Evals 实战：18 天多代理流水线拆解",
+      "'评估的评估'工具：验证回归测试是否自欺欺人",
+      "OpenAI-Cerebras 合作与 ChatGPT Work 讨论热度高"
+    ]
+  },
+  "en": {}
+}
