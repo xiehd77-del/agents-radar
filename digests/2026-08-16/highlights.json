@@ -1,0 +1,118 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code多账号支持获346赞，官方响应最慢",
+      "OpenAI Codex发2个alpha版本，Windows性能问题受关注",
+      "Gemini CLI聚焦Agent评测，修复SSRF漏洞",
+      "Pi在上下文压缩机制上密集攻坚，PR合并效率高",
+      "Qwen Code发布preview+nightly，/review并发缺陷待修",
+      "8大AI CLI工具同日90+动态，稳定性成共性痛点"
+    ],
+    "ai-agents": [
+      "OpenClaw发布v2026.8.1-beta.2，新增机密主机绑定",
+      "消息丢失与子代理完成机制成社区最热议题",
+      "OpenClaw 24小时500 Issue+500 PR，活跃度极高",
+      "GPT-5.6 Ultra模型支持已加入OpenClaw新版本",
+      "449条PR待合并，UI重构占多数",
+      "安全增强：未绑定哨兵替换将安全失败防泄露"
+    ],
+    "ai-trending": [
+      "GitHub spec-kit日增892星，推动契约驱动开发",
+      "cursor/plugins官方插件规范，Agent与IDE标准化",
+      "HKUDS/CLI-Anything让任意CLI工具Agent原生",
+      "ego-lite专为AI Agent设计浏览器，日增545星",
+      "cactus needle以14MB体量把基础模型推向物联网",
+      "MakazhanAlpamys/Soup让8B模型在4GB显存笔记本微调"
+    ],
+    "ai-web": [
+      "Anthropic发布多智能体系统风险报告，聚焦复合性灾难",
+      "Anthropic默认内置文本水印，称零影响输出质量",
+      "多智能体交互量或超人类交互，安全研究范式转移",
+      "前沿红队揭示个体怪癖可复合为系统性全局灾难",
+      "水印不添加隐藏字符，不消耗token不增加成本",
+      "为遵守欧盟AI法案，Anthropic率先落地合规方案"
+    ],
+    "ai-hn": [
+      "AI制药祛魅：Science系统梳理能力边界引热议",
+      "AI在黎曼猜想取得新进展，与Anthropic/OpenAI相关",
+      "38美元散热器屏为Claude搭建实时用量HUD",
+      "空间节点画布方案修复LLM上下文漂移",
+      "AI内容低质化反思出现，社区进入清算期",
+      "统一免费LLM API入口，解决成本与碎片化痛点"
+    ],
+    "ai-hf": [
+      "Kimi-K3以10725赞登顶，多模态旗舰下载超210万",
+      "Qwen3.8-27B周点赞近万，量化版同步霸榜",
+      "DeepSeek-V4-Flash下载近180万，推理效率极高",
+      "MiniMax-H3生态全面开花，下载破千万",
+      "NVIDIA Nemotron 3.5 Lightning NVFP4专为Hopper优化",
+      "多模态融合成最热赛道，文本图像视频音频一体"
+    ],
+    "ai-community": [
+      "4200次实测揭示LLM代理工具交互隐性失败模式",
+      "AI代理困境：不是记忆问题，而是信任问题",
+      "多Agent编排器实测：更多Agent不等于更快交付",
+      "RAG系统越权自信回复邮件，根因调查引关注",
+      "AI徽章测量盲区深度拆解，为合规设计提供参考",
+      "工程化落地与信任治理成社区新焦点"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Ecosystem shifting from demo-ware to production-grade tooling",
+      "Shared pain points: storage bloat and session corruption",
+      "Claude Code v2.1.233 latest, no release in 24h",
+      "OpenAI Codex: 10 PRs merged, 2 Rust alphas out",
+      "Claude Code's hook-based guardrails vs Codex's Rust rewrite",
+      "Users demand enterprise reliability and transparent billing"
+    ],
+    "ai-agents": [
+      "OpenClaw: 500 issues, 500 PRs updated in 24h",
+      "OpenClaw v2026.8.1-beta.2 adds secret-egress hardening",
+      "Large backlog of 478 open P1/P2 bugs",
+      "UI/UX redesign surge for Control UI sidebar",
+      "Focus on session-state integrity and message-loss bugs",
+      "New beta supports new models and security fixes"
+    ],
+    "ai-trending": [
+      "cactus-compute/needle: 14MB model for tiny devices",
+      "unsloth local UI supports Qwen3.8, Kimi K3, DeepSeek-V4",
+      "github/spec-kit gains +892 stars today",
+      "CLI-Anything makes all software agent-native",
+      "diagram-design hot niche: +1,607 stars today",
+      "Agent memory and RAG projects surge to fix context limits"
+    ],
+    "ai-web": [
+      "Anthropic publishes multiagent systems safety research",
+      "Frontier Red Team: agent-agent traffic may exceed human-agent",
+      "Anthropic confirms invisible watermarking for EU AI Act",
+      "Watermarking won't affect quality, cost, or latency",
+      "Dual strategy: frontier research plus EU market compliance",
+      "OpenAI had zero new content in this crawl cycle"
+    ],
+    "ai-hn": [
+      "OpenAI pre-IPO instability dominates Hacker News",
+      "Anthropic's risk-averse stance linked to IPO ambitions",
+      "ChatGPT losing web share signals commoditization",
+      "AI math breakthrough with high-school dropout draws skepticism",
+      "Concerns over AI ads, watermarks, and media licensing",
+      "Anthropic won't release stronger 'Model 2' over risks"
+    ],
+    "ai-hf": [
+      "Qwen3.8 and MiniMax-H3 dominate trending charts",
+      "Kimi-K3: 10,725 likes, 2.1M downloads",
+      "LiquidAI LFM2.5 debuts liquid neural network models",
+      "Heavy GGUF, FP8, NVFP4 quantization activity",
+      "DeepSeek-V4-Flash-0731 hits 1.8M downloads",
+      "Surge of LoRA adapters for MiniMax-H3 video generation"
+    ],
+    "ai-community": [
+      "AI trust and verification failures dominate dev discussions",
+      "'AI tribes' need diplomat engineers to bridge gaps",
+      "OpenAI's 'verified' policy never operationally defined",
+      "4,200-trial test reveals silent tool response failures",
+      "Voice-first AI projects for Bharat/India gain traction",
+      "Lobste.rs questions latent reasoning interpretability"
+    ]
+  }
+}
