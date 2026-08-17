@@ -1,0 +1,102 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code 社区庞大但面临版本回归压力",
+      "OpenAI Codex 每日合并 10 个 PR 迭代极快",
+      "Gemini CLI 发布 v0.56.0-nightly 修复子代理",
+      "Qwen Code 发布 v0.21.11-nightly 高频迭代",
+      "生态从功能竞赛转向工程化与信任建设",
+      "会话与上下文管理成 7/9 工具共同痛点"
+    ],
+    "ai-agents": [
+      "事件循环阻塞与消息丢失仍是核心稳定性问题",
+      "发布 Gateway 性能分析证据包 pr-124528-profiles",
+      "500 条新 Issue、122 条 PR 合并，活跃度极高",
+      "安装策略警告需人工确认，增强安全边界",
+      "34 个 PR 等待作者响应，合并流程存阻塞",
+      "核心 P1 问题修复 PR 占比仍然偏低"
+    ],
+    "ai-trending": [
+      "needle 14MB 极致轻量模型登榜，瞄准端侧推理",
+      "unsloth 本地 UI 一键运行最新开源模型登 Trending",
+      "LangChain 转型为 Agent Engineering Platform",
+      "vLLM 获 89K star 稳坐推理引擎头把交椅",
+      "ollama 178K star 领跑本地模型一键运行",
+      "端侧智能与本地优先成今日生态爆发主题"
+    ],
+    "ai-hn": [
+      "Anthropic 发布多智能体系统模式研究引热议",
+      "Stripe 拟超 70 亿美元收购 OpenRouter",
+      "Nvidia 缩减对 OpenAI 数据中心融资担保",
+      "训练数据受限实验引发能力边界大讨论",
+      "DeepSeek V4 Flash 被压缩至 57GB 本地运行",
+      "Claude 服务宕机引发用户集体吐槽"
+    ],
+    "ai-hf": [
+      "Qwen3.8-27B 周增 10,290 赞断层第一",
+      "Kimi-K3 获 10,768 赞成多模态黑马",
+      "DeepSeek V4 Flash 下载量近 190 万",
+      "MiniMax-H3 视频生成赛道表现抢眼",
+      "Qwen3.8-27B-GGUF 下载超 194 万",
+      "unsloth 量化版社区衍生模型需求旺盛"
+    ],
+    "ai-community": [
+      "LLM 不碰像素直接生成图表，新思路引关注",
+      "Kimi K3 2.8T 参数服务化瓶颈不在参数量",
+      "2026 年 AI 工程师必读书单覆盖全方向",
+      "AI 没有失忆症，而是存储架构有问题",
+      "TypeScript 构建多 Agent 系统实践参考",
+      "MCP 服务器用 Rust 实现，AWS 官方手把手教学"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code, Codex, others in stabilization phase",
+      "Users demand session reliability and platform parity",
+      "Enterprise governance becomes key differentiator",
+      "No major releases in last 24 hours",
+      "Active issue threads show high user engagement",
+      "Feature sets converge; execution quality differentiates"
+    ],
+    "ai-agents": [
+      "OpenClaw sees 500 issues, 500 PRs daily",
+      "Critical bugs pending maintainer review",
+      "New release is test data, not software",
+      "Backlog of P1 bugs creates bottleneck",
+      "PRs stalled awaiting author feedback",
+      "High community engagement, active development"
+    ],
+    "ai-trending": [
+      "Unsloth gains +572 stars for local UI",
+      "ToolJet positions as enterprise agent foundation",
+      "ECC hits 240K stars, hermes-agent 231K",
+      "cactus-compute/needle gains +443 stars",
+      "Graphify pushes 'vectorless' knowledge graphs",
+      "vLLM and Ollama lead infrastructure category"
+    ],
+    "ai-hn": [
+      "Anthropic dominates with system prompts, watermarking",
+      "Stripe–OpenRouter $7B acquisition rumor surfaces",
+      "Community debates controlled-scope LLM training",
+      "Anthropic analyzes multi-agent failure modes",
+      "Shrunk DeepSeek V4 Flash to 57GB demo",
+      "Gender bias in LLMs based on prompt wording"
+    ],
+    "ai-hf": [
+      "Qwen3.8-27B and Kimi-K3 lead trends",
+      "MiniMax-H3 hits 13.4M downloads",
+      "Chinese labs dominate open-weight frontier",
+      "DeepSeek-V4-Flash shows massive adoption",
+      "GGUF quantization huge for local deployment",
+      "Uncensored Qwen variants actively shared"
+    ],
+    "ai-community": [
+      "Devs focus on AI operational reliability",
+      "Trustworthiness and benchmark skepticism rise",
+      "Agent architecture remains dominant topic",
+      "LLM inference stats: ChatGPT crawlers surge",
+      "Dreyfus philosophy sparks Lobste.rs debate",
+      "Charts generated via code, not pixels, by LLM"
+    ]
+  }
+}
