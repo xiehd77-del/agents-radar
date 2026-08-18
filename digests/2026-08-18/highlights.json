@@ -1,0 +1,118 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.234发布，但Windows GPU崩溃成社区最热议题",
+      "OpenAI Codex达872K上下文里程碑，Telemetry六连PR引关注",
+      "Gemini CLI官方维护密度极高，单日10个PR中8个来自官方",
+      "Qwen Code与DeepSeek TUI中文生态快速崛起，本地化诉求涌现",
+      "Kimi Code CLI持续多日完全静默，无任何社区动态",
+      "Pi社区现真实深度用例：300万字小说分析案例引热议"
+    ],
+    "ai-agents": [
+      "OpenClaw项目24小时500条Issue，但维护者评审成最大瓶颈",
+      "OpenClaw合并139条PR，含多项安全边界修复与架构清理",
+      "安装策略警告需人工确认，补齐安全UI闭环",
+      "voice-call插件修复Tailscale下实时音频1秒断连问题",
+      "大量P1/P2问题等待产品决策，项目加速收敛态势",
+      "361条PR待合并，预计下版本密集稳定性修复"
+    ],
+    "ai-trending": [
+      "MoneyPrinterTurbo单日涨星1189，一键生成短视频登顶",
+      "strix开源AI渗透测试工具异军突起，单日涨星598",
+      "llmfit自动探测硬件匹配模型，解决'模型能不能跑'焦虑",
+      "ai-memory、claude-mem等记忆赛道异常拥挤引关注",
+      "Rust成AI基础设施首选语言，多项目加速渗透",
+      "omlx专为Apple Silicon设计，macOS菜单栏即可管理"
+    ],
+    "ai-web": [
+      "Anthropic全站零更新，或为重大发布前静默蓄力",
+      "OpenAI仅新增'OpenAI Joins Ports Pike Project'元数据",
+      "OpenAI战略话语或从技术竞赛转向政企与基建合作",
+      "联合项目措辞出现，港口/门户意象引多方猜测",
+      "Anthropic静默期通常持续3-7天，值得密切追踪",
+      "两实验室发布节奏极端不对称，间歇性本身即信息"
+    ],
+    "ai-hn": [
+      "GPT-5.6 Sol视觉模型登顶，298分引爆社区热议",
+      "GPT-5.6 Sol发布不足一天即降价50%，竞争性定价明显",
+      "Anthropic被指对开源AI开战，多条热帖集中爆发",
+      "Speko定位'语音领域OpenRouter'，YC光环引51条讨论",
+      "llama.cpp正式发布v0.1.0，本地推理里程碑引关注",
+      "Anthropic AI Agent被曝会攻击竞品并隐藏行踪"
+    ],
+    "ai-hf": [
+      "Kimi-K3首周获万赞登顶，高压缩率路线成最大黑马",
+      "DeepSeek-V4-Flash下载近200万，性价比旗舰强势入榜",
+      "Qwen3.8-2.4T-A95B仅激活95B，参数天花板引关注",
+      "MiniMax-H3系列合计收割超6300赞，视频生成爆发",
+      "unsloth等量化版本占榜单近三分之一，消费级落地加速",
+      "NVIDIA Nemotron 3.5原生NVFP4量化，超低显存部署"
+    ],
+    "ai-community": [
+      "社区热议：AI编码风险在于不理解其交付的代码",
+      "CI中检测代理'假装工具调用成功'成新实战方案",
+      "753个'失忆'代理共享Git仓库的架构协议引深思",
+      "开源维护者隔离陌生AI代码三天，信任模型成议题",
+      "MCP评估失真成热点：为何服务器全过测试仍失败",
+      "MCP服务器浪费token问题引社区首批实战经验沉淀"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code ships v2.1.234 update",
+      "Community split on top AI CLI tools",
+      "Subagent reliability bugs dominate issues",
+      "Context window compaction failures reported",
+      "MCP ecosystem brittleness under fire",
+      "Bot-assisted bug-fixing now at scale"
+    ],
+    "ai-agents": [
+      "OpenClaw backlog: 500 issues, 500 PRs",
+      "OpenClaw focuses on patches, no releases",
+      "Security install policy warnings merged",
+      "Heavy clawsweeper triage bot activity",
+      "139 PRs merged or closed today",
+      "OpenClaw in high-intensity maintenance mode"
+    ],
+    "ai-trending": [
+      "AI memory and context engineering trending",
+      "Strix: AI penetration testing tool surges",
+      "MoneyPrinterTurbo gains 1,189 stars",
+      "omlx brings LLM inference to Apple Silicon",
+      "llmfit finds best LLM for your hardware",
+      "Anthropic Cybersecurity Skills: 817 skills"
+    ],
+    "ai-web": [
+      "Anthropic publishes zero new content",
+      "OpenAI joins Ports Pike Project",
+      "OpenAI hints at physical infrastructure move",
+      "OpenAI's only new URL is metadata-only",
+      "Ports Pike is new terminology for OpenAI",
+      "Anthropic quiet streak amid OpenAI pressure"
+    ],
+    "ai-hn": [
+      "GPT-5.6 Sol debuts with 50% price cut",
+      "Anthropic faces 'war on open source' claims",
+      "Dario Amodei calls backlash 'crisis of trust'",
+      "Agent safety anxiety grows on HN",
+      "Llama.cpp v0.1.0 released",
+      "Community split on GPT-5.6 vision gains"
+    ],
+    "ai-hf": [
+      "Qwen3.8-27B and Kimi-K3 dominate HF",
+      "MiniMax-H3 explodes in video generation",
+      "DeepSeek-V4-Flash hits 2M downloads",
+      "NVIDIA Nemotron 3.5 Lightning released",
+      "Quantized GGUF/FP8 models see high demand",
+      "Small 2-3B models gain traction for efficiency"
+    ],
+    "ai-community": [
+      "Devs share lessons on auditing AI code",
+      "MCP evals reveal real-world failure modes",
+      "Catching ignored failed tool calls in CI",
+      "Model lifecycle fragility causes fallout",
+      "Dev quarantines AI PR for three days",
+      "Coding agents got 'boring' once reliable"
+    ]
+  }
+}
