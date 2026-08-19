@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.235发布，Windows更新失败引发26条评论热议",
+      "OpenAI Codex 0.148.0发布，单日6个安全PR加固信任边界",
+      "Gemini CLI夜间版发布，4个P1/P2 bug待重测，PR合入效率高",
+      "Kimi Code主攻量化策略生成，Web UI渲染bug待修复",
+      "Qwen Code Agent Team通信缺陷集中，SWE-bench达500/500",
+      "DeepSeek TUI更名CodeWhale，EPIC-005重构中文化推进"
+    ],
+    "ai-agents": [
+      "OpenClaw会话状态损坏成最高严重度焦点，技术债集中",
+      "OpenClaw待合并PR达402条，维护者审查队列累积",
+      "PR #126096修复引导式agents add原子性问题，影响所有扩展",
+      "PR #120900增强插件安装安全治理，可在UI审查警告",
+      "OpenClaw今日无新版本，处于密集修复循环期",
+      "OpenClaw今日PR合并/关闭98条，占更新总量19.6%"
+    ],
+    "ai-trending": [
+      "AI Agent基础设施投资热潮，长期记忆与安全技能库受关注",
+      "MoneyPrinterTurbo单日+2304 stars，AI驱动应用层持续领涨",
+      "omlx新增370 stars，Apple Silicon本地推理走向消费级",
+      "ollama支持Kimi-K2.6、GLM-5.2等前沿模型，star达178.9k",
+      "ai-memory、OpenViking等成Agent记忆/上下文管理新热点",
+      "Anthropic-Cybersecurity-Skills开创AI Agent网络安全技能赛道"
+    ],
+    "ai-web": [
+      "Anthropic展示Claude蛋白质设计，成功率提升至22-35%",
+      "Claude Opus 5将化学分析从数小时压缩至约20分钟",
+      "Opus 5纯度分析96.4%与实验室96.33%几乎完全吻合",
+      "OpenAI新增5篇内容，涉及Codeai合作与青少年版ChatGPT",
+      "Anthropic强调加速人类科学探索，OpenAI兼顾产品与治理",
+      "两实验室分化：Anthropic科学叙事主导，OpenAI口号式发布"
+    ],
+    "ai-hn": [
+      "Claude Code周限额促销引热议，255分223评论成今日最高",
+      "GLM-5.3基准发布，开发者分享从Anthropic迁移经验",
+      "OpenAI暂停前沿模型训练，社区解读为安全或算力信号",
+      "OpenAI发文解释放缓原因，社区质疑为IPO风险规避",
+      "Anthropic年化收入超650亿美元，与OpenAI形成鲜明对比",
+      "Claude服务降级事故及AI水印功能退订消息持续发酵"
+    ],
+    "ai-arxiv": [
+      "模型催眠攻击：微弱线索可系统性控制LLM行为",
+      "Le Critique提出特权价值函数，提升LLM强化学习效率",
+      "PIHF将后训练RL带入上下文学习，动态调整策略",
+      "BATON解决长程机器人操作错误累积与隐式约束",
+      "ClawGym II首探黑盒RL在智能体harness上的训练",
+      "HAF将通用VLA适配人形机器人全身移动操作"
+    ],
+    "ai-hf": [
+      "Kimi-K3以10826赞成黑马，压缩张量技术受关注",
+      "DeepSeek-V4-Flash下载超212万，部署需求强劲",
+      "Qwen3.8-2.4T-A95B登顶，代表开源LLM性能天花板",
+      "MiniMax-H3视频生成模型热度飙升，285万下载",
+      "Qwen家族衍生FP8、GGUF、NVFP4等完整量化矩阵",
+      "NVIDIA Nemotron 3.5 Lightning 30B MoE专为Hopper优化"
+    ],
+    "ai-community": [
+      "MCP服务器上下文开销实测：Claude比tiktoken计数高64%",
+      "双时态记忆引擎方案，解决百万Token上下文退化痛点",
+      "COSP自评提示技巧，让LLM自我批判性评估输出",
+      "稀有书籍包裹流向亚马逊AI训练设施，伦理讨论引52分",
+      "Google AI官方出品AI评测设计方法，从清晰到可视化",
+      "五国政府联合发布AI Agent安全指南，治理获关注"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code remains TUI benchmark; weekly stable releases",
+      "Copilot CLI sandbox regressions override user config",
+      "Gemini CLI closes 10+ issues daily",
+      "OpenCode targets hosted-model serving niche",
+      "Qwen Code focuses on multi-agent coordination",
+      "Kimi Code carves out quant workflows niche"
+    ],
+    "ai-agents": [
+      "OpenClaw in stabilization sprint; 500+ issues/PRs daily",
+      "No new releases; hardening phase between versions",
+      "Clawsweeper automation active but triage bottleneck persists",
+      "Diamond lobster issues signal chronic stability problems",
+      "Critical bugs stuck awaiting product decisions",
+      "98 PRs merged/closed in last 24 hours"
+    ],
+    "ai-trending": [
+      "ai-memory +648 stars: Rust agent memory solution",
+      "OpenViking: self-evolving context database from Volcengine",
+      "Anthropic-Cybersecurity-Skills +730 stars, 817 skills",
+      "ECC hits 240k stars as agent harness reference",
+      "MoneyPrinterTurbo +2304 stars, viral video app",
+      "PageIndex: vectorless, reasoning-based RAG trend"
+    ],
+    "ai-web": [
+      "Claude hits 14/15 protein binder targets",
+      "Binding success 22-35%, double industry baseline",
+      "Claude Opus 5 matches lab purity analysis (96.4%)",
+      "Claude processes NMR/LC-MS data in 25 min/sample",
+      "OpenAI publishes Codeai partnership, cyber policy",
+      "OpenAI launches ChatGPT for Teens consumer product"
+    ],
+    "ai-hn": [
+      "Essay argues Norway should acquire OpenAI (205 pts)",
+      "OpenAI disbands catastrophic-risk assessment team",
+      "OpenAI pauses frontier model training",
+      "Anthropic on $65B revenue run rate ahead of IPO",
+      "HN debates OpenAI strategic decline",
+      "Claude Code dominates hands-on engineering posts"
+    ],
+    "ai-arxiv": [
+      "Model Hypnosis: subliminal cues control AI behavior",
+      "Provenance tracing for verifiable LLM outputs",
+      "Compliance detectors audited for what they read",
+      "AlphaEvolve improves matrix multiplication exponent",
+      "Counterfactual evaluation of LLM explanations",
+      "Ethically-constrained RL for autonomous vehicles"
+    ],
+    "ai-hf": [
+      "Qwen3.8-27B leads with 11.1K likes",
+      "Kimi-K3 follows at 10.8K likes",
+      "MiniMax-H3: 2.8M downloads, strong ComfyUI",
+      "DeepSeek-V4-Flash: 2.1M downloads this week",
+      "Quantized models dominate; GGUF/FP8/NVFP4 trend",
+      "DeepSeek-V4-Pro-0813 premium model released"
+    ],
+    "ai-community": [
+      "Five governments issue joint agentic-AI security guidance",
+      "Event-log architecture proposed over brittle agent loops",
+      "MCP context counted 64% higher than tiktoken",
+      "Book shipment ends at Amazon AI facility (52 pts)",
+      "COSP: LLM grades its own homework trick",
+      "Bi-temporal memory addresses context degradation"
+    ]
+  }
+}
