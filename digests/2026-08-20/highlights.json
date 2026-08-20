@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.236/237双版本发布，Issue #6235获4.7K热度",
+      "OpenAI Codex发布rust-v0.149.0-alpha.2，10个PR密集提交",
+      "Gemini CLI发布v0.57.0与v0.56.0，8个PR待审批",
+      "GitHub Copilot CLI高频发布v1.0.81系列四个补丁",
+      "Qwen Code发布v0.21.14，PR涵盖设计文档与契约规范",
+      "DeepSeek TUI 76-commit发布候选待合并，v0.9.10在即"
+    ],
+    "ai-agents": [
+      "OpenClaw日更500 Issue+500 PR，80个PR合并关闭",
+      "信号转发修复保CLI子进程稳定，核心进程链路加固",
+      "ACP运行时句柄泄漏修复，delegate与租约管理闭环",
+      "控制台UI支持安装策略警告审阅，安全流程闭环",
+      "iOS用量统计按最近优先排序，修正时区处理",
+      "v2026.8.1-beta.2与vLLM存在兼容性问题待解"
+    ],
+    "ai-trending": [
+      "AI Agent技能包成焦点，超半数Trending项目围绕赋能",
+      "mattpocock/skills日增1.8K星，顶级工程师亲授技能包",
+      "vllm以89.5k星居首，LLM推理事实标准地位稳固",
+      "Rust语言AI基础设施渗透加速，rig框架登榜",
+      "AutoGPT 186.7k星持续演进，通用Agent老牌霸主",
+      "hermes-agent 233.1k星，记忆+工具+自我进化新范式"
+    ],
+    "ai-web": [
+      "OpenAI官宣前沿模型零数据保留企业级服务",
+      "ChatGPT广告业务扩展至欧洲市场",
+      "Anthropic今日零新增内容，发布节奏停摆",
+      "OpenAI今日新增4篇内容，企业安全与变现双线动作",
+      "OpenAI内容仅元数据可获取，正文受限声明",
+      "OpenAI商业版图从美国向全球主要经济体外溢"
+    ],
+    "ai-hn": [
+      "Opus 5.0发散性遭吐槽，153条评论翻车案例刷屏",
+      "AGENTS.md支持呼声高涨，128分75评论求标准化",
+      "OpenAI上市时间表确认，Q2销售增速被Anthropic反超",
+      "论文直指中间token拟人化误区，为Opus争议提供理论",
+      "开发者对齐仓库级Agent配置规范需求强烈",
+      "Claude加速蛋白质设计，展示模型科研价值"
+    ],
+    "ai-arxiv": [
+      "TokEval首个分词器评估套件，填补方法论空白",
+      "研究揭示自我改进智能体脆弱性，任务顺序致高方差",
+      "语言存在'相位'参数，或重塑语义表示基础假设",
+      "风格漂移基准首测作者验证，揭示AV方法脆弱性",
+      "拓扑学视角量化LLM长上下文语义压缩新测度",
+      "记忆增强与上下文压缩研究暗示超越固定窗口新路径"
+    ],
+    "ai-hf": [
+      "Qwen3.8-27B以11.4K点赞断层第一，8+变体衍生",
+      "MiniMax-H3下载破305万，文本/图像转视频新宠",
+      "DeepSeek-V4-Flash下载超233万，轻量高性价比",
+      "Kimi-K3压缩张量技术挑战Transformer，10.8K点赞",
+      "MiniMax-Music3第三代音乐生成，文本直出完整乐曲",
+      "去审查微调已形成产业链，Qwen3.8-27B至少6个版本"
+    ],
+    "ai-community": [
+      "5家AI引擎抓取结果分裂，SEO从业者必读实测",
+      "Agent记忆缺陷：所有记忆同等权威是核心Bug",
+      "Prompt Caching实操数学，LLM账单可降70-90%",
+      "LLM考试验证翻车：测试设计本身存在严重偏差",
+      "Qwen3.8-27B深度解析，新一代视觉语言霸主",
+      "Lobste.rs调查稀有书籍流向AI训练中心引热议"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "AI CLI tools shift focus to security hardening",
+      "AGENTS.md standard gains cross-tool adoption",
+      "Windows support remains universal weak spot",
+      "Claude Code ships two new releases today",
+      "Silent failures top community trust concerns",
+      "Sandbox enforcement inconsistencies flagged across tools"
+    ],
+    "ai-agents": [
+      "OpenClaw sees 500 issues, 500 PRs in 24h",
+      "80 PRs merged, 35 issues closed today",
+      "No new releases, beta validation in progress",
+      "465 open issues signal stability challenges",
+      "Data loss and session integrity top concerns",
+      "Active maintainers burning down substantial backlog"
+    ],
+    "ai-trending": [
+      "Agent skills emerge as standard packaging unit",
+      "Three skill framework projects trending today",
+      "OpenViking and mem0 tackle agent memory",
+      "Anthropic cybersecurity skills pack 817 modules",
+      "MoneyPrinterTurbo gains +2,221 stars today",
+      "Ollama now ships Kimi-K2.6 and GLM-5.2"
+    ],
+    "ai-web": [
+      "OpenAI launches zero data retention for frontier models",
+      "ChatGPT Ads expands across Europe",
+      "OpenAI signals enterprise privacy as moat",
+      "Anthropic publishes no new content today",
+      "OpenAI focuses on productization over research",
+      "Both announcements target commercial markets"
+    ],
+    "ai-hn": [
+      "Opus 5.0 incoherence report tops HN with 167 points",
+      "OpenAI faces multiple negative stories today",
+      "Community favors tooling pragmatism over model hype",
+      "Japan introduces training data disclosure rules",
+      "OpenAI outage and PINE64 halt spark infrastructure anxiety",
+      "Gary Marcus narrative unravels, community skeptical"
+    ],
+    "ai-arxiv": [
+      "Study finds self-improving agents fragile and unstable",
+      "New paper proposes two-parameter language model",
+      "TokEval tokenizer evaluation suite released",
+      "Bayesian updating games theory paper published",
+      "Robust MDPs and policy portfolios explored",
+      "Formal guarantees in LLM judging proposed"
+    ],
+    "ai-hf": [
+      "Qwen3.8-27B tops charts with 11,485 likes",
+      "MiniMax-H3 explodes with 15M+ downloads",
+      "Ten uncensored Qwen3.8 variants surface",
+      "DeepSeek-V4-Pro-0813 launches this week",
+      "Kimi-K3 debuts with 10,854 likes",
+      "Open-weight frontier model race intensifies"
+    ],
+    "ai-community": [
+      "Developers question AI memory trust architecture",
+      "LLM cost transparency dissected in multiple posts",
+      "Qwen3.8-27B and Shieldstral generate buzz",
+      "Simon Willison probe tops Lobste.rs with 55",
+      "Five AI engines show zero detection consensus",
+      "Constraint-based AI development praised on Dev.to"
+    ]
+  }
+}
