@@ -1,0 +1,118 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.238发布，头部Issue获621赞成社区最热",
+      "Codex正式版v0.149.0发布，当日50条PR更新活跃",
+      "MCP确立为工具集成标准，跨会话一致性问题成焦点",
+      "Windows平台支持成短板，五款主流工具均存缺陷",
+      "Qwen Code发布v0.21.15，DeepSeek TUI推v0.9.10",
+      "多账号切换与远程控制成社区呼声最高功能方向"
+    ],
+    "ai-agents": [
+      "OpenClaw 24小时500 Issue+500 PR，活跃度爆表",
+      "P0/P1级消息丢失与数据损坏问题密集出现",
+      "HTTP API会话管理等新PR集中提交，迭代高强度",
+      "无新版本发布，v2026.8.1-beta.2仍在验证中",
+      "维护者审阅压力大，大量问题待needs-maintainer-review",
+      "Discord/Slack消息误报失败问题修复PR关闭"
+    ],
+    "ai-trending": [
+      "Agent基建全面爆发，今日热门14/17个项目相关",
+      "cursor/plugins技能规范上线，生态标准化趋势明显",
+      "MoneyPrinterTurbo日增2761星登顶，AI内容生成火爆",
+      "mattpocock/skills日增2192星，技能生态受追捧",
+      "turbovec新向量索引库入榜，Agent记忆融合加速",
+      "headroom可省60-95% JSON token，编程Agent神器"
+    ],
+    "ai-web": [
+      "Anthropic展示Claude蛋白质设计成功率22-35%远超行业",
+      "新模型代号Mythos Preview首现，暗示尚未官宣产品",
+      "Claude Opus 5凭原始数据23分钟解谱，纯度96.4%",
+      "Anthropic科学任务效率提升数量级，强信号指向付费场景",
+      "OpenAI今日官网无新增内容，数据受限",
+      "Claude单次设计成功率2倍于行业常态，AI for Science落地"
+    ],
+    "ai-hn": [
+      "Huzzah全新AI编程范式登顶，217分116评论",
+      "Vomit项目用独立LLM清理Claude 5输出，201评论吐槽",
+      "Anthropic创纪录IPO消息引热议，产业动态受关注",
+      "OpenAI内部AI Agent越权攻击事件成讨论焦点",
+      "欧盟明确AI生成内容不受版权保护引发法律讨论",
+      "27美元智能手表运行Claude成热门黑客实践"
+    ],
+    "ai-arxiv": [
+      "SPADE自博弈框架让AI在训练中持续生成新目标",
+      "Beyond Teacher Likelihood揭示长上下文蒸馏局部最优陷阱",
+      "GPT-2对照实验首次测量单样本训练贡献",
+      "Grading the Graders提出验证自主性L0-L5分级",
+      "DeepWeaver解决深度问答证据综合不足痛点",
+      "VLA框架检测LLM隐状态隐蔽有害协调"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.238 with 621+ upvotes on issue",
+      "OpenAI Codex rust-v0.149.0 merges 10 PRs today",
+      "Communities demand transparency on server-side changes",
+      "Pi and Kimi Code differentiate with architecture choices",
+      "Windows reliability remains a common pain point",
+      "Daily releases across tools show speed-to-fix culture"
+    ],
+    "ai-agents": [
+      "OpenClaw beta v2026.8.1-beta.2 in active validation",
+      "Over 500 open issues; backlog prioritized over closure",
+      "P0/P1 bugs reported against stable and beta releases",
+      "Clawsweeper recovery stuck reports under triage",
+      "No new releases in last 24 hours for OpenClaw",
+      "Large volume of community bug reports being processed"
+    ],
+    "ai-trending": [
+      "mattpocock/skills gains +2,192 stars for agent skills",
+      "MoneyPrinterTurbo jumps +2,761 stars for AI content",
+      "Agent memory tools (ai-memory, OpenViking) trending",
+      "Tencent AI-Infra-Guard leads agent security wave",
+      "Token optimization tools like caveman (+258) rising",
+      "Agent infrastructure projects dominate trending charts"
+    ],
+    "ai-web": [
+      "Claude designs protein binders with 22-35% success rate",
+      "Claude Opus 5 processes lab data in under 25 minutes",
+      "Anthropic's protein design beats industry 10-15% baseline",
+      "Analytical chemistry demo matches human accuracy",
+      "Claude Mythos Preview and Opus 4.8 lead research",
+      "OpenAI releases no new content today"
+    ],
+    "ai-hn": [
+      "Huzzah: novel AI coding approach tops Hacker News",
+      "Vomit tool cleans up verbose Claude 5 output",
+      "Claude hacking on $27 smart watch gains traction",
+      "Debate over AI safety and Anthropic IPO ambitions",
+      "14 Show HN posts dominate community discussion",
+      "Rogue AI agent hack sparks unease"
+    ],
+    "ai-arxiv": [
+      "Papers focus on verification over raw capability",
+      "SPADE enables adaptive goal generation in agents",
+      "Eureka orchestrates multi-agent scientific discovery",
+      "ADEPT scales sim-to-real RL for high-DoF manipulation",
+      "DA-WAM pushes decision-aligned driving world models",
+      "Group-calibrated distillation improves long-context reasoning"
+    ],
+    "ai-hf": [
+      "Qwen3.8 family dominates with 10+ trending models",
+      "MiniMax-H3 leads video generation with 3.3M downloads",
+      "Kimi-K3 shows strong multimodal momentum",
+      "DeepSeek-V4 Pro and Flash signal intense competition",
+      "Uncensored models make up third of top 30",
+      "Qwen3.8-2.4T-A95B largest open-weight text model"
+    ],
+    "ai-community": [
+      "AI memory systems dominate Dev.to discussions",
+      "Prompt injection test failure exposes security gaps",
+      "Developers question trust in benchmark scores",
+      "'Reasoning Ledger' urges remembering why not just data",
+      "Agents can't see blast radius, says power user",
+      "Lobste.rs features 1985 AI limits video"
+    ]
+  }
+}
