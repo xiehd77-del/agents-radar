@@ -1,0 +1,118 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.239 发布，修正成本估算功能",
+      "OpenAI Codex 密集迭代，发布 6 个 alpha 版本",
+      "Gemini CLI 夜间版修复 macOS 沙箱逃逸漏洞",
+      "GitHub Copilot CLI v1.0.81-7 支持会话恢复",
+      "Claude Code 单个 Issue 获 133 条评论，讨论热烈",
+      "OpenCode v1.18.21 修复 finish_reason 问题"
+    ],
+    "ai-agents": [
+      "OpenClaw 3 个 P0 级问题在榜：内存泄漏、SQLite 损坏",
+      "PR 合并率仅 24.6%，大量 PR 处于胶着状态",
+      "PR #126003 恢复 Slack、Discord 等通道兼容层",
+      "PR #127732 修复 macOS node 服务连接模式问题",
+      "v2026.8.1-beta.2 存在回归问题，正式版或延迟",
+      "项目活跃但承压，可靠性问题持续消耗维护者精力"
+    ],
+    "ai-trending": [
+      "mattpocock/skills 单日暴涨 3362 stars 登顶热榜",
+      "Agent Skills 体系与上下文记忆优化成最热赛道",
+      "本地优先（local-first）成不可忽视的产品哲学",
+      "AI 视频生成工具 MoneyPrinterTurbo 持续高热 +1201",
+      "Mojo 语言平台 Modular 重登今日榜，热度+913",
+      "AI 求职助手 career-ops 以 921 个今日 stars 入视野"
+    ],
+    "ai-hn": [
+      "Claudette 项目 197 分登顶，消除 Claude 的 BuzzFeed 腔",
+      "Codex 在 AWS Bedrock 因 Bug 导致 10 倍费用激增",
+      "开发者弃 Claude 转 Codex 一周实测引热议（77 分）",
+      "自托管沙箱化 Agent 软件工厂获社区高度认可",
+      "Proliferate 开源自托管 Codex 项目亮相 HN",
+      "Liquid AI 宣称推理速度提升 3.2 倍技术引关注"
+    ],
+    "ai-arxiv": [
+      "AI4AI-Bench 首次将递归自我改进（RSI）系统化",
+      "ConceptGuard 首个上下文敏感遗忘基准测试发布",
+      "Phantom Gains 揭示 LoRA 自我改进评估的测量假象",
+      "OenoBench 构建 38104 条溯源事实的葡萄酒领域基准",
+      "MidTool 提出智能体工具使用的中期训练数据合成法",
+      "当文本与数字冲突：LLM 证据仲裁行为研究发布"
+    ],
+    "ai-hf": [
+      "Qwen3.8-27B 霸榜，单周近 1.2 万赞",
+      "Kimi-K3 获 10.9k 赞，三大国产开源势力鼎立",
+      "MiniMax-H3 视频生成下载量突破 360 万",
+      "DeepSeek-V4-Flash 下载量达 283.3 万",
+      "无审查（abliterated）变体社区热情持续高涨",
+      "LTX-2.5 多模态视频生成模型下载量 65.4 万"
+    ],
+    "ai-community": [
+      "157 个 Agent 计划实测：瓶颈在规划而非执行",
+      "Pi Agent vs OpenCode 超 100 小时实战对比发布",
+      "15 美元树莓派实现 5.3% RTF 常开唤醒词检测",
+      "LLM Planner 实验可信度 7 项检查清单发布",
+      "梯度压缩与 Adam 优化器冲突及修复方案揭秘",
+      "AI Agent 恶意指令注入防护设计引发讨论"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code adds safety-policy propagation controls",
+      "Codex ships 6 Rust alphas in 24 hours",
+      "Pi and CodeWhale fix session restoration bugs",
+      "No tool reached stability plateau; patches weekly",
+      "Emerging focus: process reliability and user control",
+      "Claude Code cost-premium transparency under scrutiny"
+    ],
+    "ai-agents": [
+      "OpenClaw prepping v2026.8.1 release candidate",
+      "377 active PRs; 1,000 issues updated in 24h",
+      "Critical P0/P1 bugs: memory leaks, session recovery",
+      "Channel issues across Telegram, Discord, Feishu",
+      "Clawsweeper triage system tagging issues actively",
+      "Maintainer review bottleneck despite community reports"
+    ],
+    "ai-trending": [
+      "Qwen3.8-27B leads Hugging Face with 12K likes",
+      "DeepSeek-V4-Pro and Flash releases gain traction",
+      "Kimi-K3 second most-liked model of the week",
+      "8 abliterated/uncensored model variants trending",
+      "GGUF quantization dominant for local deployment",
+      "Multimodal models blur text/image/video boundaries"
+    ],
+    "ai-hn": [
+      "Tool strips BuzzFeed-style fluff from Claude responses",
+      "OpenAI Codex 10x billing bug on AWS Bedrock reported",
+      "NVIDIA's 'harness over model' narrative gains traction",
+      "Claude Opus 4.6 returned nothing 900/900 times",
+      "Surge in self-hosted agentic coding infrastructure projects",
+      "Open-source alternatives favored amid cloud vendor backlash"
+    ],
+    "ai-arxiv": [
+      "AI4AI-Bench targets recursive self-improvement benchmarking",
+      "Phantom Gains audits self-improvement against statistical null",
+      "CLEVER explores cache eviction for memory efficiency",
+      "MemTrapBench examines cognitive traps in memory use",
+      "ContractScrub and OenoBench probe legal/domain performance",
+      "150M-parameter hybrid model built for CPU inference"
+    ],
+    "ai-hf": [
+      "Qwen3.8-27B tops trending with ~12K likes",
+      "DeepSeek-V4-Flash sees 2.8M downloads",
+      "Kimi-K3 surges as second most-liked model",
+      "MiniMax-H3 and Music3 major releases",
+      "8 abliterated variants of frontier models",
+      "GGUF quantization dominates local deployment formats"
+    ],
+    "ai-community": [
+      "157 agent plans: planning, not execution, is bottleneck",
+      "Pi Agent vs OpenCode after 100+ hours compared",
+      "Adversarial critic LLMs becoming overzealous in tests",
+      "Agent memory systems learn from rarely received signals",
+      "Lobste.rs debates AI safety with 'Felony Bench' satire",
+      "1985 video on AI limits sparks philosophical discussion"
+    ]
+  }
+}
