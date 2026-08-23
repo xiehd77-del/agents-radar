@@ -1,0 +1,102 @@
+{
+  "zh": {
+    "ai-cli": [
+      "AI CLI 工具进入可靠期，社区对静默变更容忍度下降",
+      "Claude Code 移除 /buddy 引发 1171 赞强烈不满",
+      "Codex 在 macOS 资源失控，394 赞 Bug 久未修复",
+      "Windows 平台兼容性成为多工具共同关注焦点",
+      "DeepSeek TUI 启动 EPIC-005 模块化重构",
+      "Claude Code 发布 v2.1.240/v2.1.241 补丁版本"
+    ],
+    "ai-agents": [
+      "OpenClaw 日处理 500+ Issue 与 PR，活跃度爆棚",
+      "PR 合并率仅 12.6%，维护者审查带宽告急",
+      "两个 P0 级 Bug 与 SQLite 损坏相关，威胁 beta 稳定性",
+      "插件安装策略新增风险警告审核机制，强化供应链安全",
+      "控制 UI 保留 Claude CLI OAuth 功能，提升体验",
+      "v2026.8.1-beta.2 发布验证受阻，正式版或延期"
+    ],
+    "ai-trending": [
+      "Agent 技能包与优化框架成新热点，stars 飙升",
+      "claude-mem 等项目受捧，上下文效率是关键",
+      "AI 安全红队与基础设施成投融资持续热点",
+      "minimind 引爆小模型训练热情，2 小时入门 LLM",
+      "Modular 平台仓库今日新增 395 星，备受关注",
+      "ECC 欲提升 Claude Code/Codex 性能，今日涨 411 星"
+    ],
+    "ai-hn": [
+      "GPT-5.6 Sol 降价 20%，AI 推理成本战升级",
+      "本地 LLM 变笨？高分帖详解量化与采样元凶",
+      "Linus 罕见点赞：AI 极大帮助调试内核",
+      "Anthropic 被曝悄悄降级 Claude Code 模型能力",
+      "本地 LLM 调优成 HN 今日最热技术干货",
+      "AI 资本市场讨论升温，信任危机成隐性主线"
+    ],
+    "ai-hf": [
+      "Qwen3.8-27B 霸榜，15 席衍生版占半壁江山",
+      "MiniMax-H3 视频模型 4338 赞领跑多模态赛道",
+      "DeepSeek-V4 与 Kimi-K3 头部厂商开源持续加码",
+      "去审查版模型走红，引发社区安全讨论",
+      "GGUF 量化需求旺盛，多版本下载超原版",
+      "前 30 名超 60% 模型支持多模态，纯文本式微"
+    ],
+    "ai-community": [
+      "Planner 重复犯错，更大模型不是可靠解药",
+      "用户关闭标签页？LLM 应用成本黑洞被揭",
+      "模型静默升级致 Agent 行为漂移引关注",
+      "Token 计数是模型属性而非请求属性，成本核算必读",
+      "Mastra 实战教程：编排四 Agent 协作管道",
+      "Lobste.rs 回顾 1985 年 AI 局限性，哲学对照"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.240 and v2.1.241 released",
+      "Community outcry over Claude Code /buddy removal",
+      "Windows support is top pain point across tools",
+      "Multi-model and BYOK support now table stakes",
+      "Session persistence dominates feature requests",
+      "Claude Code cache regression issue #87966 hot"
+    ],
+    "ai-agents": [
+      "OpenClaw sees 500 issues and PRs in 24h",
+      "OpenClaw has 430+ open PRs backlog",
+      "No new releases for OpenClaw in 24h",
+      "Heavy maintenance phase for OpenClaw v2026.8.1-beta.2",
+      "63 merged/closed PRs today in OpenClaw",
+      "Maintainer team may be review bottleneck"
+    ],
+    "ai-trending": [
+      "mattpocock/skills explodes with +2,683 stars",
+      "OpenAI Codex gains +1,544 stars today",
+      "Agent skill packages are the new hot commodity",
+      "Tencent AI-Infra-Guard rises +150 stars",
+      "ECC harness project adds +411 stars today",
+      "Agentic coding tools dominate AI ecosystem"
+    ],
+    "ai-hn": [
+      "HN debates Claude Code 'effort reduction' A/B test",
+      "OpenAI cuts GPT-5.6 Sol price by 20%",
+      "Local LLM underperformance sparks 174-point thread",
+      "Anthropic $100B IPO rumors divide HN community",
+      "AI backlash now an SEC risk factor, HN notes",
+      "NanoGPT Speedrun Frontier draws attention"
+    ],
+    "ai-hf": [
+      "Qwen3.8-27B tops Hub with 12.1K likes",
+      "MiniMax-H3 video model hits 4.3K likes",
+      "DeepSeek-V4-Flash-0731 launches with 3.6K likes",
+      "Kimi-K3 commands 10.9K likes on Hub",
+      "Abliteration trend strong in Qwen derivatives",
+      "Qwen3.8-27B has 10+ community variants"
+    ],
+    "ai-community": [
+      "Post warns of runaway API bills from async tasks",
+      "Same model, two speeds: inference engine tour",
+      "Did the model upgrade break your AI agent?",
+      "1985 'Limits of AI' video revived on Lobste.rs",
+      "Community grades historical AI predictions",
+      "Focus shifts to AI reliability and observability"
+    ]
+  }
+}
