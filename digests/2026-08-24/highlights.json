@@ -1,0 +1,102 @@
+{
+  "zh": {
+    "ai-cli": [
+      "OpenAI Codex 发布 rust-v0.149.1 补丁及 alpha 预发布版",
+      "Qwen Code 发布 v0.22.0-nightly 版本",
+      "OpenCode 1.18.21 存在回归问题被报告",
+      "Claude Code 模型输出质量回退成社区热点",
+      "DeepSeek TUI 近期发布 v0.9.11 版本",
+      "Kimi Code 配额缩减引发用户不满"
+    ],
+    "ai-agents": [
+      "OpenClaw 今日 500 条 Issue、500 条 PR 更新，活跃度极高",
+      "OpenClaw 的 v2026.8.1-beta.2 正在社区验证阶段",
+      "消息传递可靠性问题成 OpenClaw 核心热点",
+      "AI 供应商适配问题引发 DeepSeek 优先级降级争议",
+      "大量 P1 级高优 Bug 等待修复方案积压",
+      "95 条重要 PR 今日合并或关闭，进展显著"
+    ],
+    "ai-trending": [
+      "mattpocock/skills 单日新增 2447 stars，技能生态爆发",
+      "OpenAI codex Rust 版今日新增 2715 stars 领跑 Trending",
+      "free-claude-code 以 1081 新增 stars 紧随其后",
+      "affaan-m/ECC 单日新增 427 stars，聚焦 Agent 性能优化",
+      "VoltAgent/awesome-agent-skills 聚合 1000+ 社区技能资源",
+      "openhuman 等个人化 AI 记忆项目首次集中亮相"
+    ],
+    "ai-hn": [
+      "Palantir Karp 尖锐批评前沿 AI 实验室引热议",
+      "有人为抵制 AI 辞去理想工作引爆社区情绪",
+      "企业 AI 债务激增成产业讨论暗线",
+      "Anthropic 最强模型用户增长乏力引发担忧",
+      "AI 能生成超级马里奥却不懂几何推理引反思",
+      "七块 ESP32 搭建 0.4B 参数 LLM 极致边缘计算"
+    ],
+    "ai-hf": [
+      "Qwen3.8-27B 以 12,316 周赞登顶热榜",
+      "Kimi-K3 周赞近 1.1 万，月之暗面新作受热捧",
+      "DeepSeek-V4-Flash 下载量突破 300 万",
+      "Qwen3.8 生态衍生品超 15 个，渗透率极高",
+      "z-lab Qwen3.8 DFlash2 投机解码提升推理吞吐",
+      "MiniMax-H3 视频模型和 DeepSeek-V4 系列表现稳健"
+    ],
+    "ai-community": [
+      "实测 MCP 服务器 47K tokens 仅用于打招呼引热议",
+      "9 种 RAG 技术提升检索质量成社区必读路线图",
+      "AI 编程 Agent 上下文窗口浪费一半引关注",
+      "上下文淘汰策略挑战更大窗口主流叙事",
+      "RAG 性能天花板是文档分块而非嵌入模型",
+      "Garry Tan MCP sucks 言论引发 Token 消耗实测热潮"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code hit by model-quality complaints",
+      "OpenAI Codex ships rust-v0.149.1 patch",
+      "Subagent fork bypass raises security concerns",
+      "Tools converge on sandbox execution boundaries",
+      "Ecosystem shifts to reliability and trust recovery",
+      "DeepSeek TUI offers supervised-operation stack"
+    ],
+    "ai-agents": [
+      "OpenClaw sees 500 issues, 500 PRs updated",
+      "48 issues closed, 95 PRs merged today",
+      "Release candidate v2026.8.1-beta.2 in validation",
+      "AI agents now filing issues on OpenClaw",
+      "steipete delivers burst of UI improvements",
+      "Project health robust with active triage"
+    ],
+    "ai-trending": [
+      "OpenAI Codex open-sourced, +2,715 stars today",
+      "Agent Skills surge with mattpocock/skills +2,447",
+      "Hermes-agent hits 235K stars, keeps rising",
+      "OpenAI and Anthropic seed plugin ecosystems",
+      "ECC and ruflo push agent performance limits",
+      "Apache Maka offers auditable AI agent workspace"
+    ],
+    "ai-hn": [
+      "AI refuser quits job, sparks debate",
+      "Karp accuses labs of 'drug addicting' users",
+      "Corporate AI debt strains investor patience",
+      "Hidden time-release backdoors in open-source models",
+      "Andrew Ng publishes AI Engineering Skills Map",
+      "OpenAI warns of persistent AI cyber-attacks"
+    ],
+    "ai-hf": [
+      "Qwen3.8-27B tops with 12.3K likes",
+      "Unsloth GGUF hits 6.7M downloads, 3x base",
+      "DeepSeek V4-Flash and V4-Pro released",
+      "MiniMax launches H3 video and Music3",
+      "Kimi-K3 debuts with 10.9K likes",
+      "Abliterated Qwen3.8 variants trending"
+    ],
+    "ai-community": [
+      "MCP token overhead measured in new posts",
+      "Garry Tan quotes 'MCP sucks' in dev chatter",
+      "12-year-old Harun builds SaaS in public",
+      "Postmortems reveal AI-assisted dev failures",
+      "TFLite crash detection runs 100% offline",
+      "Personal AI context management emerges as topic"
+    ]
+  }
+}
