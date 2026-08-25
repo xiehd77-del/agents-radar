@@ -1,0 +1,118 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.243 发布，但存在已知段错误回归，引发 7 起独立报告",
+      "OpenAI Codex 认证失效问题引热议，51 条评论 31 赞",
+      "Gemini CLI 子代理误报成功，13 条评论引发关注",
+      "Qwen Code MCP 重连假成功，稳定性问题引担忧",
+      "Windows 平台适配成为 Pi 等多家工具的讨论主线",
+      "AI CLI 工具从功能竞赛转向可靠性竞赛，稳定性成焦点"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.8.1-beta.3 发布，支持 GPT-5.6 全系列推理",
+      "OpenClaw PR #126424 修复消息投递可靠性，提升会话持久化",
+      "消息投递失败与会话状态丢失成 OpenClaw 社区最热议题",
+      "OpenClaw 修复节奏滞后，多款 P0/P1 缺陷待人工介入",
+      "OpenClaw 新增 CDP Relay 支持，扩展远程浏览器控制能力",
+      "OpenClaw 发布节奏快，但 Release 说明被截断引担忧"
+    ],
+    "ai-trending": [
+      "OpenAI Codex 日增近 2000 stars 领跑，成今日最热项目",
+      "Hermes Agent 日增 896 分，NousResearch 出品备受关注",
+      "本地优先成共识，free-claude-code 免费 token 引开发者追捧",
+      "Claude Code 周边生态爆发，Obsidian 知识库插件热度高",
+      "Agent 技能标准化与 RAG 轻量化成技术暗线",
+      "AprilNEA/OpenLogi 日增 1097，Rust 外设工具登榜"
+    ],
+    "ai-web": [
+      "Anthropic 公开 Claude 文本水印技术，符合欧盟 AI 法案",
+      "Claude Fable 5 生物安全护栏优化，降级率降低 85%",
+      "Anthropic 蛋白质设计研究突破，成功率远超行业水平",
+      "Fable 5 将在双重用途领域回退至 Opus 5，保安全底线",
+      "Anthropic 安全策略向'精细风险识别'方向转型",
+      "OpenAI 今日仅 1 篇索引页更新，内容待确认"
+    ],
+    "ai-hn": [
+      "小米自研 CPU 单核追平 Apple，多核大幅领先，720 分热帖",
+      "GPT-5.6 降价引发 AI 推理成本竞争白热化讨论",
+      "LLM 可反控宿主机，推理引擎漏洞引安全担忧",
+      "Anthropic 多起 API 中断，'Claude 挂了'成高频调侃",
+      "OCR It 工具从不可复制文档提取文本，117 分关注",
+      "CUDA 瞄准 RISC-V 生态，引芯片路线激辩"
+    ],
+    "ai-hf": [
+      "Qwen3.8-27B 霸榜，官方与社区变体占 Top 30 近 20 席",
+      "DeepSeek-V4-Flash 登场，3,682 赞强势开局",
+      "Kimi-K3 以近 1.1 万赞稳居第二，压缩张量技术受关注",
+      "MiniMax 推出 H3 视频生成与 Music3 音乐生成双模型",
+      "Qwen3.8-27B 多模态成标配，去审查与 GGUF 量化成主流",
+      "D-Flash 投机解码与 MoE 架构加速落地"
+    ],
+    "ai-community": [
+      "Dev.to 热议：Agent 失败根源是记忆问题而非推理",
+      "'测试绿了但业务错了'，AI 隐含契约验证成新痛点",
+      "7 个迹象识别过度工程化的 AI 应用，反模式清单引热议",
+      "真实项目 Claude Code 工作流分享，19 赞获开发者认可",
+      "RAG 助手编造不存在 API，幻觉事故报告 15 条评论",
+      "170 个 Agent 目标实测$0.49，发现 10 个单测漏掉的问题"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code hits P0 Linux launch segfault",
+      "OpenAI Codex suffers auth token churn wave",
+      "Gemini CLI flagged for false success signals",
+      "Copilot CLI struggles with MCP OAuth issues",
+      "Windows support remains top pain point across tools",
+      "Qwen Code and Kimi Code push aggressive releases"
+    ],
+    "ai-agents": [
+      "OpenClaw ships v2026.8.1-beta.3 with GPT-5.6 support",
+      "500 issues and 500 PRs updated in 24 hours",
+      "Control UI first-run setup extends to Custodian",
+      "Puppeteer-compatible CDP relay support added",
+      "P0/P1 issues await maintainer review",
+      "Release validation blocker addressed in new beta"
+    ],
+    "ai-trending": [
+      "OpenAI Codex gains 1,994 stars in one day",
+      "Hermes Agent adds 896 stars, hits 235K total",
+      "Agent skills emerge as shareable behavior units",
+      "Karpathy skills pack gains 588 stars",
+      "Free token routing tools surge in popularity",
+      "Claude Obsidian bridges AI to personal knowledge"
+    ],
+    "ai-web": [
+      "Anthropic announces Claude text watermarking",
+      "EU AI Act drives new compliance feature",
+      "Fable 5 biology safeguards cut fallbacks by 85%",
+      "Claude excels at protein binder design",
+      "Anthropic publishes 4 new articles today",
+      "OpenAI adds single metadata-only entry"
+    ],
+    "ai-hn": [
+      "Xiaomi CPU claims to match Apple cores",
+      "OpenAI 5.6 price cut sparks model economics debate",
+      "Anthropic Claude API hit by multiple outages",
+      "LLMs could exploit inference engines to escape sandbox",
+      "Time-release backdoors found in open-source models",
+      "Anthropic reportedly eyes $2T IPO"
+    ],
+    "ai-hf": [
+      "Qwen3.8-27B tops charts with 12,515 likes",
+      "Kimi-K3 gains traction with 10,973 likes",
+      "MiniMax-H3 hits 4.46M downloads",
+      "At least 10 abliterated Qwen3.8 variants trending",
+      "DeepSeek-V4-Flash pushes lightweight inference",
+      "Qwen3.8 base model surpasses 2.6M downloads"
+    ],
+    "ai-community": [
+      "Developers: agent bottleneck is memory, not model",
+      "Tests passed but contract was wrong—cautionary tale",
+      "Article: 7 signs you're over-engineering AI apps",
+      "Community shifts focus to operational maturity",
+      "RAG assistants hallucinating APIs highlight failures",
+      "Evaluation treated as first-class discipline now"
+    ]
+  }
+}
