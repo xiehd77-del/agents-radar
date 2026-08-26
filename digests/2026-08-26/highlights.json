@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code 日更双版本，CVP/规则类 Issue 评论破百引热议",
+      "OpenAI Codex 密集合并 10 PR，Windows 安装包需求 187👍",
+      "Gemini CLI 安全加固 PR 密集，Subagent 可靠性 P1 问题突出",
+      "Copilot CLI 高赞需求积压严重，Vim 模式 74👍 存活一年",
+      "Pi 单日 49 评论讨论 Windows，修复质量受社区认可",
+      "Qwen Code 重构 /review，Windows 粘贴回归列为 P1 问题"
+    ],
+    "ai-agents": [
+      "OpenClaw 今日 Issue/PR 均达 500 条上限，活跃度极高",
+      "SQLite 数据损坏、消息投递丢失等 P0/P1 稳定性 Bug 激增",
+      "PR #126424 修复多频道消息投递，强化多租户隔离",
+      "PR #120900 构建插件安装警告审查，完善生态安全护栏",
+      "PR #129698 清理 JSONL 存储，统一至 SQLite 架构",
+      "238 个 PR 被合并，积极修复历史遗留问题"
+    ],
+    "ai-trending": [
+      "Claude Code 周边生态霸榜，今日新增 stars 前五占四席",
+      "awesome-gpt-image-2 单日 +1698 stars 登顶，提示词工程爆发",
+      "本地优先 Agent 工作区成新范式，Apache Maka +543 stars",
+      "ollama 已支持 Kimi-K2.6、GLM-5.2 等 20+ 最新大模型",
+      "OpenAI Codex 开源 Rust 实现，今日新增 stars 位列第 4",
+      "ai-engineering-from-scratch 教程+569 stars，自底向上学 Agent"
+    ],
+    "ai-web": [
+      "Anthropic 启动 500 万美元资助，评估 AI 对福祉影响",
+      "Economic Index Connector 上线，claude.ai 可自然语言查询经济数据",
+      "Clio 更名 Anthropic Insights，定位转型为常态化数据基础设施",
+      "Anthropic 今日密集发布 24 篇内容，系统性构建 AI 经济叙事",
+      "Anthropic 叙事重心从模型能力转向 AI 经济核算与劳动力转型",
+      "OpenAI 今日仅 3 条元数据更新，无实质内容发布"
+    ],
+    "ai-hn": [
+      "OpenAI 自研芯片 Jalapeño 宣称超越 Nvidia Blackwell，引爆热议",
+      "Anthropic 员工居家办公指令与潜在罢工，引发社区质疑",
+      "树莓派 + Qwen 打造本地车载 AI，低成本方案获好评",
+      "30 万亿美元潜在营收说法遭广泛质疑，社区情绪摇摆",
+      "vLLM-iOS 实现 iPhone 多 Agent 推理提速 88%",
+      "72B 模型跨厂商实现字节级一致推理，可复现性重要验证"
+    ],
+    "ai-arxiv": [
+      "Qwen3.8-27B 登顶 HF 周榜，👍12,712 统治级热度",
+      "Kimi-K3 多模态模型 1M 上下文，👍10,996 紧随其后",
+      "DeepSeek-V4-Flash 下载量 352.8 万，国产模型正面交锋",
+      "LTX-2.5 与 MiniMax-H3 入榜，视频生成迎高光时刻",
+      "Contrastive 训练方法挑战 GRPO 不训 Critic 传统范式",
+      "推理引发的错位问题获系统分析，安全方向惩罚方案提出"
+    ],
+    "ai-hf": [
+      "Qwen3.8-27B 登顶 HF 周榜，👍12,712 统治级热度",
+      "Kimi-K3 多模态模型 1M 上下文，👍10,996 紧随其后",
+      "DeepSeek-V4-Flash 下载量 352.8 万，国产模型正面交锋",
+      "LTX-2.5 与 MiniMax-H3 入榜，视频生成迎高光时刻",
+      "GGUF 量化格式下载量远超原始权重，社区偏好明显",
+      "Abliterated/Uncensored 变体需求旺盛，微调生态活跃"
+    ],
+    "ai-community": [
+      "RAG 检索质量检查清单走红，生产化排坑实用指南",
+      "AI 编程时代 5-20 分钟空档期，开发者协作模式引热议",
+      "聊天历史是 RAG 第二读取路径，安全门控方案稀缺",
+      "41 条编码规范+文件记忆，解决 Agent 失忆问题",
+      "分布式家庭推理集群构想，挑战集中式算力假设",
+      "Agent 记忆管理与 AI 安全治理成跨平台共同焦点"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code, Codex, Copilot CLI focus on governance",
+      "Windows desktop stability is top pain point",
+      "Security hardening a growing priority across tools",
+      "Community demands token and cost visibility",
+      "MCP OAuth flows in PR queues",
+      "Ecosystem splits between enterprise and community tools"
+    ],
+    "ai-agents": [
+      "OpenClaw sees 500 issues, 500 PRs in 24h",
+      "OpenClaw backlog grows to 433 open issues",
+      "No new releases today; beta.3 cycle",
+      "PR merged requiring install policy warnings",
+      "Focus on bug fixes, not new features",
+      "Message delivery and session state fixes merged"
+    ],
+    "ai-trending": [
+      "Agent-first development tools dominate trending",
+      "Local-first personal AI infrastructure on rise",
+      "Claude Code plugin ecosystems exploding",
+      "TradingAgents and ai-job-search break trending",
+      "openai/codex gains 1181 stars today",
+      "apache/maka gains 543 stars today"
+    ],
+    "ai-web": [
+      "Anthropic launches $5M wellbeing research grants",
+      "Anthropic Economic Futures fund reaches $200M",
+      "Clio rebranded as Anthropic Insights",
+      "Five-pillar economic research agenda articulated",
+      "OpenAI posts Jalapeno First Results page",
+      "Anthropic publishes dense labor market research"
+    ],
+    "ai-hn": [
+      "OpenAI Jalapeño chip sparks 319-point debate",
+      "Jalapeño claims to beat Nvidia Blackwell",
+      "Anthropic $30T projection draws skepticism",
+      "Anthropic security team strike reported",
+      "AMD MI300X vs H100 byte-identical inference",
+      "Community bullish on open innovation"
+    ],
+    "ai-arxiv": [
+      "Agent reliability is central research frontier",
+      "Safety-direction penalty mitigates misalignment",
+      "ConvergeFlow offers provable token convergence",
+      "Memory injection attacks on agents probed",
+      "Formal guarantees becoming research focus",
+      "ReWorld advances real-time world models"
+    ],
+    "ai-hf": [
+      "Qwen3.8-27B dominates with 12.7K likes",
+      "MiniMax-H3 drives video generation momentum",
+      "DeepSeek V4-Flash and Pro released",
+      "Kimi-K3 gains 11K likes, 2.9M downloads",
+      "Eight abliterated Qwen3.8-27B variants appear",
+      "Lightricks LTX-2.5 trending in video"
+    ],
+    "ai-community": [
+      "Developers confront RAG retrieval failures",
+      "RAG checklist discipline top Dev.to discussion",
+      "AI coding agents suffer amnesia problem",
+      "Half of ChatGPT requests were scanners",
+      "Apple M5 Max local-AI-first hardware discussed",
+      "Less vibe coding, more agentic engineering"
+    ]
+  }
+}
