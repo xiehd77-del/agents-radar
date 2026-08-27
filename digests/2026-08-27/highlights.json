@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Qwen Code v0.22.2 权限系统语义突变，引发社区信任危机",
+      "Copilot CLI MCP token 暴涨354K，成今日最严重回归",
+      "OpenCode 内存问题引138评论，Agent 死循环最集中",
+      "DeepSeek TUI 25个PR抢救式合并，架构重构进行时",
+      "OpenAI Codex 发布 rust-v0.150.1，版本迭代最快",
+      "Claude Code 新功能请求获333赞，AGENTS.md 呼声最高"
+    ],
+    "ai-agents": [
+      "OpenClaw 活动量触顶：500 issues+500 PRs，无新版本",
+      "消息丢失/静默丢弃议题集中爆发，稳定性成最大短板",
+      "Zombie 子进程泄漏问题引关注，多智能体编排受挑战",
+      "DeepSeek 模型回归问题受热议，兼容性待修复",
+      "维护者 steipete 密集提交修复PR，但多数等待作者响应",
+      "当前版本 v2026.8.1-beta.3，处于密集修复阶段"
+    ],
+    "ai-trending": [
+      "Trending榜94%项目与AI相关，Agent Skills 生态集中爆发",
+      "awesome-agent-skills 聚合1000+技能，今日新增242星",
+      "hermes-agent 获23.7万星，智能代理框架热度极高",
+      "browser-use 获11.1万星，AI浏览器操作基础设施",
+      "ECC 获24.3万星，为Claude Code等提供技能与安全",
+      "PageIndex 等新范式项目涌现，RAG向无向量化演进"
+    ],
+    "ai-web": [
+      "Anthropic 密集输出30篇内容，聚焦具身智能与生态开放",
+      "Claude 机器人任务评估发布，对标AI走向物理世界",
+      "Anthropic 首创数据开放模式，开放真实使用数据给研究者",
+      "OpenAI 仅5篇更新，内容缺失且集中在教育领域",
+      "Anthropic 研究透明化加安全主导权，差异化叙事明显",
+      "发布策略更像是系统性的能力与价值观宣言"
+    ],
+    "ai-hn": [
+      "开发者开源OpenExecutive，戏谑回应CEO用AI裁员",
+      "GLM-5.3-Flash 性能价格比引热议，获136分",
+      "OpenAI/Hugging Face 安全事件余波持续受关注",
+      "LAION 开源大规模视频数据集，推动数据民主化",
+      "老派程序员试用AI语言服务器引共鸣，获73分",
+      "AI Agent 失控风险与医疗落地安全性成讨论焦点"
+    ],
+    "ai-arxiv": [
+      "Muon 优化器谱机制解析，大模型训练理论走向定量化",
+      "LoRA 秩选择获首个任务相关理论错误界",
+      "Prefix Sliding 机制显著降低长思维链内存开销",
+      "剪枝对稀疏自编码器影响获理论证明",
+      "量化对LLM人格特质影响首次逐层分析",
+      "自进化与自蒸馏系统推动Agent从一次性推理转向持续学习"
+    ],
+    "ai-hf": [
+      "Qwen3.8-27B 获12.9k赞，成新一代多模态旗舰",
+      "Kimi-K3 获11k赞，引入压缩张量技术引领效率革命",
+      "MiniMax-H3 视频生成模型下载量本周第2高",
+      "去审查生态异常活跃，Qwen3.8-27B变体下载超400万",
+      "DeepSeek-V4-Flash 回归趋势榜，下载3.9M",
+      "Qwen3.8 系以15席垄断榜单，多模态已成主流"
+    ],
+    "ai-community": [
+      "Dev.to 推出AI披露分级制度，重塑内容信任机制",
+      "5款设计转代码工具横向测评，选型参考直接可用",
+      "Vibe Debugging 成新痛点，给出5条跳出修复循环规则",
+      "传统WAF无法识别LLM Agent流量，安全面临新挑战",
+      "任务难度路由可降低48倍推理成本，数据亮眼",
+      "开发者反思：让AI做所有工作，将梦游般走向过时"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.247 targets Windows stability",
+      "AGENTS.md support request hits 333 upvotes",
+      "Cross-tool delegation is a key community demand",
+      "Copilot CLI ships v1.0.81-14 with fixes",
+      "Qwen Code v0.22.2 released amid regression reports",
+      "Ecosystem focus shifts to operational maturity"
+    ],
+    "ai-agents": [
+      "OpenClaw sees 500 issues, 500 PRs in 24h",
+      "Many regressions reported post-recent releases",
+      "Maintainer review bottleneck on triaged issues",
+      "PRs stalled waiting on author input",
+      "Latest release remains v2026.8.1 beta",
+      "High activity signals rapid project evolution"
+    ],
+    "ai-trending": [
+      "Anthropic launches official plugin directory",
+      "VoltAgent's 1000+ skill collection trending",
+      "K-Dense-AI publishes 163-skill science library",
+      "claude-obsidian brings Karpathy's LLM Wiki pattern",
+      "Prompt-as-code emerges as formal discipline",
+      "free-claude-code highlights API cost pressure"
+    ],
+    "ai-web": [
+      "Anthropic tests Claude on real Unitree Go2 robot",
+      "White House AI Education Taskforce gets Anthropic pledge",
+      "OpenAI posts 'Hugging Face Incident And The Road Ahead'",
+      "Claude robotics marks third embodied AI paper",
+      "OpenAI expands ChatGPT for Teachers to more districts",
+      "Anthropic commits $1M for K-12 cybersecurity education"
+    ],
+    "ai-hn": [
+      "Satirical 'open source AI CEO' mocks layoffs",
+      "OpenAI/Hugging Face hacking affair dominates threads",
+      "GLM-5.3-Flash price-performance analysis sparks debate",
+      "Laion releases massive Big Video Dataset",
+      "Community skeptical of big labs' safety claims",
+      "Security patch bot deliberately avoids LLMs"
+    ],
+    "ai-arxiv": [
+      "Self-evolving systems dominate today's submissions",
+      "Sparse autoencoders applied to neutrino physics",
+      "ProgRouter targets cost-quality LLM tradeoffs",
+      "Study compares human vs LLM meaning disruptions",
+      "Quantization shifts LLM personality profiles",
+      "Agentic orchestration research matures with new methods"
+    ],
+    "ai-hf": [
+      "Qwen3.8-27B leads with 12.9K likes",
+      "Qwen3.8-Flash-Next features qwen4_exp architecture",
+      "GLM-5.3-Flash fresh release creates buzz",
+      "DeepSeek-V4-Flash hits 3.86M downloads",
+      "MiniMax-H3 gains traction in video generation",
+      "Abliterated Qwen3.8 GGUF variants amass millions"
+    ],
+    "ai-community": [
+      "DEV introduces structured AI disclosure tiers",
+      "Design-to-code tools fail on outdated dashboards",
+      "AI gateways miss agent tool calls",
+      "Routing by task difficulty cuts costs 48x",
+      "'Responsible agentic coding' pushes back on vibecoding",
+      "Developers tame unruly AI copilots with new tooling"
+    ]
+  }
+}
