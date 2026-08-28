@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code 发布沙箱模式，强化企业级安全防护",
+      "OpenAI Codex 日更三版 alpha，迭代速度惊人",
+      "Gemini CLI 夜间构建，Copilot CLI 发布 v1.0.81",
+      "OpenCode 计费透明引热议，社区贡献者密集",
+      "Pi 仓库合入迅速，多议题已关闭",
+      "GPT-5.6 与 Gemini 3 新模型成跨平台摩擦点"
+    ],
+    "ai-agents": [
+      "OpenClaw 议题/PR 各 500 条，活跃度处于高位",
+      "66% 的 Issue 和 PR 仍开放，审阅成瓶颈",
+      "合并 173 个 PR，核心稳定性修复为主",
+      "网关会话传递修复合入，保障多代理合规",
+      "修复崩溃循环等 P0 问题，加固稳定性",
+      "内存泄漏等反馈集中，项目处加固周期"
+    ],
+    "ai-trending": [
+      "Anthropic 官方插件目录发布，Agent 生态走向认证",
+      "科学 Agent 技能库登榜，含 163 个验证技能",
+      "ponytail 技能让 AI 模仿最懒工程师，日增 1613 星",
+      "开源 Agent 记忆与上下文压缩成新爆发点",
+      "AI 视频生成与金融交易等重场景应用涌现",
+      "marin 框架今日首登榜，聚焦基础模型研究"
+    ],
+    "ai-web": [
+      "Anthropic 发布模型硬件标准 MHS，定义物理操作层",
+      "MHS 将硬件集成时间从数周压缩至数小时",
+      "Anthropic 今日新增 19 篇内容，形成信息洪峰",
+      "为科学家开放 1 万免费 Claude 订阅席位",
+      "MHS 将 AI 代理带入物理世界，对标机器人模型",
+      "Anthropic 战略转向 AI 民主化与社会扩散"
+    ],
+    "ai-hn": [
+      "法院裁定 Anthropic 黑名单违法，获 246 分登顶",
+      "开源 OpenRouter 替代品，用数据反哺模型改进",
+      "工具定位 Claude 配额消耗快，引 56 条评论共鸣",
+      "Concord 桥接 Claude Code 与 Codex，探索多代理协作",
+      "Anthropic 与 Meta 百亿合作传闻引关注",
+      "AI 代码被不加审视合入生产，开发者焦虑升温"
+    ],
+    "ai-arxiv": [
+      "WikiSkill 将 Agent 经验编译为可复用持久知识库",
+      "SWE-Prime 用更少轨迹实现更优软件工程性能",
+      "Puro-2B 以 5000 美元成本完成 2B 模型预训练",
+      "CritICL 利用小模型失败模式引导大模型推理",
+      "TTPO 用自生成伪标签突破测试时训练瓶颈",
+      "智能体工具滥用与 LLM 裁判偏差审计受关注"
+    ],
+    "ai-hf": [
+      "Qwen3.8-27B 周增 1.3 万赞，领跑多模态榜",
+      "Kimi-K3 压缩张量技术吸睛，周增 1.1 万赞",
+      "DeepSeek-V4-Flash 下载近 400 万，性价比之选",
+      "GLM-5.3-Flash 主打轻量级多模态，刚发布即热",
+      "Qwen3.8-Flash-Next 实验版亮相，定位快速推理",
+      "Qwen 去审查版生态活跃，占榜单近三分之一"
+    ],
+    "ai-community": [
+      "讨论：AI 交付快但维护成本不变，行业痛点浮现",
+      "NexPath 定位提示质量层，减少模糊请求引发 bug",
+      "Cursor 从 SolidJS 迁移 React，引发技术栈争论",
+      "Agent 拒绝 96 次被赞正确输出，防御机制受认同",
+      "双 LLM 对抗审查引擎，戳破 AI 第二意见泡沫",
+      "实验揭示 LLM 安全检查的锚定效应风险"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code adds --restricted sandbox mode",
+      "Windows launch failures dominate Claude Code issues",
+      "OpenAI Codex rapid Rust core iteration",
+      "GPT-5.6 handoff in Codex alphas",
+      "Seven tools report significant Windows defects",
+      "Sandboxed execution and subagent orchestration converge"
+    ],
+    "ai-agents": [
+      "OpenClaw heads to 2026.8.1 stable release",
+      "500 issues, 500 PRs updated in 24 hours",
+      "Six PRs merged including gateway delivery fixes",
+      "Session-state integrity dominates OpenClaw backlog",
+      "New contributors surface grep OOM fixes",
+      "Maintainers reviewing 10+ ready PRs"
+    ],
+    "ai-trending": [
+      "Agent Skills dominate as new paradigm",
+      "Anthropic official plugin directory surges +292 stars",
+      "Hermes Agent hits 237,519 stars",
+      "Vertical agents: video, trading, spatial rise",
+      "claude-mem persistent memory tool surging",
+      "Token-reduction tools signal cost optimization"
+    ],
+    "ai-web": [
+      "Anthropic previews Model Hardware Standard",
+      "10,000 free Claude seats for scientists",
+      "Frontier Red Team: multiagent system failures",
+      "Anthropic expands AI for Science beyond biology",
+      "OpenAI Brazil expansion, critical thinking training",
+      "Anthropic positions Claude for lab hardware control"
+    ],
+    "ai-hn": [
+      "Judge rules Anthropic blacklist illegal (246 pts)",
+      "MHS preview seen as Google power play",
+      "Open OpenRouter project cracks top 5",
+      "Meta projected to spend $10B on Anthropic",
+      "'AI is killing my brain' threads trend",
+      "Honeymoon phase of AI coding waning"
+    ],
+    "ai-arxiv": [
+      "TTPO enables test-time policy optimization",
+      "Weak-model guidance solves entropy collapse",
+      "WikiSkill enables persistent agent knowledge",
+      "INTENT-A-AS-TOOL benchmarks agentic misalignment",
+      "PAWBench proposes probabilistic alignment benchmarks",
+      "CLAP enables cross-embodiment video world models"
+    ],
+    "ai-hf": [
+      "Qwen3.8-27B leads with 13,075 likes",
+      "MiniMax-H3 video model hits 4.8M downloads",
+      "Qwen3.8-Flash-Next tagged qwen4_exp",
+      "DeepSeek-V4-Flash-0731 gains strong adoption",
+      "GLM-5.3-Flash tagged glm5_next",
+      "Seven uncensored Qwen fine-tunes in top 30"
+    ],
+    "ai-community": [
+      "Agent framework charged card, said 'done'",
+      "NexPath catches vague prompts before bugs",
+      "Agent refused 96 times — correct output",
+      "Qwen3.8-Flash-Next buzz in Brazil",
+      "Bill Gates calls for critical AI choices",
+      "Agent memory: just RAG with extra steps?"
+    ]
+  }
+}
