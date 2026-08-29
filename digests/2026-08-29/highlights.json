@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Codex 单日发 5 个 alpha，Windows 端却大面积启动失败",
+      "Claude Code v2.1.251 发布，网络防护误报致会话中断成热点",
+      "Gemini CLI 夜间版发布，Agent 状态机假成功真挂起引热议",
+      "Copilot CLI v1.0.82-1 发布，GHEC 租户认证与 TUI 冻结待解",
+      "OpenCode 最热 issue 评论达 119 条，GPT 响应延迟引关注",
+      "Pi 发布 v0.84.4，窄终端崩溃与压缩不触发问题缠身"
+    ],
+    "ai-agents": [
+      "OpenClaw 发布 v2026.9.1-beta.1，Gateway 重启恢复成核心亮点",
+      "Gateway 配置写入可靠性提升，避免重启后配置丢失",
+      "Control UI 新增安装策略警告审查，加强插件安全管理",
+      "24h 内 500 条 Issue 与 PR 更新，项目活跃度爆棚",
+      "长期未决 Issue 积压，自动化维护与人工 review 存瓶颈",
+      "多个 size: XL 大型 PR 待审，或成合并流程瓶颈"
+    ],
+    "ai-trending": [
+      "archify 日增 4562 星登顶，为 Agent 生成架构图成新宠",
+      "OpenMontage 日增 1144 星，开源 Agentic 视频生产系统爆火",
+      "freellmapi 日增 433 星，统一聚合 34 个免费 LLM Provider",
+      "Cursor 官方插件规范发布，Agent 插件生态再添重量级选手",
+      "Chrome DevTools 官方 MCP 上线，Agent 获浏览器调试能力",
+      "GPT-Image2 提示词工程库日增 1687 星，多模态生产工业化"
+    ],
+    "ai-web": [
+      "Anthropic 连发四文：自动化对齐研究可修复 10 类失败",
+      "Claude for Teachers 发布，免费赋能全美 K-12 教师",
+      "科学家支持计划扩至 10,000 免费席位，5 倍限额月付 15 美元",
+      "Model Hardware Standard 首曝，AI 代理迈向物理实验室",
+      "OpenAI 新增内容涉 Cursor 被 SpaceX 收购后决策，正文缺席",
+      "Anthropic 战略纵深：从 AI 安全研究到赋能实体世界"
+    ],
+    "ai-hn": [
+      "OpenAI 就 SpaceX 收购 Cursor 发声，335 分登顶 HN 热榜",
+      "法院裁定五角大楼封禁 Anthropic 违法，324 分引热议",
+      "OpenAI 官方 Python SDK 迁移 HTTPX2，190 分讨论迁移实践",
+      "StemDeck 开源音频分离器走红，免费工具受开发者追捧",
+      "OpenAI 与 Anthropic 被指破坏旧金山，本地媒体观点引争议",
+      "HN 社区聚焦 AI 巨头地缘政治与法律博弈，情绪审慎批判"
+    ],
+    "ai-arxiv": [
+      "CritICL 实现推理时弱到强泛化，借鉴小模型失败模式",
+      "WikiSkill 将 Agent 经验编译为持久知识，推动技能进化",
+      "SWE-Prime 证明少量高质量轨迹胜过海量低质数据",
+      "RLVR 训练熵坍缩有解，弱模型引导可提升 pass@k",
+      "Token 级广告机制现雏形，LLM 新应用场景引关注",
+      "LLM 直接设计 OR 算法，跨领域应用潜力获验证"
+    ],
+    "ai-hf": [
+      "Qwen3.8-27B 断层登顶：13K 周赞 + 345 万下载量",
+      "Kimi-K3 紧随其后，11K 点赞主打压缩张量高效推理",
+      "MiniMax-H3 视频生成亮眼，4.6K 赞与 484 万下载",
+      "GLM-5.3 系列发布，MoE-DSA 架构成智谱新旗舰信号",
+      "DeepSeek-V4-Flash 下载近 400 万，开源社区高度认可",
+      "去审查社区微调版本持续火爆，用户自由度需求刚性"
+    ],
+    "ai-community": [
+      "Agent 日志被指为证词而非证据，可观测性建设受警示",
+      "幻觉被重新定义为架构问题，而非仅提示词问题",
+      "开发者弃向量与图数据库，转用 SQL 构建 Agent 记忆",
+      "MCP 配置文件疑泄露 API Key，安全漏洞引开发者自查",
+      "AWS 分享 Strands 策略，将 Claude Opus 5 推理提至 99.95%",
+      "AI 编码性能评估遭质疑，p50 延迟等指标引反思"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Ecosystem bifurcating into monolithic vs composable frameworks",
+      "Windows desktop-app instability top cross-cutting complaint",
+      "MCP integration inconsistency plagues all nine tools",
+      "Enterprise adoption gated by auth and data-residency friction",
+      "Claude Code leads monolithic agentic harness camp",
+      "OpenCode, Pi lead composable open frameworks camp"
+    ],
+    "ai-agents": [
+      "OpenClaw in high-activity hardening phase with 500 issues",
+      "New beta v2026.9.1-beta.1 focuses on Gateway restart recovery",
+      "92 issues closed, 408 open in last 24 hours",
+      "Community bug reporting and maintainer stability work balanced",
+      "PRs target compatibility and message-delivery merge risks",
+      "Stabilizing core infrastructure before further expansion"
+    ],
+    "ai-trending": [
+      "Agent skills ecosystems exploding—'app store' moment underway",
+      "Anthropic, Cursor race to ship official plugin directories",
+      "Agentic video production and spatial intelligence rising",
+      "GitNexus, graphify push knowledge graph code intelligence",
+      "Token optimization tools tackle context-window bottlenecks",
+      "AI-agent repos with six-figure stars dominate narrative"
+    ],
+    "ai-web": [
+      "Anthropic unveils Model Hardware Standard for lab instruments",
+      "Claude autonomously closes alignment gaps across 10 benchmarks",
+      "Claude for Teachers K-12 product with verified-teacher access",
+      "Scientist support program expanded to 10,000 free seats",
+      "Automated alignment research report highlights Claude's autonomy",
+      "OpenAI update metadata-only, no analyzable content"
+    ],
+    "ai-hn": [
+      "Judge rules Pentagon's Anthropic blacklisting unlawful",
+      "OpenAI's Cursor decision after SpaceX acquisition tops threads",
+      "Community skeptical of Big AI's growing influence",
+      "OpenAI SDK migration to HTTPX2 under discussion",
+      "LLM memory accidentally aids program analysis",
+      "'AI writes better code than me' identity anxiety thread"
+    ],
+    "ai-arxiv": [
+      "Inference-time scaling and test-time optimization maturing",
+      "Agent skill evolution is a cohesive new subfield",
+      "RLVR optimization dynamics get mechanistic scrutiny",
+      "TTPO enables policy optimization during inference",
+      "Studies examine entropy collapse in RLVR",
+      "Practical deployment concerns highlighted in new papers"
+    ],
+    "ai-hf": [
+      "Qwen3.8-27B leads with 13.2K likes, 3.4M downloads",
+      "Kimi-K3 from Moonshot AI hits 11K likes",
+      "Uncensored Qwen3.8 variants explode—five abliterated versions",
+      "MiniMax-H3 drives video generation with 4.8M downloads",
+      "DeepSeek-V4-Flash-0731 crosses 3.9M downloads",
+      "unsloth ships GGUF variants within hours of releases"
+    ],
+    "ai-community": [
+      "LLM self-criticism systems often 'theater' not verification",
+      "AWS pushes Claude Opus 5 to 99.95% on ARC-AGI-3",
+      "MCP configs leaking live API keys reported",
+      "Invisible HTML hijacks AI email summaries",
+      "1,200 sandboxed agents hack Hugging Face twice",
+      "Agent logs confuse testimony with evidence—key debate"
+    ]
+  }
+}
