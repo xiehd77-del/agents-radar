@@ -1,0 +1,118 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code Windows崩溃成集群问题，6+ Issue待解决",
+      "OpenAI Codex发布rust-v0.151.0，版本迭代频繁",
+      "Gemini CLI日更nightly，主打Claude Code兼容移植",
+      "跨工具共识：让模型用对工具而非全部退化为Bash",
+      "OpenCode社区增长快，自动化PR质量成挑战",
+      "DeepSeek TUI发布v0.9.12里程碑，冲刺发布期"
+    ],
+    "ai-agents": [
+      "OpenClaw 24小时500条Issue更新，活跃度极高",
+      "内存泄漏、消息丢失、会话损坏三大问题集中",
+      "维护者steipete提交网关并发稳定性修复PR",
+      "500会话1000重命名并发下网关卡顿显著改善",
+      "P0/P1问题长时间挂起，稳定性成健康风险",
+      "Slack、Telegram等多渠道投递可靠性受关注"
+    ],
+    "ai-trending": [
+      "archify斩获3902星登顶，Agent制图神器",
+      "workweave/router 50ms路由，降40-70%成本",
+      "screenshot-to-code日增550星，设计转代码最短路径",
+      "Agent Skills生态爆发，可插拔技能平台成趋势",
+      "ODS将PC变AI服务器，个人基础设施一站式方案",
+      "cognee为AI Agent提供跨会话持久长期记忆"
+    ],
+    "ai-web": [
+      "Anthropic发布Model Hardware Standard研究预览版",
+      "MHS将硬件集成从数周压缩至数分钟",
+      "AI Agent可并行操控显微镜、机械臂等设备",
+      "Anthropic安全研究从数字边界跨向物理世界",
+      "MHS支持全天候自主实验，实时更新参数",
+      "首批开放给科学实验室和先进制造商"
+    ],
+    "ai-hn": [
+      "vLLM v0.28.0发布，今日最高分技术帖",
+      "研究者称80%成功率诱导Claude Auto Mode执行恶意操作",
+      "Claude Code可被'总结网站'简单请求诱导攻击",
+      "Meta AI替代员工计划与版权诉讼形成反差",
+      "HN社区情绪警惕批判，Anthropic霸榜前五",
+      "GLM-5.3-Flash-GGUF发布，轻量推理新选择"
+    ],
+    "ai-hf": [
+      "Qwen3.8-27B周赞13.2k，下载破400万",
+      "Kimi-K3多模态11k赞，压缩张量降成本",
+      "DeepSeek-V4-Flash 3.8k赞，推理效率著称",
+      "GLM-5.3正式发布，MoE-DSA架构对标闭源",
+      "MiniMax-H3领跑视频生成，4.6k赞",
+      "Qwen3.8衍生9个微调版本，生态断层第一"
+    ],
+    "ai-community": [
+      "'性能最优模型最不可信'实测引发热议",
+      "6B稀疏模型击败17B密集，效率优势拆解",
+      "开发者发现Claude Code配置先耗9857 Token",
+      "'不要让模型做最终权威'成Agent设计关键",
+      "Lobste.rs聚焦'谣言即漏洞'获30分高分",
+      "Anthropic AI原生SDLC被指缺第四控制"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code regressions spark user backlash",
+      "Windows reliability issues plague AI CLIs",
+      "Gemini CLI improves Claude Code migration",
+      "DeepSeek TUI seeks Claude Code parity",
+      "Token cost transparency emerging as key",
+      "Open-source CLIs closing feature gaps"
+    ],
+    "ai-agents": [
+      "OpenClaw hits 1K items, 500 PRs in 24h",
+      "Message delivery reliability is top pain",
+      "WhatsApp, Slack, Telegram issues dominate",
+      "74% of OpenClaw issues remain open",
+      "No new releases, but heavy bug fixing",
+      "Clawsweeper automation aids triage"
+    ],
+    "ai-trending": [
+      "scientific-agent-skills surges +1,587 stars",
+      "workweave/router cuts AI costs 40-70%",
+      "archify adds +3,902 stars for agent skills",
+      "OpenMontage ships skill packs for agents",
+      "tailcat enables resilient agent networks",
+      "ODS turns any PC into AI server"
+    ],
+    "ai-web": [
+      "Anthropic's MHS standard bridges hardware gap",
+      "MHS enables agents to run lab instruments",
+      "HHMI collaboration targets physical-digital AI",
+      "Hardware integration cut from months to hours",
+      "Anthropic frames MHS as safety vehicle",
+      "OpenAI silent amid Anthropic hardware push"
+    ],
+    "ai-hn": [
+      "Claude Code limits cut 25% Sept 14",
+      "Prompt injection hits 80% on Auto Mode",
+      "Sony, Warner sue Anthropic over copyright",
+      "GLM-5.3-Flash-GGUF hits Hugging Face",
+      "vLLM v0.28.0 released",
+      "Waterloo study finds open model weaknesses"
+    ],
+    "ai-hf": [
+      "Qwen3.8-27B tops 4M downloads",
+      "Kimi-K3 hits 2.7M downloads, 11K likes",
+      "MiniMax-H3 video model exceeds 5M downloads",
+      "DeepSeek-V4-Flash-0731 gains traction",
+      "GLM-5.3 family expands open-weights",
+      "Qwen3.8-Flash-Next previews new direction"
+    ],
+    "ai-community": [
+      "Best model pair was least trustworthy",
+      "Qwen3.8-Flash-Next beats 17B-active models",
+      "Debate on AI agents as final authority",
+      "Lobste.rs: rumour-of-bug finds exploits",
+      "Self-hosted stability favored over new",
+      "GPT-5.6 Sol Fast Mode cost trade-offs"
+    ]
+  }
+}
