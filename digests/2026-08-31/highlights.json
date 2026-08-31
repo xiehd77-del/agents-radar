@@ -1,0 +1,102 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code单Issue达839评论476赞，但PR产出极低",
+      "OpenAI Codex密集发布3个alpha，Windows问题成焦点",
+      "Gemini CLI合入效率高，安全修复占比大",
+      "Copilot CLI高流量零产出，只报不修态势明显",
+      "OpenCode社区自发修复活跃，compaction成焦点",
+      "Pi修复效率极高，长会话OOM问题集中"
+    ],
+    "ai-agents": [
+      "OpenClaw发布2026.8.1，支持历史会话搜索与跨网关会话",
+      "OpenClaw新版本cron作业隔离回归，发布当日即被报告P1",
+      "OpenClaw每日500条Issue与500条PR，社区活跃度极高",
+      "关键PR修复多智能体消息投递错绑定的跨通道风险",
+      "新版本支持跨网关运行任务，扩展多设备协同能力",
+      "OpenClaw讨论焦点集中在多平台消息投递可靠性"
+    ],
+    "ai-trending": [
+      "清华OpenMAIC单日暴涨1370星，多智能体课堂系统登顶",
+      "freellmapi单日+504星，聚合34家LLM免费API月赠7.4B tokens",
+      "K-Dense-AI科学技能库+1114星，含165个验证技能",
+      "crawl4ai日增221星，专为AI数据管道设计爬虫框架",
+      "open-seo日增469星，开源替代Semrush的AI SEO工具",
+      "Zod日增31星，成为AI Agent工具链标配schema库"
+    ],
+    "ai-hn": [
+      "Claude Code默认将Session URL写入提交信息引爆热议",
+      "开发者集体抵制Claude Code自动添加Co-author署名",
+      "研究者演示Claude Code只需被要求总结网站即可攻破",
+      "欧盟AI法案首次落地执法成为合规讨论暗线",
+      "Debian两名开发者因LLM使用分歧辞职抗议",
+      "CDLM连续扩散语言模型探索对离散token范式的重要改进"
+    ],
+    "ai-hf": [
+      "Qwen3.8-27B断层登顶：13K周赞/451万下载",
+      "Kimi K3紧随其后，压缩张量技术主打高性价比",
+      "MiniMax-H3视频生成模型强势上榜并衍生生态链",
+      "Qwen3.8去审查版形成至少6个变体的社区生态",
+      "unsloth GGUF下载量爆发，端侧部署需求强劲",
+      "GLM-5.3系列与DeepSeek-V4-Flash共同撑起国产三极"
+    ],
+    "ai-community": [
+      "同一模型自我辩论比双模型互辩更具自我批判性",
+      "40行Go代码削减LLM账单71%，成本治理实战范本",
+      "MCP的readOnlyHint只是声明并非保证，安全性存疑",
+      "MCP漏洞存在于服务器之间聚合，而非单一服务器",
+      "Agent生产回滚按钮实验：漏掉一行定义即可破解审批",
+      "Agent平台战争已移至Skills，Anthropic与OpenAI同周押注"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "No major releases in last 24h",
+      "Windows parity remains weak across tools",
+      "Subagent orchestration correctness issues persist",
+      "OpenTelemetry observability becoming enterprise focus",
+      "Claude Code plugin shebang fix merged",
+      "Session reliability is top theme across nine tools"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.8.1 focuses on reliability",
+      "500 issues and PRs updated in 24h",
+      "P1 bugs open in message delivery, sessions",
+      "Search past conversations feature added",
+      "Clawsweeper bots triaging backlog heavily",
+      "Gateway and session regressions being fixed"
+    ],
+    "ai-trending": [
+      "Agent skills libraries exploding in adoption",
+      "archify gains +3,722 stars today",
+      "GitNexus brings Graph RAG to browser",
+      "open-webui hits 150K stars, ollama 179K",
+      "Shift from models to agent-centric infrastructure",
+      "scientific-agent-skills adds +1,114 today"
+    ],
+    "ai-hn": [
+      "Claude Code appends session URLs to commits",
+      "Prompt injection via website summaries demonstrated",
+      "Opus 5 Auto Mode can be broken",
+      "Debian LLM resolution sparks developer resignation",
+      "Continuous Diffusion Language Models paper trending",
+      "Static benchmarks misjudge model-switching agents"
+    ],
+    "ai-hf": [
+      "Qwen3.8-27B tops 4.5M downloads",
+      "MiniMax-H3 video model gaining millions quickly",
+      "DeepSeek-V4-Flash surges to top tier",
+      "GLM-5.3-Flash adds multimodal input",
+      "Kimi-K3 emerging with 11.1K likes",
+      "Uncensored abliterated variants dominate trends"
+    ],
+    "ai-community": [
+      "Same-model debate more self-critical than cross",
+      "MCP read-only declarations are unverified claims",
+      "40-line Go snippet cuts LLM bill by 71%",
+      "Platform war shifts from models to skills",
+      "OpenAI Jalapeño chip sparks NVIDIA margin speculation",
+      "Vibe-coded AI bug enough to find exploits"
+    ]
+  }
+}
